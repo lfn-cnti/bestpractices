@@ -3,7 +3,7 @@
 ## Introduction
 The goal of the Cloud Native Network Function Working Group (CNF WG)  is to aid companies such as telecom vendors, communications service providers and large scale enterprises, running internal telecommunications-like infrastructure, to better understand what cloud native means for telecommunications workloads and help build consensus around industry adoption of cloud native technologies (per CNCF TUG).
 
-The CNF WG operates under the aegis of CNCF. The charter of the working group is to define the process around certifying the cloud nativeness of networking applications, aka CNFs. We collaborate with the [CNF test suite project](../README-testsuite.md) who works on the mechanics of the conformance tests.
+The CNF WG operates under the aegis of CNCF. The charter of the working group is to define the process around certifying the cloud nativeness of networking applications, aka CNFs. We collaborate with the [CNF test suite project](https://github.com/cncf/cnf-conformance/README-testsuite.md) who works on the mechanics of the conformance tests.
 
 The goal for the group is to create a software conformance program that any application or network function implementation can use to demonstrate that they are conformant and interoperable with cloud native principles.
 
@@ -58,7 +58,7 @@ Responsibilities
 The CNCF community, through CNF WG, is in charge of what it means to be a Certified cloud native workload -- with a focus on networking and telecom workloads. 
 The CNF WG creates and maintains the definitions, processes, as well as policies around the certification program. It determines what best pratices and cloud native principles are required to be conformant.
 
-The work on the mechanics of the conformance tests, implementation of tests which validate conformance, and the test framework itself occurs in [CNF test suite project](../README-testsuite.md) itself -- not in the working  group.
+The work on the mechanics of the conformance tests, implementation of tests which validate conformance, and the test framework itself occurs in [CNF test suite project](https://github.com/cncf/cnf-conformance/README-testsuite.md) itself -- not in the working  group.
 
 Deliverables
 - Cloud native principles - framework documentation for cloud native requirements 
