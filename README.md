@@ -9,13 +9,12 @@ The [CNF WG Charter](https://github.com/cncf/cnf-wg/blob/master/charter.md) futh
 
 
 ## Meetings
-
 [Cloud Native Network Functions (CNF) Working Group Kick-off](https://sched.co/fRkx) at KubeCon:
 - Thursday, November 19th at 16:00 UTC (11:00am - 12:00pm EST)
 - Join zoom [here](https://zoom.us/j/98271075013)
 
 Recurring meetings:
-- Starting on Monday, November 30th at 16:00 UTC [poll](https://doodle.com/poll/zqi8mrhv9wi5tsdn)
+- Starting on Monday, November 30th at 16:00 UTC
 - Agenda and notes are [available](https://docs.google.com/document/d/1YFimQftjkTUsxNGTsKdakvP7cJtJgCTqViH2kwJOrsc/edit)
 - Join zoom meeting [here](https://zoom.us/j/97556246445?pwd=VTMrSjRWQ3pSMVZGQmNRemEwUk14QT09)
   - Passcode: :zero::four::zero::nine::six::three:
