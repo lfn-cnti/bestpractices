@@ -1,19 +1,19 @@
 # **CCDP-NNN: Your short, descriptive title**
 
-*   Release Signoff Checklist
-*   Summary
-*   Motivation
-    *   Goals
-    *   Non-Goals
-*   Proposal
-    *   User Stories (Optional)
-        *   Story 1
-        *   Story 2
-    *   Notes/Constraints/Caveats (Optional)
-    *   References
-*   Implementation History
-*   Test Plan
-*   Drawbacks
+- [Release Signoff Checklist](#release-signoff-checklist)
+- [Summary](#summary)
+- [Motivation](#motivation)
+  - [Goals](#goals)
+  - [Non-Goals](#non-goals)
+- [Proposal](#proposal)
+  - [User Stories (Optional)](#user-stories-optional)
+    - [Story 1](#story-1)
+    - [Story 2](#story-2)
+  - [Notes/Constraints/Caveats (Optional)](#notesconstraintscaveats-optional)
+  - [References](#references)
+- [Implementation History](#implementation-history)
+- [Test Plan](#testplan)
+- [Drawbacks/Alternatives](#drawbacksalternatives)
 
 ## **Release Signoff Checklist**
 
