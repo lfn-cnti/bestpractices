@@ -12,7 +12,7 @@
   - [Notes/Constraints/Caveats (Optional)](#notesconstraintscaveats-optional)
   - [References](#references)
 - [Implementation History](#implementation-history)
-- [Test Plan](#testplan)
+- [Test Plan](#test-plan)
 - [Drawbacks/Alternatives](#drawbacksalternatives)
 
 ## **Release Signoff Checklist**
