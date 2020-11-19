@@ -8,9 +8,6 @@ The goal for the group is to create a software conformance program that any netw
 The [CNF WG Charter](https://github.com/cncf/cnf-wg/blob/master/charter.md) futher outlines the scope of our group activities as well as intended deliverables.
 
 
-## Chairs
-TBD
-
 ## Meetings
 
 [Cloud Native Network Functions (CNF) Working Group Kick-off](https://sched.co/fRkx) at KubeCon:
