@@ -7,7 +7,7 @@ The goal for the group is to create a software conformance program that any netw
 
 The [CNF WG Charter](https://github.com/cncf/cnf-wg/blob/master/charter.md) futher outlines the scope of our group activities as well as intended deliverables.
 
-The CNF Conformance program will evaluate cloud nativeness based on the set of best pratices which the CNF WG has chosen. These best pratices are chosen following the [CNF Conformance Definition Proposal](ccdps). Anyone in the CNF WG is welcome to participate in the process from creation to selection of proposals.
+The CNF Conformance program will evaluate cloud nativeness based on the set of best practices which the CNF WG has chosen. These best practices are chosen following the [CNF Conformance Definition Proposal](ccdps). Anyone in the CNF WG is welcome to participate in the process from creation to selection of proposals.
 
 
 ## Meetings
