@@ -99,19 +99,12 @@ This first structure is still WIP and should not be considered final. As the CNF
 
 The CCDP process, as proposed, was essentially copied from Kubernetes KEP which are similar to the [Rust RFC process](https://github.com/rust-lang/rfcs) which itself resembles the [Python PEP process](https://www.python.org/dev/peps/pep-0001/).
 
-## **Implementation History**
-
-The first version of this template was created before KubeCon NA 2020.
-
-## **Test Plan**
-
-This CCDP will not be tested by the CNF Test Suite.
-
-## **Drawbacks/Alternatives**
+### **Drawbacks/Alternatives**
 
 Any process has the potential to engender resentment within the community or not fits its needs. There is a risk that the CCDP process as designed will need to be changed or retired completely.
 
 The centrality of Git and GitHub within the CCDP process also may place too high a barrier to potential contributors. However, given that both Git and GitHub are required to contribute code changes to many projects today, perhaps it would be reasonable to invest in providing support to those unfamiliar with this tooling.
+
 
 **GitHub Issues vs. CCDPs**
 
@@ -119,3 +112,15 @@ The use of GitHub issues when proposing changes does not provide the CNF WG good
 
 In addition to the challenge of managing issues over time, searching for text within an issue can be challenging. The flat hierarchy of issues can also make navigation and categorization tricky. Not all community members will be uncomfortable using Git directly, but it is imperative for our community to educate people on a standard set of tools so they can take their experience to other projects they may decide to work on in the future. While git is a fantastic version control system (VCS), it is neither a project management tool nor a cogent way of managing a backlog. This proposal is limited to motivating the creation of a standardized definition of work in order to facilitate project management. This primitive for describing a unit of work may also allow contributors to create their own personalized view of the state of the project while relying on Git and GitHub for consistency and durable storage.
 
+
+## **Test Plan**
+
+This CCDP will not be tested by the CNF Test Suite.
+
+## **Scoring**
+CCDPs may have different priorities and importance leading to different scores. Passing and failing scores may be different for similar reasons. Some may be mandatory.
+
+
+## **Implementation History**
+
+The first version of this template was created before KubeCon NA 2020.
