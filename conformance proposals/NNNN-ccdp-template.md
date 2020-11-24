@@ -21,6 +21,7 @@ Items marked with (R) are required.
 
 - [ ]    (R) CCDP approvers have approved the CCDP status as `implementable`
 - [ ]    (R) CNF Conformance Requirement details are appropriately documented
+   - [ ] Mandatory
 - [ ]    (R) Test plan is in place, giving consideration to CNF Test Suite input
 - [ ]   "Implementation History" section is up-to-date
 - [ ]    Supporting documentation—e.g., additional design documents, links to mailing list discussions/SIG meetings, relevant PRs/issues, release notes
