@@ -1,4 +1,4 @@
-# **CCDP-NNN: Your short, descriptive title**
+# **CCDP-NNNN: Your short, descriptive title**
 
 - [Release Signoff Checklist](#release-signoff-checklist)
 - [Summary](#summary)
