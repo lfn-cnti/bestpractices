@@ -74,5 +74,4 @@ Deliverables
 - Charter Communications
 - Orange
 - MATRIXX
-
-
+- Nokia
