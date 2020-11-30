@@ -75,3 +75,4 @@ Deliverables
 - Orange
 - MATRIXX
 - Nokia
+- Deutsche Telekom
