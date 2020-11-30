@@ -5,7 +5,10 @@ The goal of the Cloud Native Network Function Working Group (CNF WG)  is to aid 
 
 The CNF WG operates under the aegis of CNCF. The charter of the working group is to define the process around certifying the cloud nativeness of networking applications, aka CNFs. We collaborate with the [CNF test suite project](https://github.com/cncf/cnf-conformance/blob/master/README-testsuite.md) who works on the mechanics of the conformance tests.
 
-The goal for the group is to create a software conformance program that any application or network function implementation can use to demonstrate that they are conformant and interoperable with cloud native principles.
+The goals for the group are:
+- To build concensus around the motivation for using Cloud-Native architecture and DevOps methodologies for telecommunications.
+- To create a software conformance program that any application or network function implementation can use to demonstrate that they are conformant and interoperable with cloud native principles.
+
 
 ## Mission Statement
 Cloud Native Network Function Working Group’s mission is to increase interoperability and standardization of cloud native workloads. It is committed to the following (aspirational) design ideals:
