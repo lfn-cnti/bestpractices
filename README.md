@@ -12,7 +12,7 @@ The CNF Conformance program will evaluate cloud nativeness based on the set of b
 
 ## Meetings
 Recurring meetings:
-- Starting on Monday, November 30th at 16:00 UTC
+- Weekly on Mondays at 16:00 UTC (8:00am Pacific Time)
 - Agenda and notes are [available](https://docs.google.com/document/d/1YFimQftjkTUsxNGTsKdakvP7cJtJgCTqViH2kwJOrsc/edit)
 - Join zoom meeting [here](https://zoom.us/j/97556246445?pwd=VTMrSjRWQ3pSMVZGQmNRemEwUk14QT09)
   - Passcode: :zero::four::zero::nine::six::three:
