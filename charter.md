@@ -20,13 +20,13 @@ Cloud Native Network Function Working Group’s mission is to increase interoper
 - Advance the state of the art - While the WG intends to drive the modernization of non-cloud-native applications, it also aspires to advance the cloud native and DevOps state of the art, such as in the participation of applications in their own management. Workloads should not be bound by the lowest common denominator of systems upon which they depend, such as container runtimes and cloud providers.
 
 ## In Scope
-- Definition of Cloud Native Network Function (CNF)
-- Cloud native best practices for CNFs
+- Defining of Cloud Native Network Function (CNF)
+- Cloud native best practices for the development and operations of CNFs
   - Including dataplane CNFs
-- Process around evaluating best pratices used by CNF
+- Process around evaluating if best practices are used by a CNF
 - Feedback into other related groups and specification bodies to improve CNF use cases (e.g. SIG App Delivery, SIG Networking, CNI)
 - Publishing metrics/white papers
-- Best Practices and General Recommendations
+- General Recommendations
 
 ## Potential Future Scope
 - Cloud native best practices for Telecom infrastructure (which run CNFs)
