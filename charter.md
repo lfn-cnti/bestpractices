@@ -40,7 +40,7 @@ Cloud Native Network Function Working Group’s mission is to increase interoper
 
 
 ## Overlap and Relations with other Groups and Projects
-The CNF WG sees itself as providing the upstream definition of what makes a networking application cloud native allowing downstream projects to create precise programs and/or implementations for their specific needs. Some of the groups who may utilize the program's deliverables are:
+The CNF WG sees itself as providing the upstream definition of what makes a networking application cloud native allowing downstream projects to create precise programs and/or implementations for their specific needs. This may include formal requirements or conformance tests/programs. Some of the groups who may utilize the program's deliverables are:
 
 - CNTT R2 - is focused on Kubernetes-based platforms and basic interoperability between platform and workloads. CNTT R2 has not determined if workload cloud native requirements are in scope for CNTT R2. It is expecting CNCF to provide testing for the cloud native requirements it has defined. 
 - OVP 2.0 (Cloud Native) - is interested in leveraging an upstream source for cloud native requirements and test results (like deliverables from the CNCF CNF WG) to be used in the OVP 2.0 Badging Program.
