@@ -80,3 +80,4 @@ Deliverables
 - MATRIXX
 - Nokia
 - Deutsche Telekom
+- Swisscom
