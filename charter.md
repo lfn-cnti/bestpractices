@@ -22,6 +22,7 @@ Cloud Native Network Function Working Group’s mission is to increase interoper
 ## In Scope
 - Definition of Cloud Native Network Function (CNF)
 - Cloud native best practices for the development and operations of CNFs
+  - Provide a list of the cloud native benefits a best practice provides
   - Including dataplane CNFs
 - Process around evaluating if best practices are used by a CNF
 - Feedback into other related groups and specification bodies to improve CNF use cases (e.g. SIG App Delivery, SIG Networking, CNI)
