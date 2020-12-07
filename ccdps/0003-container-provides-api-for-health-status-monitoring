@@ -1,4 +1,4 @@
-# CCDP-0002 Container provides API for health status monitoring
+# CCDP-0003 Container provides API for health status monitoring
 
 
 - [Release Signoff Checklist](#release-signoff-checklist)
@@ -54,7 +54,7 @@ To allow easier integration and interoperability there needs to be an agreement 
 
 ### **References**
 
-"Always define liveness and readiness probes in the pod definitions." from https://www.openshift.com/blog/14-best-practices-for-developing-applications-on-openshift
+"Always define liveness and readiness probes in the pod definitions." from RedHat's [14 Best Practices for Developing Applications on OpenShift](https://www.openshift.com/blog/14-best-practices-for-developing-applications-on-openshift)
 
 
 ### **Alternatives (Optional)**
