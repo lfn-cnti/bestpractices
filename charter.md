@@ -81,4 +81,5 @@ Deliverables
 - Nokia
 - Deutsche Telekom
 - Swisscom
+- Chunghwa Telecom
 - Vodafone
