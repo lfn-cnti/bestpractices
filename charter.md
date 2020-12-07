@@ -82,3 +82,4 @@ Deliverables
 - Deutsche Telekom
 - Swisscom
 - Chunghwa Telecom
+- Vodafone
