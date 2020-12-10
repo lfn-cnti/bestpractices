@@ -117,7 +117,7 @@ In addition to the challenge of managing issues over time, searching for text wi
 
 ## **Workload Context**
 
-Context should be provided for the type of workload/container this best practice applies to. The context, of an individual best practice, should illustrate the specific type of workload most likey to take advantage of the benefits listed. In contrast, it should provide a warning if the practice would be a determent to a divergent type of workload.
+Context should be provided which includes the type of CNF, workload, and CNF component (eg. Pod, container, Operator) this best practice applies to. The context, of an individual best practice, should illustrate the specific type of workload most likely to take advantage of the benefits listed. When applicable, it should also provide a warning if the practice would be a determent to a divergent type of workload.
 
 
 ## **Test Plan**
