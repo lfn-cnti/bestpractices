@@ -16,14 +16,20 @@
 
 
 ### BEST_CNF_DEV_1001: XX
+
 **Description**: 
+
 **Type**: MUST, MUST_NOT, SHOULD, SHOULD_NOT
+
 **Test Ref**: Link to available test that can test for this best practice.
 
 
 ### BEST_CNF_DEV_1002: XX
+
 **Description**: 
+
 **Type**: MUST, MUST_NOT, SHOULD, SHOULD_NOT
+
 **Test Ref**: Link to available test that can test for this best practice.
 
 
