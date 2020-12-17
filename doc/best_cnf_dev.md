@@ -15,22 +15,22 @@
 ## 1.0 Configuration and Lifecycle
 
 
-### BEST_CNF_DEV_1001: XX
+### BEST_CNF_DEV_1001: Application is configured via standard, automated, and repeatable way. 
 
-**Description**: 
+**Description**: Some Description here
 
-**Type**: MUST, MUST_NOT, SHOULD, SHOULD_NOT
+**Type**: MUST
 
-**Test Ref**: Link to available test that can test for this best practice.
+**Test Ref**: [Link to available](http://test.com/best_cnf_dev_1001) 
 
 
-### BEST_CNF_DEV_1002: XX
+### BEST_CNF_DEV_1002: Applicaation announces it's own membership of the tier and is discoverable by it's peers.
 
-**Description**: 
+**Description**: Some Description here
 
-**Type**: MUST, MUST_NOT, SHOULD, SHOULD_NOT
+**Type**: MUST
 
-**Test Ref**: Link to available test that can test for this best practice.
+**Test Ref**: [Link to available](http://test.com/best_cnf_dev_1002) 
 
 
 <a name="2.0"></a>
