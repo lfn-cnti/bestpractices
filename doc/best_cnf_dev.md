@@ -19,7 +19,7 @@
 
 **Description**: Some Description here
 
-**Type**: MUST
+**Type**: RECOMMEND
 
 **Test Ref**: [Link to test](http://test.com/best_cnf_dev_1001) 
 
@@ -28,7 +28,7 @@
 
 **Description**: Some Description here
 
-**Type**: MUST
+**Type**: RECOMMEND
 
 **Test Ref**: [Link to test](http://test.com/best_cnf_dev_1002) 
 

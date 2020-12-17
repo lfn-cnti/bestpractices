@@ -19,12 +19,16 @@ The goal of CNF-WG is not trying to define what cloud native for netowrk functio
 
 >> Add Figure here to show the relation btween CNF-WG, CNTT, CNF-Testbed, LFN OVP, etc.
 
->> Talk about Type for each best practice (MUST, MUST_NOT, SHOULD, SHOULD_NOT)
+>> Talk about Type for each best practice (RECOMMEND, RECOMMEND NOT, SHOULD, SHOULD NOT, MUST, MUST_NOT)
 
-- **MUST**:
-- **MUST NOT**:
+Type will move from recommend - must as we build more confidence and get validation from real life deployment and get more community feedback.
+
+- **RECOMMEND**:
+- **RECOMMEND NOT**:
 - **SHOULD**:
 - **SHOULD NOT**:
+- **MUST**:
+- **MUST NOT**:
 
 <a name="scope"></a>
 ## Scope
