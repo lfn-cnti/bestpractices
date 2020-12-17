@@ -21,7 +21,7 @@
 
 **Type**: MUST
 
-**Test Ref**: [Link to available](http://test.com/best_cnf_dev_1001) 
+**Test Ref**: [Link to test](http://test.com/best_cnf_dev_1001) 
 
 
 ### BEST_CNF_DEV_1002: Applicaation announces it's own membership of the tier and is discoverable by it's peers.
@@ -30,7 +30,7 @@
 
 **Type**: MUST
 
-**Test Ref**: [Link to available](http://test.com/best_cnf_dev_1002) 
+**Test Ref**: [Link to test](http://test.com/best_cnf_dev_1002) 
 
 
 <a name="2.0"></a>
