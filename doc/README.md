@@ -45,12 +45,12 @@ The current focus of CNF-WG is to define the best practices for the Development 
 <a name="Best Practices for CNF Developer"></a>
 ## Best Practices for CNF Developers
 
-* [Configuration and Lifecycle](./best_cnf_dev#1.0)
-* [Installable and Upgradeable](./best_cnf_dev#2.0)
-* [Hardware support](./best_cnf_dev#3.0)
-* [Microservice](./best_cnf_dev#4.0)
-* [Compatiblity](./best_cnf_dev#5.0)
-* [Stateless](./best_cnf_dev#6.0)
-* [Security](./best_cnf_dev#7.0)
-* [Scaling](./best_cnf_dev#8.0)
-* [Observability](./best_cnf_dev#9.0)
+* [Configuration and Lifecycle](./best_cnf_dev.md#1.0)
+* [Installable and Upgradeable](./best_cnf_dev.md#2.0)
+* [Hardware support](./best_cnf_dev.md#3.0)
+* [Microservice](./best_cnf_dev.md#4.0)
+* [Compatiblity](./best_cnf_dev.md#5.0)
+* [Stateless](./best_cnf_dev.md#6.0)
+* [Security](./best_cnf_dev.md#7.0)
+* [Scaling](./best_cnf_dev.md#8.0)
+* [Observability](./best_cnf_dev.md#9.0)
