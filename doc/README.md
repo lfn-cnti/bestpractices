@@ -14,7 +14,7 @@ The goal of this group is to define a set of practices against which CNFs can be
 The goal of CNF WG is not trying to define what cloud native for netowrk function is. CNF WG will rely on other industry inititaves (such as CNCF TUG) to define that.
 
 >> take more about how those best practices can be consumed by the industry (relation to other industry bodies)
-
+As the telco industry transitions to cloud native ways of thinking, working, and operating, these best practices will serve as the industry gold standard of what cloud native means in practice. They can be for a variety of purposes including being used in RFPs, to guide daily operations, and to do internal testing.
 >> List other complientary opensource projects.
 
 >> Add Figure here to show the relation btween CNF-WG, CNTT, CNF-Testbed, LFN OVP, etc.
