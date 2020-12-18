@@ -20,7 +20,7 @@ As the telco industry transitions to cloud native ways of thinking, working, and
 >> Add Figure here to show the relation btween CNF-WG, CNTT, CNF-Testbed, LFN OVP, etc.
 
 >> Talk about Type for each best practice (RECOMMEND, RECOMMEND NOT, SHOULD, SHOULD NOT, MUST, MUST_NOT)
-
+Cloud native is not set point. The industry, technology, and best practices will continually evolve with each other. Thus, being cloud native should not be seen as pass/fail, but rather a spectrum. While it may be impossible for anything to be completely cloud native, implementing even one best practice can help improve business outcomes for everyone involved. Implemting more of them can have an even greater impact. However, depending upon the type of CNF, different best practices may have a greater or smaller impact on the ultimate business outcome. 
 Type will move from recommend - must as we build more confidence and get validation from real life deployment and get more community feedback.
 
 - **RECOMMEND**:
