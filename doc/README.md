@@ -38,7 +38,7 @@ Cloud native is not set point. The industry, technology, and best practices will
 
 As demonstrated by **Figure 1-2** below, When it comes to Cloud Native Network Functions (CNFs), there are many areas that can be focused on in order to determine different best practices for different Actors. They are:
 
-- **Consumption of CNFs**: Set of best pracitices that helps Customers/Consumers to sonsume and use CNFs in a cloud native way. 
+- **Consumption of CNFs**: Set of best pracitices that helps Customers/Consumers to consume and use CNFs in a cloud native way. 
 - **Development of CNFs**: Set of best practices that helps CNF Vendors to develop their CNFs in a cloud native way.
 - **Operation of CNFs**: Set of best practices that helps CNF Operators to deploy and manage CNFs in a cloud native way.
 - **Building of CNF Infrastructure**: Set of best practices that helps CNF Infra Vendors to build and develop CNF Infrastucture in a cloud native way.
