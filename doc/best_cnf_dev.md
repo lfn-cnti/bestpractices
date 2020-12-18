@@ -15,22 +15,16 @@
 ## 1.0 Configuration and Lifecycle
 
 
-### BEST_CNF_DEV_1001: Application is configured via standard, automated, and repeatable way. 
+### BEST_CNF_DEV_1001: Application is configured via standard way. 
 
 **Description**: Some Description here
-
-**Type**: RECOMMEND
-
-**Test Ref**: [Link to test](http://test.com/best_cnf_dev_1001) 
+**Link to CCDP**: [CCDP-0001](../ccdps/xyz.md)
 
 
-### BEST_CNF_DEV_1002: Applicaation announces it's own membership of the tier and is discoverable by it's peers.
+### BEST_CNF_DEV_1002: Applicaation announces it's own membership of the tier to it's peers.
 
 **Description**: Some Description here
-
-**Type**: RECOMMEND
-
-**Test Ref**: [Link to test](http://test.com/best_cnf_dev_1002) 
+**Link to CCDP**: [CCDP-0002](../ccdps/xyz.md)
 
 
 <a name="2.0"></a>
