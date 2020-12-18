@@ -33,7 +33,7 @@ Type will move from recommend - must as we build more confidence and get validat
 <a name="scope"></a>
 ## Scope
 
-As demonstrated by **Figure 1-1** below, When it comes to Cloud Native Network Functions (CNFs), there are many areas that can be foucused on in order to determine different best practices for different Actors. they are:
+As demonstrated by **Figure 1-1** below, When it comes to Cloud Native Network Functions (CNFs), there are many areas that can be focused on in order to determine different best practices for different Actors. They are:
 
 - **Consumption of CNFs**: Set of best pracitices that helps Customers/Consumers to sonsume and use CNFs in a cloud native way. 
 - **Development of CNFs**: Set of best practices that helps CNF Vendors to develop their CNFs in a cloud native way.
