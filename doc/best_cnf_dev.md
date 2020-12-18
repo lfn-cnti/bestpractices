@@ -18,41 +18,59 @@
 ### BEST_CNF_DEV_1001: Application is configured via standard way. 
 
 **Description**: Some Description here
+
 **Link to CCDP**: [CCDP-0001](../ccdps/xyz.md)
+
 
 
 ### BEST_CNF_DEV_1002: Applicaation announces it's own membership of the tier to it's peers.
 
 **Description**: Some Description here
+
 **Link to CCDP**: [CCDP-0002](../ccdps/xyz.md)
+
 
 
 <a name="2.0"></a>
 ## 2.0 Installable and Upgradeable
 
 
+
+
 <a name="3.0"></a>
 ## 3.0 Hardware support
+
+
 
 
 <a name="4.0"></a>
 ## 4.0 Microservice
 
 
+
+
 <a name="5.0"></a>
 ## 5.0 Compatiblity
+
+
 
 
 <a name="6.0"></a>
 ## 6.0 Stateless
 
 
+
+
 <a name="7.0"></a>
 ## 7.0 Security
 
 
+
+
 <a name="8.0"></a>
 ## 8.0 Scaling
+
+
 
 
 <a name="9.0"></a>
