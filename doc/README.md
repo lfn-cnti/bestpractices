@@ -13,27 +13,30 @@ The goal of this group is to define a set of practices against which CNFs can be
 
 The goal of CNF WG is not trying to define what cloud native for netowrk function is. CNF WG will rely on other industry inititaves (such as CNCF TUG) to define that.
 
->> take more about how those best practices can be consumed by the industry (relation to other industry bodies)
+
+
 As the telco industry transitions to cloud native ways of thinking, working, and operating, these best practices will serve as the industry gold standard of what cloud native means in practice. They can be for a variety of purposes including being used in RFPs, to guide daily operations, and to do internal testing.
->> List other complientary opensource projects.
 
->> Add Figure here to show the relation btween CNF-WG, CNTT, CNF-Testbed, LFN OVP, etc.
-
->> Talk about Type for each best practice (RECOMMEND, RECOMMEND NOT, SHOULD, SHOULD NOT, MUST, MUST_NOT)
 Cloud native is not set point. The industry, technology, and best practices will continually evolve with each other. Thus, being cloud native should not be seen as pass/fail, but rather a spectrum. While it may be impossible for anything to be completely cloud native, implementing even one best practice can help improve business outcomes for everyone involved. Implemting more of them can have an even greater impact. However, depending upon the type of CNF, different best practices may have a greater or smaller impact on the ultimate business outcome. 
-Type will move from recommend - must as we build more confidence and get validation from real life deployment and get more community feedback.
 
+<!-- Type will move from recommend - must as we build more confidence and get validation from real life deployment and get more community feedback.
 - **RECOMMEND**:
 - **RECOMMEND NOT**:
 - **SHOULD**:
 - **SHOULD NOT**:
 - **MUST**:
 - **MUST NOT**:
+-->
+
+**Figure 1-1** below illustrate CNF WG relation to other communities and how best practices defined by CNF WG are consumed.
+
+<p align="center"><img src="./figures/cnf-wg-relation.png" alt="scope" title="Scope" width="100%"/></p>
+<p align="center"><b>Figure 1-1:</b> CNF WG Relation with other industry communities</p>
 
 <a name="scope"></a>
 ## Scope
 
-As demonstrated by **Figure 1-1** below, When it comes to Cloud Native Network Functions (CNFs), there are many areas that can be focused on in order to determine different best practices for different Actors. They are:
+As demonstrated by **Figure 1-2** below, When it comes to Cloud Native Network Functions (CNFs), there are many areas that can be focused on in order to determine different best practices for different Actors. They are:
 
 - **Consumption of CNFs**: Set of best pracitices that helps Customers/Consumers to sonsume and use CNFs in a cloud native way. 
 - **Development of CNFs**: Set of best practices that helps CNF Vendors to develop their CNFs in a cloud native way.
@@ -42,7 +45,7 @@ As demonstrated by **Figure 1-1** below, When it comes to Cloud Native Network F
 - **Operation of CNF Infrastructure**: Set of best practices that helps CNF Infra Operators to deploy and manage CNF infrastucture in cloud native way.
 
 <p align="center"><img src="./figures/cnf-wg-scope.png" alt="scope" title="Scope" width="100%"/></p>
-<p align="center"><b>Figure 1-1:</b> Current Scope of CNF-WG</p>
+<p align="center"><b>Figure 1-2:</b> Current Scope of CNF WG</p>
 
 The current focus of CNF WG is to define the best practices for the Development of CNFs. Other areas are left for future focus.
 
