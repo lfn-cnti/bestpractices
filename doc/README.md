@@ -48,7 +48,7 @@ As demonstrated by **Figure 1-2** below, When it comes to Cloud Native Network F
 <p align="center"><img src="./figures/cnf-wg-scope.png" alt="scope" title="Scope" width="100%"/></p>
 <p align="center"><b>Figure 1-2:</b> Current Scope of CNF WG</p>
 
-The current focus of CNF WG is to define the best practices for the Development of CNFs. Other areas are left for future focus.
+The current focus of CNF WG is to define the best practices for the development and deployment of CNFs. Other areas are left for future focus.
 
 <a name="Best Practices for CNF Developer"></a>
 ## Best Practices for CNF Developers
