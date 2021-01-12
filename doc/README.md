@@ -13,7 +13,7 @@ The goal of this group is to define a set of practices that can be used for eval
 
 CNF WG will rely on other industry initiatives (such as CNCF TUG) to define the characteristics of a "cloud native" artifact.
 
-As the telco industry transitions to cloud native ways of thinking, working, and operating, these best practices will serve as the industry gold standard of what cloud native means in practice. They can be for a variety of purposes including being used in RFPs, to guide daily operations, and to do internal testing.
+As the telco industry transitions to cloud native ways of thinking, working, and operating, these best practices will serve as the industry gold standard of what cloud native means in practice. They can be used for a variety of purposes including in RFPs, to guide daily operations, and to do internal testing.
 
 These best practices and recommendations shall serve as generic contract between CNFs and cloud native infrastructure / platforms. If both, a CNF and a platform follow these recommendations it should be assured that they will run nicely together out-of-box. In a sense fulfilling this contract represents implicit (pre)certification that the combination can be used in the production.
 
