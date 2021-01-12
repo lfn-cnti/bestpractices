@@ -11,7 +11,7 @@
 
 The goal of this group is to define a set of practices that can be used for evaluating of how [cloud native](https://github.com/cloud-native-principles/cloud-native-principles) a CNF. CNFs can be evaluated against those best practices through test cases that are developed by other open source projects like the [CNF Test Suite](https://github.com/cncf/cnf-conformance/blob/master/README-testsuite.md)
 
-The goal of CNF WG is not trying to define what cloud native for netowrk function is. CNF WG will rely on other industry inititaves (such as CNCF TUG) to define that.
+CNF WG will rely on other industry initiatives (such as CNCF TUG) to define the characteristics of a "cloud native" artifact.
 
 As the telco industry transitions to cloud native ways of thinking, working, and operating, these best practices will serve as the industry gold standard of what cloud native means in practice. They can be for a variety of purposes including being used in RFPs, to guide daily operations, and to do internal testing.
 
