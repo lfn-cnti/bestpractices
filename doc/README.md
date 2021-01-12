@@ -43,7 +43,7 @@ As demonstrated by **Figure 1-2** below, When it comes to Cloud Native Network F
 - **Development of CNFs**: Set of best practices that helps CNF Developers to build their CNFs in a cloud native way.
 - **Operation of CNFs**: Set of best practices that helps CNF Operators to deploy and manage CNFs in a cloud native way.
 - **Building of CNF Infrastructure**: Set of best practices that helps CNF Infrastructure developers to build and develop CNF Infrastucture in a cloud native way.
-- **Operation of CNF Infrastructure**: Set of best practices that helps CNF Infra Operators to deploy and manage CNF infrastucture in cloud native way.
+- **Operation of CNF Infrastructure**: Set of best practices that helps CNF Infra Operators to deploy and manage CNF infrastructure in cloud native way.
 
 <p align="center"><img src="./figures/cnf-wg-scope.png" alt="scope" title="Scope" width="100%"/></p>
 <p align="center"><b>Figure 1-2:</b> Current Scope of CNF WG</p>
