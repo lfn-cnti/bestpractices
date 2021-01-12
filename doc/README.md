@@ -9,25 +9,17 @@
 <a name="intro"></a>
 ## Introduction
 
-The goal of this group is to define a set of practices that can be used for evaluating of how [cloud native](https://github.com/cloud-native-principles/cloud-native-principles) a CNF. CNFs can be evaluated against those best practices through test cases that are developed by other open source projects like the [CNF Test Suite](https://github.com/cncf/cnf-conformance/blob/master/README-testsuite.md)
+The goal of this group is to define a set of practices that can be used to evaluating how [cloud native](https://github.com/cloud-native-principles/cloud-native-principles) a CNF is. CNFs can be evaluated against those best practices through test cases that are developed by other open source projects like the [CNF Test Suite](https://github.com/cncf/cnf-conformance/blob/master/README-testsuite.md)
 
-CNF WG will rely on other industry initiatives (such as CNCF TUG) to define the characteristics of a "cloud native" artifact.
+CNF WG will rely on other industry initiatives (such as CNCF TUG) to come up wiht a definition of "cloud native" in relation to the telecom industry.
 
 As the telco industry transitions to cloud native ways of thinking, working, and operating, these best practices will serve as the industry gold standard of what cloud native means in practice. They can be used for a variety of purposes including in RFPs, to guide daily operations, and to do internal testing.
 
-These best practices and recommendations shall serve as generic contract between CNFs and cloud native infrastructure / platforms. If both, a CNF and a platform follow these recommendations it should be assured that they will run nicely together out-of-box. In a sense fulfilling this contract represents implicit (pre)certification that the combination can be used in the production.
-
 Cloud native is not set point. The industry, technology, and best practices will continually evolve with each other. Thus, being cloud native should not be seen as pass/fail, but rather a spectrum. While it may be impossible for anything to be completely cloud native, implementing even one best practice can help improve business outcomes for everyone involved. Implementing more of them can have an even greater impact. However, depending upon the type of CNF, different best practices may have a greater or smaller impact on the ultimate business outcome. 
 
-These recommendations can serve as a generic contract between CNFs and cloud native infrastructure. If both a CNF and a platform follow these recommendations, they can run more smoothly together out-of-box. In a sense fulfilling this contract represents implicit (pre)certification that the combination can be used in the production.
-<!-- Type will move from recommend - must as we build more confidence and get validation from real life deployment and get more community feedback.
-- **RECOMMEND**:
-- **RECOMMEND NOT**:
-- **SHOULD**:
-- **SHOULD NOT**:
-- **MUST**:
-- **MUST NOT**:
--->
+These best practices and recommendations shall serve as generic contract between CNFs and cloud native infrastructure / platforms. If both, a CNF and a platform follow these recommendations it should be assured that they will run nicely together out-of-box. In a sense fulfilling this contract represents implicit (pre)certification that the combination can be used in the production.
+
+Best practices are introduced, modified, and removed to keep up with industry trends and technological advances via a process defined in [here](./ccdps).
 
 **Figure 1-1** below illustrate CNF WG relation to other communities and how best practices defined by CNF WG are consumed.
 
