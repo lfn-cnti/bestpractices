@@ -19,6 +19,7 @@ These best practices and recommendations shall serve as generic contract between
 
 Cloud native is not set point. The industry, technology, and best practices will continually evolve with each other. Thus, being cloud native should not be seen as pass/fail, but rather a spectrum. While it may be impossible for anything to be completely cloud native, implementing even one best practice can help improve business outcomes for everyone involved. Implemting more of them can have an even greater impact. However, depending upon the type of CNF, different best practices may have a greater or smaller impact on the ultimate business outcome. 
 
+These recommendations can serve as a generic contract between CNFs and cloud native infrastructure. If both a CNF and a platform follow these recommendations, they can run more smoothly together out-of-box. In a sense fulfilling this contract represents implicit (pre)certification that the combination can be used in the production.
 <!-- Type will move from recommend - must as we build more confidence and get validation from real life deployment and get more community feedback.
 - **RECOMMEND**:
 - **RECOMMEND NOT**:
