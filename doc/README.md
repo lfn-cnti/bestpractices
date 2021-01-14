@@ -13,7 +13,7 @@ The goal of this group is to define a set of practices that can be used to evalu
 
 CNF WG will rely on other industry initiatives (such as CNCF TUG) to come up wiht a definition of "cloud native" in relation to the telecom industry.
 
-As the telco industry transitions to cloud native ways of thinking, working, and operating, these best practices will serve as the industry gold standard of what cloud native means in practice. They can be used for a variety of purposes including in RFPs, to guide daily operations, and to do internal testing.
+As the telco industry transitions to cloud native ways of thinking, working, and operating, these best practices will serve as the industry gold standard of what cloud native means in practice. They can be used for a variety of purposes including guiding CNF design and development, in RFPs, to guide daily operations, and to do internal testing.
 
 Cloud native is not set point. The industry, technology, and best practices will continually evolve with each other. Thus, being cloud native should not be seen as pass/fail, but rather a spectrum. While it may be impossible for anything to be completely cloud native, implementing even one best practice can help improve business outcomes for everyone involved. Implementing more of them can have an even greater impact. However, depending upon the type of CNF, different best practices may have a greater or smaller impact on the ultimate business outcome. 
 
