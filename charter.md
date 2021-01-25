@@ -7,7 +7,7 @@ The CNF WG operates under the aegis of CNCF. The charter of the working group is
 
 The goals for the group are:
 - To build consensus around the benefits of using cloud native architecture methodologies for telecommunications.
-- To create a software conformance program that any application or network function implementation can use to demonstrate that they are conformant and interoperable with cloud native principles.
+- To create a program that identifies best practices for CNFs running on K8s which CNF Developers and operators alike may use to demonstrate how well their software and its operations adhere to cloud native principles.
 
 
 ## Mission Statement
