@@ -56,7 +56,7 @@
 
 
 <a name="6.0"></a>
-## 6.0 Stateless
+## 6.0 State
 
 
 
