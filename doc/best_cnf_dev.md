@@ -23,7 +23,7 @@
 
 
 
-### BEST_CNF_DEV_1002: Applicaation announces it's own membership of the tier to it's peers.
+### BEST_CNF_DEV_1002: Application announces its own membership of the tier to its peers.
 
 **Description**: Some Description here
 
@@ -75,4 +75,3 @@
 
 <a name="9.0"></a>
 ## 9.0 Observability
-
