@@ -12,6 +12,7 @@
   - [Notes/Constraints/Caveats (Optional)](#notesconstraintscaveats-optional)
   - [References](#references)
   - [Alternatives (Optional)](#drawbacksalternatives)
+- [Workload Context](#workload-context)
 - [Test Plan](#test-plan)
 - [Scoring](#scoring)
 - [Implementation History](#implementation-history)
@@ -95,6 +96,7 @@ I agree/disagree with a proposed Cloud Native best practice definition. After re
 
 This first structure is still WIP and should not be considered final. As the CNF WG begins to dive into their work, this format and process should be modified to meet the WG’s current needs.
 
+
 ### **References**
 
 The CCDP process, as proposed, was essentially copied from Kubernetes KEP which are similar to the [Rust RFC process](https://github.com/rust-lang/rfcs) which itself resembles the [Python PEP process](https://www.python.org/dev/peps/pep-0001/).
@@ -113,9 +115,15 @@ The use of GitHub issues when proposing changes does not provide the CNF WG good
 In addition to the challenge of managing issues over time, searching for text within an issue can be challenging. The flat hierarchy of issues can also make navigation and categorization tricky. Not all community members will be uncomfortable using Git directly, but it is imperative for our community to educate people on a standard set of tools so they can take their experience to other projects they may decide to work on in the future. While git is a fantastic version control system (VCS), it is neither a project management tool nor a cogent way of managing a backlog. This proposal is limited to motivating the creation of a standardized definition of work in order to facilitate project management. This primitive for describing a unit of work may also allow contributors to create their own personalized view of the state of the project while relying on Git and GitHub for consistency and durable storage.
 
 
+## **Workload Context**
+
+Context should be provided which includes the type of CNF, workload, and CNF component (eg. Pod, container, Operator) this best practice applies to. The context, of an individual best practice, should illustrate the specific type of workload most likely to take advantage of the benefits listed. When applicable, it should also provide a warning if the practice would be a determent to a divergent type of workload.
+
+
 ## **Test Plan**
 
 This CCDP will not be tested by the CNF Test Suite.
+
 
 ## **Scoring**
 CCDPs may have different priorities and importance leading to different scores. Passing and failing scores may be different for similar reasons. Some may be mandatory.
