@@ -74,6 +74,5 @@
 
 
 <a name="9.0"></a>
-## 9.0 bservability
-
+## 9.0 Observability
 
