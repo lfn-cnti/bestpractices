@@ -50,7 +50,7 @@ The current focus of CNF WG is to define the best practices for the development 
 * [Hardware support](./best_cnf_dev.md#3.0)
 * [Microservice](./best_cnf_dev.md#4.0)
 * [Compatiblity](./best_cnf_dev.md#5.0)
-* [Stateless](./best_cnf_dev.md#6.0)
+* [State](./best_cnf_dev.md#6.0)
 * [Security](./best_cnf_dev.md#7.0)
 * [Scaling](./best_cnf_dev.md#8.0)
 * [Observability](./best_cnf_dev.md#9.0)
