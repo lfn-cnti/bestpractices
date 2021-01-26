@@ -2,7 +2,7 @@
 
 As part of any proposed best practices it is requested to provide 1 or more use cases showing where the best practice could be used.
 
-This folder contains different networking use cases, their description, example references, and other context for each.
+This folder contains different use cases, their description, references, and other context.
 
 Goal:
 
