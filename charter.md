@@ -6,8 +6,8 @@ The goal of the Cloud Native Network Function Working Group (CNF WG)  is to aid 
 The CNF WG operates under the aegis of CNCF. The focus of the CNF WG is to define the process around evaluating the cloud nativeness of networking applications, aka CNFs, running on Kubernetes. We collaborate with the [CNF test suite project](https://github.com/cncf/cnf-conformance/blob/master/README-testsuite.md) who works on the mechanics of the tests.
 
 The goals for the group are:
-- To create a program which identifies best practices for CNFs running on K8s which CNF Developers and operators alike may use to demonstrate how well their software and its operation adhere to cloud native principles.
-- To determine which practices will allow telco applications to most efficiently utilize K8s to lower the operational risk and burdens of service providers and telco vendors
+- To identify best practices for CNFs running on K8s which CNF Developers and operators alike may adopt
+- To determine which practices will allow networking applications to most efficiently utilize K8s capabilities and services
 
 
 ## Mission Statement
