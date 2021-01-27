@@ -83,3 +83,4 @@ Deliverables
 - Swisscom
 - Chunghwa Telecom
 - Vodafone
+- Samsung
