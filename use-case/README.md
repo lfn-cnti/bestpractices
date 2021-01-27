@@ -14,7 +14,7 @@ Also see related discussion topic https://github.com/cncf/cnf-wg/discussions/39
 
 ## How to add a new use case
 
-If you just have an idea for a use case feel free to add to the discussion topic [listing networking uses cases](https://github.com/cncf/cnf-wg/discussions/39)
+If you just have a part-formed idea for a use case feel free to add to the discussion topic [listing networking uses cases](https://github.com/cncf/cnf-wg/discussions/39).  This is the best place to go if you aren't sure how to write up the use case.  We can help you expand that into a full description.
 
 If you have a new use case you would like to discuss in more depth, create a new [github discussion topic](https://github.com/cncf/cnf-wg/discussions) with the details you have including attachments and/or links to any external content (eg. Google docs, hackmd, diagrams).
 
