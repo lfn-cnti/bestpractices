@@ -20,4 +20,6 @@ If you have a new use case you would like to discuss in more depth, create a new
 
 If you have enough content to writeup a full use case then feel free to create a pull request in this [use case folder](https://github.com/cncf/cnf-wg/tree/master/use-case) with either a
 - single markdown file with all content included (including in-line diagrams) for the use case
-- new use case folder with all content with a README.md as the starting point describing the use case
+- new use case folder with all content with a README.md as the starting point describing the use case.
+
+if you're going to do this via a pull request you must have a complete description of the use case.   You should have gathered any information you need and included it by this point.  We will then discuss the merits of the use case during review of the pull request, but this is not the time to be writing large sections of it.
