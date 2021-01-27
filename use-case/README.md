@@ -2,7 +2,7 @@
 
 Proposed best practices are rooted in our model of how CNFs are used.  A best practice is most clearly the right thing to do if it helps with a use case related to one or more of the actors.
 
-This folder contains different use cases, their description, references, and other context.
+This folder contains different use cases, their description, references, and other context.  The best practices, recorded elsewhere, refer back to these use cases for their justification.
 
 Goal:
 
