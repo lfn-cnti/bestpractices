@@ -1,6 +1,6 @@
 # Networking Use Cases
 
-As part of any proposed best practices it is requested to provide 1 or more use cases showing where the best practice could be used.
+Proposed best practices are rooted in our model of how CNFs are used.  A best practice is most clearly the right thing to do if it helps with a use case related to one or more of the actors.
 
 This folder contains different use cases, their description, references, and other context.
 
