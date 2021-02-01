@@ -6,6 +6,7 @@
   - [Goals](#goals)
   - [Non-Goals](#non-goals)
 - [Proposal](#proposal)
+- [Workload Context](#workload-context)
   - [User Stories (Optional)](#user-stories-optional)
     - [Story 1](#story-1)
     - [Story 2](#story-2)
@@ -37,6 +38,8 @@ Items marked with (R) are required for the proposed best practice to be included
 ### **Non-Goals**
 
 ## **Proposal**
+
+## **Workload Context**
 
 ### **User Stories (Optional)**
 #### **Story 1**
