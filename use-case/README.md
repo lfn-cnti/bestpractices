@@ -6,7 +6,7 @@ This folder contains different use cases, their description, references, and oth
 
 Goal:
 
-- Relating best practices to real world use cases.
+- Relating to real world use cases.
 - Discussion of core features and functionality from use cases and their NFs.
 - Examination of existing use cases to discussion of kubenative implementations which provide the core features and functionality.
 
