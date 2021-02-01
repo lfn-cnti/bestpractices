@@ -85,6 +85,10 @@ It is proposed that the primary metrics that would signal the success or failure
 *   number of contributors who authored a CCDP
 *   number of contributors who authored a CCDP for the first time
 
+## **Workload Context**
+
+Context should be provided which includes the type of CNF, workload, and CNF component (eg. Pod, container, Operator) this best practice applies to. The context, of an individual best practice, should illustrate the specific type of workload most likely to take advantage of the benefits listed. 
+
 ### **User Stories (Optional)**
 #### **Story 1**
 I want to propose a new Cloud Native best practice definition. I will fill out the create a PR in the CCDP folder to start the discussion around the Cloud Native Definition. With the template, I will be able to articulate my ideas to the community.
@@ -96,6 +100,7 @@ I agree/disagree with a proposed Cloud Native best practice definition. After re
 
 This first structure is still WIP and should not be considered final. As the CNF WG begins to dive into their work, this format and process should be modified to meet the WG’s current needs.
 
+When applicable, it should also provide a warning if the practice would be a determent to a divergent type of workload.
 
 ### **References**
 
@@ -113,11 +118,6 @@ The centrality of Git and GitHub within the CCDP process also may place too high
 The use of GitHub issues when proposing changes does not provide the CNF WG good facilities for signaling approval or rejection of a proposed change because anyone can open a GitHub issue at any time. 
 
 In addition to the challenge of managing issues over time, searching for text within an issue can be challenging. The flat hierarchy of issues can also make navigation and categorization tricky. Not all community members will be uncomfortable using Git directly, but it is imperative for our community to educate people on a standard set of tools so they can take their experience to other projects they may decide to work on in the future. While git is a fantastic version control system (VCS), it is neither a project management tool nor a cogent way of managing a backlog. This proposal is limited to motivating the creation of a standardized definition of work in order to facilitate project management. This primitive for describing a unit of work may also allow contributors to create their own personalized view of the state of the project while relying on Git and GitHub for consistency and durable storage.
-
-
-## **Workload Context**
-
-Context should be provided which includes the type of CNF, workload, and CNF component (eg. Pod, container, Operator) this best practice applies to. The context, of an individual best practice, should illustrate the specific type of workload most likely to take advantage of the benefits listed. When applicable, it should also provide a warning if the practice would be a determent to a divergent type of workload.
 
 
 ## **Test Plan**
