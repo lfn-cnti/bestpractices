@@ -7,7 +7,7 @@ The CNF WG operates under the aegis of CNCF. The focus of the CNF WG is to defin
 
 The goals for the group are:
 - To identify best practices for CNFs running on K8s which CNF Developers and operators alike may adopt
-- To determine which practices will allow networking applications to most efficiently utilize K8s capabilities and services
+- To determine which practices will allow networking applications to most effectively utilize Kubernetes capabilities and services
 
 
 ## Mission Statement
