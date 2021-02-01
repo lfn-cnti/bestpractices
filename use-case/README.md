@@ -1,6 +1,6 @@
 # Networking Use Cases
 
-Proposed best practices are rooted in our model of how CNFs are used.  A best practice is most clearly the right thing to do if it helps with a use case related to one or more of the actors.
+It's clearer that a best practice is a good course of action when it satisfies the needs of a Kubernetes use case related to one or more actors.```
 
 This folder contains different use cases, their description, references, and other context.  The best practices, recorded elsewhere, refer back to these use cases for their justification.
 
