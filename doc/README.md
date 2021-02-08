@@ -33,7 +33,7 @@ As demonstrated by **Figure 1-2** below, When it comes to Cloud Native Network F
 
 - **Consumption of CNFs**: Set of best pracitices that helps Customers/Consumers to consume and use CNFs in a cloud native way. 
 - **Development of CNFs**: Set of best practices that helps CNF Developers to build their CNFs in a cloud native way.
-- **Operation of CNFs**: Set of best practices that helps CNF Operators to deploy and manage CNFs in a cloud native way.
+- **Operation of CNFs**: Set of best practices that helps CNF Operators with the life-cycle management of CNFs in a cloud native way (for example, deployment, configuration management, upgrade, etc).
 - **Building of CNF Infrastructure**: Set of best practices that helps CNF Infrastructure developers to build and develop CNF Infrastucture in a cloud native way.
 - **Operation of CNF Infrastructure**: Set of best practices that helps CNF Infra Operators to deploy and manage CNF infrastructure in cloud native way.
 
