@@ -72,10 +72,55 @@ Deliverables
 
 ## Governance
 
-### Interested Parties
+
+
+### CNF WG Member Roles
+
+
+#### Chairs
+
+The CNF WG will be co-chaired by 3 people: at least one co-chair from the Kubernetes (K8s) Community, one from the Service Provider (SP) Community and one from the CNF Developer (Dev) Community to have equal representation.
+- *Primary role of Chairs is to run operations and the governance of the group.*
+- The Chairs are responsible for ensuring that group meetings are planned and facilitated effectively, while also engaging group members in leadership roles. Effective facilitation includes (but is not limited to) the following activities:
+    - setting the agenda for meetings
+    - extending discussion via asynchronous communication to be inclusive of members who cannot attend a specific meeting time
+    - scheduling discussion of proposals that have been submitted
+    - asking for new proposals to be made to address an identified need
+    - partnering with Technical Leads to establish a roadmap and manage ongoing projects
+
+#### Tech Lead
+
+
+CNF WG has multiple tech leads who are recognized as (1) experts in the Networking, Telco, Kubernetes, and/or Cloud Native domains, (2) leaders of projects in these domains, and (3) demonstrating the ability to provide the balanced technical leadership required to produce the required unbiased outputs of the CNF WG. The reason for having separate chair and tech lead roles is to allow responsibility for primarily administrative functions to be separated from deep technical functions and associated time commitments and skill sets. Where appropriate, an individual may perform both roles as shown in CNF WG member roles.
+
+Tech leads are primarily focused on the technical execution of the working group's activities including:
+- Leads projects in the working group’s area. For example, building out a use case or developing a best practice.
+- Has the time and ability to perform deep technical dives on projects.
+
+
+#### Everyone else (eg. other members)
+
+Membership is self-declared.
+
+There are no membership requirements to be a part of the CNF WG. This is an open public working group welcoming anyone who would like to help.
+
+All members
+- May either have no explicit roles or responsibilities, or formally assigned roles (see above).
+- May not create the impression that they have any authority or formal responsibilities in the CNF WG other than assigned roles.
+
+<!--
+See [CONTRIBUTING](CONTRIBUTING.md) documentation for more information how to get involved.
+-->
+
+
+---
+
+
+## Interested Parties
 
 - Bell Canada
 - Charter Communications
+- Cisco
 - Orange
 - MATRIXX
 - Nokia
