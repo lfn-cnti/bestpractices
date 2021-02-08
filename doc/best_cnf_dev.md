@@ -20,7 +20,8 @@
 **Description**: Some Description here
 
 <!-- This is an example and therefore the link is broken. -->
-i<!-- markdown-link-check-disable-line -->**Link to CCDP**: [CCDP-0001](../ccdps/xyz.md)
+<!-- markdown-link-check-disable-next-line -->
+**Link to CCDP**: [CCDP-0001](../ccdps/xyz.md)
 
 
 
@@ -29,7 +30,8 @@ i<!-- markdown-link-check-disable-line -->**Link to CCDP**: [CCDP-0001](../ccdps
 **Description**: Some Description here
 
 <!-- This is an example and therefore the link is broken. -->
-<!-- markdown-link-check-disable-line -->**Link to CCDP**: [CCDP-0002](../ccdps/xyz.md)
+<!-- markdown-link-check-disable-next-line -->
+**Link to CCDP**: [CCDP-0002](../ccdps/xyz.md)
 
 
 
