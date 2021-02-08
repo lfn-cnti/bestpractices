@@ -6,10 +6,10 @@
   - [Goals](#goals)
   - [Non-Goals](#non-goals)
 - [Proposal](#proposal)
-  - [User Stories (Optional)](#user-stories-optional)
+  - [User Stories](#user-stories)
     - [Story 1](#story-1)
     - [Story 2](#story-2)
-  - [Notes/Constraints/Caveats (Optional)](#notesconstraintscaveats-optional)
+  - [Tradeoffs/Constraints/Caveats/Notes](#tradeoffsconstraintscaveatsnotes)
   - [References](#references)
   - [Alternatives (Optional)](#drawbacksalternatives)
 - [Workload Context](#workload-context)
@@ -89,14 +89,14 @@ It is proposed that the primary metrics that would signal the success or failure
 
 Context should be provided which includes the type of CNF, workload, and CNF component (eg. Pod, container, Operator) this best practice applies to. The context, of an individual best practice, should illustrate the specific type of workload most likely to take advantage of the benefits listed. 
 
-### **User Stories (Optional)**
+### **User Stories**
 #### **Story 1**
 I want to propose a new Cloud Native best practice definition. I will fill out the create a PR in the CCDP folder to start the discussion around the Cloud Native Definition. With the template, I will be able to articulate my ideas to the community.
 
 #### **Story 2**
 I agree/disagree with a proposed Cloud Native best practice definition. After reading through the CCDP, I will be able to comment on the PR and contribute to the discussion around it.
 
-### **Notes/Constraints/Caveats (Optional)**
+### **Tradeoffs/Constraints/Caveats/Notes**
 
 This first structure is still WIP and should not be considered final. As the CNF WG begins to dive into their work, this format and process should be modified to meet the WG’s current needs.
 
