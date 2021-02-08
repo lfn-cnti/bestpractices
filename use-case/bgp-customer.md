@@ -24,7 +24,7 @@ The BGP connection is typically described at both ends with the addresses of the
 There are three sorts of networking occurring here.
 
 1. We have the connection used by the OSS systems to the BGP speaker using the management VRF, which is isolated from the SP customer.
-1. We have the connection used by the BGP peering sessions to the BGP speaker, using the custmoer VRF, isolated from other networks.
+1. We have the connection used by the BGP peering sessions to the BGP speaker, using the customer VRF, isolated from other networks.
 1. We have whatever internal networking is required between microservices within the BGP speaker (perhaps, for instance, speaker code versus a DB instance storing the RIB).
 
 ### CNI-mediated networking
