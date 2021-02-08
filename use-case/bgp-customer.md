@@ -4,7 +4,7 @@
 
 A service provider wishes to run a BGP server that is attached to a customer network.  This is a common use case when using VPNs.
 
-The customer network is a separate network from the internet, having its own addressing domain (i.e. it is a VRF on the service provider network).  In order to provide BGP service to this network. the BGP application run by the BGP server must peer with other BGP speakers on the customer network, and therefore needs to have an interface within that VRF.  Simultaneously, the BGP speaker will require a management interface (for configuration and telemetry) in the SP network.  The Kubernetes API endpoint will also be in the SP network, unavailable to the customer - the customer's network can _only_ access the BGP speaker.
+The customer network is a separate network from the internet, having its own addressing domain (i.e. it is a VRF on the service provider network).  In order to provide BGP service to this network, the BGP application run by the BGP server must peer with other BGP speakers on the customer network, and therefore needs to have an interface within that VRF.  Simultaneously, the BGP speaker will require a management interface (for configuration and telemetry) in the SP network.  The Kubernetes API endpoint will also be in the SP network, unavailable to the customer - the customer's network can _only_ access the BGP speaker.
 
 <figure class="image">
 <img alt="BGP network overview" src="./bgp-customer overview.svg" />
