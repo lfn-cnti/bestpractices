@@ -72,7 +72,7 @@ The definition of what constitutes a Cloud Native best practice or principle is 
 
 **CCDP Template**
 
-The template for a CCDP is defined [here](https://github.com/cncf/cnf-wg/blob/requirements-to-best-practices/ccdps/NNNN-ccdp-template.md).
+The template for a CCDP is defined [here](./NNNN-ccdp-template.md).
 
  **Important Metrics**
 
