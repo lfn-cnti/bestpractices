@@ -129,3 +129,4 @@ See [CONTRIBUTING](CONTRIBUTING.md) documentation for more information how to ge
 - Chunghwa Telecom
 - Vodafone
 - Samsung
+- Equinix
