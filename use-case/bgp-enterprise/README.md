@@ -5,11 +5,16 @@
 ### Acronyms
 
 BGP: Border Gateway Protocol.  A TCP-based protocol that shares network routes between devices.
+
 VRF: Virtual Routing an Forwarding.  A context in a network device with its own routing table.  Multiple contexts may be set up in a device.  For instance, in a home network your gateway has two VRFs - the private addresses inside your home and the public internet outside.  These have independent route tables - the internal routes to devices are not shared with the world.  An interface with an address is homed in a particular VRF.
+
 TCP: Transmission Control Protocol.  A common network protocol that endpoints use to talk to each other.
 Endpoint: A device that generates and consumes traffic (as constrasted with a device that forwards traffic).
+
 BSD socket API: The historic set of API calls typically offered by an operating system that uses networking.  Includes the function that creates a socket for use (```socket()```), a function to dial out to a remote server (```connect()```), and functions to enable listening for connections (```bind()```, ```listen()```) among others.
+
 CNI: Container Network Interface.  A standard API that provides network functions to Kubernetes.  On deployment, a CNI plugin is installed that provides the CNI to applications on the Kubernetes API endpoint and commits to setting up networking beteen containers and to the outside world according to defined API semantics.  These semantics are largely focussed on reachability ('packets will reach their destination'), as opposed to network implementation (it does not specify if routing, switching or other techniques will be used) and providing networking to containers via the OS kernel's BSO socket APIs.
+
 CRI: Container Runtime Interface.  A standard API for providing runtime features to Kubernetes.  Any container provider (of which there are a number, one common one being Docker) implements the CRI, and the CRI is consumed by Kubernetes when launching containers.
 
 ### 'Default' Kubernetes deployment
