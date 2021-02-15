@@ -19,6 +19,8 @@
 
 **Description**: Some Description here
 
+<!-- This is an example and therefore the link is broken. -->
+<!-- markdown-link-check-disable-next-line -->
 **Link to CCDP**: [CCDP-0001](../ccdps/xyz.md)
 
 
@@ -27,6 +29,8 @@
 
 **Description**: Some Description here
 
+<!-- This is an example and therefore the link is broken. -->
+<!-- markdown-link-check-disable-next-line -->
 **Link to CCDP**: [CCDP-0002](../ccdps/xyz.md)
 
 
