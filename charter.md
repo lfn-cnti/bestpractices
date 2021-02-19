@@ -73,7 +73,6 @@ Deliverables
 ## Governance
 
 
-
 ### CNF WG Member Roles
 
 
@@ -112,8 +111,18 @@ All members
 See [CONTRIBUTING](CONTRIBUTING.md) documentation for more information how to get involved.
 -->
 
+## Elections
+Chairs and tech leads will be elected for one year terms and may run for reelection. 
 
----
+The CNF WG employs "organization voting" to ensure no single organization can dominate the project.
+
+Individuals not associated with or employed by a company or organization are allowed one organization vote. Each company or organization (regardless of the number of maintainers associated with or employed by that company/organization) receives one organization vote.
+
+In other words, if two contributors are employed by Company X, two by Company Y, two by Company Z, and one maintainer is an un-affiliated individual, a total of four "organization votes" are possible; one for X, one for Y, one for Z, and one for the un-affiliated individual.
+
+Each organization listed in the interested parties section has one vote. Any contributor from an organization may cast the vote for that organization. Each organization can cast one vote for a co-chair candidate in each of the communities (Kubernetes (K8s) Community, Service Provider (SP) Community, and CNF Developer (Dev) Community), three total votes. Each organization can vote for as many tech leads as they see fit.
+
+The chair nominee from each community with the most votes will be elected. Tech leads must win at least 60% of the votes cast to be elected.
 
 
 ## Interested Parties
