@@ -112,7 +112,7 @@ See [CONTRIBUTING](CONTRIBUTING.md) documentation for more information how to ge
 -->
 
 ## Elections
-Chairs and tech leads will be elected for one year terms and may run for reelection. 
+Co-chairs and tech leads will be elected for one year terms and may run for reelection. 
 
 The CNF WG employs "organization voting" to ensure no single organization can dominate the project.
 
