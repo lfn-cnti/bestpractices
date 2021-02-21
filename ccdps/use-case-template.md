@@ -1,4 +1,4 @@
-## Headline
-## UC-NNNN
+### Headline
+### UC-NNNN
 
-## Which domains is use case touching
+### Which domains is use case touching
