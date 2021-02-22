@@ -1,0 +1,7 @@
+# Mac annoyances
+.DS_Store
+# Emacs backup files and in-edit files
+*~
+\#*\#
+# Vi(m) in-edit files
+.\#*
