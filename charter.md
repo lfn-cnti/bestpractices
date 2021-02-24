@@ -88,14 +88,23 @@ The CNF WG will be co-chaired by 3 people: at least one co-chair from the Kubern
     - asking for new proposals to be made to address an identified need
     - partnering with Technical Leads to establish a roadmap and manage ongoing projects
 
-#### Tech Lead
+**Representation**
 
+Maxium of one person from any one company at any time may hold a chair role.
+
+#### Tech Lead
 
 CNF WG has multiple tech leads who are recognized as (1) experts in the Networking, Telco, Kubernetes, and/or Cloud Native domains, (2) leaders of projects in these domains, and (3) demonstrating the ability to provide the balanced technical leadership required to produce the required unbiased outputs of the CNF WG. The reason for having separate chair and tech lead roles is to allow responsibility for primarily administrative functions to be separated from deep technical functions and associated time commitments and skill sets. Where appropriate, an individual may perform both roles as shown in CNF WG member roles.
 
 Tech leads are primarily focused on the technical execution of the working group's activities including:
 - Leads projects in the working group’s area. For example, building out a use case or developing a best practice.
 - Has the time and ability to perform deep technical dives on projects.
+
+**Representation**
+
+Maximum of one-third representation in tech lead roles from any one company at any time. If the results of an election result in greater than 1/3 representation, the lowest vote getters from any particular company will be removed until representation on the committee is less than one-third.
+
+If percentages shift because of job changes, acquisitions, or other events, sufficient members of the committee must resign until max one-third representation is achieved. If it is impossible to find sufficient members to resign, the entire company’s representation will be removed and new special elections held. In the event of a question of company membership (for example evaluating independence of corporate subsidiaries) a majority of all non-involved members will decide.
 
 
 #### Everyone else (eg. other members)
