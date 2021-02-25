@@ -124,7 +124,7 @@ For the purpose of this document, “Company” shall mean any entity (Company-A
 
 Each organization listed in the interested parties section has one vote. Any contributor from an organization may cast the vote for that organization. Each organization can cast one vote for a co-chair candidate in each of the communities (Kubernetes (K8s) Community, Service Provider (SP) Community, and CNF Developer (Dev) Community), three total votes. Each organization can vote for as many tech leads as they see fit.
 
-The chair nominee from each community with the most votes will be elected. Tech leads must win at least 60% of the votes cast to be elected.
+The chair for each community will be elected using [Ranked Choice Voting](https://en.wikipedia.org/wiki/Ranked_voting). Tech leads must win at least 60% of the votes cast to be elected.
 
 
 ## Interested Parties
