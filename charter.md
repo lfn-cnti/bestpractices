@@ -90,7 +90,7 @@ The CNF WG will be co-chaired by 3 people: at least one co-chair from the Kubern
 
 **Representation**
 
-Maxium of one person from any one company at any time may hold a chair role.
+Maximum of one person from any one company at any time may hold a chair role.
 
 #### Tech Lead
 
