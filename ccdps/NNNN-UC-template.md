@@ -13,7 +13,8 @@
 *TIP: In this section you can list main parties who are involved in the use case. For example:<br>
 Business customer of CSP<br>
 Operations Team of CSP<br>
-Service team of CNF Vendor*
+Service team of CNF Vendor<br>
+Etc.*
 
 ## Involved system entities
 *TIP: In this section you can list system entities that are involved in the use case. For example:<br>
@@ -21,6 +22,9 @@ Data Center Network<br>
 Wide Area Network<br>
 Cloud Native Platform<br>
 CNF X<br>
+MANO<br>
+OSS<br>
+Etc.*
 
 ## Situation
 *TIP: Please describe situation related to this use case. Indicate what are intents and expectations of different parties as well as the roles and requirements of different system components. Describe how everything is related. Drawings, flow and system diagrams are beneficial here. This part, as the subject says, shall give the reader clear overview of the situation as the starting point for evaluation of the use case. It should not contain the detailed technical descriptions and analysis.*
