@@ -1,4 +1,7 @@
-# UC-NNNN: Short descriptive title of your use case (TEMPLATE)
+# UC-NNNN: Short descriptive title of your use case (TEMPLAT)
+
+## Glossary
+*TIP: Please list the key technical terms and acronyms and provide definitions for those.*
 
 ## Involved processes
 *TIP: Please mark key processes that are involved in the use case you are presenting. This helps actors to decide if the use case is relevant for them or not. If there are more processes involved please make multiple selection.*
