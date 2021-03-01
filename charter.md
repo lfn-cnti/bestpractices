@@ -102,9 +102,9 @@ Tech leads are primarily focused on the technical execution of the working group
 
 **Representation**
 
-Maximum of one-third representation in tech lead roles from any one company at any time. If the results of an election result in greater than 1/3 representation, the lowest vote getters from any particular company will be removed until representation on the committee is less than one-third.
+Maximum of one-third representation in tech lead roles from any one company/organization at any time. If the results of an election result in greater than 1/3 representation, the lowest vote getters from any particular company/organization will be removed until representation is less than one-third.
 
-If percentages shift because of job changes, acquisitions, or other events, sufficient tech leads must resign until max one-third representation is achieved. If it is impossible to find sufficient teach leads to resign, the entire company’s representation will be removed and new special elections held. In the event of a question of company membership (for example evaluating independence of corporate subsidiaries) a majority of all non-involved members will decide.
+If percentages shift because of job changes, acquisitions, or other events, sufficient tech leads must resign until max one-third representation is achieved. If it is impossible to find sufficient teach leads to resign, the entire company/organization’s representation will be removed and new special elections held. In the event of a question of company/organization membership (for example evaluating independence of corporate subsidiaries) a majority of all non-involved members will decide.
 
 
 #### Everyone else (eg. other members)
