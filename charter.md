@@ -118,6 +118,7 @@ See [CONTRIBUTING](CONTRIBUTING.md) documentation for more information how to ge
 
 ## Interested Parties
 
+- AWS
 - Bell Canada
 - Charter Communications
 - Cisco
