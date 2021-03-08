@@ -132,3 +132,4 @@ See [CONTRIBUTING](CONTRIBUTING.md) documentation for more information how to ge
 - Samsung
 - Equinix
 - Intel
+- Red Hat
