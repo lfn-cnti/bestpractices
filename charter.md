@@ -73,7 +73,6 @@ Deliverables
 ## Governance
 
 
-
 ### CNF WG Member Roles
 
 
@@ -112,8 +111,20 @@ All members
 See [CONTRIBUTING](CONTRIBUTING.md) documentation for more information how to get involved.
 -->
 
+## Elections
+Co-chairs and tech leads will be elected for one year terms and may run for reelection. 
 
----
+The CNF WG employs "organization voting" to ensure no single organization can dominate the project.
+
+Individuals not associated with or employed by a company or organization are allowed one vote. Each company/organization, or related group of companies (regardless of the number of maintainers associated with or employed by that company/organization), will have a maximum of one-third representation in votes.  If the results of an election result in greater than 1/3 representation, the lowest vote getters from any particular company will be removed until representation on the committee is less than one-third.
+
+In other words, if two contributors are employed by Company X, two by Company Y, two by Company Z, and one maintainer is an un-affiliated individual, a total of four "organization votes" are possible; one for X, one for Y, one for Z, and one for the un-affiliated individual.
+
+For the purpose of this document, “Company” shall mean any entity (Company-A) which controls or is controlled by another entity (Company-B) or which, together, is under the common control of a third party (Company-C), in each case where such control results from ownership, either directly or indirectly, of more than fifty percent of the voting securities or membership interests of the entity in question; and one “Company” is all of the entities that are each described above.
+
+Each organization listed in the interested parties section has one vote. Any contributor from an organization may cast the vote for that organization. Each organization can cast one vote for a co-chair candidate in each of the communities (Kubernetes (K8s) Community, Service Provider (SP) Community, and CNF Developer (Dev) Community), three total votes. Each organization can vote for as many tech leads as they see fit.
+
+The chair for each community will be elected using [Ranked Choice Voting](https://en.wikipedia.org/wiki/Ranked_voting). Tech leads must win at least 60% of the votes cast to be elected.
 
 
 ## Interested Parties
