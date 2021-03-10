@@ -18,8 +18,8 @@
 - [ ] Lifecycle management
 - [ ] Operations
 
-## Involved parties
-> List main parties involved in the use case. For example:
+## Involved actors / personas
+> List main actors / personas involved in the use case. For example:
 Business customer of CSP<br>
 Operations Team of CSP<br>
 Service team of CNF Vendor<br>
