@@ -1,7 +1,8 @@
 # UC-0001: Lifecycle management of infrastructure where CNF runs
 
 ## Glossary
-> Provide definitions for technical terms and acronyms.
+- CNF - Cloud Native Network Function
+- Cloud Native Platform - Platform that exhibits properties of the cloud on which CNF runs. For this use case Cloud Native Platform = Kubernetes cluster
 
 ## Involved processes
 - [ ] Development
