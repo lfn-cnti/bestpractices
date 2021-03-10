@@ -36,7 +36,7 @@ OSS<br>
 Etc.*
 
 ## Situation
-*TIP: Please describe situation related to this use case. Indicate what are intents and expectations of different parties as well as the roles and requirements of different system components. Describe how everything is related. Drawings, flow and system diagrams are beneficial here. This part, as the subject says, shall give the reader clear overview of the situation as the starting point for evaluation of the use case. It should not contain the detailed technical descriptions and analysis.*
+> Describe situation related to this use case. Indicate what are intents and expectations of different parties as well as the roles and requirements of different system components. Explain how everything is related. Drawings, flow and system diagrams are beneficial here. This part shall give the reader clear overview of the situation as the starting point for evaluation of the use case. It should not contain the detailed technical descriptions and analysis.
 
 ## Expected behaviour
 *TIP: Here you can provide detailed technical descriptions and depict expected behaviour of system entities and components regardless of cloud nativeness. Please highlight what are different entities expected to provide. Depending on the use case you can look at it from different angles e.g. CNF angle, Cloud Native Platform angle, Network angle etc. This section should give the reader clear understanding of expected behaviour.
@@ -49,4 +49,3 @@ Etc.*
 
 ### What needs to be done differently in order to overcome challenges and limitations 
 *TIP: If there are no established practices and you have ideas or if you believe things related to this use case should be done differently please indicate it shortly here. The purpose of this is to earmark some potential inputs for CCDP process. It is not expected to elaborate CCDPs here.
-
