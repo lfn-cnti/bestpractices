@@ -26,7 +26,7 @@ Service team of CNF Vendor<br>
 Etc.*
 
 ## Involved system entities
-*TIP: In this section you can list system entities that are involved in the use case. For example:<br>
+> List system entities that are involved in the use case. For example:
 Data Center Network<br>
 Wide Area Network<br>
 Cloud Native Platform<br>
