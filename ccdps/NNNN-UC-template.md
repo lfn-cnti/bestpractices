@@ -39,7 +39,8 @@ Etc.*
 > Describe situation related to this use case. Indicate what are intents and expectations of different parties as well as the roles and requirements of different system components. Explain how everything is related. Drawings, flow and system diagrams are beneficial here. This part shall give the reader clear overview of the situation as the starting point for evaluation of the use case. It should not contain the detailed technical descriptions and analysis.
 
 ## Expected behaviour
-*TIP: Here you can provide detailed technical descriptions and depict expected behaviour of system entities and components regardless of cloud nativeness. Please highlight what are different entities expected to provide. Depending on the use case you can look at it from different angles e.g. CNF angle, Cloud Native Platform angle, Network angle etc. This section should give the reader clear understanding of expected behaviour.
+behaviour or behavior?
+> Provide detailed technical descriptions and depict expected behaviour of system entities and components regardless of cloud nativeness. Highlight what are different entities expected to provide. Depending on the use case you can look at it from different angles e.g. CNF angle, Cloud Native Platform angle, Network angle etc. This section should give the reader clear understanding of expected behaviour.
 
 ## Challenges and limitations with Kube-native approach
 > This section will give us main inputs for discussion and evaluation of best practices. Describe which challenges and limitations kube-native approach presents for this use case. Provide technical details about what is not possible with kube-native approach and elaborate why is that relevant. If there are some established practices that are used to work around these limitations please describe those in the chapter below*
