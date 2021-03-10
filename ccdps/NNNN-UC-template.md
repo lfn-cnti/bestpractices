@@ -4,7 +4,13 @@
 > Provide definitions for technical terms and acronyms.
 
 ## Involved processes
-*TIP: Please mark key processes that are involved in the use case you are presenting. This helps actors to decide if the use case is relevant for them or not. If there are more processes involved please make multiple selection.*
+> Please uncomment and/or add key processes that are involved in the use case you are presenting. This helps actors to decide if the use case is relevant for them or not.
+> - Development
+> - Deployment
+> - System integration
+> - Network integration
+> - Lifecycle management
+> - Operations
 - [ ] Development
 - [ ] Deployment
 - [ ] System integration
@@ -43,5 +49,4 @@ Etc.*
 
 ### What needs to be done differently in order to overcome challenges and limitations 
 *TIP: If there are no established practices and you have ideas or if you believe things related to this use case should be done differently please indicate it shortly here. The purpose of this is to earmark some potential inputs for CCDP process. It is not expected to elaborate CCDPs here.
-
 
