@@ -19,7 +19,7 @@
 - [ ] Operations
 
 ## Involved parties
-*TIP: In this section you can list main parties who are involved in the use case. For example:<br>
+> List main parties involved in the use case. For example:
 Business customer of CSP<br>
 Operations Team of CSP<br>
 Service team of CNF Vendor<br>
