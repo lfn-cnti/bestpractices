@@ -45,7 +45,7 @@ Etc.*
 > This section will give us main inputs for discussion and evaluation of best practices. Describe which challenges and limitations kube-native approach presents for this use case. Provide technical details about what is not possible with kube-native approach and elaborate why is that relevant. If there are some established practices that are used to work around these limitations please describe those in the chapter below*
 
 ### Established practices to overcome challenges and limitations
-> If such practices exist please elaborate them here in sufficient technical details. Provide references and give your opinion weather or not these practices can be considered as candidates for CNF best practices in line with [CCDP description](0001-cnf-conformance-definition-proposal-process.md).
+> If such practices exist please elaborate them here in sufficient technical details. Provide references and give your opinion weather or not these practices can be considered as candidates for CNF best practices in line with [CCDP description](../ccdps/0001-cnf-conformance-definition-proposal-process.md).
 
 ### What needs to be done differently in order to overcome challenges and limitations 
 > If there are no established practices and you have ideas or if you believe things related to this use case should be done differently please indicate it shortly here. The purpose of this is to earmark some potential inputs for CCDP process. It is not expected to elaborate CCDPs here.
