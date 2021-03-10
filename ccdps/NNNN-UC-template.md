@@ -48,4 +48,4 @@ Etc.*
 *TIP: If such practices exist please elaborate them here in sufficient technical details. Please provide refences. Please give your opinion weather or not these practices can be considered as candidates for CNF best practices in line with [CCDP description](0001-cnf-conformance-definition-proposal-process.md).*
 
 ### What needs to be done differently in order to overcome challenges and limitations 
-*TIP: If there are no established practices and you have ideas or if you believe things related to this use case should be done differently please indicate it shortly here. The purpose of this is to earmark some potential inputs for CCDP process. It is not expected to elaborate CCDPs here.
+> If there are no established practices and you have ideas or if you believe things related to this use case should be done differently please indicate it shortly here. The purpose of this is to earmark some potential inputs for CCDP process. It is not expected to elaborate CCDPs here.
