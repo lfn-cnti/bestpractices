@@ -139,6 +139,7 @@ The chair for each community will be elected using [Ranked Choice Voting](https:
 ## Interested Parties
 
 - AWS
+- ARM
 - Bell Canada
 - Charter Communications
 - Cisco
