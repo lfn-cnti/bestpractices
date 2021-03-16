@@ -137,6 +137,7 @@ The chair for each community will be elected using [Ranked Choice Voting](https:
 
 
 ## Interested Parties
+Interested parties can be added at any time, but must be added at least one week before any election to have a vote.
 
 - AWS
 - ARM
