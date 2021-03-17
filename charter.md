@@ -143,6 +143,7 @@ The chair for each community will be elected using [Ranked Choice Voting](https:
 - Bell Canada
 - Charter Communications
 - Cisco
+- Frederick F. Kautz IV
 - Orange
 - MATRIXX
 - Nokia
