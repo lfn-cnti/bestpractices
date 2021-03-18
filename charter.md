@@ -155,3 +155,4 @@ The chair for each community will be elected using [Ranked Choice Voting](https:
 - Equinix
 - Intel
 - Red Hat
+- VMware
