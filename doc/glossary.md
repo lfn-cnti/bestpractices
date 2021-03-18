@@ -1,5 +1,5 @@
 
-CNF Working Group Glossary
+Glossary
 ============================
 
 Specification
