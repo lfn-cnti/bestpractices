@@ -138,25 +138,4 @@ The chair for each community will be elected using [Ranked Choice Voting](https:
 
 ## Interested Parties
 
-- AT&T
-- AWS
-- ARM
-- Bell Canada
-- Charter Communications
-- Cisco
-- Frederick F. Kautz IV
-- Orange
-- MATRIXX
-- Nokia
-- Google
-- Deutsche Telekom
-- Swisscom
-- Chunghwa Telecom
-- Vodafone
-- Samsung
-- Equinix
-- Intel
-- Infracloud
-- Red Hat
-- VMware
-- Vulk Coop
+See [interested-parties.md](interested-parties.md)
