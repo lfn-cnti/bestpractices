@@ -79,9 +79,8 @@ Deliverables
 #### Chairs
 
 The CNF WG will be co-chaired by 3 people: at least one co-chair from the Kubernetes (K8s) Community, one from the Service Provider (SP) Community and one from the CNF Developer (Dev) Community to have equal representation.
-- *Primary role of Chairs is to run operations and the governance of the group.*
-- The Chairs are responsible for ensuring that group meetings are planned and facilitated effectively, while also engaging group members in leadership roles. Effective facilitation includes (but is not limited to) the following activities:
-    - setting the agenda for meetings
+- *Primary role of Chairs is governance of the group.*
+- The Chairs are responsible for ensuring that group meetings are facilitated effectively, while also engaging group members in leadership roles. Effective facilitation includes the following activities:
     - extending discussion via asynchronous communication to be inclusive of members who cannot attend a specific meeting time
     - scheduling discussion of proposals that have been submitted
     - asking for new proposals to be made to address an identified need
