@@ -156,3 +156,4 @@ The chair for each community will be elected using [Ranked Choice Voting](https:
 - Intel
 - Red Hat
 - VMware
+- Vulk Coop
