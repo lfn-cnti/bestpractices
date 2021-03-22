@@ -147,6 +147,7 @@ The chair for each community will be elected using [Ranked Choice Voting](https:
 - Orange
 - MATRIXX
 - Nokia
+- Google
 - Deutsche Telekom
 - Swisscom
 - Chunghwa Telecom
@@ -154,6 +155,7 @@ The chair for each community will be elected using [Ranked Choice Voting](https:
 - Samsung
 - Equinix
 - Intel
+- Infracloud
 - Red Hat
 - VMware
 - Vulk Coop
