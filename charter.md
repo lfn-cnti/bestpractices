@@ -78,8 +78,9 @@ Deliverables
 
 #### Chairs
 
-The CNF WG will be co-chaired by 3 people: at least one co-chair from the Kubernetes (K8s) Community, one from the Service Provider (SP) Community and one from the CNF Developer (Dev) Community to have equal representation.
-- *Primary role of Chairs is to run operations and the governance of the group.*
+The CNF WG will be co-chaired by 3 people - one co-chair from the Kubernetes (K8s) Community, one from the Service Provider (SP) Community and one from the CNF Developer (Dev) Community - in order to maintain equal representation.
+
+- *The primary role of Chairs is to run operations and the governance of the group.*
 - The Chairs are responsible for ensuring that group meetings are planned and facilitated effectively, while also engaging group members in leadership roles. Effective facilitation includes (but is not limited to) the following activities:
     - setting the agenda for meetings
     - extending discussion via asynchronous communication to be inclusive of members who cannot attend a specific meeting time
@@ -89,19 +90,19 @@ The CNF WG will be co-chaired by 3 people: at least one co-chair from the Kubern
 
 **Representation**
 
-Maximum of one person from any one company/organization at any time may hold a chair role.
+A maximum of one person from any one company/organization at any time may hold a chair role.
 
 #### Tech Lead
 
 CNF WG has multiple tech leads who are recognized as (1) experts in the Networking, Telco, Kubernetes, and/or Cloud Native domains, (2) leaders of projects in these domains, and (3) demonstrating the ability to provide the balanced technical leadership required to produce the required unbiased outputs of the CNF WG. The reason for having separate chair and tech lead roles is to allow responsibility for primarily administrative functions to be separated from deep technical functions and associated time commitments and skill sets. Where appropriate, an individual may perform both roles as shown in CNF WG member roles.
 
 Tech leads are primarily focused on the technical execution of the working group's activities including:
-- Leads projects in the working group’s area. For example, building out a use case or developing a best practice.
-- Has the time and ability to perform deep technical dives on projects.
+- Leading projects in the working group’s area. For example, building out a use case or developing a best practice.
+- Applying their time and ability to deep technical dives on projects.
 
 **Representation**
 
-Maximum of one-third representation in tech lead roles from any one company/organization at any time. If the results of an election result in greater than 1/3 representation, the lowest vote getters from any particular company/organization will be removed until representation is less than one-third.
+A maximum of one-third representation in tech lead roles is permitted from any one company/organization at any time. If the results of an election result in greater than 1/3 representation, the lowest vote getters from any particular company/organization will be removed until representation is less than one-third.
 
 If percentages shift because of job changes, acquisitions, or other events, sufficient tech leads must resign until max one-third representation is achieved. If it is impossible to find sufficient teach leads to resign, the entire company/organization’s representation will be removed and new special elections held. In the event of a question of company/organization membership (for example evaluating independence of corporate subsidiaries) a majority of all non-involved members will decide.
 
