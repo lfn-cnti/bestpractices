@@ -131,32 +131,6 @@ In other words, if two contributors are employed by Company X, two by Company Y,
 
 For the purpose of this document, “Company” shall mean any entity (Company-A) which controls or is controlled by another entity (Company-B) or which, together, is under the common control of a third party (Company-C), in each case where such control results from ownership, either directly or indirectly, of more than fifty percent of the voting securities or membership interests of the entity in question; and one “Company” is all of the entities that are each described above.
 
-Each organization listed in the interested parties section has one vote. Any contributor from an organization may cast the vote for that organization. Each organization can cast one vote for a co-chair candidate in each of the communities (Kubernetes (K8s) Community, Service Provider (SP) Community, and CNF Developer (Dev) Community), three total votes. Each organization can vote for as many tech leads as they see fit.
+Each organization listed in the [interested parties document](interested-parties.md) has one vote. Any contributor from an organization may cast the vote for that organization. Each organization can cast one vote for a co-chair candidate in each of the communities (Kubernetes (K8s) Community, Service Provider (SP) Community, and CNF Developer (Dev) Community), three total votes. Each organization can vote for as many tech leads as they see fit.
 
 The chair for each community will be elected using [Ranked Choice Voting](https://en.wikipedia.org/wiki/Ranked_voting). Tech leads must win at least 60% of the votes cast to be elected.
-
-
-## Interested Parties
-
-- ARM
-- AT&T
-- AWS
-- Bell Canada
-- Charter Communications
-- Chunghwa Telecom
-- Cisco
-- Deutsche Telekom
-- Equinix
-- Frederick F. Kautz IV
-- Google
-- Infracloud
-- Intel
-- MATRIXX
-- Nokia
-- Orange
-- Red Hat
-- Samsung
-- Swisscom
-- VMware
-- Vodafone
-- Vulk Coop
