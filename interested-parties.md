@@ -14,6 +14,7 @@
 - Infracloud
 - Intel
 - MATRIXX
+- Nikolay Nikolaev
 - Nokia
 - Orange
 - Red Hat
