@@ -31,6 +31,7 @@ We welcome many different types of contributions including:
 
 - General improvements to documentation 
 - [Use cases](https://github.com/cncf/cnf-wg/tree/master/use-case) and user stories
+- Adding terms to [the glossary](https://github.com/cncf/cnf-wg/blob/master/doc/glossary.md) or helping refine the definition
 - Definitions
     - eg. [Actors and Roles](https://github.com/cncf/cnf-wg/discussions/30)
 - Requirements
@@ -70,7 +71,7 @@ Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pull
 The CNF WG charter contains a list of organizations that are interested in these efforts. To add your organization name, please submit a Pull Request to edit the [interested parties section of the charter](https://github.com/cncf/cnf-wg/blob/master/charter.md#interested-parties).
 
 ### Code of Conduct
-The CNF WG community follows the CNCF [Code of Conduct](https://github.com/cncf/cnf-wg/blob/master/code-of-conduct.md).
+The CNF WG community follows the CNCF [Code of Conduct](https://github.com/cncf/cnf-wg/blob/master/interested-parties.md).
 
 ### Thank you!
 Thank you for your participation. We appreciate your help and look forward to collaborating with you!
