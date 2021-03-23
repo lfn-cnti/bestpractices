@@ -90,7 +90,7 @@ The CNF WG will be co-chaired by 3 people - one co-chair from the Kubernetes (K8
 
 **Representation**
 
-A maximum of one person from any one company/organization at any time may hold a chair role.
+A maximum of one person from any one entity may hold a chair role at any given moment.  See the [Independence](#independence) section for further details.
 
 #### Tech Lead
 
@@ -102,9 +102,7 @@ Tech leads are primarily focused on the technical execution of the working group
 
 **Representation**
 
-A maximum of one-third representation in tech lead roles is permitted from any one company/organization at any time. If the results of an election result in greater than 1/3 representation, the lowest vote getters from any particular company/organization will be removed until representation is less than one-third.
-
-If percentages shift because of job changes, acquisitions, or other events, sufficient tech leads must resign until max one-third representation is achieved. If it is impossible to find sufficient teach leads to resign, the entire company/organization’s representation will be removed and new special elections held. In the event of a question of company/organization membership (for example evaluating independence of corporate subsidiaries) a majority of all non-involved members will decide.
+A maximum of one-third of the tech lead roles may be held by people from any one entity at any given moment.  See the [Independence](#independence) section for further details.
 
 
 #### Everyone else (eg. other members)
@@ -136,6 +134,45 @@ Each organization listed in the interested parties section has one vote. Any con
 
 The chair for each community will be elected using [Ranked Choice Voting](https://en.wikipedia.org/wiki/Ranked_voting). Tech leads must win at least 60% of the votes cast to be elected.
 
+
+<a name="independence"></a>
+### Independence
+
+The CNF WG strives to maintain its editorial independence from the companies and organisations that provide its members.  To this end, this charter sets limits on the involvement any given entity might have in its operation, in order to maintain the integrity of its output as a consensus view of industry technical experts.
+
+To this end, representation from a single entity for a given role is limited, to avoid undue influence.  This section determines how companies, organisations and individual interested parties are determined to be independent of each other, and the way in which this affects elections.
+
+#### Determination of independence
+
+1. An entity consists of a single company or organisation, a related group of companies or organisations in common ownership, or an individual acting independently of their employment.
+
+2.  Entities may potentially not be independent if:
+
+- an individual works for a company
+- the ownership of two companies is not independent (one owns the other or they both are owned by a common parent, in part or in whole)
+- an individual or company is under contract to another
+
+3. If a member raises a concern of that two entities are not independent, or, conversely, that a single entity should be considered as two separate entities, the member shall make their case and the co-chairs will consider it.
+
+4. If they deem the case valid, the relationship and its effects will be discussed by members.  The existence of a relationship does not necessarily demonstrate that the organisations are acting in concert.
+
+5. A vote of all uninvolved members will be held to determine whether or not the multiple parties should be considered one entity under the rules of this charter.
+
+#### Reconsidering the decision
+
+The decision on independence or dependence of entities may be revisited after a period of not less than three months.  After this time, any member may raise it for discussion via the above process.
+
+#### Change of affiliation
+
+The affiliations of members can change over time, both through the above process and via job changes, mergers and divestments, and so on.
+
+If, through this process, an entity becomes overrepresented, members of that entity will first be asked if they wish to resign their roles in order to remain within the allotment.
+
+If insufficient members resign their roles, the positions held by members associated with that entity will all be put up for a special election. These positions are open both to previous holders and to any new nominees.  The standard nomination and election process shall be carried out.  Representatives elected though this process shall serve the remaining part of the current term.
+
+#### Effect on representation
+
+After any election, the results may indicate that a particular entity is overrepresented for a role, having won more seats than the limit.  In this event, the maximum number of the members belonging to that entity shall be calculated, and members belonging to the entity having the least votes will be excluded from the role until the entity is fairly represented.  Where there is a tie, a coin toss or other random selection mechanism shall be used to choose who is allocated the seat.
 
 ## Interested Parties
 
