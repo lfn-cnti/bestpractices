@@ -18,6 +18,7 @@
 - Nikolay Nikolaev
 - Nokia
 - Orange
+- PANTHEON.tech
 - Red Hat
 - Samsung
 - Swisscom
