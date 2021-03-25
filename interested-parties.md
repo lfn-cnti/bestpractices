@@ -15,6 +15,7 @@
 - Ildiko Vancsa
 - Infracloud
 - Intel
+- Mars Toktonaliev
 - MATRIXX
 - Nikolay Nikolaev
 - Nokia
