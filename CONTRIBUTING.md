@@ -32,7 +32,8 @@ We welcome many different types of contributions including:
 - General improvements to documentation 
 - [Use cases](https://github.com/cncf/cnf-wg/tree/master/use-case) and user stories
 - Definitions
-    - eg. [Actors and Roles](https://github.com/cncf/cnf-wg/discussions/30)
+    - [Actors and Roles](https://github.com/cncf/cnf-wg/discussions/30)
+    - [Glossary](doc/glossary.md)
 - Requirements
     - Classification
         - Common -  eg. fast per-packet networking
