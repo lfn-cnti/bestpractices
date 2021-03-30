@@ -146,7 +146,7 @@ To this end, representation from a single entity for a given role is limited, to
 
 1. An entity consists of a single company or organisation, a related group of companies or organisations in common ownership, or an individual acting independently of their employment.
 
-2.  Entities may potentially not be independent if:
+2. Entities may potentially not be independent if:
 
 - an individual works for a company
 - the ownership of two companies is not independent (one owns the other or they both are owned by a common parent, in part or in whole)
