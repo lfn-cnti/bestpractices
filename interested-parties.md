@@ -1,0 +1,29 @@
+# Interested Parties
+
+- ARM
+- AT&T
+- AWS
+- Bell Canada
+- Charter Communications
+- Chunghwa Telecom
+- Cisco
+- Deutsche Telekom
+- Equinix
+- Frederick F. Kautz IV
+- Google
+- Huawei 
+- Ildiko Vancsa
+- Infracloud
+- Intel
+- Mars Toktonaliev
+- MATRIXX
+- Nikolay Nikolaev
+- Nokia
+- Orange
+- PANTHEON.tech
+- Red Hat
+- Samsung
+- Swisscom
+- VMware
+- Vodafone
+- Vulk Coop
