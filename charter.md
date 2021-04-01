@@ -175,7 +175,7 @@ After any election, the results may indicate that a particular entity is overrep
 
 ## PR Approval Process
 
-Use cases and best practices need approval from at least two tech leads to be merged. Approval from three community members can substitute for one tech lead vote. Merging may be veoted by the co-chairs with a vote of at least 2/3.
+Use cases and best practices need approval from at least two tech leads to be merged. Approval from three community members can substitute for one tech lead vote. Merging may be vetoed by the co-chairs with a vote of at least 2/3.
 
 Charter updates need approval from at least two co-chairs. A co-chair vote can be replaced by the approval of two tech leads.
 
