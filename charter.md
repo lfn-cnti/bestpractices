@@ -179,4 +179,4 @@ Use cases and best practices need approval from at least two tech leads to be me
 
 Charter updates need approval from at least two co-chairs. A co-chair vote can be replaced by the approval of two tech leads.
 
-Changes to fix broken links, typos, small gramatical phrasing, or other editorial issues can be merged with the approval any co-chair or tech lead.
+Changes to fix broken links, typos, small grammatical phrasing, or other editorial issues can be merged with the approval of any co-chair or tech lead.
