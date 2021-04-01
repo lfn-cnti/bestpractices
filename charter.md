@@ -172,3 +172,11 @@ If insufficient members resign their roles, the positions held by members associ
 #### Effect on representation
 
 After any election, the results may indicate that a particular entity is overrepresented for a role, having won more seats than the limit.  In this event, the maximum number of the members belonging to that entity shall be calculated, and members belonging to the entity having the least votes will be excluded from the role until the entity is fairly represented.  Where there is a tie, a coin toss or other random selection mechanism shall be used to choose who is allocated the seat.
+
+## PR Approval Process
+
+Use cases and best practices need approval from at least two tech leads to be merged. Approval from three community members can substitute for one tech lead vote. Merging may be veoted by the co-chairs with a vote of at least 2/3.
+
+Charter updates need approval from at least two co-chairs. A co-chair vote can be replaced by the approval of two tech leads.
+
+Changes to fix broken links, typos, small gramatical phrasing, or other editorial issues can be merged with the approval any co-chair or tech lead.
