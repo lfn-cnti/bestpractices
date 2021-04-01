@@ -91,6 +91,13 @@ The CNF WG will be co-chaired by 3 people - one co-chair from the Kubernetes (K8
 
 A maximum of one person from any one entity may hold a chair role at any given moment.  See the [Independence](#independence) section for further details.
 
+**Current Co-Chairs**
+Service Provider Co-Chair: Jeffrey Saelens
+CNF Developer Co-Chair: Ian Wells
+Kubernetes Co-Chair: Taylor Carpenter
+
+Term runs 2021-04-01 to 2022-03-31
+
 #### Tech Lead
 
 CNF WG has multiple tech leads who are recognized as (1) experts in the Networking, Telco, Kubernetes, and/or Cloud Native domains, (2) leaders of projects in these domains, and (3) demonstrating the ability to provide the balanced technical leadership required to produce the required unbiased outputs of the CNF WG. The reason for having separate chair and tech lead roles is to allow responsibility for primarily administrative functions to be separated from deep technical functions and associated time commitments and skill sets. Where appropriate, an individual may perform both roles as shown in CNF WG member roles.
