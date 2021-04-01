@@ -13,9 +13,9 @@ The CNF Conformance program will evaluate cloud nativeness based on the set of b
 ## Meetings
 
 ### Current Co-Chairs
-Service Provider Co-Chair: Jeffrey Saelens
-CNF Developer Co-Chair: Ian Wells
-Kubernetes Co-Chair: Taylor Carpenter
+* Service Provider Co-Chair: Jeffrey Saelens
+* CNF Developer Co-Chair: Ian Wells
+* Kubernetes Co-Chair: Taylor Carpenter
 
 ### Recurring meetings:
 - Weekly on Mondays at 16:00 UTC (9:00am Pacific Daylight Time)
