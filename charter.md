@@ -92,10 +92,9 @@ The CNF WG will be co-chaired by 3 people - one co-chair from the Kubernetes (K8
 A maximum of one person from any one entity may hold a chair role at any given moment.  See the [Independence](#independence) section for further details.
 
 **Current Co-Chairs**
-
-Service Provider Co-Chair: Jeffrey Saelens
-CNF Developer Co-Chair: Ian Wells
-Kubernetes Co-Chair: Taylor Carpenter
+* Service Provider Co-Chair: Jeffrey Saelens
+* CNF Developer Co-Chair: Ian Wells
+* Kubernetes Co-Chair: Taylor Carpenter
 
 Term runs 2021-04-01 to 2022-03-31
 
