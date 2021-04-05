@@ -12,7 +12,7 @@
 * [9.0 Observability and Diagnostics](#9.0)
 
 <a name="1.0"></a>
-## 2.0 Installation and Upgrade
+## 1.0 Installation and Upgrade
 
 Best practices affecting the basic management of CNF software - the acceptance of CNFs from a development team, the installation onto the network, the creation of instances in clouds within the network, and the version management of running software.
 
