@@ -11,7 +11,7 @@
 - Equinix
 - Frederick F. Kautz IV
 - Google
-- Huawei 
+- Huawei
 - Ildiko Vancsa
 - Infracloud
 - Intel
