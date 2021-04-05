@@ -4,7 +4,7 @@
 * [1.0 Installation and Upgrade](#1.0)
 * [2.0 Configuration and Lifecycle](#2.0)
 * [3.0 Hardware support](#3.0)
-* [4.0 Microservice](#4.0)
+* [4.0 Microservices](#4.0)
 * [5.0 Compatiblity](#5.0)
 * [6.0 State](#6.0)
 * [7.0 Security](#7.0)
