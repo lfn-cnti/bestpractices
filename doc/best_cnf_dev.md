@@ -55,7 +55,7 @@ How to ensure CNFs work on as many platforms, in as many places, as possible; ho
 <a name="6.0"></a>
 ## 6.0 State
 
-Management of short-lived and long lived state, including state associated with network flows, configuration data, billing records and other data according to the varying requirements of resiliency, rate of change, access rate and persistence.
+Management of short-lived and long lived state, including state associated with network flows, configuration data, subscriber activity data and other data according to the varying requirements of resiliency, rate of change, access rate and persistence.
 
 <a name="7.0"></a>
 ## 7.0 Security
