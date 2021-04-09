@@ -66,10 +66,6 @@ Pull Requests are always welcome, even for small fixes like typos.
 
 Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pulls) are also appreciated. 
 
-##### Acceptance of PRs
-- Spelling, grammar, and new interested parties require 1 reviewer
-- Other changes with exception to those listed in the [Governance Additional Approval Items list](GOVERNANCE.md#additional-approval-items) may accepted after approval of 5 community reviewers.
-
 ##### Steps for creating a new PR:
 - Once you have made your change or added new content
 - Ensure you are up to date with the `main` branch of the cnf-wg repository
@@ -82,6 +78,14 @@ Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pull
 
 Anyone with merge access can merge the PR after the item has been approved.
 
+
+### Acceptance of Contributions
+
+Minor changes:
+- Spelling, grammar, and adding new interested parties require 1 reviewer
+
+Majority of other changes:
+- Other changes with exception to those listed in the [Governance Additional Approval Items list](GOVERNANCE.md#additional-approval-items) may accepted after approval of 5 community reviewers.
 
 
 ### Express Your Interest 
