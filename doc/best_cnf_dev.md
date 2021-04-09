@@ -70,4 +70,4 @@ Running of CNFs at a variety of different scales to manage different traffic req
 <a name="9.0"></a>
 ## 9.0 Observability and Diagnostics
 
-How to get critical data about when things are going wrong and how to determine what must be done to put them right.  Using logs and metrics from all components in the system to narrow down the area where a problem exists, and to drill down into that area to determine a root cause and a fix.
+How to get critical data about when things are going wrong and how to determine what must be done to put them right.  The detection and correction may be through the actions of an operator or via an automated system.  Using logs and metrics from all components in the system to narrow down the area where a problem exists, and to drill down into that area to determine a root cause and a fix.
