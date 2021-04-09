@@ -109,7 +109,7 @@ After any election, the results may indicate that a particular entity is overrep
 
 ## Content Approval Process
 
-To encourage contributions the CNF WG has a more relaxed stance on changes and delegates the acceptance for most items to the community as outlined in CONTRIBUTING.md. The small list of exceptions are listed below which require a more thorough decision making process to acheive our desired outcome of fair representation and technical excellence.
+To encourage contributions, the CNF WG has a more relaxed stance on changes and delegates the acceptance for most items to the community as outlined in CONTRIBUTING.md. The small list of exceptions are listed below which require a more thorough decision making process to achieve our desired outcome of fair representation and technical excellence.
 
 ### Delegation of default changes to community
 
@@ -129,7 +129,6 @@ Items in the Additional Approval Items list require further discussion and appro
 1. CNF WG "Approved" Best Practices
     - This would be Best Practices which the CNF WG promotes in an approved list. Eg. Baseline Best Practices
     - Proposing a best practice is okay with the default process. Marking it as accepted and listing it as a CNF WG approved Best Practice requires additional review and approval
-
 
 
 
