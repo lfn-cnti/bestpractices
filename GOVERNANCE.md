@@ -124,12 +124,11 @@ Items in the Additional Approval Items list require further discussion and appro
 #### Additional Approval Items
 1. This list
 1. [Charter](https://github.com/cncf/cnf-wg/blob/master/charter.md)
-1. [Governance](https://github.com/cncf/cnf-wg/blob/master/governance.md)
+1. [Governance](https://github.com/cncf/cnf-wg/blob/master/GOVERNANCE.md)
 1. [Code of Conduct](https://github.com/cncf/cnf-wg/blob/master/code-of-conduct.md)
 1. CNF WG "Approved" Best Practices
     - This would be Best Practices which the CNF WG promotes in an approved list. Eg. Baseline Best Practices
     - Proposing a best practice is okay with the default process. Marking it as accepted and listing it as a CNF WG approved Best Practice requires additional review and approval
-
 
 
 
