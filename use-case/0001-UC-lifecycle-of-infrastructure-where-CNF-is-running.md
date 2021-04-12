@@ -52,4 +52,4 @@ N/A (tbd)
 ### What needs to be done differently in order to overcome challenges and limitations 
 CNFs shall be written for cloud. This means that as boundary condition they shall assume that every node is ephemeral and short lived. They need to use native Kubernetes mechanisms to assure their own high availability in spite of dynamic nature of Kubernetes cluster in which they are running. They shall be able to recover from node failures and from node draining with marginal loss of traffic in the worst case and without visible impact on end customers or systems they serve.
 
-Each CNF shall come with suite of tests, testing scenarios and monitoring rules that CNF DevOps team can deploy in their continous testing pipeline and monitoring system to enable that CNF is verified and certified (in best case daily) on that particular state of infrastructure.
+Each CNF shall come with suite of tests, testing scenarios and monitoring rules that CNF DevOps team can deploy in their continuous testing pipeline and monitoring system to enable that CNF is verified and certified (in best case daily) on that particular state of infrastructure.
