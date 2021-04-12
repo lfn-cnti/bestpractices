@@ -23,7 +23,7 @@
 - Monitoring
 
 ## Situation
-Cloud Native Platform DevOps (CNPD) teams regularly perform lifecycle operations on Cloud Native Platforms. These operations include both updates (no breaking changes are expected) and upgrades (there is possibility of breaking changes). For agile teams, these changes happen frequently. An average of 2 times per month is not unheard of. For simplicity, with regards to this use case, we will assume that the Cloud Native Platform is a Kubernetes cluster hosting a CNF. In reality there are number of additional components involved.
+Cloud Native Platform DevOps (CNPD) teams regularly perform lifecycle operations on Cloud Native Platforms. These operations include both updates (no breaking changes are expected) and upgrades (there is possibility of breaking changes). For agile teams, these changes happen frequently. An average of 2 times per month is not unheard of. For this use case, we will assume that a Kubernetes cluster is the Cloud Native Platform which is hosting the CNF. In reality there are number of additional components involved.
 
 The Kubernetes cluster in question is defined according to cloud native principles: declarative deployments and immutable infrastructure. As such, this means that changes are performed via rolling upgrades in following sequence:
 - one fresh node gets created and joined to the cluster
