@@ -5,7 +5,7 @@
 * [2.0 Configuration and Lifecycle](#2.0)
 * [3.0 Hardware support](#3.0)
 * [4.0 Microservices](#4.0)
-* [5.0 Compatiblity](#5.0)
+* [5.0 Compatibility](#5.0)
 * [6.0 State](#6.0)
 * [7.0 Security](#7.0)
 * [8.0 Scaling](#8.0)
@@ -48,7 +48,7 @@ How to co-ordinate hardware to best enable CNF efficiency.  Low-level access to 
 The best way to use microservice-based design patterns to deliver CNF functionality.
 
 <a name="5.0"></a>
-## 5.0 Compatiblity
+## 5.0 Compatibility
 
 How to ensure CNFs work on as many platforms, in as many places, as possible; how to ensure that cloud platforms enable as many CNFs as possible; how to make CNFs work with each other and common elements in the operational stack.
 
