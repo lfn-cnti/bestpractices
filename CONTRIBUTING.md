@@ -74,7 +74,7 @@ Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pull
 - Once you have made your change or added new content
 - Ensure you are up to date with the `main` branch of the cnf-wg repository
 - Open a new [Pull Request](https://github.com/cncf/cnf-wg/pulls)
-- Tag at least 5 reviewers
+- Choose at least 5 reviewers OR choose a co-chair who will find reviewers for you
 
 #### Steps to accept a PR
 
