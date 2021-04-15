@@ -24,8 +24,11 @@ The CNG WG is not meant to be a set in time standard. The best practices should 
 * **Commit first, improve later** - 
 The community thrives on contribution. A PR or suggestion for a change will move the community forward faster. Healthy disagreements are important for technical excellence, and should be accompanied with a way to move forward. We will accept good contributions and continue to make them better later.
 
-* **Pragmatism over Politics** - 
-Our work should be focused on what works best in the real world rather than what works best for one group. Everything we do should have a basis in pratical applications and use cases.
+* **Pragmatism instead of idealism** - 
+Our best practice recommendations should be focused on bringing value in the real world rather than in the abstract / hypothetical. These best practices will have their basis in real-world applications and use cases.
+
+* **Community over product or company**
+We are here as a community first, with the common goal of bringing the benefits of cloud native best practices to all its members and users everywhere. Our recommended best practices should be broadly applicable, stand-alone independently, and avoid vendor lock-in.
 
 * **Adherence to the [Code of Conduct](code-of-conduct.md)**
 
