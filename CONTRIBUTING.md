@@ -32,7 +32,8 @@ We welcome many different types of contributions including:
 - General improvements to documentation 
 - [Use cases](https://github.com/cncf/cnf-wg/tree/master/use-case) and user stories
 - Definitions
-    - eg. [Actors and Roles](https://github.com/cncf/cnf-wg/discussions/30)
+    - [Actors and Roles](https://github.com/cncf/cnf-wg/discussions/30)
+    - [Glossary](doc/glossary.md)
 - Requirements
     - Classification
         - Common -  eg. fast per-packet networking
@@ -67,7 +68,7 @@ Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pull
 
 ### Express Your Interest 
 
-The CNF WG charter contains a list of organizations that are interested in these efforts. To add your organization name, please submit a Pull Request to edit the [interested parties section of the charter](https://github.com/cncf/cnf-wg/blob/master/charter.md#interested-parties).
+The CNF WG charter contains a list of organizations that are interested in these efforts. To add your organization name, please submit a Pull Request to edit the [interested parties file](https://github.com/cncf/cnf-wg/blob/master/interested-parties.md).
 
 ### Code of Conduct
 The CNF WG community follows the CNCF [Code of Conduct](https://github.com/cncf/cnf-wg/blob/master/code-of-conduct.md).
