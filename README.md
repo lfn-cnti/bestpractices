@@ -7,7 +7,7 @@ The primary goal for this group is to provide a set of cloud native + Kubenative
 
 The [CNF WG Charter](charter.md) futher outlines the scope of our group activities as well as intended deliverables.
 
-The [CNF Test Suite](https://github.com/cncf/cnf-conformance) will support testing a set of these best pratices to allow developers and network operators to evaluate how well a network application follows cloud native principles and best pratices. Proposals which have been adopted by the CNF WG are listed in the [CNF Best Pratice Proposal](cbpp) folder.
+The [CNF Test Suite](https://github.com/cncf/cnf-conformance) will support testing a set of these best practices to allow developers and network operators to evaluate how well a network application follows cloud native principles and best practices. Proposals which have been adopted by the CNF WG are listed in the [CNF Best Practice Proposal](cbpp) folder.
 
 ## Meetings
 

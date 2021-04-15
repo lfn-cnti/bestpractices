@@ -60,11 +60,11 @@ Networking applications and the workloads that are created with them are related
 Responsibilities
 
 The CNCF community, through CNF WG, is in charge of what it means to be a Certified cloud native workload -- with a focus on networking and telecom workloads. 
-The CNF WG creates and maintains the definitions, processes, as well as policies around the certification program. It determines what best pratices and cloud native principles are required to be conformant.
+The CNF WG creates and maintains the definitions, processes, as well as policies around the certification program. It determines what best practices and cloud native principles are required to be conformant.
 
 The work on the mechanics of the tests, implementation of tests which evaulate cloud native best practices, and the test framework itself occurs in [CNF test suite project](https://github.com/cncf/cnf-conformance/blob/master/README-testsuite.md) itself -- not in the working  group.
 
 Deliverables
 - Cloud native principles - framework documentation for cloud native best practices 
-- Networking application cloud native best practices - including documentation, test definitions, best pratices
+- Networking application cloud native best practices - including documentation, test definitions, best practices
 - Cloud native network function best practice program
