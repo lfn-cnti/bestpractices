@@ -27,7 +27,7 @@ Working with running CNFs: common patterns for setting and changing the behaviou
 
 <!-- This is an example and therefore the link is broken. -->
 <!-- markdown-link-check-disable-next-line -->
-**Link to CCDP**: [CCDP-0001](../ccdps/xyz.md)
+**Link to CBPP**: [CBPP-0001](../cbpps/xyz.md)
 
 ### BEST_CNF_DEV_1002: Application announces its own membership of the tier to its peers.
 
@@ -35,7 +35,7 @@ Working with running CNFs: common patterns for setting and changing the behaviou
 
 <!-- This is an example and therefore the link is broken. -->
 <!-- markdown-link-check-disable-next-line -->
-**Link to CCDP**: [CCDP-0002](../ccdps/xyz.md)
+**Link to CBPP**: [CBPP-0002](../cbpps/xyz.md)
 
 <a name="3.0"></a>
 ## 3.0 Hardware support
