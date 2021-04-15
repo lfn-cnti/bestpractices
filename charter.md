@@ -28,7 +28,7 @@ The community thrives on contribution. A PR or suggestion for a change will move
 Our best practice recommendations should be focused on bringing value in the real world rather than in the abstract / hypothetical. These best practices will have their basis in real-world applications and use cases.
 
 * **Community over product or company**
-We are here as a community first, with the common goal of bringing the benefits of cloud native best practices to all its members and users everywhere. Our recommended best practices should be broadly applicable, stand-alone independently, and avoid vendor lock-in.
+We are here as a community first, with the common goal of bringing the benefits of cloud native best practices to all its members and users everywhere. Our recommended best practices should be broadly applicable and stand-alone independently.
 
 * **Adherence to the [Code of Conduct](code-of-conduct.md)**
 
