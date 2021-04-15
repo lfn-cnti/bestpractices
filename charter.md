@@ -21,7 +21,7 @@ The CNG WG is not meant to be a set in time standard. The best practices should 
 * **Commit first, improve later** - 
 The community thrives on contribution. A PR or suggestion for a change will move the community forward faster. Healthy disagreements are important for technical excellence, and should be accompanied with a way to move forward. We will accept good contributions and continue to make them better later.
 
-* **Pragmatism instead of Politics** - 
+* **Pragmatism instead of politics** - 
 Our best practice recommendations should be focused on bringing value in the real world rather than in the abstract / hypothetical. These best practices will have their basis in real-world applications and use cases.
 
 * **Community over product or company**
