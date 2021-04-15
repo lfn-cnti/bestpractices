@@ -81,6 +81,9 @@ Anyone with merge access can merge the PR after the item has been approved.
 
 ### Acceptance of Contributions
 
+Reviewers - Any community member
+- Everyone in the community is able to and encouraged to do reviews
+
 Minor changes:
 - Spelling, grammar, and adding new interested parties require 1 reviewer
 
