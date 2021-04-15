@@ -22,7 +22,7 @@ Broadly successful and useful technologies require different perspectives and sk
 The CNG WG is not meant to be a set in time standard. The best practices should continually evolve with state of the art in the Kubernetes and cloud native ecosystems. Community leaders also have a duty to find, sponsor, and promote new community members. Leaders should expect to step aside. Community members should expect to step up.
 
 * **Commit first, improve later** - 
-The community thrives on contribution. A PR or suggestion for a change will move the community forward faster. Healthy disagreements are important for technical excellence, and should be accompanied with a way to move forward. We will accept good contributions and continue to make them better later
+The community thrives on contribution. A PR or suggestion for a change will move the community forward faster. Healthy disagreements are important for technical excellence, and should be accompanied with a way to move forward. We will accept good contributions and continue to make them better later.
 
 * **Pragmatism over Politics** - 
 Our work should be focused on what works best in the real world rather than what works best for one group. Everything we do should have a basis in pratical applications and use cases.
