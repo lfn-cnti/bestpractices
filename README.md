@@ -3,7 +3,7 @@
 
 The Cloud Native Network Function WG (CNF WG) operates under the aegis of CNCF. The focus of the CNF WG is to define the process around evaluating the cloud nativeness of networking applications, aka CNFs. We collaborate with the [CNF Test Suite project](https://github.com/cncf/cnf-conformance/blob/master/README-testsuite.md) who work on the mechanics of the conformance tests.
 
-The primary goal for this group is to provide a set of Cloud native + Kubenative best pratices for network applications. 
+The primary goal for this group is to provide a set of cloud native + Kubenative best practices for network applications. 
 
 The [CNF WG Charter](https://github.com/cncf/cnf-wg/blob/master/charter.md) futher outlines the scope of our group activities as well as intended deliverables.
 
