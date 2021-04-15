@@ -12,9 +12,6 @@ The goals for the group are:
 ## Values
 The CNF WG is driven by high technical standards, and these must be maintained. It is also important to take into account that multiple humans are participating in the project, and we must ensure that we all treat each other well. In this respect, we will honor the following values:
 
-* **Technical excellence over duct tape** - 
-Networking technologies power the underlying fabrics of our lives, including life critical applications, some of which runs on decades old technology. The work we produce could be affecting lives decades from now. Our technical quality should match these outcomes.
-
 * **Inclusive is better than exclusive** -
 Broadly successful and useful technologies require different perspectives and skill sets, which can only be heard in a welcoming and respectful environment. Community membership is a privilege, not a right. Community members earn leadership through effort, scope, quality, quantity, and duration of contributions to the technology and the community.
 
