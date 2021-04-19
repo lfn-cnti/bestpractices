@@ -9,7 +9,7 @@
 <a name="intro"></a>
 ## Introduction
 
-The goal of this group is to define a set of practices to evaluate the extent to which a CNF is [cloud native](https://github.com/cloud-native-principles/cloud-native-principles) a CNF is. CNFs can be evaluated against those best practices through test cases that are developed by other open source projects like the [CNF Test Suite](https://github.com/cncf/cnf-conformance/blob/master/README-testsuite.md)
+The goal of this group is to define a set of practices to evaluate the extent to which a CNF is [cloud native](https://github.com/cloud-native-principles/cloud-native-principles) a CNF is. CNFs can be evaluated against those best practices through test cases that are developed by other open source projects like the [CNF Test Suite](https://github.com/cncf/cnf-conformance/blob/main/README-testsuite.md)
 
 CNF WG will rely on other industry initiatives (such as CNCF TUG) to come up wiht a definition of "cloud native" in relation to the telecom industry.
 
@@ -19,7 +19,7 @@ Cloud native is not set point. The industry, technology, and best practices will
 
 These best practices and recommendations shall serve as generic contract between CNFs and cloud native infrastructure / platforms. If both, a CNF and a platform follow these recommendations it should be assured that they will run nicely together out-of-box. In a sense fulfilling this contract represents implicit (pre)certification that the combination can be used in the production.
 
-Best practices are introduced, modified, and removed to keep up with industry trends and technological advances via a process defined in [here](../ccdps).
+Best practices are introduced, modified, and removed to keep up with industry trends and technological advances via a process defined in [here](../cbpps).
 
 **Figure 1-1** below illustrate CNF WG relation to other communities and how best practices defined by CNF WG are consumed.
 

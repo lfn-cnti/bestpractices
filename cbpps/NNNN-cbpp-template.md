@@ -1,4 +1,4 @@
-# **CCDP-NNNN: Your short, descriptive title (TEMPLATE)**
+# **CBPP-NNNN: Your short, descriptive title (TEMPLATE)**
 
 - [Release Signoff Checklist](#release-signoff-checklist)
 - [Summary](#summary)
@@ -22,8 +22,8 @@
 
 Items marked with (R) are required for the proposed best practice to be included in a release.
 
-- [ ] (R) CCDP approvers have approved the CCDP status as `implementable`
-- [ ] (R) CCDP summary, motivation and best practice details are appropriately documented
+- [ ] (R) CBPP approvers have approved the CBPP status as `implementable`
+- [ ] (R) CBPP summary, motivation and best practice details are appropriately documented
 - [ ] (R) Test plan is in place, giving consideration to CNF Test Suite input
 - [ ] (R) Scoring has been determined
 - [ ]   "Implementation History" section is up-to-date
@@ -58,7 +58,7 @@ Items marked with (R) are required for the proposed best practice to be included
 - Passing score (eg. +5):
 - Failing score (eg. -1):
 
-_Note: CCDPs may have different priorities and importance leading to different scores_
+_Note: CBPP may have different priorities and importance leading to different scores_
 
 
 ## **Implementation History**
