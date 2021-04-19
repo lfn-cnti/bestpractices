@@ -9,6 +9,15 @@ The goals for the group are:
 - To identify cloud native best practices for CNFs running on Kubernetes which CNF Developers and operators alike may adopt
 - To determine which practices will allow networking applications to most effectively utilize Kubernetes capabilities and services
 
+## Values
+The CNF WG is driven by high technical standards, and these must be maintained. It is also important to take into account that multiple humans are participating in the project, and we must ensure that we all treat each other well. In this respect, we will honor the following values:
+* Technical excellence
+* Innovation and creativity
+* Fairness and equality
+* Diversity
+* Inclusiveness
+* Openness
+* Adherence to the [Code of Conduct](code-of-conduct.md)
 
 ## Mission Statement
 Cloud Native Network Function Working Group’s mission is to increase interoperability and standardization of cloud native workloads. It is committed to the following (aspirational) design ideals:
