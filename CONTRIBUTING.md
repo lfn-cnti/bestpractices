@@ -27,7 +27,7 @@ Contributors are encouraged to collaborate using the following resources:
 
 We welcome many different types of contributions including:
 
-- General improvements to documentation 
+- General improvements to documentation
 - [Use cases](use-case/) and user stories
 - Definitions
   - [Actors and Roles](https://github.com/cncf/cnf-wg/discussions/30)
