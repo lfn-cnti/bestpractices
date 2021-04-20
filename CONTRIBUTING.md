@@ -79,7 +79,7 @@ Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pull
 Anyone with merge access can merge the PR after the item has been approved.
 
 
-### Acceptance of Contributions
+### Acceptance criteria for Contributions
 
 Reviewers - Any community member
 - Everyone in the community is able to and encouraged to do reviews
