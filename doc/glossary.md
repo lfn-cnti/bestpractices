@@ -1,9 +1,6 @@
+# Glossary
 
-Glossary
-============================
-
-Specification
--------------
+## Specification
 
 ### Community Definitions
 
@@ -19,8 +16,7 @@ Specification
 
 **Additional Definitions?**
 
-References
-----------
+## References
 
 * CNCF Git [CNCF Cloud Native Definition](https://github.com/cncf/toc/blob/main/DEFINITION.md)
 * Cloud Native Principles [Cloud Native Principles Preamble](https://github.com/cloud-native-principles/cloud-native-principles/blob/master/cloud-native-networking-preamble.md)

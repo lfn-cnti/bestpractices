@@ -17,7 +17,6 @@
 - [Scoring](#scoring)
 - [Implementation History](#implementation-history)
 
-
 ## **Release Signoff Checklist**
 
 Items marked with (R) are required for the proposed best practice to be included in a release.
@@ -42,7 +41,9 @@ Items marked with (R) are required for the proposed best practice to be included
 ## **Workload Context**
 
 ### **User Stories (Optional)**
+
 #### **Story 1**
+
 #### **Story 2**
 
 ### **Notes/Constraints/Caveats (Optional)**
@@ -54,12 +55,11 @@ Items marked with (R) are required for the proposed best practice to be included
 ## **Test Plan**
 
 ## **Scoring**
+
 - Mandatory (yes/no):
 - Passing score (eg. +5):
 - Failing score (eg. -1):
 
-_Note: CBPP may have different priorities and importance leading to different scores_
-
+> Note: CBPP may have different priorities and importance leading to different scores
 
 ## **Implementation History**
-
