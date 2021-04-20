@@ -2,9 +2,9 @@
 
 Welcome to the Cloud Native Network Function (CNF) Working Group! This is an open, public working group (WG) welcoming anyone who would like to help identify cloud native best practices for networking applications. We're glad you're here!
 
-To learn about this working group, [read the CNF WG charter](https://github.com/cncf/cnf-wg/blob/master/charter.md).
+To learn about this working group, [read the CNF WG charter](charter.md).
 
-Except as otherwise noted, the content of this repo is licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/) ([local copy](LICENSES/CC-BY-4.0.txt)), and any code is licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html) ([local copy](LICENSES/APACHE-2.txt)). See more at [LICENSE.md](https://github.com/cncf/cnf-wg/blob/master/LICENSE.md).
+Except as otherwise noted, the content of this repo is licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/) ([local copy](LICENSES/CC-BY-4.0.txt)), and any code is licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html) ([local copy](LICENSES/APACHE-2.txt)). See more at [LICENSE.md](LICENSE.md).
 
 ## Where to Contribute
 
@@ -27,8 +27,8 @@ Contributors are encouraged to collaborate using the following resources:
 
 We welcome many different types of contributions including:
 
-- General improvements to documentation
-- [Use cases](https://github.com/cncf/cnf-wg/tree/master/use-case) and user stories
+- General improvements to documentation 
+- [Use cases](use-case/) and user stories
 - Definitions
   - [Actors and Roles](https://github.com/cncf/cnf-wg/discussions/30)
   - [Glossary](doc/glossary.md)
@@ -42,7 +42,7 @@ We welcome many different types of contributions including:
   - See [Networking Requirements for CNFs](https://github.com/cncf/cnf-wg/discussions/37) GitHub discussion
 - Gap Analysis
 - [CNF Examples](https://github.com/cncf/cnf-wg/discussions/35)
-- [Best Practices](https://github.com/cncf/cnf-wg/tree/master/doc#best-practices-for-cnf-developers)
+- [Best Practices](doc/best_cnf_dev.md)
 
 ## How to Contribute
 
@@ -66,11 +66,11 @@ Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pull
 
 ## Express Your Interest
 
-The CNF WG charter contains a list of organizations that are interested in these efforts. To add your organization name, please submit a Pull Request to edit the [interested parties file](https://github.com/cncf/cnf-wg/blob/master/interested-parties.md).
+The CNF WG charter contains a list of organizations that are interested in these efforts. To add your organization name, please submit a Pull Request to edit the [interested parties file](interested-parties.md).
 
-## Code of Conduct
+### Code of Conduct
 
-The CNF WG community follows the CNCF [Code of Conduct](https://github.com/cncf/cnf-wg/blob/master/code-of-conduct.md).
+The CNF WG community follows the CNCF [Code of Conduct](code-of-conduct.md).
 
 ## Thank you
 
