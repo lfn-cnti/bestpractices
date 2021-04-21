@@ -113,7 +113,7 @@ To encourage contributions, the CNF WG has a more relaxed stance on changes and 
 
 ### Delegation of default changes to community
 
-The process for accepting changes to content in the CNF WG repository (including adding new content) for any item not in the [Additional Approval Items list](#DD) below will follow the acceptance and approval process outlined in the [CONTRIBUTING guide](https://github.com/cncf/cnf-wg/blob/master/CONTRIBUTING.md).
+The process for accepting changes to content in the CNF WG repository (including adding new content) for any item not in the [Additional Approval Items list](#DD) below will follow the acceptance and approval process outlined in the [CONTRIBUTING guide](CONTRIBUTING.md).
 
 ### Changes requiring additional approval
 
@@ -130,5 +130,4 @@ Items in the Additional Approval Items list require further discussion and appro
     - This would be Best Practices which the CNF WG promotes in an approved list. Eg. Baseline Best Practices
     - Proposing a best practice is encouraged with the default process. Marking it as accepted and listing it as a CNF WG approved Best Practice requires additional review and approval.
     - Potentially the [Best Practices for CNF Developers](doc/best_cnf_dev.md) will list only approved best practices or at least have a designation for which are approved vs another status.
-
 
