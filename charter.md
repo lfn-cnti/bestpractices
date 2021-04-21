@@ -4,7 +4,7 @@
 
 The goal of the Cloud Native Network Function Working Group (CNF WG)  is to aid companies such as telecom vendors, communications service providers and large scale enterprises, running internal telecommunications-like infrastructure, to better understand what cloud native means for telecommunications workloads and help build consensus around industry adoption of cloud native technologies (per CNCF TUG).
 
-The CNF WG operates under the aegis of CNCF. The focus of the CNF WG is to define the process around evaluating the cloud nativeness of networking applications, aka CNFs, running on Kubernetes. We collaborate with the [CNF test suite project](https://github.com/cncf/cnf-conformance/blob/master/README-testsuite.md) who works on the mechanics of the tests.
+The CNF WG operates under the aegis of CNCF. The focus of the CNF WG is to define the process around evaluating the cloud nativeness of networking applications, aka CNFs, running on Kubernetes. We collaborate with the [CNF Test Suite](https://github.com/cncf/cnf-testsuite#readme) who works on the mechanics of the tests.
 
 The goals for the group are:
 
@@ -79,7 +79,7 @@ Responsibilities
 The CNCF community, through CNF WG, is in charge of what it means to be a Certified cloud native workload -- with a focus on networking and telecom workloads.
 The CNF WG creates and maintains the definitions, processes, as well as policies around the certification program. It determines what best practices and cloud native principles are required to be conformant.
 
-The work on the mechanics of the tests, implementation of tests which evaulate cloud native best practices, and the test framework itself occurs in [CNF test suite project](https://github.com/cncf/cnf-conformance/blob/master/README-testsuite.md) itself -- not in the working  group.
+The work on the mechanics of the tests, implementation of tests which evaulate cloud native best practices, and the test framework itself occurs in [CNF Test Suite](https://github.com/cncf/cnf-testsuite#readme) itself -- not in the working  group.
 
 Deliverables
 
