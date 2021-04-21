@@ -27,7 +27,7 @@
 - [Miroslav Miklus](@mmiklus), PANTHEON.tech
 - Lisa Caywood, Red Hat
 - [Shane Ronan](@sronanrh), Red Hat
-- [Tal Liron](Tal Liron), Red Hat
+- [Tal Liron](@tliron), Red Hat
 - [Ranny Haiby](@rannyh), Samsung
 - [Victor Morales](@electrocucaracha), Samsung
 - Clément Nussbaumer, Swisscom
@@ -36,8 +36,8 @@
 - Jambi Ganbar, VMware
 - [Tom Kivlin](@tomkivlin), Vodafone
 - [Drew Bentley](@agentpoyo), Vulk Coop
-- [Lucina Stricko](@lixuna], Vulk Coop
-- [Taylor Carpenter](@taylor], Vulk Coop
+- [Lucina Stricko](@lixuna), Vulk Coop
+- [Taylor Carpenter](@taylor), Vulk Coop
 - [W. Watson](@wavell), Vulk Coop
 
 
