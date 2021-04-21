@@ -69,7 +69,7 @@ Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pull
 - Spelling, grammar, and new interested parties require 1 reviewer
 - Other changes with exception to those listed in the [Governance Additional Approval Items list](GOVERNANCE.md#additional-approval-items) may accepted after approval of 5 community reviewers.
 
-#### Steps for creating a new PR:
+#### Steps for creating a new PR
 
 - Once you have made your change or added new content
 - Ensure you are up to date with the `main` branch of the cnf-wg repository
@@ -83,16 +83,18 @@ Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pull
 
 Anyone with merge access can merge the PR after the item has been approved.
 
-
 ### Acceptance criteria for Contributions
 
 Reviewers - Any community member
+
 - Everyone in the community is able to and encouraged to do reviews
 
 Minor changes:
+
 - Spelling, grammar, and adding new interested parties require 1 reviewer
 
 Majority of other changes:
+
 - Other changes with exception to those listed in the [Governance Additional Approval Items list](GOVERNANCE.md#additional-approval-items) may be accepted after approval of 5 community reviewers.
 
 
