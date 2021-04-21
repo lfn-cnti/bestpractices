@@ -65,12 +65,14 @@ Pull Requests are always welcome, even for small fixes like typos.
 Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pulls) are also appreciated.
 
 #### Steps for creating a new PR:
+
 - Once you have made your change or added new content
 - Ensure you are up to date with the `main` branch of the cnf-wg repository
 - Open a new [Pull Request](https://github.com/cncf/cnf-wg/pulls)
 - Choose at least 5 reviewers OR choose a [co-chair](https://github.com/cncf/cnf-wg/blob/main/GOVERNANCE.md#chairs) who will find reviewers for you
 
 #### Steps to accept a PR
+
 1. Reviewers will review the PR and give their feedback: approve, request change, comment w/o approval
 1. After required number of approvals from reviewers is reached the PR may be merged
 
