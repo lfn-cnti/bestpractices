@@ -95,8 +95,12 @@ Minor changes:
 Majority of other changes:
 - Other changes with exception to those listed in the [Governance Additional Approval Items list](GOVERNANCE.md#additional-approval-items) may be accepted after approval of 5 community reviewers.
 
+<<<<<<< HEAD
 
 ## Express Your Interest 
+=======
+## Express Your Interest
+>>>>>>> 354d2f42b47016fe009fc97f8204d776b3df4196
 
 The CNF WG charter contains a list of organizations that are interested in these efforts. To add your organization name, please submit a Pull Request to edit the [interested parties file](interested-parties.md).
 
