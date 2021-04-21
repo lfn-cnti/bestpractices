@@ -13,7 +13,7 @@
 - Google
 - Huawei
 - Ildiko Vancsa
-- Infracloud
+- InfraCloud
 - Intel
 - Mars Toktonaliev
 - MATRIXX
