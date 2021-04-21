@@ -64,11 +64,32 @@ Pull Requests are always welcome, even for small fixes like typos.
 
 Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pulls) are also appreciated.
 
-## Express Your Interest
+#### Acceptance of PRs
+
+- Spelling, grammar, and new interested parties require 1 reviewer
+- Other changes with exception to those listed in the [Governance Additional Approval Items list](GOVERNANCE.md#additional-approval-items) may accepted after approval of 5 community reviewers.
+
+#### Steps for creating a new PR:
+
+- Once you have made your change or added new content
+- Ensure you are up to date with the `main` branch of the cnf-wg repository
+- Open a new [Pull Request](https://github.com/cncf/cnf-wg/pulls)
+- Tag at least 5 reviewers
+
+#### Steps to accept a PR
+
+1. Reviewers will review the PR and give their feedback: approve, request change, comment w/o approval
+1. After required number of approvals from reviewers is reached the PR may be merged
+
+Anyone with merge access can merge the PR after the item has been approved.
+
+
+
+## Express Your Interest 
 
 The CNF WG charter contains a list of organizations that are interested in these efforts. To add your organization name, please submit a Pull Request to edit the [interested parties file](interested-parties.md).
 
-### Code of Conduct
+## Code of Conduct
 
 The CNF WG community follows the CNCF [Code of Conduct](code-of-conduct.md).
 
