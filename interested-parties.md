@@ -1,4 +1,5 @@
 # Interested Parties
+The interested parties listed below are used for voting purposes as outlined in the [Governance doc](GOVERNANCE.md). See the [contributing doc](CONTRIBUTING.md) for more information about getting involved and participating in the community.
 
 - [Philippe Robin](https://github.com/philipperobin), ARM
 - [Pankaj Goygal](https://github.com/pgoyal01), AT&T
