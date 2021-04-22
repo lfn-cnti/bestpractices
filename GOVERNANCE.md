@@ -44,6 +44,8 @@ See [CONTRIBUTING](CONTRIBUTING.md) documentation for more information how to ge
 
 Co-chairs will be elected for one year terms and may run for reelection.
 
+### Eligibility to Vote
+
 The CNF WG employs "organization voting" to ensure no single organization can dominate the project.
 
 Individuals not associated with or employed by a company or organization are allowed one vote. Each company/organization, or related group of companies (regardless of the number of maintainers associated with or employed by that company/organization), will have a maximum of one-third representation in votes.  If the results of an election result in greater than 1/3 representation, the lowest vote getters from any particular company will be removed until representation on the committee is less than one-third.
