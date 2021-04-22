@@ -95,7 +95,7 @@ Minor changes:
 
 Majority of other changes:
 
-- Other changes with exception to those listed in the [Governance Additional Approval Items list](GOVERNANCE.md#additional-approval-items) may be accepted after approval of 5 community reviewers.
+- Other changes with exception to those listed in the [Governance Additional Approval Items list](GOVERNANCE.md#additional-approval-items) may be merged after approval of 5 community reviewers.
 
 
 ## Express Your Interest
