@@ -111,3 +111,29 @@ If insufficient members resign their roles, the positions held by members associ
 ### Effect on representation
 
 After any election, the results may indicate that a particular entity is overrepresented for a role, having won more seats than the limit.  In this event, the maximum number of the members belonging to that entity shall be calculated, and members belonging to the entity having the least votes will be excluded from the role until the entity is fairly represented.  Where there is a tie, a coin toss or other random selection mechanism shall be used to choose who is allocated the seat.
+
+
+## Content Approval Process
+
+To encourage contributions, the CNF WG has a more relaxed stance on changes and delegates the acceptance for most items to the community as outlined in [CONTRIBUTING.md](CONTRIBUTING.md). The small list of exceptions are listed below which require a more thorough decision making process to achieve our desired outcome of fair representation and technical excellence.
+
+### Delegation of default changes to community
+
+The process for accepting changes to content in the CNF WG repository (including adding new content) for any item not in the [Additional Approval Items list](#DD) below will follow the acceptance and approval process outlined in the [CONTRIBUTING guide](CONTRIBUTING.md).
+
+### Changes requiring additional approval
+
+Items in the Additional Approval Items list require further discussion and approval before being accepted. The decision making process for items in this list is TBD.
+
+
+
+#### Additional Approval Items
+1. This list
+1. [Charter](charter.md)
+1. [Governance](GOVERNANCE.md)
+1. [Code of Conduct](code-of-conduct.md)
+1. CNF WG "Approved" Best Practices
+    - This would be Best Practices which the CNF WG promotes in an approved list. Eg. Baseline Best Practices
+    - Proposing a best practice is encouraged with the default process. Marking it as accepted and listing it as a CNF WG approved Best Practice requires additional review and approval.
+    - Potentially the [Best Practices for CNF Developers](doc/best_cnf_dev.md) will list only approved best practices or at least have a designation for which are approved vs another status.
+
