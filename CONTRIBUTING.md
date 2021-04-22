@@ -64,10 +64,10 @@ Pull Requests are always welcome, even for small fixes like typos.
 
 Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pulls) are also appreciated.
 
-#### Acceptance of PRs
+#### Acceptance of PRs for merging
 
-- Spelling, grammar, and new interested parties require 1 reviewer
-- Other changes with exception to those listed in the [Governance Additional Approval Items list](GOVERNANCE.md#additional-approval-items) may accepted after approval of 5 community reviewers.
+- Spelling, grammar, and new interested parties require 1 apporval for merging
+- Other changes with exception to those listed in the [Governance Additional Approval Items list](GOVERNANCE.md#additional-approval-items) may merged after approval of 5 community reviewers.
 
 #### Steps for creating a new PR
 
