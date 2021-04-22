@@ -62,7 +62,8 @@ Review, contribute to, create new [GitHub issues](https://github.com/cncf/cnf-wg
 
 Pull Requests are always welcome, even for small fixes like typos.
 
-Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pulls) are also appreciated.
+Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pulls) are also appreciated. 
+One of [our values](charter.md#values) is "Commit first, improve later". Once a commit has been made you can [make suggestions for changes directly in the PR](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request#adding-line-comments-to-a-pull-request) to help us move forward faster together.
 
 ## Express Your Interest
 
