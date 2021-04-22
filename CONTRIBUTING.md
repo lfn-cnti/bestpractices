@@ -87,7 +87,7 @@ Anyone with merge access can merge the PR after the item has been approved.
 
 Reviewers - Any community member
 
-- Everyone in the community is able to and encouraged to do reviews
+- Everyone in the community is able to and encouraged to do reviews. Anyone can be a part of the CNF WG community.
 
 Minor changes:
 
