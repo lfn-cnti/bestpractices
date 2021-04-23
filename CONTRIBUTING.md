@@ -66,8 +66,8 @@ Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pull
 
 #### Acceptance of PRs for merging
 
-- Spelling, grammar, and new interested parties require 1 apporval for merging
-- Other changes with exception to those listed in the [Governance Additional Approval Items list](GOVERNANCE.md#additional-approval-items) may merged after approval of 5 community reviewers.
+- Spelling, grammar, and new interested parties require 1 approval for merging
+- Other changes with exception to those listed in the [Governance Additional Approval Items list](GOVERNANCE.md#additional-approval-items) may be merged after approval of 5 community reviewers.
 
 #### Steps for creating a new PR
 
