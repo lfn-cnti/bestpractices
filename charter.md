@@ -15,13 +15,22 @@ The goals for the group are:
 
 The CNF WG is driven by high technical standards, and these must be maintained. It is also important to take into account that multiple humans are participating in the project, and we must ensure that we all treat each other well. In this respect, we will honor the following values:
 
-- Technical excellence
-- Innovation and creativity
-- Fairness and equality
-- Diversity
-- Inclusiveness
-- Openness
-- Adherence to the [Code of Conduct](code-of-conduct.md)
+* **Inclusive is better than exclusive** -
+Broadly successful and useful technologies require different perspectives and skill sets, which can only be heard in a welcoming and respectful environment. Community membership is a privilege, not a right. Community members earn leadership through effort, scope, quality, quantity, and duration of contributions to the technology and the community.
+
+* **Evolution is better than stagnation** - 
+The CNF WG is not meant to be a set in time standard. The best practices should continually evolve with state of the art in the Kubernetes and cloud native ecosystems. Community leaders also have a duty to find, sponsor, and promote new community members. Leaders should expect to step aside. Community members should expect to step up.
+
+* **Commit first, improve later** - 
+The community thrives on contribution. A PR or suggestion for a change will move the community forward faster. Healthy disagreements are important for technical excellence, and should be accompanied with a way to move forward. We will accept good contributions and continue to make them better later.
+
+* **Pragmatism instead of politics** - 
+Our best practice recommendations should be focused on bringing value in the real world rather than in the abstract / hypothetical. These best practices will have their basis in real-world applications and use cases.
+
+* **Community over product or company**
+We are here as a community first, with the common goal of bringing the benefits of cloud native best practices to all its members and users everywhere. Our recommended best practices should be broadly applicable and stand-alone independently.
+
+* **Adherence to the [Code of Conduct](code-of-conduct.md)**
 
 ## Mission Statement
 
