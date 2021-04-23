@@ -42,6 +42,8 @@ See [CONTRIBUTING](CONTRIBUTING.md) documentation for more information how to ge
 
 ## Elections
 
+### Timeline
+
 Co-chairs will be elected for one year terms and may run for reelection.
 
 ### Eligibility to Vote
