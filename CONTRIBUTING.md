@@ -33,7 +33,7 @@ We welcome many different types of contributions including:
   - [Actors and Roles](https://github.com/cncf/cnf-wg/discussions/30)
   - [Glossary](doc/glossary.md)
 - [CNF Best Practices](doc/best_cnf_dev.md)
-- Gap Analysis 
+- Gap Analysis
 
 ## How to Contribute
 
