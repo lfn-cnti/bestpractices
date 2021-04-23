@@ -39,4 +39,3 @@
 - [Lucina Stricko](https://github.com/lixuna), Vulk Coop
 - [Taylor Carpenter](https://github.com/taylor), Vulk Coop
 - [W. Watson](https://github.com/wavell), Vulk Coop
-- 
