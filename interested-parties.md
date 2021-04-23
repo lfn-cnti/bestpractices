@@ -1,44 +1,41 @@
 # Interested Parties
 
-- [Philippe Robin](@philipperobin), ARM
-- [Pankaj Goygal](pgoyal01), AT&T
-- [Rabi Abdel](@rabi-abdel), AWS
+- [Philippe Robin](https://github.com/philipperobin), ARM
+- [Pankaj Goygal](https://github.com/pgoyal01), AT&T
+- [Rabi Abdel](https://github.com/rabi-abdel), AWS
 - Daniel Bernier, Bell Canada
-- [Jeffrey Saelens](@jeffsaelens), Charter Communications
-- [Aiden Huang](@Aiden128),Chunghwa Telecom
-- [Ian Wells](@iawells), Cisco
+- [Jeffrey Saelens](https://github.com/jeffsaelens), Charter Communications
+- [Aiden Huang](https://github.com/Aiden128),Chunghwa Telecom
+- [Ian Wells](https://github.com/iawells), Cisco
 - Michal Sewera, Deutsche Telekom
-- [Vuk Gojnic](vukg), Deutsche Telekom
-- [Claudio Bartolini](claudiobartolini), Equinix
-- [Frederick F. Kautz IV](@fkautz), Doc.ai
+- [Vuk Gojnic](https://github.com/vukg), Deutsche Telekom
+- [Claudio Bartolini](https://github.com/claudiobartolini), Equinix
+- [Frederick F. Kautz IV](https://github.com/fkautz), Doc.ai
 - Maciej Skrocki, Google
 - Randolph Chung, Google
-- [mkr1481](@mkr1481), Huawei
-- [Ildiko Vancsa](@ildikov), Open Infrastructure Foundation
+- [mkr1481](https://github.com/mkr1481), Huawei
+- [Ildiko Vancsa](https://github.com/ildikov), Open Infrastructure Foundation
 - Chitrabasu Khare, InfraCloud
-- [Michael Pedersen](@michaelspedersen), Intel
-- [Petar Torre](@petorre), Intel
-- [Simon Billingsley](@sishbi), MATRIXX
-- [Olivier Smith](@Smitholi67), MATRIXX
-- [Nikolay Nikolaev](@nickolaev), Kong
-- [Gergely Csatari](CsatariGergely), Nokia
-- [Mars Toktonaliev](@tokt), Nokia
+- [Michael Pedersen](https://github.com/michaelspedersen), Intel
+- [Petar Torre](https://github.com/petorre), Intel
+- [Simon Billingsley](https://github.com/sishbi), MATRIXX
+- [Olivier Smith](https://github.com/Smitholi67), MATRIXX
+- [Nikolay Nikolaev](https://github.com/nickolaev), Kong
+- [Gergely Csatari](https://github.com/CsatariGergely), Nokia
+- [Mars Toktonaliev](https://github.com/tokt), Nokia
 - Cristian Calin, Orange
-- [Miroslav Miklus](@mmiklus), PANTHEON.tech
+- [Miroslav Miklus](https://github.com/mmiklus), PANTHEON.tech
 - Lisa Caywood, Red Hat
-- [Shane Ronan](@sronanrh), Red Hat
-- [Tal Liron](@tliron), Red Hat
-- [Ranny Haiby](@rannyh), Samsung
-- [Victor Morales](@electrocucaracha), Samsung
+- [Shane Ronan](https://github.com/sronanrh), Red Hat
+- [Tal Liron](https://github.com/tliron), Red Hat
+- [Ranny Haiby](https://github.com/rannyh), Samsung
+- [Victor Morales](https://github.com/electrocucaracha), Samsung
 - Clément Nussbaumer, Swisscom
-- [Ruben Merz](rmerz), Swisscom
-- [Bryan Liles](@bryanl), VMware
+- [Ruben Merz](https://github.com/rmerz), Swisscom
+- [Bryan Liles](https://github.com/bryanl), VMware
 - Jambi Ganbar, VMware
-- [Tom Kivlin](@tomkivlin), Vodafone
-- [Drew Bentley](@agentpoyo), Vulk Coop
-- [Lucina Stricko](@lixuna), Vulk Coop
-- [Taylor Carpenter](@taylor), Vulk Coop
-- [W. Watson](@wavell), Vulk Coop
-
-
-
+- [Tom Kivlin](https://github.com/tomkivlin), Vodafone
+- [Drew Bentley](https://github.com/agentpoyo), Vulk Coop
+- [Lucina Stricko](https://github.com/lixuna), Vulk Coop
+- [Taylor Carpenter](https://github.com/taylor), Vulk Coop
+- [W. Watson](https://github.com/wavell), Vulk Coop
