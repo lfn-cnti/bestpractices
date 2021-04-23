@@ -125,6 +125,7 @@ The process for accepting changes to content in the CNF WG repository (including
 Items in the Additional Approval Items list require further discussion and approval before being accepted. The decision making process for items in this list is TBD.
 
 #### Additional Approval Items
+
 1. This list
 1. [Charter](charter.md)
 1. [Governance](GOVERNANCE.md)
@@ -133,4 +134,3 @@ Items in the Additional Approval Items list require further discussion and appro
     - This would be Best Practices which the CNF WG promotes in an approved list. Eg. Baseline Best Practices
     - Proposing a best practice is encouraged with the default process. Marking it as accepted and listing it as a CNF WG approved Best Practice requires additional review and approval.
     - Potentially the [Best Practices for CNF Developers](doc/best_cnf_dev.md) will list only approved best practices or at least have a designation for which are approved vs another status.
-
