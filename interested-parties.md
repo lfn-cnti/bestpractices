@@ -39,6 +39,3 @@
 - Lucina Stricko (@lixuna), Vulk Coop
 - Taylor Carpenter (@taylor), Vulk Coop
 - W. Watson (@wavell), Vulk Coop
-
-
-
