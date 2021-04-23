@@ -66,6 +66,8 @@ Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pull
 
 One of [our values](charter.md#values) is "Commit first, improve later". Once a commit has been made you can [make suggestions for changes directly in the PR](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request#adding-line-comments-to-a-pull-request) to help us move forward faster together.
 
+Where the comment is better expressed as a proposed change, the change can be made directly either by editing the file (right hand "..." -> "edit file" for larger changes, or the "document-with-+-" icon above the comment window for smaller ones).   The author can accept these changes directly, which is much easier for them than writing a change themselves.
+
 ## Express Your Interest
 
 The CNF WG charter contains a list of organizations that are interested in these efforts. To add your organization name, please submit a Pull Request to edit the [interested parties file](interested-parties.md).
