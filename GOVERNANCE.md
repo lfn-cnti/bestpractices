@@ -112,7 +112,6 @@ If insufficient members resign their roles, the positions held by members associ
 
 After any election, the results may indicate that a particular entity is overrepresented for a role, having won more seats than the limit.  In this event, the maximum number of the members belonging to that entity shall be calculated, and members belonging to the entity having the least votes will be excluded from the role until the entity is fairly represented.  Where there is a tie, a coin toss or other random selection mechanism shall be used to choose who is allocated the seat.
 
-
 ## Content Approval Process
 
 To encourage contributions, the CNF WG has a more relaxed stance on changes and delegates the acceptance for most items to the community as outlined in [CONTRIBUTING.md](CONTRIBUTING.md). The small list of exceptions are listed below which require a more thorough decision making process to achieve our desired outcome of fair representation and technical excellence.
@@ -124,8 +123,6 @@ The process for accepting changes to content in the CNF WG repository (including
 ### Changes requiring additional approval
 
 Items in the Additional Approval Items list require further discussion and approval before being accepted. The decision making process for items in this list is TBD.
-
-
 
 #### Additional Approval Items
 1. This list
