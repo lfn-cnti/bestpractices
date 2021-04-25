@@ -28,7 +28,7 @@ Contributors are encouraged to collaborate using the following resources:
 We welcome many different types of contributions including:
 
 - General improvements to documentation
-- [Use cases](use-case/) and user stories (these are used to define best practices)
+- [Use cases](use-case/) and user stories (these are used to provide context for and select best practices)
 - Definitions
   - [Actors and Roles](https://github.com/cncf/cnf-wg/discussions/30)
   - [Glossary](doc/glossary.md)
