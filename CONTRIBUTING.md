@@ -29,10 +29,12 @@ We welcome many different types of contributions including:
 
 - General improvements to documentation
 - [Use cases](use-case/) and user stories (these are used to provide context for and select best practices)
+  - [See the template for more details](/use-case/NNNN-UC-template.md)
 - Definitions
   - [Actors and Roles](https://github.com/cncf/cnf-wg/discussions/30)
   - [Glossary](doc/glossary.md)
 - [CNF Best Practices](doc/best_cnf_dev.md)
+  - [See the template for more details](/cbpps/NNNN-cbpp-template.md)
 - Gap Analysis
 
 ## How to Contribute
