@@ -80,7 +80,7 @@ Pull Requests are always welcome, even for small fixes like typos. Check [What t
 #### Pull Request Checklist
 
 When you submit your pull request, or you push new commits to it, our automated
-systems will run some checks on your new code. We require that your pull request
+systems will run some checks on your new contribution. We require that your pull request
 passes these checks, but we also have more criteria than just that before we can
 accept and merge it. We recommend that you check the following things locally
 before you submit your code:
