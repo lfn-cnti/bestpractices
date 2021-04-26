@@ -4,13 +4,13 @@
 
 ### Community Definitions
 
-**Cloud-Native** - TBD
+**Cloud Native** - TBD
 
-**Cloud-Native Network Function** - TBD
+**Cloud Native Network Function** - TBD
 
-**Kubernetes** - Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available. <Kubernetes.io>
+**Kubernetes** - Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available. [Kubernetes.io](https://kubernetes.io/)
 
-### CNF-WG Specific Definitions
+### CNF WG Specific Definitions
 
 **Kube-Native** - TBD
 

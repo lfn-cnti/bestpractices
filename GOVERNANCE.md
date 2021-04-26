@@ -25,19 +25,6 @@ A maximum of one person from any one entity may hold a chair role at any given m
 
 Term runs 2021-04-01 to 2022-03-31
 
-### Tech Lead
-
-CNF WG has multiple tech leads who are recognized as (1) experts in the Networking, Telco, Kubernetes, and/or Cloud Native domains, (2) leaders of projects in these domains, and (3) demonstrating the ability to provide the balanced technical leadership required to produce the required unbiased outputs of the CNF WG. The reason for having separate chair and tech lead roles is to allow responsibility for primarily administrative functions to be separated from deep technical functions and associated time commitments and skill sets. Where appropriate, an individual may perform both roles as shown in CNF WG member roles.
-
-Tech leads are primarily focused on the technical execution of the working group's activities including:
-
-- Leading projects in the working group’s area. For example, building out a use case or developing a best practice.
-- Applying their time and ability to deep technical dives on projects.
-
-#### **Tech Leads - Representation**
-
-A maximum of one-third of the tech lead roles may be held by people from any one entity at any given moment.  See the [Independence](#independence) section for further details.
-
 ### Everyone else (eg. other members)
 
 Membership is self-declared.
@@ -55,7 +42,11 @@ See [CONTRIBUTING](CONTRIBUTING.md) documentation for more information how to ge
 
 ## Elections
 
-Co-chairs and tech leads will be elected for one year terms and may run for reelection.
+### Timeline
+
+Co-chairs will be elected for one year terms and may run for reelection.
+
+### Eligibility to Vote
 
 The CNF WG employs "organization voting" to ensure no single organization can dominate the project.
 
@@ -65,9 +56,10 @@ In other words, if two contributors are employed by Company X, two by Company Y,
 
 For the purpose of this document, “Company” shall mean any entity (Company-A) which controls or is controlled by another entity (Company-B) or which, together, is under the common control of a third party (Company-C), in each case where such control results from ownership, either directly or indirectly, of more than fifty percent of the voting securities or membership interests of the entity in question; and one “Company” is all of the entities that are each described above.
 
-Each organization listed in the [interested parties document](interested-parties.md) has one vote. Interested parties can be added at any time, but must be added at least one week before any election to have a vote. Any contributor from an organization may cast the vote for that organization. Each organization can cast one vote for a co-chair candidate in each of the communities (Kubernetes (K8s) Community, Service Provider (SP) Community, and CNF Developer (Dev) Community), three total votes. Each organization can vote for as many tech leads as they see fit.
+Each organization listed in the [interested parties document](interested-parties.md) has one vote. Interested parties can be added at any time, but must be added at least one week before any election to have a vote. Any contributor from an organization may cast the vote for that organization. Each organization can cast one vote for a co-chair candidate in each of the communities (Kubernetes (K8s) Community, Service Provider (SP) Community, and CNF Developer (Dev) Community), three total votes.
 
-The chair for each community will be elected using [Ranked Choice Voting](https://en.wikipedia.org/wiki/Ranked_voting). Tech leads must win at least 60% of the votes cast to be elected.
+### Voting Procedure
+The chair for each community will be elected using [Ranked Choice Voting](https://en.wikipedia.org/wiki/Ranked_voting).
 
 ## Independence
 
@@ -105,3 +97,26 @@ If insufficient members resign their roles, the positions held by members associ
 ### Effect on representation
 
 After any election, the results may indicate that a particular entity is overrepresented for a role, having won more seats than the limit.  In this event, the maximum number of the members belonging to that entity shall be calculated, and members belonging to the entity having the least votes will be excluded from the role until the entity is fairly represented.  Where there is a tie, a coin toss or other random selection mechanism shall be used to choose who is allocated the seat.
+
+## Content Approval Process
+
+To encourage contributions, the CNF WG has a more relaxed stance on changes and delegates the acceptance for most items to the community as outlined in [CONTRIBUTING.md](CONTRIBUTING.md). The small list of exceptions are listed below which require a more thorough decision making process to achieve our desired outcome of fair representation and technical excellence.
+
+### Delegation of default changes to community
+
+The process for accepting changes to content in the CNF WG repository (including adding new content) for any item not in the [Additional Approval Items list](#DD) below will follow the acceptance and approval process outlined in the [CONTRIBUTING guide](CONTRIBUTING.md).
+
+### Changes requiring additional approval
+
+Items in the Additional Approval Items list require further discussion and approval before being accepted. The decision making process for items in this list is TBD.
+
+#### Additional Approval Items
+
+1. This list
+1. [Charter](charter.md)
+1. [Governance](GOVERNANCE.md)
+1. [Code of Conduct](code-of-conduct.md)
+1. CNF WG "Approved" Best Practices
+    - This would be Best Practices which the CNF WG promotes in an approved list. Eg. Baseline Best Practices
+    - Proposing a best practice is encouraged with the default process. Marking it as accepted and listing it as a CNF WG approved Best Practice requires additional review and approval.
+    - Potentially the [Best Practices for CNF Developers](doc/best_cnf_dev.md) will list only approved best practices or at least have a designation for which are approved vs another status.

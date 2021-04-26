@@ -2,30 +2,42 @@
 
 The interested parties listed below are used for voting purposes as outlined in the [Governance doc](GOVERNANCE.md). See the [contributing doc](CONTRIBUTING.md) for more information about getting involved and participating in the community.
 
-- ARM
-- AT&T
-- AWS
-- Bell Canada
-- Charter Communications
-- Chunghwa Telecom
-- Cisco
-- Deutsche Telekom
-- Equinix
-- Frederick F. Kautz IV
-- Google
-- Huawei
-- Ildiko Vancsa
-- InfraCloud
-- Intel
-- Mars Toktonaliev
-- MATRIXX
-- Nikolay Nikolaev
-- Nokia
-- Orange
-- PANTHEON.tech
-- Red Hat
-- Samsung
-- Swisscom
-- VMware
-- Vodafone
-- Vulk Coop
+- [Philippe Robin](https://github.com/philipperobin), ARM
+- [Pankaj Goygal](https://github.com/pgoyal01), AT&T
+- [Rabi Abdel](https://github.com/rabi-abdel), AWS
+- Daniel Bernier, Bell Canada
+- [Jeffrey Saelens](https://github.com/jeffsaelens), Charter Communications
+- [Aiden Huang](https://github.com/Aiden128),Chunghwa Telecom
+- [Ian Wells](https://github.com/iawells), Cisco
+- Michal Sewera, Deutsche Telekom
+- [Vuk Gojnic](https://github.com/vukg), Deutsche Telekom
+- [Claudio Bartolini](https://github.com/claudiobartolini), Equinix
+- [Frederick F. Kautz IV](https://github.com/fkautz), Doc.ai
+- Maciej Skrocki, Google
+- Randolph Chung, Google
+- [mkr1481](https://github.com/mkr1481), Huawei
+- [Ildiko Vancsa](https://github.com/ildikov), Open Infrastructure Foundation
+- Chitrabasu Khare, InfraCloud
+- [Michael Pedersen](https://github.com/michaelspedersen), Intel
+- [Petar Torre](https://github.com/petorre), Intel
+- [Simon Billingsley](https://github.com/sishbi), MATRIXX
+- [Olivier Smith](https://github.com/Smitholi67), MATRIXX
+- [Nikolay Nikolaev](https://github.com/nickolaev), Kong
+- [Gergely Csatari](https://github.com/CsatariGergely), Nokia
+- [Mars Toktonaliev](https://github.com/tokt), Nokia
+- Cristian Calin, Orange
+- [Miroslav Miklus](https://github.com/mmiklus), PANTHEON.tech
+- Lisa Caywood, Red Hat
+- [Shane Ronan](https://github.com/sronanrh), Red Hat
+- [Tal Liron](https://github.com/tliron), Red Hat
+- [Ranny Haiby](https://github.com/rannyh), Samsung
+- [Victor Morales](https://github.com/electrocucaracha), Samsung
+- Clément Nussbaumer, Swisscom
+- [Ruben Merz](https://github.com/rmerz), Swisscom
+- [Bryan Liles](https://github.com/bryanl), VMware
+- Jambi Ganbar, VMware
+- [Tom Kivlin](https://github.com/tomkivlin), Vodafone
+- [Drew Bentley](https://github.com/agentpoyo), Vulk Coop
+- [Lucina Stricko](https://github.com/lixuna), Vulk Coop
+- [Taylor Carpenter](https://github.com/taylor), Vulk Coop
+- [W. Watson](https://github.com/wavell), Vulk Coop
