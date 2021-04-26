@@ -59,6 +59,7 @@ For the purpose of this document, “Company” shall mean any entity (Company-A
 Each organization listed in the [interested parties document](interested-parties.md) has one vote. Interested parties can be added at any time, but must be added at least one week before any election to have a vote. Any contributor from an organization may cast the vote for that organization. Each organization can cast one vote for a co-chair candidate in each of the communities (Kubernetes (K8s) Community, Service Provider (SP) Community, and CNF Developer (Dev) Community), three total votes.
 
 ### Voting Procedure
+
 The chair for each community will be elected using [Ranked Choice Voting](https://en.wikipedia.org/wiki/Ranked_voting).
 
 ## Independence
