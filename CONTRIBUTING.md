@@ -55,8 +55,7 @@ anything you feel like you want to contribute. Just being there is enough!
 
 You can find out more about our meetings [here](https://github.com/cncf/cnf-wg#meetings). You don’t have to turn on
 your video. The first time you come, introducing yourself is more than enough.
-Over time, we hope that you feel comfortable voicing your opinions and giving
-feedback on others’ ideas. Simply sharing your own ideas, and experiences can help in ways you might not initially realize.
+Over time, we hope that you feel comfortable voicing your opinions, ideas and providing feedback with the community. Sharing your own ideas, and experiences can help in ways you might not initially realize.
 
 ### Join a GitHub Discussion
 
