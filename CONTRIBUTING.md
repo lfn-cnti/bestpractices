@@ -78,7 +78,7 @@ your first pull request.
 
 Sometimes there won’t be any issues with these labels. That’s ok! There is
 likely still something for you to work on. If you want to contribute but you
-don’t know where to start or can't find a suitable issue, you can reach out to one of the [co-chairs](https://github.com/cncf/cnf-wg#current-co-chairs).  
+don’t know where to start or can't find a suitable issue, you can reach out to one of the [co-chairs](#current-co-chairs).  
 
 Once you see an issue that you'd like to work on, please post a comment saying
 that you want to work on it. Something like "I want to work on this" is fine.
