@@ -6,7 +6,7 @@
 
 **Cloud Native** - TBD
 
-**Cloud-Native Network Function** - A cloud native network function (CNF) is a cloud native application that implements network functionality. A CNF consists of one or more microservices and has been developed using Cloud Native Principles including immutable infrastructure, declarative APIs, and a “repeatable deployment process”.
+**Cloud Native Network Function** - A cloud native network function (CNF) is a cloud native application that implements network functionality. A CNF consists of one or more microservices which can be delivered and has been developed using Cloud Native Principles including loose coupling, immutable infrastructure, declarative APIs, and a “repeatable deployment process”.
 
 **Kubernetes** - Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available. [Kubernetes.io](https://kubernetes.io/)
 
