@@ -37,6 +37,14 @@ We welcome many different types of contributions including:
   - [See the template for more details](cbpps/NNNN-cbpp-template.md)
 - Gap Analysis
 
+###
+
+CNF WG doesn't develop any code, but it's work feeds into many groups that do develop code both upstream and downstream. If you want to take the work of the CNF WG and put it into code, check out:
+
+- [CNF Test Suite](https://github.com/cncf/cnf-testsuite) is the place for test cases used in best practices
+- [Kubernetes Network Plumbing](https://github.com/k8snetworkplumbingwg) implementes a common standard addressing how one may attach multiple networks to pods in Kubernetes
+- [Kubernetes SIG Network](https://github.com/kubernetes/community/tree/master/sig-network) is responsible for the components, interfaces, and APIs which expose networking capabilities to Kubernetes users and workloads
+
 ## How to Contribute
 
 ### [Come to Meetings](https://github.com/cncf/cnf-wg#meetings)
