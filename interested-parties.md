@@ -15,7 +15,7 @@
 - Randolph Chung, Google
 - [mkr1481](https://github.com/mkr1481), Huawei
 - [Ildiko Vancsa](https://github.com/ildikov), Open Infrastructure Foundation
-- Chitrabasu Khare, InfraCloud
+- [Chitrabasu Khare](https://github.com/Cbkhare), [InfraCloud](https://github.com/infracloudio)
 - [Michael Pedersen](https://github.com/michaelspedersen), Intel
 - [Petar Torre](https://github.com/petorre), Intel
 - [Simon Billingsley](https://github.com/sishbi), MATRIXX
