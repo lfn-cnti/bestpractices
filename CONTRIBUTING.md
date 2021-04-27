@@ -137,7 +137,7 @@ Majority of other changes:
 
 ### Ask for help
 
-The best way to reach us with a question when contributing is to ask on
+The best way to reach us with a question when contributing is to ask on:
 
 - The original Github issue
 - [Our Slack channel](https://cloud-native.slack.com/archives/C01F1LVAQCC)
