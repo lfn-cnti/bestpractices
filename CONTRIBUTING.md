@@ -47,7 +47,7 @@ CNF WG doesn't develop any code, but its work feeds into many groups that do dev
 
 ## How to Contribute
 
-### [Come to Meetings](https://github.com/cncf/cnf-wg#meetings)
+### [Come to Meetings](#meetings)
 
 Absolutely everyone is welcome to come to any of our meetings. You never need an
 invite to join us. In fact, we want you to join us, even if you don’t have
