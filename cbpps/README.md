@@ -2,7 +2,7 @@
 
 A  CNF Best Practice Proposal (CBPP) is a way to propose, communicate and coordinate on new best practices for the CNF WG. You can read the full details of the project in [CBPP-1](0001-cnf-best-practice-proposal-process.md)
 
-This process is still in a alpha state and feedback is welcome.
+This process is still in an alpha state and feedback is welcome.
 
 ## Quick start for the CBPP process
 
