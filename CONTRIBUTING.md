@@ -71,7 +71,7 @@ feedback on others’ ideas. Simply sharing your own ideas, and experiences can 
 Review, contribute to, create new [GitHub issues](https://github.com/cncf/cnf-wg/issues).
 
 We have good first issues for new contributors and help wanted issues suitable
-for any contributor. [good first issue](https://github.com/cncf/cnf-wg/labels/good%20first%20issue) has extra information to
+for any contributor. [good first issue](labels/good%20first%20issue) has extra information to
 help you make your first contribution. [help wanted](https://github.com/cncf/cnf-wg/labels/help%20wanted) are issues
 suitable for someone who isn't a core maintainer and is good to move onto after
 your first pull request.
