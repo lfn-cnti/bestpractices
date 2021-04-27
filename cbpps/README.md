@@ -12,4 +12,4 @@ Follow the process outlined in the [CBPP process document](0001-cnf-best-practic
 
 ## CNF Use Cases
 
-CBPP shall always refer to at least one of CNF WG use cases. Those use cases serve as the practical and concrete basis for deriving, discussing and evaluating the best practices for CNFs. Their value is in providing context and reality check for CBPPs. With help of use cases we making sure that CBPPs are addressing specific problem or need from the real world. Please use [Use Case Template](../use-case/NNNN-UC-template.md) to contribute an use case.
+CBPP shall always refer to at least one of the CNF WG use cases. Those use cases serve as the practical and concrete basis for deriving, discussing and evaluating the best practices for CNFs. Their value is in providing context and a reality check for CBPPs. With help of use cases we make sure that CBPPs are addressing a specific problem or need from the real world. Please use the [Use Case Template](../use-case/NNNN-UC-template.md) to contribute a use case.
