@@ -39,7 +39,7 @@ We welcome many different types of contributions including:
 
 ###
 
-CNF WG doesn't develop any code, but it's work feeds into many groups that do develop code both upstream and downstream. If you want to take the work of the CNF WG and put it into code, check out:
+CNF WG doesn't develop any code, but its work feeds into many groups that do develop code both upstream and downstream. If you want to take the work of the CNF WG and put it into code, check out:
 
 - [CNF Test Suite](https://github.com/cncf/cnf-testsuite) is the place for test cases used in best practices
 - [Kubernetes Network Plumbing](https://github.com/k8snetworkplumbingwg) implementes a common standard addressing how one may attach multiple networks to pods in Kubernetes
