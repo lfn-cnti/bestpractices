@@ -67,7 +67,7 @@ Over time, we hope that you feel comfortable voicing your opinions, ideas and pr
 
 ### Find an Issue
 
-Review, contribute to, create new [GitHub issues](issues).
+Review, contribute to, create new [GitHub issues](https://github.com/cncf/cnf-wg/issues).
 
 We have good first issues for new contributors and help wanted issues suitable
 for any contributor. [good first issue](https://github.com/cncf/cnf-wg/labels/good%20first%20issue) has extra information to
