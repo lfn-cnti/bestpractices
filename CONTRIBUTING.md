@@ -37,7 +37,7 @@ We welcome many different types of contributions including:
   - [See the template for more details](cbpps/NNNN-cbpp-template.md)
 - Gap Analysis
 
-###
+### Code Contributions
 
 CNF WG doesn't develop any code, but its work feeds into many groups that do develop code both upstream and downstream. If you want to take the work of the CNF WG and put it into code, check out:
 
