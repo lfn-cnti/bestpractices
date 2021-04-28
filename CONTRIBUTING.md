@@ -59,7 +59,7 @@ Over time, we hope that you feel comfortable voicing your opinions, ideas and pr
 
 ### Join a GitHub Discussion
 
-- Go to the [GitHub Discussion board](discussions)
+- Go to the [GitHub Discussion board](https://github.com/cncf/cnf-wg/discussions)
 - Participate in existing discussions
   - eg. [Defining actors and audiences](https://github.com/cncf/cnf-wg/discussions/30)
 - Add new discussion topics
