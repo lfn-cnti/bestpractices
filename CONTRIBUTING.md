@@ -98,7 +98,7 @@ before you submit your code:
 
 ### Review/comment on Pull Requests
 
-Reviews and comments on open [Pull Requests](pulls) are always appreciated.
+Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pulls) are always appreciated.
 5 approvals from the community are needed to merge PRs so your review is greatly appreciated.
 
 #### Acceptance of PRs for merging
