@@ -59,7 +59,7 @@ Over time, we hope that you feel comfortable voicing your opinions, ideas and pr
 
 ### Join a GitHub Discussion
 
-- Go to the [GitHub Discussion board](https://github.com/cncf/cnf-wg/discussions)
+- Go to the [GitHub Discussion board](discussions)
 - Participate in existing discussions
   - eg. [Defining actors and audiences](https://github.com/cncf/cnf-wg/discussions/30)
 - Add new discussion topics
@@ -67,7 +67,7 @@ Over time, we hope that you feel comfortable voicing your opinions, ideas and pr
 
 ### Find an Issue
 
-Review, contribute to, create new [GitHub issues](https://github.com/cncf/cnf-wg/issues).
+Review, contribute to, create new [GitHub issues](issues).
 
 We have good first issues for new contributors and help wanted issues suitable
 for any contributor. [good first issue](labels/good%20first%20issue) has extra information to
@@ -94,7 +94,7 @@ passes these checks, but we also have more criteria than just that before we can
 accept and merge it. We recommend that you check the following things locally
 before you submit your code:
 
-- We use Github Actions to test all pull requests. We require that all tests succeed on a pull request before it is merged.
+- We use Github Actions to test all pull requests. We require that all tests succeed on a pull request before it is merged. This repo also contains a *Makefile* for running linting tasks locally. Executing `make lint`  is another way to check your work before GitHub actions.
 
 ### Review/comment on Pull Requests
 
