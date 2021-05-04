@@ -92,7 +92,7 @@ When you submit your pull request, or you push new commits to it, our automated
 systems will run some checks on your new contribution. We require that your pull request
 passes these checks, but we also have more criteria than just that before we can
 accept and merge it. We recommend that you check the following things locally
-before you submit your code:
+before you submit your change:
 
 - We use Github Actions to test all pull requests. We require that all tests succeed on a pull request before it is merged. This repo also contains a *Makefile* for running linting tasks locally. Executing `make lint`  is another way to check your work before GitHub actions.
 
