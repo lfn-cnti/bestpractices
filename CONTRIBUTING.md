@@ -94,7 +94,7 @@ passes these checks, but we also have more criteria than just that before we can
 accept and merge it. We recommend that you check the following things locally
 before you submit your change:
 
-- We use Github Actions to test all pull requests. We require that all tests succeed on a pull request before it is merged. This repo also contains a *Makefile* for running linting tasks locally. Executing `make lint`  is another way to check your work before GitHub actions.
+- We use Github Actions to test all pull requests. We prefer that all tests succeed on a pull request before it is merged. This repo also contains a *Makefile* for running linting tasks locally. Executing `make lint`  is another way to check your work before GitHub actions.
 
 ### Review/comment on Pull Requests
 
