@@ -31,7 +31,7 @@ In a 5G network the Convergent Charging System (CCS) comprises several autonomou
 
 - [ ] Development
 - [ ] Deployment
-- [X] System integration 
+- [X] System integration
   - The collaboration of the Stateful CNF with other CNFs, examples:
     - The 5G network elements that precede the Stateful CNF
     - The external systems that consume the event stream
@@ -87,7 +87,7 @@ In a 5G network the Convergent Charging System (CCS) comprises several autonomou
 - A 5G Real-Time Convergent Charging System has to maintain the account balances and usage quotas of active subscriptions
 - We need to be able to accurately reflect the Balance for a Subscription across the account's lifetime (Like a bank)
 - The state should be preserved in the event of a catastrophic failure
-- State should be available across the cluster to all stateless CNFs that need to access it 
+- State should be available across the cluster to all stateless CNFs that need to access it
 
 ### Why does it need to be low-latency?
 
@@ -135,7 +135,7 @@ Where the long lived state for a Stateful CNF is held in memory, the state must 
 
 > If such practices exist please elaborate them here in sufficient technical details. Provide references and give your opinion weather or not these practices can be considered as candidates for CNF best practices in line with [CBPP description](../cbpps/0001-cnf-best-practice-proposal-process.md).
 
-*N/A (TBD)*
+N/A (TBD)
 
 ### What needs to be done differently in order to overcome challenges and limitations
 
