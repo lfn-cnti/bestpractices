@@ -133,7 +133,7 @@ Where the long lived state for a Stateful CNF is held in memory, the state must 
 
 ### Established practices to overcome challenges and limitations
 
-> If such practices exist please elaborate them here in sufficient technical details. Provide references and give your opinion weather or not these practices can be considered as candidates for CNF best practices in line with [CBPP description](../cbpps/0001-cnf-best-practice-proposal-process.md).
+> If such practices exist please elaborate them here in sufficient technical details. Provide references and give your opinion weather or not these practices can be considered as candidates for CNF best practices in line with [CBPP description](../../cbpps/0001-cnf-best-practice-proposal-process.md).
 
 N/A (TBD)
 
