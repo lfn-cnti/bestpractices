@@ -6,3 +6,5 @@
 # Vi(m) in-edit files
 .\#*
 super-linter.log
+# IDEA files
+.idea/
