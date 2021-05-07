@@ -25,7 +25,6 @@ In a 5G network the Convergent Charging System (CCS) comprises several autonomou
 - Executor - the micro-service within the CCS that processes charging session requests (CGF, Charging Gateway), querying balances (ABMF, Account Balance) and recording quotas (RF, Rating)
 - CCS Cluster - a collection of micro-service executors that work together to handle charging session requests (CHF, CGF), balance queries (ABMF) and quota records (RF)
 
-
 ## Involved processes
 
 > Please uncomment and/or add key processes that are involved in the use case you are presenting. This helps actors to decide if the use case is relevant for them or not.
@@ -33,14 +32,13 @@ In a 5G network the Convergent Charging System (CCS) comprises several autonomou
 - [ ] Development
 - [ ] Deployment
 - [X] System integration 
-	- The collaboration of the Stateful CNF with other CNFs, examples:
-		 - The 5G network elements that precede the Stateful CNF
-		 - The external systems that consume the event stream
+  - The collaboration of the Stateful CNF with other CNFs, examples:
+    - The 5G network elements that precede the Stateful CNF
+    - The external systems that consume the event stream
 - [X] Network integration
   - The Stateful CNF communicates with the wider network in real-time
 - [ ] Lifecycle management
 - [ ] Operations
-
 
 ## Involved actors / personas
 
@@ -49,7 +47,6 @@ In a 5G network the Convergent Charging System (CCS) comprises several autonomou
 - The Subscriber whose state is maintained by the Stateful CNF
 - The Business Owner that is providing service using the CNF
 - The Business Function (Data warehouse, GL) that is receiving the event stream from the Stateful CNF
-
 
 ## Involved system entities
 
@@ -60,7 +57,6 @@ In a 5G network the Convergent Charging System (CCS) comprises several autonomou
 - The system memory in which the live state will reside for the running Stateful CNF
 - The network infrastructure used to connect to the Stateful CNF
 
-
 ## Situation
 
 > Describe situation related to this use case. Indicate what are intents and expectations of different parties as well as the roles and requirements of different system components. Explain how everything is related. Drawings, flow and system diagrams are beneficial here. This part shall give the reader clear overview of the situation as the starting point for evaluation of the use case. It should not contain the detailed technical descriptions and analysis.
@@ -68,6 +64,7 @@ In a 5G network the Convergent Charging System (CCS) comprises several autonomou
 ![5G Core CHF](5GC_CHF_CCS.svg)
 
 ### Use Case Scenario: A subscription has a device that requests quota to use the network
+
 - Precondition: A subscription and an associated device have been provisioned in the Stateful CNF
 - Primary steps:
   1. A device subscription makes a real-time request to the network for quota by starting a charging session, the network sends the request through various CNFs until it reaches the Stateful CNF
@@ -86,20 +83,22 @@ In a 5G network the Convergent Charging System (CCS) comprises several autonomou
   2. The network informs the Stateful CNF through the network of CNFs that the device is no longer connected, the Stateful CNF calculates the usage based on previously granted quota and generates an event for the charging session
 
 ### Why do we need to maintain state?
+
 - A 5G Real-Time Convergent Charging System has to maintain the account balances and usage quotas of active subscriptions
 - We need to be able to accurately reflect the Balance for a Subscription across the account's lifetime (Like a bank)
 - The state should be preserved in the event of a catastrophic failure
 - State should be available across the cluster to all stateless CNFs that need to access it 
 
 ### Why does it need to be low-latency?
+
 - The Service Provider needs to be able to take action in real-time (ultra low latency: less than a millisecond end-to-end) for whether to allow the device to use a network resource or not
 - A liability or opportunity - Service Provider needs to respond quickly to keep their customers happy, these are the expectations of a true digital experience
 - Lack of a real-time decision exposes the Service Provider to potential financial loss
 - Ultra low latency charging decisions based on stateful data are necessary to inform other policy decisions by the service provider, for example changing the quality of service level
 
 ### Why do we need to achieve high throughput?
-- A Service Provider may maintain the balances and quotas for millions of devices, many of which may access the Stateful CNF concurrently
 
+- A Service Provider may maintain the balances and quotas for millions of devices, many of which may access the Stateful CNF concurrently
 
 ## Expected behaviour
 
@@ -120,7 +119,6 @@ In a 5G network the Convergent Charging System (CCS) comprises several autonomou
     - The Stateful CNF instances should be loosely coupled to the host infrastructure: they should not be tied to a single node, instead taints and tolerations should be used to select nodes with the necessary capabilities
     - The Stateful CNF may have specific resource requirements (memory size, CPU %, PV speed) and may also use affinity rules to control the scheduling of the Stateful CNF pods across the kubernetes cluster
 
-
 ## Challenges and limitations with Kube-native approach
 
 > This section will give us main inputs for discussion and evaluation of best practices. Describe which challenges and limitations kube-native approach presents for this use case. Provide technical details about what is not possible with kube-native approach and elaborate why is that relevant. If there are some established practices that are used to work around these limitations please describe those in the chapter below*
@@ -133,19 +131,18 @@ Where the long lived state for a Stateful CNF is held in memory, the state must 
 
 ![CCS Cluster](CCS_Cluster.svg)
 
-
 ### Established practices to overcome challenges and limitations
 
 > If such practices exist please elaborate them here in sufficient technical details. Provide references and give your opinion weather or not these practices can be considered as candidates for CNF best practices in line with [CBPP description](../cbpps/0001-cnf-best-practice-proposal-process.md).
 
-_N/A (TBD)_
-
+*N/A (TBD)*
 
 ### What needs to be done differently in order to overcome challenges and limitations
 
 > If there are no established practices and you have ideas or if you believe things related to this use case should be done differently please indicate it shortly here. The purpose of this is to earmark some potential inputs for CBPP process. It is not expected to elaborate CBPPs here.
 
 A Stateful CNF should exhibit the following cloud native properties:
+
 - Scalable
 - Resilient
 - Portable (loosely coupled to the host infrastructure)
