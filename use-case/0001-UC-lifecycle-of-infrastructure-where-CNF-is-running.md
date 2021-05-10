@@ -2,6 +2,7 @@
 
 ## Glossary
 
+
 - CNF - Cloud Native Network Function
 - Cloud Native Platform - A platform that exhibits cloud like properties on which a CNF runs. For this use case, Cloud Native Platform = Kubernetes cluster
 
