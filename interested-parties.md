@@ -1,5 +1,11 @@
 # Interested Parties
 
+To express your interest in the cloud native networking topics under discussion in this working group, please add your name and organization name to this document via a Pull Request.
+
+Being listed in this document may grant you some rights within the group, such as voting capabilities as outlined in the [Governance doc](GOVERNANCE.md).  See the [contributing doc](CONTRIBUTING.md) for more information about getting involved and participating in the community.
+
+Note: adding yourself to this list does not imply any obligation (including legal) for you nor your organization.
+
 - [Philippe Robin](https://github.com/philipperobin), ARM
 - [Pankaj Goygal](https://github.com/pgoyal01), AT&T
 - [Rabi Abdel](https://github.com/rabi-abdel), AWS
