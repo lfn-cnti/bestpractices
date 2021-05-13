@@ -2,12 +2,10 @@
 
 ## Glossary
 
-
 - CNF - Cloud Native Network Function
 - Cloud Native Platform - A platform that exhibits cloud like properties on which a CNF runs. For this use case, Cloud Native Platform = Kubernetes cluster
 
 ## Involved processes
-
 - [ ] Development
 - [ ] Deployment
 - [ ] System integration
@@ -32,17 +30,18 @@
 Cloud Native Platform DevOps (CNPD) teams regularly perform lifecycle operations on Cloud Native Platforms. These operations include both updates (no breaking changes are expected) and upgrades (there is possibility of breaking changes). For agile teams, these changes happen frequently. An average of 2 times per month is not unheard of. For this use case, we will assume that a Kubernetes cluster is the Cloud Native Platform which is hosting the CNF. In reality there are number of additional components involved.
 
 The Kubernetes cluster in question is defined according to cloud native principles: declarative deployments and immutable infrastructure. As such, this means that changes are performed via rolling upgrades in following sequence:
+
 - one fresh node gets created and joined to the cluster
 - one of existing nodes gets tainted, then drained and finally eliminated from the cluster
 - this process repeats until all old nodes are eliminated from the cluster and replaced with fresh nodes
 
-This process is first executed in a test environment, followed by reference or staging environment and finally a production environment, with a predetermined time distance (typically 7-10 days). 
+This process is first executed in a test environment, followed by reference or staging environment and finally a production environment, with a predetermined time distance (typically 7-10 days).
 
-The CNPD team expect the ability to perform changes on infrastructure "in place", while a CNF is operating, and during regular working hours (no maintenance windows). They rely on the CNF DevOps team to detect anomalies within their CNFs, after changes to the infrastructure, and report them early. Ideally, in the test environment. Finally, the CNPD expects that if any anomalies are detected, both teams will jointly troubleshoot and eliminate them together. The end goal being that teams are able to proceed with infrastructure changes rapidly. 
+The CNPD team expect the ability to perform changes on infrastructure "in place", while a CNF is operating, and during regular working hours (no maintenance windows). They rely on the CNF DevOps team to detect anomalies within their CNFs, after changes to the infrastructure, and report them early. Ideally, in the test environment. Finally, the CNPD expects that if any anomalies are detected, both teams will jointly troubleshoot and eliminate them together. The end goal being that teams are able to proceed with infrastructure changes rapidly.
 
 The CNF DevOps team expects that changes on infrastructure will cause neither downtime of CNF in production nor significant and lasting degradation of its function or performance. They are capable, however; of tolerating some amount of temporary degradation to performance during a change management process (e.g. requested retries etc...)
 
-## Expected behavior 
+## Expected behavior
 
 It is expected that a CNF copes well with situations when one or more nodes in the cluster are replaced with fresh nodes with same or better capabilities. Assuming that remaining capacity of the cluster is allowing rescheduling CNF pods to other, equivalent nodes, the CNF should be capable of bearing, without visible impact on its own function or performance, the situations in which its workloads are shifted to those nodes. If, within the course of infrastructure lifecycle operations, the capacity of the cluster gets reduced but remains above minimally allowed level, CNF shall still function with graceful degradation of its performance in the worst case. It is an expected functionality, that a proper CNF is not tightly coupled to any single node in a cluster, or group of nodes in larger clusters. CNF can still demand that nodes with certain capabilities are present (e.g. SR-IOV, XDP, GPU etc). However it shall not have issues nor impact for the customers if its workloads are dynamically shifted by kube-scheduler from one to another node of such type.
 
@@ -58,7 +57,7 @@ Also, most of CNFs today are following systems integrated approach. This means t
 
 N/A (tbd)
 
-### What needs to be done differently in order to overcome challenges and limitations 
+### What needs to be done differently in order to overcome challenges and limitations
 
 CNFs shall be written for cloud. This means that as boundary condition they shall assume that every node is ephemeral and short lived. They need to use native Kubernetes mechanisms to assure their own high availability in spite of dynamic nature of Kubernetes cluster in which they are running. They shall be able to recover from node failures and from node draining with marginal loss of traffic in the worst case and without visible impact on end customers or systems they serve.
 
