@@ -5,24 +5,25 @@ In a 5G network the Convergent Charging System (CCS) comprises several autonomou
 
 ## Glossary
 
-- State - long lived or short lived
+- State: data about the condition of an "object" or "process" or "system" (or a "thing of concern") at some given instance of time
+- Types of State: ephemeral, long-lived or short-lived
   - examples of long-lived state objects are: Balance, Subscriber, Device, Quota, Price-plan
   - examples of short-lived state objects are: Session
   - examples of ephemeral state are: temporary files local a Kubernetes Pod, various in-memory structures not mapped to a Session
-- CCS - 5G Convergent Charging System (contains the CHF, ABMF, CGF, RF)
-- CHF - Charging Function, handles the charging requests on behalf of the CCS
-- PCF - The Policy Control Function provides policy rules to other CNFs (such as AMF, CHF)
-- ABMF - Account Balance Management Function, part of the CCS. The Stateful CNF.
-- CGF - Charging Gateway Function, part of the CCS
-- RF - Rating Function, part of the CCS
-- Session - a short-lived record of a specific series of requests by a device to use the network (SMF, Session Management)
-- Price Plan - the collection of rules controlling how the charging sessions should be processed
-- Quota - a long-lived record of how much time/data the device can use / has used on the network
-- Balance - a long-lived record of available funds (allowances) grouped into balance types with units such as time, data, currency
-- Subscriber - a subscription to use the network services which may be associated with an individual customer or a company, a subscriber has one or more devices
-- Device - the device (UE) that the subscriber uses to access the network (AMF, Access Management), may have its own balances and allowances
-- Executor - the micro-service within the CCS that processes charging session requests (CGF, Charging Gateway), querying balances (ABMF, Account Balance) and recording quotas (RF, Rating)
-- CCS Cluster - a collection of micro-service executors that work together to handle charging session requests (CHF, CGF), balance queries (ABMF) and quota records (RF)
+- CCS: 5G Convergent Charging System (contains the CHF, ABMF, CGF, RF)
+- CHF: Charging Function, handles the charging requests on behalf of the CCS
+- PCF: The Policy Control Function provides policy rules to other CNFs (such as AMF, CHF)
+- ABMF: Account Balance Management Function, part of the CCS. The Stateful CNF.
+- CGF: Charging Gateway Function, part of the CCS
+- RF: Rating Function, part of the CCS
+- Session: a short-lived record of a specific series of requests by a device to use the network (SMF, Session Management)
+- Price Plan: the collection of rules controlling how the charging sessions should be processed
+- Quota: a long-lived record of how much time/data the device can use / has used on the network
+- Balance: a long-lived record of available funds (allowances) grouped into balance types with units such as time, data, currency
+- Subscriber: a subscription to use the network services which may be associated with an individual customer or a company, a subscriber has one or more devices
+- Device: the device (UE) that the subscriber uses to access the network (AMF, Access Management), may have its own balances and allowances
+- Executor: the micro-service within the CCS that processes charging session requests (CGF, Charging Gateway), querying balances (ABMF, Account Balance) and recording quotas (RF, Rating)
+- CCS Cluster: a collection of micro-service executors that work together to handle charging session requests (CHF, CGF), balance queries (ABMF) and quota records (RF)
 
 ## Involved processes
 
