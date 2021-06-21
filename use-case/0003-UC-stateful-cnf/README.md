@@ -9,7 +9,7 @@ In a 5G network the Convergent Charging System (CCS) comprises several autonomou
 - Types of State: ephemeral, long-lived or short-lived
   - examples of long-lived state objects are: Balance, Subscriber, Device, Quota, Price-plan
   - examples of short-lived state objects are: Session
-  - examples of ephemeral state are: temporary files local a Kubernetes Pod, various in-memory structures not mapped to a Session
+  - examples of ephemeral state objects are: temporary files local a Kubernetes Pod, various in-memory structures not mapped to a Session
 - CCS: 5G Convergent Charging System (contains the CHF, ABMF, CGF, RF)
 - CHF: Charging Function, handles the charging requests on behalf of the CCS
 - PCF: The Policy Control Function provides policy rules to other CNFs (such as AMF, CHF)
