@@ -16,15 +16,10 @@
 ## Involved processes
 
 - [x] Development
-
 - [x] Deployment
-
 - [x] System integration
-
 - [x] Network integration
-
 - [ ] Lifecycle management
-
 - [x] Operations
 
   
