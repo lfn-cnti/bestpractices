@@ -45,3 +45,5 @@ Note: adding yourself to this list does not imply any obligation (including lega
 - [Lucina Stricko](https://github.com/lixuna), Vulk Coop
 - [Taylor Carpenter](https://github.com/taylor), Vulk Coop
 - [W. Watson](https://github.com/wavell), Vulk Coop
+- [Sheetal Joshi](https://github.com/sheetaljoshi), AWS
+- [Young Jung](https://github.com/jungy-aws), AWS
