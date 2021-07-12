@@ -52,7 +52,7 @@ Most of the CNFs today, especially complex ones, are packaged in such way that o
 
 The CNFs are also regularly packaged to be suitable for opinionated installers that are typically part of vendor's own platform offering or particular platform blueprint. The onboarding on CSP's own platform in such cases frequently involves sort of reverse engineering of CNF vendor's installer to come to basic cloud native artefacts and derive requirements from installer's code with the help of vendor's engineers.
 
-Finally, the CNFs are frequently delivered as Helm charts. However, these Helm charts often do not cover all dependencies that enables reconciling the deployments in propper way. They also install CRDs which are not managed well by Helm.
+Finally, the CNFs are frequently delivered as Helm charts. However, these Helm charts often do not cover all dependencies that enables reconciling the deployments in proper way. They also install CRDs which are not managed well by Helm.
 
 This situation is in most cases not blocking the onboarding, but is making it laborious and not repeatable.
 
