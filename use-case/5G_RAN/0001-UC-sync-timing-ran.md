@@ -9,7 +9,7 @@
 > CU - Centralized Unit support SDAP, RRC, PDCP protocol layers
 > RU - Radio Unit
 > gNB - gNodeB
-> PTP - Precision Time Protocol
+- PTP - Precision Time Protocol
 
   
 
