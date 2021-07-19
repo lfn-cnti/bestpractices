@@ -44,7 +44,7 @@ CNPD expects that all requirements are well documented with and provided in such
 
 CNF DevOps team expects to deploy and configure the CNF application on their own, preferably directly via automation pipelines and in interaction and cooperation with CNPD and CSP Network teams. For that they expect to receive well documented installation procedures, references for typical continuous deployment realisations with that particular or similar CNFs as well as comprehensive deployment troubleshooting guide. As already mentioned in (UC0001)[0001-UC-lifecycle-of-infrastructure-where-CNF-is-running.md], CNF DevOps team also expects to get suite of tests from CNF vendor. Tests could then be deployed in continous testing pipeline to automatically verify that CNF is running properly (production grade) on the platform and that the deployment qualifies for SLA.
 
-The starting point of onboarding shall be extension of platform with any requiremetns and dependencies that are coming from CNF. When all conditions on the platform level are met, the deployment of CNF shall proceed.
+The starting point of onboarding shall be extension of platform with any requirements and dependencies that are coming from CNF. When all conditions on the platform level are met, the deployment of CNF shall proceed.
 
 ## Challenges and limitations with Kube-native approach
 
