@@ -52,7 +52,7 @@ Items marked with (R) are required for the proposed best practice to be included
 
 ### **Alternatives (Optional)**
 
-## **Test Plan**
+## **Testing Considerations**
 
 ## **Scoring**
 
