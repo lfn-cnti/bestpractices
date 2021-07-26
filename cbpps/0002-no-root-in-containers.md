@@ -111,7 +111,7 @@ All pod types should implement this best practice.
 
 ## Test Plan
 
-Inside a compliant application, all containers will avoid use of root.
+An application which follows this best practice will not have any containers with processes running as root
 
 This CBPP will be tested by the CNF Test Suite.
 
