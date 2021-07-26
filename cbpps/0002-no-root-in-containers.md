@@ -35,7 +35,7 @@ Containers have a list of their own users independent of the host system, one of
 
 ## **Motivation**
 
-Both of these benefit the CNF developer directly, improving the quality of the CNF.  Validation of the best practice is the responsibility of the CNF developer.
+This best practice benefits the CNF developer, improving the quality of the CNF and reducing the developer's likelihood of having to diagnose problems with the CNF.  Validation of the best practice is the responsibility of the CNF developer.
 
 Indirectly, improved CNF quality benefits CNF operators.  The proposed tests are runnable by CNF operators as acceptance tests.
 
