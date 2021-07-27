@@ -55,7 +55,7 @@ It does not consider what filesystem write permissions should be in order to ben
 
 ## Proposal
 
-When building a container, the container should be build to run its processes as a non-root user.  setsid processes should not be required to do the work inside a container.
+When building a container, the container should be built to run its processes as a non-root user.  setsid processes should not be required to do the work inside a container.
 
 The root user in a container has fewer rights and is distinct from the platform's root.  The containerization process included using a user cgroup, which means that the containers' users are distinct from the platform's users and do not include most dangerous elevated rights.
 
