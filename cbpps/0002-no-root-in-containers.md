@@ -103,7 +103,7 @@ We specifically want to run unprivileged process so that their access is limited
 These are not strictly alternatives as they can be used with non-root, but can be applied to a container running as root.
 
 - Disable all capabilities or limit them
-- Do not run the container is privileged
+- Do not run the container in privileged mode
 
 
 ## Workload Context
