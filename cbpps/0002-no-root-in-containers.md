@@ -44,8 +44,7 @@ SE-Linux based environments will require dropping root privileges. Example: Open
 ### Goals
 
 Avoiding the root user in containers improves the security and behaviour of applications when bugs occur.  It is also part of a defense in depth strategy against external compromises.
-
-Avoid compromised apps causing more damage.
+- Avoid compromised apps from causing more damage.
 
 ### Non-Goals
 
