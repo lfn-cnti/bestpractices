@@ -110,7 +110,7 @@ These are not strictly alternatives as they can be used with non-root, but can b
 
 All pod types should implement this best practice.
 
-## Test Plan
+## Test Objectives
 
 An application which follows this best practice will not have any containers with processes running as root
 
