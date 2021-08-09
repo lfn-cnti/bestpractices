@@ -1,3 +1,9 @@
+<!-- Created from CBPP template v1.0
+     Major: changes when we add or remove sections or demands for information
+     Minor: changes when we alter formatting without changing content requirements
+     Keep the first line of this comment in your best practice,
+     to help us track formatting updates --> 
+     
 # **CBPP-NNNN: Your short, descriptive title (TEMPLATE)**
 
 - [Release Signoff Checklist](#release-signoff-checklist)
@@ -52,7 +58,7 @@ Items marked with (R) are required for the proposed best practice to be included
 
 ### **Alternatives (Optional)**
 
-## **Test Plan**
+## **Testing Objectives**
 
 ## **Scoring**
 
