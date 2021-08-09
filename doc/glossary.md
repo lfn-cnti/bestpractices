@@ -11,7 +11,7 @@
 
 **Kubernetes**: [Kubernetes.io](https://kubernetes.io/) is a portable, extensible, open-source platform for managing workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
 
-**Network function**: A functional block within a network infrastructure. Network functions may be components of network services.
+**Network function**: An application that provides networking functionality. Network functions may be components of network services (a "functional block" according to ETSI) or themselves network services.
 
 **Network service**: TBD
 
@@ -22,11 +22,7 @@
 
 ### CNF WG Specific Definitions
 
-**Cloudified network function**: A network function that designed to be deployed on cloud platforms, including Kubernetes (see: Kubernetes Network Function). A cloudified network function can use virtualization features (in which case it would also be considered to be a VNF) as well as containers (in which case it is also be considered to be a containerized network function). A cloudified network function is not necessarily a Cloud Native Network Function (CNF). To be classified as a CNF it must adhere to cloud native design principles.
-
-**Containerized network function**: A network function deployed entirely or primarily as one or more containers. Should not be referred to by the "CNF" acronym in order to avoid confusion with Cloud Native Network Function (CNF). Note that a containerized network function is not necessarily a Kubernetes Network Function (KNF) as it is possible to use containers in other and simpler platforms. Thus, it is also not necessarily a cloudified network function. Also note that some containerization technologies include virtualization features (see also: VNF).
-
-**Kubernetes Network Function (KNF)**: A cloudified network function deployed on Kubernetes. Note that a KNF is not necessarily a containerized network function as there are ways to employ virtualization features in containers running in Kubernetes, and indeed to run full virtual machines.
+**Containerized network function**: A network function deployed entirely or primarily as one or more containers. Should not be referred to by the "CNF" acronym in order to avoid confusion with Cloud Native Network Function (CNF). Note that this definition specifies the runtime technology only, not the platform. Thus a containerized network function might not target Kubernetes nor indeed any cloud platform. Also note that some containerization technologies include virtualization features (see also: VNF).
 
 **Kube-Native**: TBD
 
