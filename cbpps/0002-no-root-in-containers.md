@@ -66,6 +66,9 @@ On a basic level, avoiding the root user means that the container filesystem per
 
 - viewing secrets they should not be viewing
 - modifying binaries within the filesystem that will later be executed
+- What about using rootless solutions like usernetes? Or using another runtime like Kata Containers?
+
+
 
 Obviously, a well-written CNF would not be attempting to do things it should not do.  But all software has bugs.  Also, executing processes can be compromised by outside forces, and if this happens filesystem protection is a part of a "Defense in depth" strategy to ensure the compromise does not escalate.
 
@@ -106,7 +109,10 @@ These are not strictly alternatives as they can be used with non-root, but can b
 - Disable all capabilities or limit them
 - Do not run the container in privileged mode
 
-
+Related items include 
+- [Rootless](https://www.docker.com/blog/experimenting-with-rootless-docker/) containers as seen with [usernetes](https://github.com/rootless-containers/usernetes)
+- Alternative runtimes like [Kata Containers](https://katacontainers.io/) for a different approach to security
+ 
 ## Workload Context
 
 All pod types should implement this best practice.
