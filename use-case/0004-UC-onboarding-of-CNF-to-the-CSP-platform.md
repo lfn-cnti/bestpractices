@@ -59,6 +59,7 @@ This situation is in most cases not blocking the onboarding, but is making it la
 ### Established practices to overcome challenges and limitations
 
 The practices already exist outside of CNF world, but are not very well followed by CNF vendors. Some of the practices are here:
+
 - [The Chart Best Practices Guide](https://helm.sh/docs/chart_best_practices/)
 - [GitOps](https://www.gitops.tech/)
 - [Kubernetes production best practices](https://learnk8s.io/production-best-practices)
