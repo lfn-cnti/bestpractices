@@ -99,7 +99,7 @@ We specifically want to run unprivileged process so that their access is limited
 - [CVE-2019-5736: runc container breakout](https://seclists.org/oss-sec/2019/q1/119)
 
 
-### Alternatives
+### Alternatives / Related Practices
 
 These are not strictly alternatives as they can be used with non-root, but can be applied to a container running as root.
 
