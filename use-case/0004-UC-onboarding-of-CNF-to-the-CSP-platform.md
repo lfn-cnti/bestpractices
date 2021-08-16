@@ -38,7 +38,7 @@ This creates the situation in which CNF and CSP platform, both of which have the
 
 ## Expected behaviour
 
-CNF vendor expects that CSP platform and environment (e.g. Network) are fulfiling certain requirements and preconditions for CNF to be able to achieve production grade deployment. These requirements are different from CNF to CNF.
+CNF vendor expects that CSP platform and environment (e.g. Network) are fulfilling certain requirements and preconditions for CNF to be able to achieve production grade deployment. These requirements are different from CNF to CNF.
 
 CNPD expects that all requirements are well documented with and provided in such form before onboarding starts. The docummentation shall enable CNPD team to verify readiness and prepare the platform (e.g. configure necessary kernel modules, SR-IOV interfaces and similar). In practically all deployments that are meant for production environment the deployment artifacts are stored in private on-prem artifacts and registries. Therefore CNPD expects that CNF vendor provides its artefacts in a form that is typical for cloud native applications (Helm charts, containers, yaml manifests) which could be easily replicated to CSP's on-prem environment (e.g. CNF vendor's registry accessible via Internet from CSPs caching registry).
 
