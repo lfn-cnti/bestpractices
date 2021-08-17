@@ -1,4 +1,4 @@
-# CBPP-000N: No root in containers
+# CBPP-000N: Container should execute process(es) as non-root user
 
 - [Release Signoff Checklist](#Release-Signoff-Checklist)
 - [Summary](#Summary)
