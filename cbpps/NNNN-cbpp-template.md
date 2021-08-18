@@ -2,8 +2,8 @@
      Major: changes when we add or remove sections or demands for information
      Minor: changes when we alter formatting without changing content requirements
      Keep the first line of this comment in your best practice,
-     to help us track formatting updates --> 
-     
+     to help us track formatting updates -->
+
 # **CBPP-NNNN: Your short, descriptive title (TEMPLATE)**
 
 - [Release Signoff Checklist](#release-signoff-checklist)
