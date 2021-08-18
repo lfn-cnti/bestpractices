@@ -102,7 +102,7 @@ In a 5G network the Convergent Charging System (CCS) comprises several autonomou
   - The Stateful CNF should continue to follow cloud-native principles:
     - Node failure should not result in service outage
     - The Stateful CNF should be able to scale up and down to handle traffic spikes
-    - The Stateful CNF should be upgradable at any time
+    - The Stateful CNF should be upgradeable at any time
   - The Stateful CNF should be portable across different hosts and clusters
     - The Stateful CNF instances should be loosely coupled to the host infrastructure: they should not be tied to a single node, instead taints and tolerations should be used to select nodes with the necessary capabilities
     - The Stateful CNF may have specific resource requirements (memory size, CPU %, PV speed) and may also use affinity rules to control the scheduling of the Stateful CNF pods across the kubernetes cluster

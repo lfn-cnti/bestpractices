@@ -99,7 +99,7 @@ I agree/disagree with a proposed Cloud Native best practice definition. After re
 
 ### **Tradeoffs/Constraints/Caveats/Notes**
 
-This first structure is still WIP and should not be considered final. As the CNF WG begins to dive into their work, this format and process should be modified to meet the WG’s current needs.
+This first structure is still WIP and should not be considered final. As the CNF WG begins to dive into their work, this format and process should be modified to meet the WG's current needs.
 
 When applicable, it should also provide a warning if the practice would be a determent to a divergent type of workload.
 
