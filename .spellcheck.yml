@@ -8,12 +8,15 @@
 # http://www.apache.org/licenses/LICENSE-2.0
 ##############################################################################
 
-name: Run misspell with reviewdog
-# yamllint disable-line rule:truthy
-on: [push, pull_request]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: reviewdog/action-misspell@v1
+matrix:
+  - name: markdown
+    dictionary:
+      wordlists:
+        - .github/.wordlist.txt
+    pipeline:
+      - pyspelling.filters.markdown:
+    sources:
+      - '**/*.md'
+    aspell:
+      lang: en
+      ignore-case: true
