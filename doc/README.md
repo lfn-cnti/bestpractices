@@ -10,7 +10,7 @@
 
 The goal of this group is to define a set of practices to evaluate the extent to which a CNF is [cloud native](https://github.com/cloud-native-principles/cloud-native-principles) a CNF is. CNFs can be evaluated against those best practices through test cases that are developed by other open source projects like the [CNF Test Suite](https://github.com/cncf/cnf-testsuite#cnf-conformance-test-suite)
 
-CNF WG will rely on other industry initiatives (such as CNCF TUG) to come up wiht a definition of "cloud native" in relation to the telecom industry.
+CNF WG will rely on other industry initiatives (such as CNCF TUG) to come up with a definition of "cloud native" in relation to the telecom industry.
 
 As the telco industry transitions to cloud native ways of thinking, working, and operating, these best practices will serve as the industry gold standard of what cloud native means in practice. They can be used for a variety of purposes including guiding CNF design and development, in RFPs, to guide daily operations, and to do internal testing.
 
@@ -28,7 +28,7 @@ Best practices are introduced, modified, and removed to keep up with industry tr
 
 As demonstrated by **Figure 1-2** below, When it comes to Cloud Native Network Functions (CNFs), there are many areas that can be focused on in order to determine different best practices for different Actors. They are:
 
-* **Consumption of CNFs**: Set of best pracitices that helps Customers/Consumers to consume and use CNFs in a cloud native way.
+* **Consumption of CNFs**: Set of best practices that helps Customers/Consumers to consume and use CNFs in a cloud native way.
 * **Development of CNFs**: Set of best practices that helps CNF Developers to build their CNFs in a cloud native way.
 * **Operation of CNFs**: Set of best practices that helps CNF Operators with the life-cycle management of CNFs in a cloud native way (for example, deployment, configuration management, upgrade, etc).
 * **Building of CNF Infrastructure**: Set of best practices that helps CNF Infrastructure developers to build and develop CNF Infrastucture in a cloud native way.
