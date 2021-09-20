@@ -1,4 +1,4 @@
-# UC-NNNN: Short descriptive title of your use case (TEMPLATE)
+# UC-0004: Onboarding of CNF to the CSP platform
 
 ## Glossary
 
