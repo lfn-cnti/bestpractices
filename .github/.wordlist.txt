@@ -47,6 +47,7 @@ Cristian
 Csatari
 CsatariGergely
 CSP
+CSP's
 CSPs
 dataplane
 deliverables
@@ -69,6 +70,7 @@ Ganbar
 GC
 Gergely
 getters
+GitOps
 GL
 Gojnic
 golang
@@ -104,6 +106,7 @@ KubeCon
 kubenative
 kubernetes
 kwJOrsc
+learnk
 lifecycle
 Lifecycle
 Liles
@@ -130,6 +133,7 @@ namespaces
 nativeness
 NFs
 NFV
+NFVi
 nickolaev
 NICs
 Nikolaev
@@ -139,6 +143,7 @@ notesconstraintscaveats
 Nussbaumer
 observability
 ol
+onboarding
 OSS
 overrepresented
 OVP
@@ -155,6 +160,7 @@ PNF
 png
 Postconditions
 pre
+prem
 PRs
 pSMVZGQmNRemEwUk
 PV
@@ -184,6 +190,7 @@ signoff
 SIGs
 sishbi
 Skrocki
+SLA
 SMF
 Smitholi
 snetworkplumbingwg
@@ -241,5 +248,6 @@ WIP
 writeup
 XDP
 xyz
+yaml
 YFimQftjkTUsxNGTsKdakvP
 yzYM
