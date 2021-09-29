@@ -76,7 +76,22 @@ Unix access enforcement (user/group) will be respected. As an added advantage, f
 
 ### User Story
 
-_TBD: the user stories for access control need writing_
+#### A containerized OpenVSwitch downloads compromised routing updates
+
+A OpenVSwitch VNF was containerized and is running on a K8s cluster. It retrieves its routing scripts and logic are defined an externally from remote service. It then applies them to the running container instance.
+
+Unfortunately, the latest resources it downloaded have been compromised on the central system. The  OpenVSwitch runs compromised code which takes over the container’s process with its own malicious code.
+
+With this best practice, the now malicious application will not be able to escalate its damage beyond what the non-root user has access to.
+
+
+#### A Firewall as a Service (FWaaS) CNF  downloads compromised externally defined rules
+
+A firewall running on a K8s cluster applies rules from an external, centralized system. These firewall rules are applied “hot” to the running container and are expected to be pre-validated by the external system.
+
+Unfortunately, the latest set of rules include an exploit while still passing validation by the external system and the firewall CNF itself. The firewall downloads the newly defined rules with the exploit and when they are applied the firewall container is compromised with malicious code.
+
+With this best practice, the now malicious firewall CNF will not be able to escalate its damage beyond what the non-root user has access to.
 
 ### Tradeoffs/Constraints/Caveats/Notes
 
