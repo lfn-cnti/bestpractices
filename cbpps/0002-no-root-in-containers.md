@@ -6,9 +6,7 @@
   - [Goals](#Goals)
   - [Non-Goals](#non-goals)
 - [Proposal](#proposal)
-  - [User Stories](#user-stories)
-    - [Story 1](#story-1)
-    - [Story 2](#story-2)
+  - [User Stories](#user-story)
   - [Tradeoffs/Constraints/Caveats/Notes](#tradeoffsconstraintscaveatsnotes)
   - [References](#references)
   - [Alternatives (Optional)](#drawbacksalternatives)
@@ -73,7 +71,7 @@ User/group access enforcement will be respected. As an added advantage, fine-gra
 
 ### User Story
 
-## Supply chain attack user stories
+#### Supply chain attack user stories
 
 [Supply chain attacks](user-stories/supply-chain-attacks.md) are a risk at any point in the supply chain. ‘Defence in depth’ says that we should (a) defend against supply chain attacks but also (b) add mitigations in the case that supply chain attacks happen.
 
