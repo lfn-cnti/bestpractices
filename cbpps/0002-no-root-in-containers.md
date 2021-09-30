@@ -69,7 +69,7 @@ On a basic level, avoiding the root user means that the container filesystem per
 
 Obviously, a well-written CNF would not be attempting to do things it should not do.  But all software has bugs.  Also, executing processes can be compromised by outside forces, and if this happens filesystem protection is a part of a "Defense in depth" strategy to ensure the compromise does not escalate.
 
-Unix access enforcement (user/group) will be respected. As an added advantage, fine-grained access enforcement, such as SELinux, will also hold.
+User/group access enforcement will be respected. As an added advantage, fine-grained access enforcement, such as in SELinux, will also hold.
 
 ### User Story
 
