@@ -58,7 +58,7 @@ It does not consider what filesystem write permissions should be in order to ben
 
 When building a container, the container should be built to run its processes as a non-root user.  setsid processes should not be required to do the work inside a container.
 
-A container's root user has fewer Linux Kernel privileges and may be distinct from the platform's root (if the container runtime enables user namespaces remap feature).
+A container's root user has fewer Linux Kernel capabilities and may be distinct from the platform's root (if the container runtime enables user namespaces remap feature).
 
 However, the container's root user does have full read/write access to the container's filesystem.  It can read or modify any file.  No secrets can be kept from it; it cannot be prevented from changing the content of all executable files on the system.
 
