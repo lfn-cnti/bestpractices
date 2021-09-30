@@ -30,7 +30,7 @@ Items marked with (R) are required.
 
 ## **Summary**
 
-Containers have a list of their own users independent of the host system, one of which is UID 0, the root user. Containers should run processes as a user other than root which makes it easier to run these images securely.
+Containers have a list of their own users independent of the host system, one of which is UID 0, the root user. Containers should run processes as a user other than root which makes it easier to run the container images securely.
  
 
 ## **Motivation**
