@@ -96,7 +96,7 @@ Container images are frequently built from upstream image versions made from OS 
 
 By default, the first process starting in a container runs as root - you have to actively take steps to shed the permissions (Dockerfile USER line, plus installing files with appropriate ownership within the Dockerfile).
 
-We specifically want to run unprivileged process so that their access is limited.  Of course, if access is limited then the CNF developer must ensure that access is still available to the things the CNF is going to need to access.  This will involve changing permissions on data files and on working directories when the container image is constructed (they cannot be changed on startup because the application does not have the right to do that).  This may also affect the use of shared volume mounts or host mounts - ownership of and rights on the root directory must permit access to the container users.
+We specifically want the process to run as a non-root user so that its access is limited.  Of course, if access is limited then the CNF developer must ensure that access is still available to the things the CNF is going to need to access.  This will involve changing permissions on data files and on working directories when the container image is constructed (they cannot be changed on startup because the application does not have the right to do that).  This may also affect the use of shared volume mounts or host mounts - ownership of and rights on the root directory must permit access to the container users.
 
 ### References
 
