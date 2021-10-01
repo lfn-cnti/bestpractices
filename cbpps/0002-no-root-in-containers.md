@@ -28,7 +28,7 @@ Items marked with (R) are required.
 
 ## **Summary**
 
-Containers have a list of their own users independent of the host system, one of which is UID 0, the root user. Containers should run processes as a user other than root which makes it easier to run these images securely.
+Containers have a list of their own users independent of the host system, one of which is UID 0, the root user. Containers should run processes as a user other than root which makes it easier to run the container images securely.
  
 
 ## **Motivation**
@@ -56,7 +56,7 @@ It does not consider what filesystem write permissions should be in order to ben
 
 When building a container, the container should be built to run its processes as a non-root user.  setsid processes should not be required to do the work inside a container.
 
-A container's root user has fewer Linux Kernel privileges and may be distinct from the platform's root (if the container runtime enables user namespaces remap feature).
+A container's root user has fewer Linux Kernel capabilities and may be distinct from the platform's root (if the container runtime enables user namespaces remap feature).
 
 However, the container's root user does have full read/write access to the container's filesystem.  It can read or modify any file.  No secrets can be kept from it; it cannot be prevented from changing the content of all executable files on the system.
 
@@ -84,7 +84,6 @@ Examples include
 In all of these examples, the CNFs using a non-root user for their container processes, have limited the scope of damage a compromised process may cause.
 
 See main [defense in depth for supply chain attacks](../user-stories/supply-chain-attacks.md) document for more information.
-
 
 ### Tradeoffs/Constraints/Caveats/Notes
 
