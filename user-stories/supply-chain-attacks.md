@@ -14,7 +14,7 @@ Thus: limiting the privilege of container processes makes the system safer to us
 
 ## A CNF succumbs to code injection
 
-As above, a CNF runs malicious code, in this case introduced into the process through a code injection attack on its internal or external interfaces by a bad actor within the operator's organisation or by anyone on the network, respectively).  In this instance, limiting the power wielded by processes in the conatiner again prevents the attack from going further.
+As above, a CNF runs malicious code, in this case introduced into the process through a code injection attack on its internal or external interfaces by a bad actor within the operator's organisation or by anyone on the network, respectively.  In this instance, limiting the power wielded by processes in the container again prevents the attack from going further.
 
 ## A CNF succumbs to malicious instructions
 
@@ -24,6 +24,6 @@ A CNF such as a programmable forwarder might receive rules updates from a centra
 
 ## A CNF has a security-compromising bug
 
-A CNF unwittingly has a bug where an appropriately crafted packet will write a file at a location on the disk dependent on the packet's content.  This can lead to compromise.  Many possibilities for compromise are prevented if the process in question does not have overarching power to write the filesystem, as is typically available to a container root user.
+A CNF unwittingly has a bug where an appropriately crafted packet will write a file at a location on the disk dependent on the packet's content.  This can lead to compromise.  Many possibilities for compromise are prevented if the process in question does not have privileges to write in the filesystem, as is typically available to a container root user.
 
-A CNF may also have a bug where it attempts to rewrite settings files that keep the CNF secure (e.g. files containing credentials).  If the file is not owned by the process and the process is not itself a root process it has no power to change those files.
+A CNF may also have a bug where it attempts to rewrite settings files that keep the CNF secure (e.g. files containing credentials).  If the file is not owned by the process and the process is not itself a root process it has no privilege to change those files.

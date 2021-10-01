@@ -83,7 +83,7 @@ Examples include
 
 In all of these examples, the CNFs using a non-root user for their container processes, have limited the scope of damage a compromised process may cause.
 
-See main [defense in depth for supply chain attacks](../user-stories/supply-chain-attacks.md) document for more inforamtion.
+See main [defense in depth for supply chain attacks](../user-stories/supply-chain-attacks.md) document for more information.
 
 
 ### Tradeoffs/Constraints/Caveats/Notes
