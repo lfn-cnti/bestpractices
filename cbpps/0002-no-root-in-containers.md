@@ -6,9 +6,7 @@
   - [Goals](#Goals)
   - [Non-Goals](#non-goals)
 - [Proposal](#proposal)
-  - [User Stories](#user-stories)
-    - [Story 1](#story-1)
-    - [Story 2](#story-2)
+  - [User Stories](#user-story)
   - [Tradeoffs/Constraints/Caveats/Notes](#tradeoffsconstraintscaveatsnotes)
   - [References](#references)
   - [Alternatives (Optional)](#drawbacksalternatives)
@@ -75,16 +73,17 @@ User/group access enforcement will be respected. As an added advantage, fine-gra
 
 #### Supply chain attack user stories
 
-Supply chain attacks are a risk at any point in the supply chain. In a supply chain attack, a malicious actor sneaks code into the application that serves their nefarious purposes. It can happen for many reasons: for instance, because they managed to modify the registry, they managed to modify the image before it was placed in the registry, or they managed to get illicit code into an open source project that is built into the container.
-
-‘Defence in depth’ says that we should (a) defend against supply chain attacks but also (b) add mitigations in the case that supply chain attacks happen - that is, we should not assume that a single line of defence will hold.
+[Supply chain attacks](user-stories/supply-chain-attacks.md) are a risk at any point in the supply chain. ‘Defence in depth’ says that we should (a) defend against supply chain attacks but also (b) add mitigations in the case that supply chain attacks happen.
 
 Examples include
-- A CNF downloads compromised updates
-- A CNF succumbs to code injection
-- A CNF succumbs to malicious instructions
-- A CNF has a security-compromising bug
+- [A CNF downloads compromised updates](../user-stories/supply-chain-attacks.md#a-cnf-downloads-compromised-updates)
+- [A CNF succumbs to code injection](../user-stories/supply-chain-attacks.md#a-cnf-succumbs-to-code-injection)
+- [A CNF succumbs to malicious instructions](../user-stories/supply-chain-attacks.md#a-cnf-succumbs-to-malicious-instructions)
+- [A CNF has a security-compromising bug](../user-stories/supply-chain-attacks.md#a-cnf-has-a-security-compromising-bug)
 
+In all of these examples, the CNFs using a non-root user for their container processes, have limited the scope of damage a compromised process may cause.
+
+See main [defense in depth for supply chain attacks](../user-stories/supply-chain-attacks.md) document for more information.
 
 ### Tradeoffs/Constraints/Caveats/Notes
 
