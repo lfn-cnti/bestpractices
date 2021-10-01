@@ -73,22 +73,18 @@ User/group access enforcement will be respected. As an added advantage, fine-gra
 
 ### User Story
 
-#### A containerized OpenVSwitch downloads compromised routing updates
+#### Supply chain attack user stories
 
-An OpenVSwitch VNF was containerized and is running on a K8s cluster. It retrieves its routing scripts and logic, which are defined externally, from a remote service. It then applies them to the running container instance.
+Supply chain attacks are a risk at any point in the supply chain. In a supply chain attack, a malicious actor sneaks code into the application that serves their nefarious purposes. It can happen for many reasons: for instance, because they managed to modify the registry, they managed to modify the image before it was placed in the registry, or they managed to get illicit code into an open source project that is built into the container.
 
-Unfortunately, the latest resources it downloaded have been compromised. The  OpenVSwitch runs the compromised code which takes over the container’s process with its own malicious code.
+‘Defence in depth’ says that we should (a) defend against supply chain attacks but also (b) add mitigations in the case that supply chain attacks happen - that is, we should not assume that a single line of defence will hold.
 
-With this best practice, the now malicious application will not be able to escalate its damage beyond what the non-root user has access to.
+Examples include
+- A CNF downloads compromised updates
+- A CNF succumbs to code injection
+- A CNF succumbs to malicious instructions
+- A CNF has a security-compromising bug
 
-
-#### A Firewall as a Service (FWaaS) CNF  downloads compromised externally defined rules
-
-A firewall running on a K8s cluster applies rules from an external, centralized system. These firewall rules are applied “hot” to the running container and are expected to be pre-validated by the external system.
-
-Unfortunately, the latest set of rules include an exploit while still passing validation by the external system and the firewall CNF itself. The firewall downloads the newly defined rules with the exploit and when they are applied the firewall container is compromised with malicious code.
-
-With this best practice, the now malicious firewall CNF will not be able to escalate its damage beyond what the non-root user has access to.
 
 ### Tradeoffs/Constraints/Caveats/Notes
 
