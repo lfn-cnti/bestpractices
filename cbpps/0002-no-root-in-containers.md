@@ -1,4 +1,4 @@
-# CBPP-000N: Container should execute process(es) as non-root user
+# CBPP-0002: Container should execute process(es) as non-root user
 
 - [Release Signoff Checklist](#Release-Signoff-Checklist)
 - [Summary](#Summary)
@@ -19,12 +19,12 @@
 
 Items marked with (R) are required.
 
-- [ ] (R) CBPP approvers have approved the CBPP status as `implementable`
+- [x] (R) CBPP approvers have approved the CBPP status as `implementable`
 - [x] (R) CBPP summary, motivation and best practice details are appropriately documented
-- [ ] (R) Test plan is in place, giving consideration to CNF Test Suite input
+- [x] (R) Test plan is in place, giving consideration to CNF Test Suite input
 - [x] (R) Scoring has been determined
 - [x]   "Implementation History" section is up-to-date
-- [ ]    Supporting documentation—e.g., additional design documents, links to mailing list discussions/SIG meetings, relevant PRs/issues, release notes
+- [x]    Supporting documentation—e.g., additional design documents, links to mailing list discussions/SIG meetings, relevant PRs/issues, release notes
 
 ## **Summary**
 
