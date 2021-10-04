@@ -73,7 +73,7 @@ User/group access enforcement will be respected. As an added advantage, fine-gra
 
 #### Supply chain attack user stories
 
-[Supply chain attacks](user-stories/supply-chain-attacks.md) are a risk at any point in the supply chain. ‘Defence in depth’ says that we should (a) defend against supply chain attacks but also (b) add mitigations in the case that supply chain attacks happen.
+[Supply chain attacks](../user-stories/supply-chain-attacks.md) are a risk at any point in the supply chain. ‘Defence in depth’ says that we should (a) defend against supply chain attacks but also (b) add mitigations in the case that supply chain attacks happen.
 
 Examples include
 
@@ -109,8 +109,8 @@ We specifically want the process to run as a non-root user so that its access is
 - K8s 11 Ways Not to Get Hacked: [8. Run Containers as a Non-Root User](https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/#8-run-containers-as-a-non-root-user)
 - Red Hat PDF [A PRACTICAL INTRODUCTION TO CONTAINER SECURITY](https://www.redhat.com/files/summit/session-assets/2017/L99901-apracticalintroductiontocontainersecurity_labguide.pdf) - 2017/05
 - [CVE-2019-5736: runc container breakout](https://seclists.org/oss-sec/2019/q1/119)
-- [https://www.redhat.com/en/blog/using-rootless-containers-tech-preview-rhel-80](Using the rootless containers in RHEL) 2019/08
-- [https://www.redhat.com/en/blog/understanding-root-inside-and-outside-container](Understanding root inside and outside a container) 2019/12
+- [Using the rootless containers in RHEL](https://www.redhat.com/en/blog/using-rootless-containers-tech-preview-rhel-80) 2019/08
+- [Understanding root inside and outside a container](https://www.redhat.com/en/blog/understanding-root-inside-and-outside-container) 2019/12
 
 ### Alternatives / Related Practices
 
