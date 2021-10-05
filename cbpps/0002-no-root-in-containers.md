@@ -29,7 +29,6 @@ Items marked with (R) are required.
 ## **Summary**
 
 Containers have a list of their own users independent of the host system, one of which is UID 0, the root user. Containers should run processes as a user other than root which makes it easier to run the container images securely.
- 
 
 ## **Motivation**
 
@@ -42,6 +41,7 @@ SE-Linux based environments will require dropping root privileges. Example: Open
 ### Goals
 
 Avoiding root in containers can help to:
+
 - Improve the security and behaviour of applications.
 - Add to the defense in depth strategy against external compromises.
 - Avoid compromised apps from causing more damage.
@@ -73,9 +73,10 @@ User/group access enforcement will be respected. As an added advantage, fine-gra
 
 #### Supply chain attack user stories
 
-[Supply chain attacks](user-stories/supply-chain-attacks.md) are a risk at any point in the supply chain. ‘Defence in depth’ says that we should (a) defend against supply chain attacks but also (b) add mitigations in the case that supply chain attacks happen.
+[Supply chain attacks](../user-stories/supply-chain-attacks.md) are a risk at any point in the supply chain. ‘Defence in depth’ says that we should (a) defend against supply chain attacks but also (b) add mitigations in the case that supply chain attacks happen.
 
 Examples include
+
 - [A CNF downloads compromised updates](../user-stories/supply-chain-attacks.md#a-cnf-downloads-compromised-updates)
 - [A CNF succumbs to code injection](../user-stories/supply-chain-attacks.md#a-cnf-succumbs-to-code-injection)
 - [A CNF succumbs to malicious instructions](../user-stories/supply-chain-attacks.md#a-cnf-succumbs-to-malicious-instructions)
@@ -95,7 +96,7 @@ We specifically want the process to run as a non-root user so that its access is
 
 ### References
 
-- CNF WG discussion: https://github.com/cncf/cnf-wg/discussions/20
+- [CNF WG discussion](https://github.com/cncf/cnf-wg/discussions/20)
 - TAG Security: [Cloud Native Security Whitepaper - Least Privilege](https://github.com/cncf/tag-security/blob/main/security-whitepaper/cloud-native-security-whitepaper.md#least-privilege)
 - Sysdig: [Top 20 Dockerfile best practices](https://sysdig.com/blog/dockerfile-best-practices/) - 2021/03/09
 - [Best practices for pod security in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/developer-best-practices-pod-security) - 2020/07/28
@@ -108,9 +109,8 @@ We specifically want the process to run as a non-root user so that its access is
 - K8s 11 Ways Not to Get Hacked: [8. Run Containers as a Non-Root User](https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/#8-run-containers-as-a-non-root-user)
 - Red Hat PDF [A PRACTICAL INTRODUCTION TO CONTAINER SECURITY](https://www.redhat.com/files/summit/session-assets/2017/L99901-apracticalintroductiontocontainersecurity_labguide.pdf) - 2017/05
 - [CVE-2019-5736: runc container breakout](https://seclists.org/oss-sec/2019/q1/119)
-- [https://www.redhat.com/en/blog/using-rootless-containers-tech-preview-rhel-80](Using the rootless containers in RHEL) 2019/08
-- [https://www.redhat.com/en/blog/understanding-root-inside-and-outside-container](Understanding root inside and outside a container) 2019/12
-
+- [Using the rootless containers in RHEL](https://www.redhat.com/en/blog/using-rootless-containers-tech-preview-rhel-80) 2019/08
+- [Understanding root inside and outside a container](https://www.redhat.com/en/blog/understanding-root-inside-and-outside-container) 2019/12
 
 ### Alternatives / Related Practices
 
@@ -119,10 +119,11 @@ These are not strictly alternatives as they can be used with non-root, but can b
 - Disable all capabilities or limit them
 - Do not run the container in privileged mode
 
-Related items include 
+Related items include
+
 - [Rootless](https://www.docker.com/blog/experimenting-with-rootless-docker/) containers as seen with [usernetes](https://github.com/rootless-containers/usernetes)
 - Alternative runtimes like [Kata Containers](https://katacontainers.io/) for a different approach to security
- 
+
 ## Workload Context
 
 All pod types should implement this best practice.
@@ -141,18 +142,19 @@ A container image can be tested for compliance:
 - The container filesystem will not have setsid-root binaries.
 
 If available, the Dockerfile can be checked to see if a non-root user is used.  (Dockerfiles are not the only way to build containers, and the Dockerfile may not be a part of the CNF deliverable.)
+
 - See USER and RUN commands, both of which allow the Dockerfile author to express which user is to be used when launching the container.
 
 The above static analysis definitively confirms that a container cannot elevate privileges to local root as it removes all avenues for doing so.
 
 ### Runtime analysis
 
-
 One can check for processes launched as, or running as container root.
 
 We offer the following applications as examples that operators might wish to evaluate for this purpose:
-- Cnitch (https://github.com/nicholasjackson/cnitch) periodically checks the list of running containers in a Docker environment to see if any are running as container root.
-- Falco (https://falco.org/) checks for processes running as container root if the non-root container policy is set.
+
+- [Cnitch](https://github.com/nicholasjackson/cnitch) periodically checks the list of running containers in a Docker environment to see if any are running as container root.
+- [Falco](https://falco.org/) checks for processes running as container root if the non-root container policy is set.
 
 Scanning systems that periodically check running processes or may not identify all root-owned processes, as it must conduct a scan at the moment a process is running.  Similarly, process monitoring  will not identify a problem if behaviour requiring a root process is not triggered.  This cannot be used as a definitive guarantee of safety but is useful as a secondary check.
 
@@ -161,10 +163,12 @@ Scanning systems that periodically check running processes or may not identify a
 This best practice results in a pass/fail on two counts, depending on role.
 
 Static analysis (all items checked for a pass) - CNF developers (testing before delivery) or CNF operators (testing what is delivered):
+
 - Container images indicate their processes should be started as a user other than 0
 - Container images should not contain setsid-root binaries (user 0, u+s)
 
 Runtime analysis - CNF operators:
+
 - Operators may use run-time verification, from outside the application, to confirm that containers in processes are not owned by container root
 
 ## Implementation History
