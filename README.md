@@ -26,17 +26,13 @@ The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing
 
 ### Upcoming events
 
-[CNF WG: K8s Best Practices for Telco Apps](https://sched.co/iE74) at KubeCon EU 2021
-
-* Thursday, May 6 at 11:30 - 12:05 UTC
-* [Register](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/)
+* TBA
 
 ### Past events
 
-[Cloud Native Network Functions (CNF) Working Group Kick-off](https://sched.co/fRkx) at KubeCon NA 2020:
-
-* Thursday, November 19th at 16:00 UTC (11:00am - 12:00pm EST)
-* Join zoom [here](https://zoom.us/j/92899637746)
+* [Intro & Deep Dive to the CNF WG](https://sched.co/lV9e) at KubeCon NA 2021
+* [CNF WG: K8s Best Practices for Telco Apps](https://sched.co/iE74) at KubeCon EU 2021
+* [Cloud Native Network Functions (CNF) Working Group Kick-off](https://sched.co/fRkx) at KubeCon NA 2020
 
 ## Community
 
