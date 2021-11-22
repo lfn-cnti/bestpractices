@@ -1,6 +1,6 @@
 # User stories: Employing Air Gapped Environments
 
-Environments hosting critical infrastructure often deny access to the public internet, even via a proxy. This is done for several reasons as part of a defense in depth strategy, such as controlling the artifacts that come into the environment, controlling builds at the source, and ensuring malicious code is not able to call back to remote destinations. Beyond the security implications of air gapping an environment and utilizing private registries, upstream repositiory management becomes a centralized task that all internal stakeholders can take advantage of.
+Environments hosting critical infrastructure often deny access to the public internet, even via a proxy. This is done for several reasons as part of a defense in depth strategy, such as controlling the artifacts that come into the environment, controlling builds at the source, and ensuring malicious code is not able to call back to remote destinations. Beyond the security implications of air gapping an environment and utilizing private registries, upstream repository management becomes a centralized task that all internal stakeholders can take advantage of.
 
 Note: Air gapped environments are not solely an issue for service providers/network operators. Other heavily regulated environments, such as US DoD networks, seeking to employ CNFs would be beholden to these constraints.
 
