@@ -8,7 +8,7 @@ Note: Air gapped environments are not a challenge solely for service providers/n
 
 A CNF running on a K8s cluster is downloaded from a centralized registry. Upon instantiation, the CNF validates that it has the required license tied to a suite of desired functionality. If the license is valid, the functionality is enabled. If a valid license is not available, the desired behavior is often that the next available license in a pool is requested, or a new order is generated in real time.
 
-In this case, if the operator does not allow for a CNF to access a remote licensing server, this method breaks down. Additonally, if the licensing server is pulled into the locally hosted environments but requires licenses be purchased in advance, then the desired behavior of dynamically deployed CNFs might be hindered due to a lack of available licenses in the pool. 
+In this case, if the operator does not allow for a CNF to access a remote licensing server, this method breaks down. Additionally, if the licensing server is pulled into the locally hosted environments but requires licenses be purchased in advance, then the desired behavior of dynamically deployed CNFs might be hindered due to a lack of available licenses in the pool. 
 
 The goal for licensing best practices should be to find ways that allow operators to safely and securely deploy CNFs on-demand in air gapped environments. This means that CNF vendors and operators must find a way to monetize CNFs that support cloud-based deployments in an environment that may break certain cloud native assumptions.
 
