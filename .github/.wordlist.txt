@@ -127,6 +127,7 @@ linuxfoundation
 Liron
 lixuna
 Lucina
+lV
 LVAQCC
 Maciej
 Makefile
@@ -189,7 +190,6 @@ rannyh
 reachability
 README
 RedHat
-repo
 RFPs
 RHEL
 rmerz

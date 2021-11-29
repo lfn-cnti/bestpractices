@@ -169,7 +169,7 @@ Static analysis (all items checked for a pass) - CNF developers (testing before 
 
 Runtime analysis - CNF operators:
 
-- Operators may use run-time verification, from outside the application, to confirm that containers in processes are not owned by container root
+- Operators may use runtime verification, from outside the application, to confirm that containers in processes are not owned by container root
 
 ## Implementation History
 

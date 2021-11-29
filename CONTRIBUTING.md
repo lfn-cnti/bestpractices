@@ -4,7 +4,7 @@ Welcome to the Cloud Native Network Function (CNF) Working Group! This is an ope
 
 To learn about this working group, [read the CNF WG charter](charter.md).
 
-Except as otherwise noted, the content of this repo is licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/) ([local copy](LICENSES/CC-BY-4.0.txt)), and any code is licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html) ([local copy](LICENSES/APACHE-2.txt)). See more at [LICENSE.md](LICENSE.md).
+Except as otherwise noted, the content of this repository is licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/) ([local copy](LICENSES/CC-BY-4.0.txt)), and any code is licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html) ([local copy](LICENSES/APACHE-2.txt)). See more at [LICENSE.md](LICENSE.md).
 
 ## Where to Contribute
 
@@ -63,7 +63,7 @@ Over time, we hope that you feel comfortable voicing your opinions, ideas and pr
 - Participate in existing discussions
   - eg. [Defining actors and audiences](https://github.com/cncf/cnf-wg/discussions/30)
 - Add new discussion topics
-- Reference Issues, PRs, and existing content from the [CNF WG repo](https://github.com/cncf/cnf-wg)
+- Reference Issues, PRs, and existing content from the [CNF WG repository](https://github.com/cncf/cnf-wg)
 
 ### Find an Issue
 
@@ -94,7 +94,7 @@ passes these checks, but we also have more criteria than just that before we can
 accept and merge it. We recommend that you check the following things locally
 before you submit your change:
 
-- We use Github Actions to test all pull requests. We prefer that all tests succeed on a pull request before it is merged. This repo also contains a *Makefile* for running linting tasks locally. Executing `make lint`  is another way to check your work before GitHub actions.
+- We use GitHub Actions to test all pull requests. We prefer that all tests succeed on a pull request before it is merged. This repository also contains a *Makefile* for running linting tasks locally. Executing `make lint`  is another way to check your work before GitHub actions.
 
 ### Review/comment on Pull Requests
 
@@ -142,7 +142,7 @@ Majority of other changes:
 
 The best way to reach us with a question when contributing is to ask on:
 
-- The original Github issue
+- The original GitHub issue
 - [Our Slack channel](https://cloud-native.slack.com/archives/C01F1LVAQCC)
 
 ## Express Your Interest

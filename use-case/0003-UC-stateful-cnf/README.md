@@ -22,8 +22,8 @@ In a 5G network the Convergent Charging System (CCS) comprises several autonomou
 - Balance: a long-lived record of available funds (allowances) grouped into balance types with units such as time, data, currency
 - Subscriber: a subscription to use the network services which may be associated with an individual customer or a company, a subscriber has one or more devices
 - Device: the device (UE) that the subscriber uses to access the network (AMF, Access Management), may have its own balances and allowances
-- Executor: the micro-service within the CCS that processes charging session requests (CGF, Charging Gateway), querying balances (ABMF, Account Balance) and recording quotas (RF, Rating)
-- CCS Cluster: a collection of micro-service executors that work together to handle charging session requests (CHF, CGF), balance queries (ABMF) and quota records (RF)
+- Executor: the microservice within the CCS that processes charging session requests (CGF, Charging Gateway), querying balances (ABMF, Account Balance) and recording quotas (RF, Rating)
+- CCS Cluster: a collection of microservice executors that work together to handle charging session requests (CHF, CGF), balance queries (ABMF) and quota records (RF)
 
 ## Involved processes
 
