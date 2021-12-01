@@ -8,7 +8,7 @@ This process is still in an alpha state and feedback is welcome.
 
 Socialize an idea with the CNF WG. You can send your idea to the mailing list, or add it to the agenda for one of the upcoming meetings. Make sure that others think the work is worth taking up and will help review the CBPP and any code changes required.
 
-Follow the process outlined in the [CBPP process document](0001-cnf-best-practice-proposal-process.md) and use the [CBPP template](NNNN-cbpp-template.md) to create a new proposal. Submit a pull request to add the proposal to the repo.
+Follow the process outlined in the [CBPP process document](0001-cnf-best-practice-proposal-process.md) and use the [CBPP template](NNNN-cbpp-template.md) to create a new proposal. Submit a pull request to add the proposal to the repository.
 
 ## CNF Use Cases
 
