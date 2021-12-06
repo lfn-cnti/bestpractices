@@ -20,6 +20,6 @@ In this case, the operator would seek to ensure that artifacts are signed and de
 
 ## A vendor employs SaaS based services
 
-A vendor provides a SaaS based solution hosted in a third-party cloud environment. This service could be related to licensing, streaming telemetry, or automated fault detection. In this instance, the provider and operator must come to an agreement as to how these services will be accessed. 
+A vendor provides a SaaS based solution hosted in a third-party cloud environment. This service could be related to licensing, streaming telemetry, or automated fault detection. In this instance, the provider and operator must come to an agreement as to how these services will be accessed.
 
 This could be accomplished via a VPN, by providing operators the ability to host these software solutions within their environments, or convincing operators that fully air gapped approaches are not feasible in the cloud native world. Best practices that explore how to consume SaaS based offers in air gapped environments must be explored in the future.
