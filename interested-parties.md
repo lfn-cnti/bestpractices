@@ -47,4 +47,4 @@ Note: adding yourself to this list does not imply any obligation (including lega
 - [W. Watson](https://github.com/wavell), Vulk Coop
 - [Sheetal Joshi](https://github.com/sheetaljoshi), AWS
 - [Young Jung](https://github.com/jungy-aws), AWS
-- Sagar Kundral, Nirmata
+- [Sagar Kundral](https://github.com/nsagark), Nirmata
