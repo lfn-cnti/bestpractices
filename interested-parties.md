@@ -7,6 +7,7 @@ Being listed in this document may grant you some rights within the group, such a
 Note: adding yourself to this list does not imply any obligation (including legal) for you nor your organization.
 
 - [Philippe Robin](https://github.com/philipperobin), ARM
+- [Ben Hirschberg](https://github.com/slashben), ARMO
 - [Pankaj Goygal](https://github.com/pgoyal01), AT&T
 - [Rabi Abdel](https://github.com/rabi-abdel), AWS
 - Daniel Bernier, Bell Canada
