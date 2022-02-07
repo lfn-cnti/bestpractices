@@ -108,7 +108,7 @@ can contain the records described, and is conveniently machine-readable.
 
 ... example here ...
 
-Making machines conveniently machine-readable, such as records of compliance
+Making records conveniently machine-readable, such as records of compliance
 and non-compliance as simple booleans, helps consumers in filtering these
 records and even building compliance checks into their acceptance tests.
 Similarly, using a standard encoded format for the CNF-WG best practice
