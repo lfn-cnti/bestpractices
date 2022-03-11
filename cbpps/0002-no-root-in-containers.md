@@ -109,6 +109,7 @@ We specifically want the process to run as a non-root user so that its access is
 - K8s 11 Ways Not to Get Hacked: [8. Run Containers as a Non-Root User](https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/#8-run-containers-as-a-non-root-user)
 - Red Hat PDF [A PRACTICAL INTRODUCTION TO CONTAINER SECURITY](https://www.redhat.com/files/summit/session-assets/2017/L99901-apracticalintroductiontocontainersecurity_labguide.pdf) - 2017/05
 - [CVE-2019-5736: runc container breakout](https://seclists.org/oss-sec/2019/q1/119)
+- [CVE-2022-0492: Linux kernel cgroups v1 missing capabilities check when setting release_agent](https://seclists.org/oss-sec/2022/q1/123)
 - [Using the rootless containers in RHEL](https://www.redhat.com/en/blog/using-rootless-containers-tech-preview-rhel-80) 2019/08
 - [Understanding root inside and outside a container](https://www.redhat.com/en/blog/understanding-root-inside-and-outside-container) 2019/12
 
