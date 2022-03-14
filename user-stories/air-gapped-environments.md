@@ -19,7 +19,7 @@ In an air gapped environment, unique supply chain considerations arise. As discu
 <!---
 TODO: Include GitOps definition reference once it's created (https://github.com/cncf/glossary/issues/265)
 -->
-In this case, the operator would seek to ensure that artifacts are signed and deemed "trusted" before being released to the rest of the interal actors. Trust could be established in multiple ways, such as internal pipelines that pull untrusted artifacts and run vulnerability scans and automated testing or via an established software supply chain with a trusted vendor. All declarations supporting an operator's GitOps style approach would strictly build from these privately hosted repositories in fully air gapped development, stage, and production environments. Testing would include validation that a CNF is fully deployable and maintainable with zero reach to the internet.
+In this case, the operator would seek to ensure that artifacts are signed and deemed "trusted" before being released to the rest of the internal actors. Trust could be established in multiple ways, such as internal pipelines that pull untrusted artifacts and run vulnerability scans and automated testing or via an established software supply chain with a trusted vendor. All declarations supporting an operator's GitOps style approach would strictly build from these privately hosted repositories in fully air gapped development, stage, and production environments. Testing would include validation that a CNF is fully deployable and maintainable with zero reach to the internet.
 
 ## A vendor employs SaaS based services
 
