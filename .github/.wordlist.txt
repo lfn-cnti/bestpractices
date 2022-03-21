@@ -8,6 +8,7 @@ Anuket
 APIs
 approvers
 apracticalintroductiontocontainersecurity
+ARMO
 aspirational
 Atomicity
 Automatable
@@ -86,6 +87,7 @@ golang
 Goygal
 hackmd
 Haiby
+Hirschberg
 href
 hthFb
 https
@@ -100,6 +102,7 @@ InfraCloud
 infracloudio
 Infrastucture
 installable
+IoT
 IOV
 itnext
 Jambi
@@ -117,6 +120,7 @@ kube
 KubeCon
 kubenative
 kubernetes
+Kundral
 kwJOrsc
 labguide
 learnk
@@ -132,6 +136,7 @@ LVAQCC
 Maciej
 Makefile
 MANO
+markdownlint
 MATRIXX
 Merz
 michaelspedersen
@@ -154,8 +159,10 @@ nickolaev
 NICs
 Nikolaev
 Nikolay
+Nirmata
 NNNN
 notesconstraintscaveats
+nsagark
 Nussbaumer
 observability
 ol
@@ -183,6 +190,7 @@ pSMVZGQmNRemEwUk
 PV
 pwd
 PyMYvw
+QoS
 qrOn
 Rabi
 Ranny
@@ -200,6 +208,7 @@ runnable
 runtime
 runtimes
 Saelens
+Sagar
 scalable
 sched
 seclists
@@ -214,6 +223,7 @@ SIGs
 sishbi
 Skrocki
 SLA
+slashben
 SMF
 Smitholi
 snetworkplumbingwg
