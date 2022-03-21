@@ -6,7 +6,7 @@
 Kubernetes API server must be configured to reject requests from unauthenticated/anonymous sources; the default configuration allows such requests. Only authenticated users should be able to make requests to the API server. Set `--anonymous-auth` to `false`.
 This is a bad practice and only authenticated users should be able to make requests to the API server. Set `--anonymous-auth` to `false`.
 ### Enabling audit logging 
-API server audit logging is the functionality which enables operators to keep a record of external requests to the cluster. It records the requests together with the initiator identity therefore enabling security teams to track events happening in the system.
+API server audit logging is the functionality that enables operators to keep a record of requests to the cluster. It records the requests together with the initiator identity, therefore, enabling security teams to track events happening in the system.
 API server configuration enables versatile configuration of audit logs which can be delivered to a file or a webhook. See `--audit-log-path` or `--audit-policy-file` configuration.
 ### API authorization configuration
 Kubernetes API server supports multiple authorization plug-ins:
