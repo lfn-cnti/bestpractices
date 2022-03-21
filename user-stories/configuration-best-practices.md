@@ -10,10 +10,10 @@ API server audit logging is the functionality that enables operators to keep a r
 API server configuration enables versatile configuration of audit logs which can be delivered to a file or a webhook. See `--audit-log-path` or `--audit-policy-file` configuration.
 ### API authorization configuration
 Kubernetes API server supports multiple authorization plug-ins:
-* Attribute-Based Access Control (ABAC) mode allows you to configure policies using local files.
-* Role-based access control (RBAC) mode allows you to create and store policies using the Kubernetes API.
-* Webhook is an HTTP callback mode that allows you to manage authorization using a remote REST endpoint and practically defer access control decisions to a non K8s entity 
-* Node authorization is a special-purpose authorization mode that specifically authorizes API requests made by kubelets.
+* Attribute-Based Access Control (ABAC) mode allows you to configure policies per user. The configuration is done using local files of the API server. This means that in order to change these policies, the operator needs to be able to access these files.
+* Role-based access control (RBAC) mode allows you to configure `Role` objects and grant them authorizations while enabling them to be associated with users and groups via `RoleBinding` objects. These objects are Kubernetes API objects as opposed to ABAC policies.
+* Webhook is an HTTP callback mode that allows you to manage authorization using a remote REST endpoint and practically defer access control decisions to a non-K8s entity 
+* Node authorization is a special-purpose authorization mode that specifically authorizes API requests made by Kubelets.
 * AlwaysAllow allows all requests to be accepted (practically bypass access control)
 AlwaysAllow is a bad choice.
 The recommended way is to use “Role-based access control” since it gives a rich and manageable way to define access control in Kubernetes. Beyond the security perspective, this also makes the cluster compatible with applications requiring special authorization setup.
@@ -22,7 +22,7 @@ The recommended way is to use “Role-based access control” since it gives a r
 Kubernetes role based access control has its limitations. For example, if an entity has rights to create PODs it eventually gets full control over nodes running the cluster. This happens due to the fact that RBAC does not differentiate between a common POD and a privileged POD which has direct access to the host resources.
 Admission controllers are optional components in a cluster enabling a more complex limitation strategy over the cluster. They are important security tool, especially in multi user environments.
 ### API server client authentication
-API server supports multiple client authentication technologies. These technologies answer different authentication needs and therefore there is not a single choice which can be considered a “best practice”, however there are best practices which can be applied to multiple choices and paramount the security of the API server and to the cluster in general.
+API server supports multiple client authentication technologies. These technologies answer different authentication needs. There is not a single choice that can be considered a “best practice”. However, there are best practices that can be applied to multiple authentication technologies. These settings are paramount to the security of the API server and to the cluster in general.
 
 #### Anonymous users
 Allowing anonymous (unauthenticated users) is a bad practice in any production environment. Make sure `--anonymous-auth` is set to false in the API server configuration.
