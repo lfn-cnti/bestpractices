@@ -32,7 +32,7 @@ Items marked with (R) are required for the proposed best practice to be included
 - [ ] (R) Test plan is in place, giving consideration to CNF Test Suite input
 - [ ] (R) Scoring has been determined
 - [ ]   "Implementation History" section is up-to-date
-- [ ]    Supporting documentation—e.g., additional design documents, links to mailing list discussions/SIG meetings, relevant PRs/issues, release notes
+- [ ]    Supporting documentation — e.g., additional design documents, links to mailing list discussions/SIG meetings, relevant PRs/issues, release notes
 
 ## **Summary**
 
