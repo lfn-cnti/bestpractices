@@ -41,7 +41,7 @@ should be validated for compliance with them.  However, compliance is a
 journey, and we expect end users to start with little compliance and
 improve over time.
 
-Compliance is most useful when users, auditors and so on can identify
+Compliance is most useful when users, auditors, and other interested parties can identify
 exactly _how_ and _why_ you are compliant.  If they test your compliance,
 and their tests flag problems, they can see that this is intentional, and
 they can find out why compliance is not possible.  They can see why you
