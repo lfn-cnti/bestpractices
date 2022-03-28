@@ -35,7 +35,7 @@ Passwords
 
 These credentials need to be kept private in every case since they are the single factor for an attacker to access Kubernetes API resources.
 Revocation and rotation of authentication credentials
-An operator must be able to manage authentication credentials and be able to revoke or rotate them. This is a must since different human errors can lead to leaks or theft, or simply access needs to be revoked.
+An operator must be able to manage authentication credentials and be able to revoke and rotate them. This is a must best security practice. Rotation reduces the risk of misuse of long unchanged credentials (become widely available) while revocation of credentials needs to be performed for users who no longer need them,
 
 Different authentication methods support this functionality at different levels. Static token authentication requires restarts to the API server every time a token is revoked. Client certificate authentication revocation is not supported, but client certificates can have limited expiration periods therefore they can be “implicitly revoked” after some time and can be rotated regularly. The re-generation of newly signed client certificates makes operations more complex therefore operators tend to give longer expiration dates, which is not a good practice.
 
