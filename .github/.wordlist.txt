@@ -1,8 +1,10 @@
+ABAC
 Abdel
 ABMF
 agentpoyo
 Aiden
 AKS
+AlwaysAllow
 AMF
 Anuket
 APIs
@@ -10,6 +12,7 @@ approvers
 apracticalintroductiontocontainersecurity
 aspirational
 Atomicity
+auth
 Automatable
 Badging
 Bartolini
@@ -28,6 +31,7 @@ CBPP
 CBPPs
 CCS
 CGF
+cgroups
 CHF
 Chitrabasu
 Chunghwa
@@ -51,8 +55,8 @@ Cristian
 Csatari
 CsatariGergely
 CSP
-CSP's
 CSPs
+CSP's
 CVE
 dataplane
 deliverables
@@ -115,6 +119,7 @@ Khare
 Kivlin
 kube
 KubeCon
+Kubelets
 kubenative
 kubernetes
 kwJOrsc
@@ -160,6 +165,7 @@ Nussbaumer
 observability
 ol
 onboarding
+OpenID
 OpenShift
 OSS
 overrepresented
@@ -187,6 +193,7 @@ qrOn
 Rabi
 Ranny
 rannyh
+RBAC
 reachability
 README
 RedHat
@@ -194,6 +201,7 @@ RFPs
 RHEL
 rmerz
 roadmap
+RoleBinding
 Ronan
 runc
 runnable
@@ -266,9 +274,11 @@ Vuk
 vukg
 Vulk
 wavell
+webhook
+Webhook
 WG
-WG's
 WGs
+WG's
 whitepaper
 wiH
 WIP
