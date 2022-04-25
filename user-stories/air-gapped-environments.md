@@ -10,7 +10,7 @@ A CNF running on a K8s cluster is downloaded from a centralized repository. Upon
 
 In this case, if the operator does not allow for a CNF to access a remote licensing server, this method breaks down. Additionally, if the licensing server is hosted locally in the environment but requires licenses be purchased in advance, then the desired behavior of dynamically deploying CNFs might be hindered due to a lack of available licenses in the pool.
 
-The goal for licensing best practices should be to find ways that allow operators to safely and securely deploy CNFs on-demand in air gapped environments. This means that CNF vendors and operators must find a way to monetize CNFs that support cloud-based deployments in an environment that may break certain cloud native assumptions.
+The goal for licensing best practices should be to find ways that allow operators to safely and securely deploy CNFs on-demand in air gapped environments. This means that CNF vendors and operators must find a way to operate CNFs in this environment - one that breaks a common assumption of cloud software, that it has reachability to internet services.
 
 ## An operator employs [GitOps](https://github.com/cncf/cnf-wg/blob/main/use-case/0001-UC-lifecycle-of-infrastructure-where-CNF-is-running.md) methodologies with defense in depth
 
