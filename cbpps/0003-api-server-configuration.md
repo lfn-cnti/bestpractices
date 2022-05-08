@@ -26,7 +26,7 @@ Allowing anonymous (unauthenticated users) is a bad practice in any production e
 
 ### Authentication credentials confidentiality
 All authentication methods require some kind of client credentials to authenticate against. Known credential are:
-Private key (client certificate authentication)
+* Private key (client certificate authentication)
 Tokens 
 Passwords
 
