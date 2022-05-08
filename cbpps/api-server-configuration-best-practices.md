@@ -2,7 +2,6 @@
 
 ## Disabling anonymous requests 
 The Kubernetes API server must be configured to reject requests from unauthenticated/anonymous sources; the default configuration allows such requests. Only authenticated users should be able to make requests to the API server. Set `--anonymous-auth` to `false`.
-This is a bad practice and only authenticated users should be able to make requests to the API server. Set `--anonymous-auth` to `false`.
 ## Enabling audit logging 
 API server audit logging is the functionality that enables operators to keep a record of requests to the cluster. It records the requests together with the initiator identity, therefore, enabling security teams to track events happening in the system.
 API server configuration enables versatile configuration of audit logs which can be delivered to a file or a webhook. See `--audit-log-path` or `--audit-policy-file` configuration.
@@ -12,7 +11,7 @@ Kubernetes API server supports multiple authorization plug-ins:
 * Role-based access control (RBAC) mode allows you to configure `Role` objects and grant them authorizations while enabling them to be associated with users and groups via `RoleBinding` objects. These objects are Kubernetes API objects as opposed to ABAC policies.
 * Webhook is an HTTP callback mode that allows you to manage authorization using a remote REST endpoint and practically defer access control decisions to a non-K8s entity 
 * Node authorization is a special-purpose authorization mode that specifically authorizes API requests made by Kubelets.
-* AlwaysAllow allows all requests to be accepted (practically bypass access control)
+* AlwaysAllow allows all requests to be accepted (practically bypass access control).
 AlwaysAllow is a bad choice.
 The recommended way is to use “Role-based access control” since it gives a rich and manageable way to define access control in Kubernetes. Beyond the security perspective, this also makes the cluster compatible with applications requiring special authorization setup.
 
@@ -27,13 +26,14 @@ Allowing anonymous (unauthenticated users) is a bad practice in any production e
 
 ### Authentication credentials confidentiality
 All authentication methods require some kind of client credentials to authenticate against. Known credential are:
-Private key (client certificate authentication)
-Tokens 
-Passwords
+* Private key (client certificate authentication)
+* Tokens 
+* Passwords
 
 These credentials need to be kept private in every case since they are the single factor for an attacker to access Kubernetes API resources.
-Revocation and rotation of authentication credentials
-An operator must be able to manage authentication credentials and be able to revoke and rotate them. This is a must best security practice. Rotation reduces the risk of misuse of long unchanged credentials (become widely available) while revocation of credentials needs to be performed for users who no longer need them,
+
+### Revocation and rotation of authentication credentials
+An operator must be able to manage authentication credentials and be able to revoke and rotate them. This is a must best security practice. Rotation reduces the risk of misuse of long unchanged credentials (become widely available),  while revocation of credentials needs to be performed for users who no longer need them.
 
 Different authentication methods support this functionality at different levels. Static token authentication requires restarts to the API server every time a token is revoked. Client certificate authentication revocation is not supported, but client certificates can have limited expiration periods therefore they can be “implicitly revoked” after some time and can be rotated regularly. The re-generation of newly signed client certificates makes operations more complex therefore operators tend to give longer expiration dates, which is not a good practice.
 
