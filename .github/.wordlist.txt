@@ -8,6 +8,7 @@ AlwaysAllow
 AMF
 Anuket
 APIs
+apiserver
 approvers
 apracticalintroductiontocontainersecurity
 aspirational
@@ -55,8 +56,8 @@ Cristian
 Csatari
 CsatariGergely
 CSP
-CSPs
 CSP's
+CSPs
 CVE
 dataplane
 deliverables
@@ -87,6 +88,7 @@ GitOps
 GL
 Gojnic
 golang
+goteleport
 Goygal
 hackmd
 Haiby
@@ -163,6 +165,7 @@ NNNN
 notesconstraintscaveats
 Nussbaumer
 observability
+okta
 ol
 onboarding
 OpenID
@@ -277,8 +280,8 @@ wavell
 webhook
 Webhook
 WG
-WGs
 WG's
+WGs
 whitepaper
 wiH
 WIP
