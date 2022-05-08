@@ -33,9 +33,7 @@ An operator must be able to manage authentication credentials and be able to rev
 
 Different authentication methods support this functionality at different levels. Static token authentication requires restarts to the API server every time a token is revoked. Client certificate authentication revocation is not supported, but client certificates can have limited expiration periods therefore they can be “implicitly revoked” after some time and can be rotated regularly. The re-generation of newly signed client certificates makes operations more complex therefore operators tend to give longer expiration dates, which is not a good practice.
 
-OpenID Connect tokens can be easily configured to have short expiration time and due to the fact of the interactive nature of OpenID protocol it is simple to tackle the key rotation problem. 
-
-It is very important for the operator to prepare the system with this requirement in mind and prepare for these.
+OpenID Connect tokens can be easily configured to have short expiration time and due to the fact of the interactive nature of OpenID protocol it is simple to tackle the key rotation problem. For these reasons, using OpenID Connect it is a good choice for handling authentication credentials.
 
 ## References
 - [kube-apiserver configuration reference](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/)
