@@ -28,7 +28,7 @@ Allowing anonymous (unauthenticated users) is a bad practice in any production e
 All authentication methods require some kind of client credentials to authenticate against. Known credential are:
 * Private key (client certificate authentication)
 Tokens 
-Passwords
+* Passwords
 
 These credentials need to be kept private in every case since they are the single factor for an attacker to access Kubernetes API resources.
 Revocation and rotation of authentication credentials
