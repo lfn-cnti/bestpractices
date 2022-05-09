@@ -1,4 +1,4 @@
-# Kubernetes API server security best practices!
+# Kubernetes API server security best practices
 
 ## Disabling anonymous requests 
 The Kubernetes API server must be configured to reject requests from unauthenticated/anonymous sources; the default configuration allows such requests. Only authenticated users should be able to make requests to the API server. Set `--anonymous-auth` to `false`.
