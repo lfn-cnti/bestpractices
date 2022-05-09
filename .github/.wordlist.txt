@@ -1,16 +1,20 @@
+ABAC
 Abdel
 ABMF
 agentpoyo
 Aiden
 AKS
+AlwaysAllow
 AMF
 Anuket
 APIs
+apiserver
 approvers
 apracticalintroductiontocontainersecurity
 ARMO
 aspirational
 Atomicity
+auth
 Automatable
 Badging
 Bartolini
@@ -29,6 +33,7 @@ CBPP
 CBPPs
 CCS
 CGF
+cgroups
 CHF
 Chitrabasu
 Chunghwa
@@ -84,6 +89,7 @@ GitOps
 GL
 Gojnic
 golang
+goteleport
 Goygal
 hackmd
 Haiby
@@ -118,6 +124,7 @@ Khare
 Kivlin
 kube
 KubeCon
+Kubelets
 kubenative
 kubernetes
 Kundral
@@ -165,8 +172,10 @@ notesconstraintscaveats
 nsagark
 Nussbaumer
 observability
+okta
 ol
 onboarding
+OpenID
 OpenShift
 OSS
 overrepresented
@@ -195,6 +204,7 @@ qrOn
 Rabi
 Ranny
 rannyh
+RBAC
 reachability
 README
 RedHat
@@ -202,6 +212,7 @@ RFPs
 RHEL
 rmerz
 roadmap
+RoleBinding
 Ronan
 runc
 runnable
@@ -276,6 +287,8 @@ Vuk
 vukg
 Vulk
 wavell
+webhook
+Webhook
 WG
 WG's
 WGs
