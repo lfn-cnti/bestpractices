@@ -7,7 +7,9 @@ The Kubernetes API server must be configured to reject requests from unauthentic
 API server audit logging is the functionality that enables operators to keep a record of requests to the cluster. It records the requests together with the initiator identity, therefore, enabling security teams to track events happening in the system.
 API server configuration enables versatile configuration of audit logs which can be delivered to a file or a webhook. See `--audit-log-path` or `--audit-policy-file` configuration.
 ## API authorization configuration
+
 Kubernetes API server supports multiple authorization plug-ins:
+
 * Attribute-Based Access Control (ABAC) allows you to configure fine-grained access control policies per user, environment or resource attributes. The ABAC policies are specified in files; can't be managed using APIs. This means that in order to change these policies, the operator needs to be able to access these files.
 * Role-based access control (RBAC) mode allows you to configure `Role` objects and grant them authorizations while enabling them to be associated with users and groups via `RoleBinding` objects. These objects are Kubernetes API objects as opposed to ABAC policies.
 * Webhook is an HTTP callback mode that allows you to manage authorization using a remote REST endpoint and practically defer access control decisions to a non-K8s entity 
