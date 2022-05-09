@@ -24,9 +24,11 @@ Admission controllers are optional components in a cluster enabling a more compl
 API server supports multiple client authentication technologies. These technologies answer different authentication needs. There is not a single choice that can be considered a “best practice”. However, there are best practices that can be applied to multiple authentication technologies. These settings are paramount to the security of the API server and to the cluster in general.
 
 ### Authentication credentials confidentiality
+
 All authentication methods require some kind of client credentials to authenticate against. Known credential are:
+
 * Private key (client certificate authentication)
-* Tokens 
+* Tokens
 * Passwords
 These credentials need to be kept private in every case since they are the single factor for an attacker to access Kubernetes API resources.
 
