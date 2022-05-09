@@ -15,7 +15,7 @@ Kubernetes API server supports multiple authorization plug-ins:
 
 * Attribute-Based Access Control (ABAC) allows you to configure fine-grained access control policies per user, environment or resource attributes. The ABAC policies are specified in files; can't be managed using APIs. This means that in order to change these policies, the operator needs to be able to access these files.
 * Role-based access control (RBAC) mode allows you to configure `Role` objects and grant them authorizations while enabling them to be associated with users and groups via `RoleBinding` objects. These objects are Kubernetes API objects as opposed to ABAC policies.
-* Webhook is an HTTP callback mode that allows you to manage authorization using a remote REST endpoint and practically defer access control decisions to a non-K8s entity 
+* Webhook is an HTTP callback mode that allows you to manage authorization using a remote REST endpoint and practically defer access control decisions to a non-K8s entity
 * Node authorization is a special-purpose authorization mode that specifically authorizes API requests made by Kubelets.
 * AlwaysAllow allows all requests to be accepted (practically bypass access control, therefore this is not recommended).
 
