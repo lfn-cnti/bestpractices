@@ -101,7 +101,9 @@ before you submit your change:
 Reviews and comments on open [Pull Requests](https://github.com/cncf/cnf-wg/pulls) are always appreciated.
 Up to 5 approvals from the community are needed to merge PRs so your review is greatly appreciated.
 
+<!-- markdown-link-check-disable -->
 One of [our values](charter.md#values) is "Commit first, improve later". Once a commit has been made you can [make suggestions for changes directly in the PR](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request#adding-line-comments-to-a-pull-request) to help us move forward faster together.
+<!-- markdown-link-check-enable -->
 
 Where the comment is better expressed as a proposed change, the change can be made directly either by editing the file (right hand "..." -> "edit file" for larger changes, or the "document-with-+-" icon above the comment window for smaller ones).   The author can accept these changes directly, which is much easier for them than writing a change themselves.
 
