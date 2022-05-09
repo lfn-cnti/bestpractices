@@ -21,6 +21,7 @@ The recommended way is to use "Role-based access control" since it gives a rich 
 Kubernetes role based access control has its limitations. For example, if an entity has rights to create PODs it eventually gets full control over nodes running the cluster. This happens due to the fact that RBAC does not differentiate between a common POD and a privileged POD which has direct access to the host resources.
 Admission controllers are optional components in a cluster enabling a more complex limitation strategy over the cluster. They are important security tool, especially in multi user environments.
 ## API server client authentication
+
 API server supports multiple client authentication technologies. These technologies answer different authentication needs. There is not a single choice that can be considered a “best practice”. However, there are best practices that can be applied to multiple authentication technologies. These settings are paramount to the security of the API server and to the cluster in general.
 
 ### Authentication credentials confidentiality
