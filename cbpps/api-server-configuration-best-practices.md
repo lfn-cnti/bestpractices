@@ -40,8 +40,8 @@ Different authentication methods support this functionality at different levels.
 OpenID Connect tokens can be easily configured to have short expiration time and due to the fact of the interactive nature of OpenID protocol it is simple to tackle the key rotation problem. For these reasons, using OpenID Connect it is a good choice for handling authentication credentials.
 
 ## References
-- [kube-apiserver configuration reference](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/)
-- [securing Kubernetes system components](https://www.cncf.io/blog/2021/08/20/how-to-secure-your-kubernetes-control-plane-and-node-components/)
-- [kube-apiserver access security blog 1](https://goteleport.com/blog/kubernetes-api-access-security/)
-- [kube-apiserver access security blog 2](https://developer.okta.com/blog/2021/12/02/k8s-security-best-practices)
-  
+
+* [kube-apiserver configuration reference](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/)
+* [securing Kubernetes system components](https://www.cncf.io/blog/2021/08/20/how-to-secure-your-kubernetes-control-plane-and-node-components/)
+* [kube-apiserver access security blog 1](https://goteleport.com/blog/kubernetes-api-access-security/)
+* [kube-apiserver access security blog 2](https://developer.okta.com/blog/2021/12/02/k8s-security-best-practices)
