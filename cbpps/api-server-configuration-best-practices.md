@@ -3,10 +3,12 @@
 ## Disabling anonymous requests
 
 The Kubernetes API server must be configured to reject requests from unauthenticated/anonymous sources; the default configuration allows such requests. Only authenticated users should be able to make requests to the API server. Set `--anonymous-auth` to `false`.
+
 ## Enabling audit logging
 
 API server audit logging is the functionality that enables operators to keep a record of requests to the cluster. It records the requests together with the initiator identity, therefore, enabling security teams to track events happening in the system.
 API server configuration enables versatile configuration of audit logs which can be delivered to a file or a webhook. See `--audit-log-path` or `--audit-policy-file` configuration.
+
 ## API authorization configuration
 
 Kubernetes API server supports multiple authorization plug-ins:
@@ -23,6 +25,7 @@ The recommended way is to use "Role-based access control" since it gives a rich 
 
 Kubernetes role based access control has its limitations. For example, if an entity has rights to create PODs it eventually gets full control over nodes running the cluster. This happens due to the fact that RBAC does not differentiate between a common POD and a privileged POD which has direct access to the host resources.
 Admission controllers are optional components in a cluster enabling a more complex limitation strategy over the cluster. They are important security tool, especially in multi user environments.
+
 ## API server client authentication
 
 API server supports multiple client authentication technologies. These technologies answer different authentication needs. There is not a single choice that can be considered a “best practice”. However, there are best practices that can be applied to multiple authentication technologies. These settings are paramount to the security of the API server and to the cluster in general.
