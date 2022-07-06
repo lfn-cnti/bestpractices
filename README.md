@@ -12,8 +12,8 @@ The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing
 
 ### Current Co-Chairs
 
-* Service Provider Co-Chair: Jeffrey Saelens, [@jeffsaelens](https://github.com/jeffsaelens)
-* CNF Developer Co-Chair: Ian Wells, [@iawells](https://github.com/iawells)
+* Service Provider Co-Chair: Tom Kivlin, [@tomkivlin](https://github.com/tomkivlin)
+* CNF Developer Co-Chair: Victor Morales, [@electrocucaracha](https://github.com/electrocucaracha)
 * Kubernetes Co-Chair: Taylor Carpenter, [@taylor](https://github.com/taylor)
 
 ### Recurring meetings
