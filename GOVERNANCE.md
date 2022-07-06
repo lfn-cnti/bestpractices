@@ -19,11 +19,11 @@ A maximum of one person from any one entity may hold a chair role at any given m
 
 #### **Current Co-Chairs**
 
-- Service Provider Co-Chair: Jeffrey Saelens
-- CNF Developer Co-Chair: Ian Wells
-- Kubernetes Co-Chair: Taylor Carpenter
+- Service Provider Co-Chair: Tom Kivlin, @tomkivlin
+- CNF Developer Co-Chair: Victor Morales, @electrocucaracha
+- Kubernetes Co-Chair: Taylor Carpenter, @taylor
 
-Term runs 2021-04-01 to 2022-03-31
+Term runs 2022-07-01 to 2023-06-30
 
 ### Everyone else (eg. other members)
 
