@@ -1,17 +1,17 @@
 # CBPP-0002: Container should execute process(es) as non-root user
 
-- [Release Signoff Checklist](#Release-Signoff-Checklist)
-- [Summary](#Summary)
-- [Motivation](#Motivation)
-  - [Goals](#Goals)
+- [Release Signoff Checklist](#release-signoff-checklist)
+- [Summary](#summary)
+- [Motivation](#motivation)
+  - [Goals](#goals)
   - [Non-Goals](#non-goals)
 - [Proposal](#proposal)
   - [User Stories](#user-story)
   - [Tradeoffs/Constraints/Caveats/Notes](#tradeoffsconstraintscaveatsnotes)
   - [References](#references)
-  - [Alternatives (Optional)](#drawbacksalternatives)
+  - [Alternatives (Optional)](#alternatives--related-practices)
 - [Workload Context](#workload-context)
-- [Test Plan](#test-plan)
+- [Test Plan](#test-objectives)
 - [Scoring](#scoring)
 - [Implementation History](#implementation-history)
 
