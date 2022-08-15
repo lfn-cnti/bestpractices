@@ -9,3 +9,5 @@ super-linter.log
 # IDEA files
 .idea/
 dictionary.dic
+# VS Code files
+.vscode/*

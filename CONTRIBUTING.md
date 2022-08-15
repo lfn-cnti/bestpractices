@@ -34,6 +34,7 @@ We welcome many different types of contributions including:
   - [Actors and Roles](https://github.com/cncf/cnf-wg/discussions/30)
   - [Glossary](doc/glossary.md)
 - [CNF Best Practices](doc/best_cnf_dev.md)
+  - [Process to publish a CNF Best Practice](cbpps/cnf_best_practice_process.md)
   - [See the template for more details](cbpps/NNNN-cbpp-template.md)
 - Gap Analysis
 
