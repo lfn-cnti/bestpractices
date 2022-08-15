@@ -6,7 +6,7 @@
 
 **Cloud Native**: TBD
 
-**Cloud Native Network Function (CNF)**: A network function that is a [cloud native application](https://github.com/cncf/glossary/blob/main/content/en/cloud_native_apps.md), i.e. developed using cloud native principles.
+**Cloud Native Network Function (CNF)**: A network function that is a [cloud native application](https://glossary.cncf.io/cloud-native-apps/), i.e. developed using cloud native principles.
 
 **Kubernetes**: [Kubernetes.io](https://kubernetes.io/) is a portable, extensible, open-source platform for managing workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
 
