@@ -46,7 +46,7 @@ Ideally a set of best practices will have their own tickets.
 ### Create a Pull Request with the suggested CNF Best Practice
 
 - Check that there is not an existing PR ([open or closed](https://github.com/cncf/cnf-wg/pulls?q=is%3Apr)) covering the best practice suggestion.
-- Create a draft following the [template](cbpps/NNNN-cbpp-template.md) and existing best practices.
+- Create a draft following the [template](NNNN-cbpp-template.md) and existing best practices.
 - Tag current CNF WG members to review.
 - Note: PRs for related use stories and use cases can be created independently or combined with a suggested best practice as seems appropriate.
 
