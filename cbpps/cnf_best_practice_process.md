@@ -33,13 +33,14 @@ Once you're ready to contribute the best practice, it's a good idea to read the 
 
 ### Create a GitHub Issues for a specific best practice idea
 
+Ideally a set of best practices will have their own tickets.
 - First, check that there is not an existing issue ([open or closed](https://github.com/cncf/cnf-wg/issues?q=is%3Aissue)) covering the best practice suggestion.
-- If one is closed, then create a new issue and reference the old issue.
-- If an existing issue is currently open, add to the current issue unless the idea significantly changes it, in which case it should be in a new issue.
-- If an old suggestion was rejected, reference old issue and provide additional information on why the best practice should be reconsidered.
-- Ideally a set of best practices will have their own tickets.
+  - If one is closed, then create a new issue and reference the old issue.
+  - If an existing issue is currently open, add to the current issue unless the idea significantly changes it, in which case it should be in a new issue.
+  - If an old suggestion was rejected, reference old issue and provide additional information on why the best practice should be reconsidered.
+
 - Each best practice will be published and recommended (if accepted) individually.
-- Example: "use least privileges for containers" is a high level set of best practices.  "Use non-root users in containers" is a single best practice.
+  Example: "use least privileges for containers" is a high level set of best practices.  "Use non-root users in containers" is a single best practice.
 - It is important as the submitter that you respond to comments in the issue to ensure the proposal doesn't become "stale".
 
 ### Create a Pull Request with the suggested CNF Best Practice
