@@ -24,6 +24,7 @@ Please read the [CNF-WG Charter](../charter.md) and in particular the [Mission S
 Once you're sure the best practice aligns with the mission statement, it's sometimes a good idea to socialise the idea with the working group to get input and different perspectives, or to help focus the best practice on a specific topic.
 
 The working group has the following communication channels:
+
 * [GitHub repository discussion board](https://github.com/cncf/cnf-wg/discussions)
 * Add an agenda item in the [weekly meeting agenda](https://docs.google.com/document/d/1YFimQftjkTUsxNGTsKdakvP7cJtJgCTqViH2kwJOrsc/edit#)
 * Start a conversation / thread in the [CNF-WG Slack Channel](https://cloud-native.slack.com/archives/C01F1LVAQCC)
