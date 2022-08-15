@@ -97,7 +97,7 @@ We specifically want the process to run as a non-root user so that its access is
 ### References
 
 - [CNF WG discussion](https://github.com/cncf/cnf-wg/discussions/20)
-- TAG Security: [Cloud Native Security Whitepaper - Least Privilege](https://github.com/cncf/tag-security/blob/main/security-whitepaper/cloud-native-security-whitepaper.md#least-privilege)
+- TAG Security: [Cloud Native Security Whitepaper - Least Privilege](https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-native-security-whitepaper.md#least-privilege)
 - Sysdig: [Top 20 Dockerfile best practices](https://sysdig.com/blog/dockerfile-best-practices/) - 2021/03/09
 - [Best practices for pod security in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/developer-best-practices-pod-security) - 2020/07/28
 - [RedHat OpenShift Runtime Security Best Practices](https://www.openshift.com/blog/openshift-runtime-security-best-practices)
