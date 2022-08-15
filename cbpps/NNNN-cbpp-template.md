@@ -18,8 +18,8 @@
     - [Story 2](#story-2)
   - [Notes/Constraints/Caveats (Optional)](#notesconstraintscaveats-optional)
   - [References](#references)
-  - [Alternatives (Optional)](#drawbacksalternatives)
-- [Test Plan](#test-plan)
+  - [Alternatives (Optional)](#alternatives-optional)
+- [Test Plan](#testing-objectives)
 - [Scoring](#scoring)
 - [Implementation History](#implementation-history)
 
