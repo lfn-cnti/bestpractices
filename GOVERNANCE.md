@@ -105,7 +105,7 @@ To encourage contributions, the CNF WG has a more relaxed stance on changes and 
 
 ### Delegation of default changes to community
 
-The process for accepting changes to content in the CNF WG repository (including adding new content) for any item not in the [Additional Approval Items list](#DD) below will follow the acceptance and approval process outlined in the [CONTRIBUTING guide](CONTRIBUTING.md).
+The process for accepting changes to content in the CNF WG repository (including adding new content) for any item not in the [Additional Approval Items list](#additional-approval-items) below will follow the acceptance and approval process outlined in the [CONTRIBUTING guide](CONTRIBUTING.md).
 
 ### Changes requiring additional approval
 
