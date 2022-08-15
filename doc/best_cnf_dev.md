@@ -2,15 +2,15 @@
 
 ## Table of Contents
 
-* [1.0 Installation and Upgrade](#1.0-installation-and-upgrade)
-* [2.0 Configuration and Lifecycle](#2.0-configuration-and-lifecycle)
-* [3.0 Hardware support](#3.0-hardware-support)
-* [4.0 Microservices](#4.0-microservices)
-* [5.0 Compatibility](#5.0-compatibility)
-* [6.0 State](#6.0-state)
-* [7.0 Security](#7.0-security)
-* [8.0 Scaling](#8.0-scaling)
-* [9.0 Observability and Diagnostics](#9.0-observability-and-diagnostics)
+* [1.0 Installation and Upgrade](#10-installation-and-upgrade)
+* [2.0 Configuration and Lifecycle](#20-configuration-and-lifecycle)
+* [3.0 Hardware support](#30-hardware-support)
+* [4.0 Microservices](#40-microservices)
+* [5.0 Compatibility](#50-compatibility)
+* [6.0 State](#60-state)
+* [7.0 Security](#70-security)
+* [8.0 Scaling](#80-scaling)
+* [9.0 Observability and Diagnostics](#90-observability-and-diagnostics)
 
 ## 1.0 Installation and Upgrade
 
