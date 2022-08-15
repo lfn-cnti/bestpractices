@@ -22,7 +22,7 @@ Once you're sure the best practice aligns with the mission statement, it's somet
 The working group has the following communication channels:
 - [Github repo discussion board](https://github.com/cncf/cnf-wg/discussions)
 - Add an agenda item in the [weekly meeting agenda](https://docs.google.com/document/d/1YFimQftjkTUsxNGTsKdakvP7cJtJgCTqViH2kwJOrsc/edit#)
-- Start a conversation / thread in the [CNF-WF Slack Channel](https://cloud-native.slack.com/archives/C01F1LVAQCC)
+- Start a conversation / thread in the [CNF-WG Slack Channel](https://cloud-native.slack.com/archives/C01F1LVAQCC)
 - Send a message to the mailing list (https://lists.cncf.io/g/cnf-wg)
 
 ## Contribute the CNF Best Practice Proposal
