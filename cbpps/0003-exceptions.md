@@ -18,8 +18,8 @@
     - [Story 2](#story-2)
   - [Notes/Constraints/Caveats (Optional)](#notesconstraintscaveats-optional)
   - [References](#references)
-  - [Alternatives (Optional)](#drawbacksalternatives)
-- [Test Plan](#test-plan)
+  - [Alternatives (Optional)](#alternatives-optional)
+- [Test Plan](#testing-objectives)
 - [Scoring](#scoring)
 - [Implementation History](#implementation-history)
 
@@ -32,7 +32,7 @@ Items marked with (R) are required for the proposed best practice to be included
 - [ ] (R) Test plan is in place, giving consideration to CNF Test Suite input
 - [ ] (R) Scoring has been determined
 - [ ]   "Implementation History" section is up-to-date
-- [ ]    Supporting documentation — e.g., additional design documents, links to mailing list discussions/SIG meetings, relevant PRs/issues, release notes
+- [ ]    Supporting documentation—e.g., additional design documents, links to mailing list discussions/SIG meetings, relevant PRs/issues, release notes
 
 ## **Summary**
 
@@ -74,22 +74,22 @@ feed back into improvements to our best practice recommendations.
 
 ### **Goals**
 
-* Let users explain which best practices they are compliant with
-* Communicate the level of compliance of individual parts of the system,
+- Let users explain which best practices they are compliant with
+- Communicate the level of compliance of individual parts of the system,
   both software and process level
-* Let users use CNF-WG best practices even if they cannot be compliant
+- Let users use CNF-WG best practices even if they cannot be compliant
   with every single recommendation
-* Help users reduce the number of exceptions over time
+- Help users reduce the number of exceptions over time
 
 ### **Non-Goals**
 
-* Providing a specific file format for the documentation
-* Requiring extensive documentation of each element - we will keep
+- Providing a specific file format for the documentation
+- Requiring extensive documentation of each element - we will keep
   required information to a minimum
-* Preventing delivery of components where non-compliance exists - we want
+- Preventing delivery of components where non-compliance exists - we want
   teams to be able to deliver components that are good enough, even if they
   cannot be perfect
-* Documenting processes for improving compliance - we recommend teams
+- Documenting processes for improving compliance - we recommend teams
   regularly review their compliance list, but we do not mandate any specific
   method and this will depend on the team and their working structure
 
@@ -99,7 +99,6 @@ We document a means of listing compliance and what elements should be
 included in any record of non-compliance.
 
 We describe when and how those lists should be shared and updated.
-
 
 ### Format examples
 
@@ -116,9 +115,7 @@ names helps to relate the compliance record back to a specific release
 and version, and can ensure that all best practices in a release have been
 considered and documented.
 
-
 ### Compliance of a CNF
-
 
 ## **Workload Context**
 
