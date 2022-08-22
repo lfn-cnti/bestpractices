@@ -73,7 +73,6 @@ divestments
 DNS
 Dockerfile
 Dockerfiles
-drawbacksalternatives
 eg
 electrocucaracha
 Equinix
@@ -263,8 +262,6 @@ Toktonaliev
 tolerations
 tomkivlin
 Torre
-Tradeoffs
-tradeoffsconstraintscaveatsnotes
 txt
 UC
 UE
