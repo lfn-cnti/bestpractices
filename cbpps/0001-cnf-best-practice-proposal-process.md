@@ -1,3 +1,9 @@
+<!-- Created from CBPP template v1.0
+     Major: changes when we add or remove sections or demands for information
+     Minor: changes when we alter formatting without changing content requirements
+     Keep the first line of this comment in your best practice,
+     to help us track formatting updates -->
+
 # **CBPP-0001: CBPP Process**
 
 - [Release Signoff Checklist](#release-signoff-checklist)
@@ -6,20 +12,20 @@
   - [Goals](#goals)
   - [Non-Goals](#non-goals)
 - [Proposal](#proposal)
-  - [User Stories](#user-stories)
+- [Workload Context](#workload-context)
+  - [User Stories (Optional)](#user-stories-optional)
     - [Story 1](#story-1)
     - [Story 2](#story-2)
-  - [Tradeoffs/Constraints/Caveats/Notes](#tradeoffsconstraintscaveatsnotes)
+  - [Notes/Constraints/Caveats (Optional)](#notesconstraintscaveats-optional)
   - [References](#references)
-  - [Alternatives (Optional)](#drawbacksalternatives)
-- [Workload Context](#workload-context)
-- [Test Plan](#test-plan)
+  - [Alternatives (Optional)](#alternatives-optional)
+- [Test Plan](#testing-objectives)
 - [Scoring](#scoring)
 - [Implementation History](#implementation-history)
 
 ## **Release Signoff Checklist**
 
-Items marked with (R) are required.
+Items marked with (R) are required for the proposed best practice to be included in a release.
 
 - [ ] (R) CBPP approvers have approved the CBPP status as `implementable`
 - [ ] (R) CBPP summary, motivation and best practice details are appropriately documented
@@ -87,7 +93,7 @@ It is proposed that the primary metrics that would signal the success or failure
 
 Context should be provided which includes the type of CNF, workload, and CNF component (eg. Pod, container, Operator) this best practice applies to. The context, of an individual best practice, should illustrate the specific type of workload most likely to take advantage of the benefits listed.
 
-### **User Stories**
+### **User Stories (Optional)**
 
 #### **Story 1**
 
@@ -97,7 +103,7 @@ I want to propose a new Cloud Native best practice definition. I will fill out t
 
 I agree/disagree with a proposed Cloud Native best practice definition. After reading through the CBPP, I will be able to comment on the PR and contribute to the discussion around it.
 
-### **Tradeoffs/Constraints/Caveats/Notes**
+### **Notes/Constraints/Caveats (Optional)**
 
 This first structure is still WIP and should not be considered final. As the CNF WG begins to dive into their work, this format and process should be modified to meet the WG's current needs.
 
@@ -107,25 +113,25 @@ When applicable, it should also provide a warning if the practice would be a det
 
 The CBPP process, as proposed, was essentially copied from Kubernetes KEP which are similar to the [Rust RFC process](https://github.com/rust-lang/rfcs) which itself resembles the [Python PEP process](https://www.python.org/dev/peps/pep-0001/).
 
-### **Drawbacks/Alternatives**
+### **Alternatives (Optional)**
 
 Any process has the potential to engender resentment within the community or not fits its needs. There is a risk that the CBPP process as designed will need to be changed or retired completely.
 
 The centrality of Git and GitHub within the CBPP process also may place too high a barrier to potential contributors. However, given that both Git and GitHub are required to contribute code changes to many projects today, perhaps it would be reasonable to invest in providing support to those unfamiliar with this tooling.
 
-## **GitHub Issues vs. CBPPs**
-
-The use of GitHub issues when proposing changes does not provide the CNF WG good facilities for signaling approval or rejection of a proposed change because anyone can open a GitHub issue at any time.
-
-In addition to the challenge of managing issues over time, searching for text within an issue can be challenging. The flat hierarchy of issues can also make navigation and categorization tricky. Not all community members will be uncomfortable using Git directly, but it is imperative for our community to educate people on a standard set of tools so they can take their experience to other projects they may decide to work on in the future. While git is a fantastic version control system (VCS), it is neither a project management tool nor a cogent way of managing a backlog. This proposal is limited to motivating the creation of a standardized definition of work in order to facilitate project management. This primitive for describing a unit of work may also allow contributors to create their own personalized view of the state of the project while relying on Git and GitHub for consistency and durable storage.
-
-## **Test Plan**
+## **Testing Objectives**
 
 This CBPP will not be tested by the CNF Test Suite.
 
 ## **Scoring**
 
 CBPPs may have different priorities and importance leading to different scores. Passing and failing scores may be different for similar reasons. Some may be mandatory.
+
+## **GitHub Issues vs. CBPPs**
+
+The use of GitHub issues when proposing changes does not provide the CNF WG good facilities for signaling approval or rejection of a proposed change because anyone can open a GitHub issue at any time.
+
+In addition to the challenge of managing issues over time, searching for text within an issue can be challenging. The flat hierarchy of issues can also make navigation and categorization tricky. Not all community members will be uncomfortable using Git directly, but it is imperative for our community to educate people on a standard set of tools so they can take their experience to other projects they may decide to work on in the future. While git is a fantastic version control system (VCS), it is neither a project management tool nor a cogent way of managing a backlog. This proposal is limited to motivating the creation of a standardized definition of work in order to facilitate project management. This primitive for describing a unit of work may also allow contributors to create their own personalized view of the state of the project while relying on Git and GitHub for consistency and durable storage.
 
 ## **Implementation History**
 

@@ -24,6 +24,7 @@ BGP
 Billingsley
 Bitnami
 blockquote
+booleans
 bryanl
 BSO
 Calin
@@ -60,6 +61,7 @@ CsatariGergely
 CSP
 CSP's
 CSPs
+CSV
 CVE
 dataplane
 deliverables
@@ -71,7 +73,6 @@ divestments
 DNS
 Dockerfile
 Dockerfiles
-drawbacksalternatives
 eg
 electrocucaracha
 Equinix
@@ -132,7 +133,6 @@ Kundral
 kwJOrsc
 labguide
 learnk
-lifecycle
 Lifecycle
 Liles
 linuxfoundation
@@ -210,7 +210,6 @@ RBAC
 reachability
 README
 RedHat
-repo
 RFPs
 RHEL
 rmerz
@@ -250,7 +249,6 @@ Swisscom
 Sysdig
 Tal
 tbd
-TBD
 TCP
 telco
 telecom
@@ -264,8 +262,6 @@ Toktonaliev
 tolerations
 tomkivlin
 Torre
-Tradeoffs
-tradeoffsconstraintscaveatsnotes
 txt
 UC
 UE
@@ -290,7 +286,6 @@ Vuk
 vukg
 Vulk
 wavell
-webhook
 Webhook
 WG
 WG's

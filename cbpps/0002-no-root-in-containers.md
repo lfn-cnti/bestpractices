@@ -1,3 +1,10 @@
+
+<!-- Created from CBPP template v1.0
+     Major: changes when we add or remove sections or demands for information
+     Minor: changes when we alter formatting without changing content requirements
+     Keep the first line of this comment in your best practice,
+     to help us track formatting updates -->
+
 # CBPP-0002: Container should execute process(es) as non-root user
 
 - [Release Signoff Checklist](#release-signoff-checklist)
@@ -6,18 +13,18 @@
   - [Goals](#goals)
   - [Non-Goals](#non-goals)
 - [Proposal](#proposal)
-  - [User Stories](#user-story)
-  - [Tradeoffs/Constraints/Caveats/Notes](#tradeoffsconstraintscaveatsnotes)
-  - [References](#references)
-  - [Alternatives (Optional)](#alternatives--related-practices)
 - [Workload Context](#workload-context)
-- [Test Plan](#test-objectives)
+  - [User Stories (Optional)](#user-stories-optional)
+  - [Notes/Constraints/Caveats (Optional)](#notesconstraintscaveats-optional)
+  - [References](#references)
+  - [Alternatives (Optional)](#alternatives-optional)
+- [Test Plan](#testing-objectives)
 - [Scoring](#scoring)
 - [Implementation History](#implementation-history)
 
 ## **Release Signoff Checklist**
 
-Items marked with (R) are required.
+Items marked with (R) are required for the proposed best practice to be included in a release.
 
 - [x] (R) CBPP approvers have approved the CBPP status as `implementable`
 - [x] (R) CBPP summary, motivation and best practice details are appropriately documented
@@ -38,7 +45,7 @@ Indirectly, improved CNF quality benefits CNF operators.  The proposed tests are
 
 SE-Linux based environments will require dropping root privileges. Example: OpenShift
 
-### Goals
+### **Goals**
 
 Avoiding root in containers can help to:
 
@@ -46,13 +53,13 @@ Avoiding root in containers can help to:
 - Add to the defense in depth strategy against external compromises.
 - Avoid compromised apps from causing more damage.
 
-### Non-Goals
+### **Non-Goals**
 
 This BP recommends that the application not use the UID that can override all protections.  This means that file read and write protections can be established.
 
 It does not consider what filesystem write permissions should be in order to benefit from those protections.  CNF developers will additionally want to ensure filesystem permissions are tightened up appropriately so that non-root users are prevented from doing damage.  This is outside the BP scope.
 
-## Proposal
+## **Proposal**
 
 When building a container, the container should be built to run its processes as a non-root user.  setsid processes should not be required to do the work inside a container.
 
@@ -67,9 +74,13 @@ On a basic level, avoiding the root user means that the container filesystem per
 
 Obviously, a well-written CNF would not be attempting to do things it should not do.  But all software has bugs.  Also, executing processes can be compromised by outside forces, and if this happens filesystem protection is a part of a "Defense in depth" strategy to ensure the compromise does not escalate.
 
-User/group access enforcement will be respected. As an added advantage, fine-grained access enforcement, such as in SELinux, will also hold.
+User/group access enforcement will be respected. As an added advantage, fine-grained access enforcement, such as in SELinux, will also hold
 
-### User Story
+## **Workload Context**
+
+All pod types should implement this best practice.
+
+### **User Stories (Optional)**
 
 #### Supply chain attack user stories
 
@@ -86,7 +97,7 @@ In all of these examples, the CNFs using a non-root user for their container pro
 
 See main [defense in depth for supply chain attacks](../user-stories/supply-chain-attacks.md) document for more information.
 
-### Tradeoffs/Constraints/Caveats/Notes
+### **Notes/Constraints/Caveats (Optional)**
 
 Container images are frequently built from upstream image versions made from OS deployments.  These will include things like setsid binaries as a part of their base configuration.  If CNF developers follow this best practice they will have to audit and clean up any upstream images to respect this rule (removing files, removing packages or changing permissions as appropriate).
 
@@ -94,7 +105,7 @@ By default, the first process starting in a container runs as root - you have to
 
 We specifically want the process to run as a non-root user so that its access is limited.  Of course, if access is limited then the CNF developer must ensure that access is still available to the things the CNF is going to need to access.  This will involve changing permissions on data files and on working directories when the container image is constructed (they cannot be changed on startup because the application does not have the right to do that).  This may also affect the use of shared volume mounts or host mounts - ownership of and rights on the root directory must permit access to the container users.
 
-### References
+### **References**
 
 - [CNF WG discussion](https://github.com/cncf/cnf-wg/discussions/20)
 - TAG Security: [Cloud Native Security Whitepaper - Least Privilege](https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-native-security-whitepaper.md#least-privilege)
@@ -113,7 +124,7 @@ We specifically want the process to run as a non-root user so that its access is
 - [Using the rootless containers in RHEL](https://www.redhat.com/en/blog/using-rootless-containers-tech-preview-rhel-80) 2019/08
 - [Understanding root inside and outside a container](https://www.redhat.com/en/blog/understanding-root-inside-and-outside-container) 2019/12
 
-### Alternatives / Related Practices
+### **Alternatives (Optional)**
 
 These are not strictly alternatives as they can be used with non-root, but can be applied to a container running as root.
 
@@ -125,11 +136,7 @@ Related items include
 - [Rootless](https://www.docker.com/blog/experimenting-with-rootless-docker/) containers as seen with [usernetes](https://github.com/rootless-containers/usernetes)
 - Alternative runtimes like [Kata Containers](https://katacontainers.io/) for a different approach to security
 
-## Workload Context
-
-All pod types should implement this best practice.
-
-## Test Objectives
+## **Testing Objectives**
 
 An application which follows this best practice will not have any containers with processes running as root
 
@@ -159,7 +166,7 @@ We offer the following applications as examples that operators might wish to eva
 
 Scanning systems that periodically check running processes or may not identify all root-owned processes, as it must conduct a scan at the moment a process is running.  Similarly, process monitoring  will not identify a problem if behaviour requiring a root process is not triggered.  This cannot be used as a definitive guarantee of safety but is useful as a secondary check.
 
-## Scoring
+## **Scoring**
 
 This best practice results in a pass/fail on two counts, depending on role.
 
@@ -172,6 +179,6 @@ Runtime analysis - CNF operators:
 
 - Operators may use runtime verification, from outside the application, to confirm that containers in processes are not owned by container root
 
-## Implementation History
+## **Implementation History**
 
 First version: July 2021
