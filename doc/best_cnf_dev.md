@@ -11,6 +11,7 @@
 * [7.0 Security](#70-security)
 * [8.0 Scaling](#80-scaling)
 * [9.0 Observability and Diagnostics](#90-observability-and-diagnostics)
+* [10.0 Resilience](#100-resilience)
 
 ## 1.0 Installation and Upgrade
 
@@ -63,3 +64,7 @@ Running of CNFs at a variety of different scales to manage different traffic req
 ## 9.0 Observability and Diagnostics
 
 How to get critical data about when things are going wrong and how to determine what must be done to put them right.  The detection and correction may be through the actions of an operator or via an automated system.  Using logs and metrics from all components in the system to narrow down the area where a problem exists, and to drill down into that area to determine a root cause and a fix.
+
+## 10.0 Resilience
+
+How to ensure CNFs are resilient to failures that are inevitable in cloud environments.
