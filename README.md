@@ -19,14 +19,16 @@ The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing
 ### Recurring meetings
 
 * Weekly on Mondays at 15:00 UTC (8:00am Pacific Daylight Time)
-* Agenda and notes are [available](https://docs.google.com/document/d/1YFimQftjkTUsxNGTsKdakvP7cJtJgCTqViH2kwJOrsc/edit)
+  * Here's [a link](https://goo.gl/eyutah) to a public Google calendar that you can subscribe to
 * Join zoom meeting [here](https://zoom.us/j/97556246445?pwd=VTMrSjRWQ3pSMVZGQmNRemEwUk14QT09)
   * Passcode: :zero::four::zero::nine::six::three:
+* Agenda and notes are [available](https://docs.google.com/document/d/1YFimQftjkTUsxNGTsKdakvP7cJtJgCTqViH2kwJOrsc/edit)
 * Recordings of previous meetings: [CNF WG Playlist on YouTube](https://youtube.com/playlist?list=PLj6h78yzYM2PyMYvw5wiH01hthFb0qrOn)
 
 ### Upcoming events
 
-* [KubeCon EU 2022](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)
+* [KubeCon NA 2022](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/)
+* [Cloud Native Telco Day NA 2022](https://events.linuxfoundation.org/cloud-native-telco-day-north-america/program/schedule/)
 
 ### Past events
 
