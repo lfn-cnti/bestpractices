@@ -50,4 +50,3 @@ Note: adding yourself to this list does not imply any obligation (including lega
 - [Young Jung](https://github.com/jungy-aws), AWS
 - [Sagar Kundral](https://github.com/nsagark), Nirmata
 - [Rich Lopez](https://github.com/rich-l), F5
-- 

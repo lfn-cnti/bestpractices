@@ -34,7 +34,7 @@ CNF DevOps teams in CSP are responsible for the introduction and lifecycle of th
 
 In CNF case the assumption is that the platform is already there, that it is in its core Kubernetes based without special forks as well as that different components needed by CNF could be installed via Kubernetes API.
 
-This creates the situation in which CNF and CSP platform, both of which have their requirements and pre-conditions, meet each other as such for the first time. The process of getting the CNF deployed on the platform in aforementioned scenario is colloquially called "onboarding". In this process CNF vendor, CNF DevOps and CNPD work together to reach common goal of having production grade deployment of CNF supported with appropriate SLA which factors-in the fact that CNF runs on CSP platform.
+This creates the situation in which CNF and CSP platform, both of which have their requirements and preconditions, meet each other as such for the first time. The process of getting the CNF deployed on the platform in aforementioned scenario is colloquially called "onboarding". In this process CNF vendor, CNF DevOps and CNPD work together to reach common goal of having production grade deployment of CNF supported with appropriate SLA which factors-in the fact that CNF runs on CSP platform.
 
 ## Expected behaviour
 
