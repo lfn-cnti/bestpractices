@@ -65,6 +65,7 @@ CSV
 CVE
 dataplane
 deliverables
+deployable
 Deutsche
 dev
 DevOps
@@ -77,6 +78,7 @@ eg
 electrocucaracha
 Equinix
 ETSI
+eyutah
 failover
 Falco
 filesystem
@@ -84,6 +86,9 @@ fkautz
 forklifted
 fRkx
 Ganbar
+gapped
+Gapped
+gapping
 GC
 Gergely
 getters
@@ -110,6 +115,7 @@ InfraCloud
 infracloudio
 Infrastucture
 installable
+instantiation
 IoT
 IOV
 itnext
@@ -220,6 +226,7 @@ runc
 runnable
 runtime
 runtimes
+SaaS
 Saelens
 Sagar
 scalable
@@ -241,6 +248,7 @@ SMF
 Smitholi
 snetworkplumbingwg
 src
+SREs
 sronanrh
 stateful
 Stricko
@@ -267,6 +275,7 @@ UC
 UE
 UID
 uncomment
+untrusted
 upgradeable
 uptime
 usernetes
@@ -278,6 +287,7 @@ VMware
 VNF
 VNFs
 Vodafone
+VPN
 VPNs
 VRF
 VRFs
