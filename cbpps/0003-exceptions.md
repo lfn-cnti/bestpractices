@@ -4,7 +4,7 @@
      Keep the first line of this comment in your best practice,
      to help us track formatting updates -->
 
-# **CBPP-NNNN: Your short, descriptive title (TEMPLATE)**
+# **CBPP-0003: Document exceptions to following best practices and community standards **
 
 - [Release Signoff Checklist](#release-signoff-checklist)
 - [Summary](#summary)
