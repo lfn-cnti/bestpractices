@@ -57,6 +57,13 @@ Management of short-lived and long lived state, including state associated with 
 
 How to ensure that components are protected against security issues, including security advisories on software components, defence against attacks, and defence in depth.
 
+### CBPP-0002: Container should execute process(es) as non-root user
+
+**Description:**
+Containers have a list of their own users independent of the host system, one of which is UID 0, the root user. Containers should run processes as a user other than root which makes it easier to run the container images securely.
+
+**Reference:** [CBPP-0002](https://github.com/cncf/cnf-wg/blob/main/cbpps/0002-no-root-in-containers.md)
+
 ## 8.0 Scaling
 
 Running of CNFs at a variety of different scales to manage different traffic requirements and subscriber counts.  Changing the scale of CNFs.
