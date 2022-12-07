@@ -30,13 +30,6 @@ Management of short-lived and long lived state, including state associated with 
 ---
 How to ensure that components are protected against security issues, including security advisories on software components, defence against attacks, and defence in depth.
 
-### CBPP-0002: Container should execute process(es) as non-root user
-
-**Description:**
-Containers have a list of their own users independent of the host system, one of which is UID 0, the root user. Containers should run processes as a user other than root which makes it easier to run the container images securely.
-
-**Reference:** [CBPP-0002](https://github.com/cncf/cnf-wg/blob/main/cbpps/0002-no-root-in-containers.md)
-
 6.0 Observability and Diagnostics 
 ---
 How to get critical data about when things are going wrong and how to determine what must be done to put them right. The detection and correction may be through the actions of an operator or via an automated system. Using logs and metrics from all components in the system to narrow down the area where a problem exists, and to drill down into that area to determine a root cause and a fix.
