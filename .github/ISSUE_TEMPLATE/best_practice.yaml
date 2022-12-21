@@ -1,7 +1,7 @@
 name: Best Practice Proposal
 description: Submit a proposal for all or part of a best practice
 title: "[Best Practice Proposal]: "
-labels: ["best-practice"]
+labels: ["best practice proposal"]
 body:
   - type: markdown
     attributes:
