@@ -1,0 +1,72 @@
+name: Best Practice Proposal
+description: Submit a proposal for all or part of a best practice
+title: "[Best Practice Proposal]: "
+labels: ["best practice proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to contribute to the CNF-WG!
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      placeholder: A summary of the best practice - couple of sentences.
+    validations:
+      required: false
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      placeholder: How does this best practice benefit developers, operators, etc.?
+    validations:
+      required: false
+  - type: textarea
+    id: goals
+    attributes:
+      label: Goals
+      placeholder: What are the goals of this best practice?
+    validations:
+      required: false
+  - type: textarea
+    id: non-goals
+    attributes:
+      label: Non-Goals
+      placeholder: What are the non-goals of this best practice?
+    validations:
+      required: false
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      placeholder: Main proposal detail
+    validations:
+      required: false
+  - type: textarea
+    id: workload-context
+    attributes:
+      label: Workload Context
+      placeholder: What is the scope of this best practice? All workloads, just a subset?
+    validations:
+      required: false
+  - type: textarea
+    id: user-stories
+    attributes:
+      label: User Stories
+      placeholder: Optionally, are there any user stories that help justify or explain the best practice?
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes, Caveats, Constraints
+      placeholder: Anything of note?
+    validations:
+      required: false
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      placeholder: Please provide any references to existing documentation, blogs, etc. relevant to the best practice.
+    validations:
+      required: false
