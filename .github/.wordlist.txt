@@ -3,6 +3,7 @@ Abdel
 ABMF
 agentpoyo
 Aiden
+airgapped
 Aissue
 AKS
 AlwaysAllow
@@ -87,7 +88,6 @@ forklifted
 fRkx
 Ganbar
 gapped
-Gapped
 gapping
 GC
 Gergely
@@ -114,6 +114,7 @@ impactful
 InfraCloud
 infracloudio
 Infrastucture
+Installability
 installable
 instantiation
 IoT
@@ -276,6 +277,7 @@ UE
 UID
 uncomment
 untrusted
+Upgradability
 upgradeable
 uptime
 usernetes
