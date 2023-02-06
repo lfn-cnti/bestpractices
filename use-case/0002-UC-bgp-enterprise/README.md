@@ -6,7 +6,7 @@
 
 BGP: Border Gateway Protocol.  A TCP-based protocol that shares network routes between devices.
 
-VRF: Virtual Routing an Forwarding.  A context in a network device with its own routing table.  Multiple contexts may be set up in a device.  For instance, in a home network your gateway has two VRFs - the private addresses inside your home and the public internet outside.  These have independent route tables - the internal routes to devices are not shared with the world.  An interface with an address is homed in a particular VRF.
+VRF: Virtual Routing and Forwarding.  A context in a network device with its own routing table.  Multiple contexts may be set up in a device.  For instance, in a home network your gateway has two VRFs - the private addresses inside your home and the public internet outside.  These have independent route tables - the internal routes to devices are not shared with the world.  An interface with an address is homed in a particular VRF.
 
 TCP: Transmission Control Protocol.  A common network protocol that endpoints use to talk to each other.
 Endpoint: A device that generates and consumes traffic (as constrasted with a device that forwards traffic).
