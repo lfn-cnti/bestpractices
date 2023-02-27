@@ -40,6 +40,8 @@ cgroups
 CHF
 Chitrabasu
 Chunghwa
+CIS
+cisecurity
 cJtJgCTqViH
 claudiobartolini
 Clément
@@ -160,12 +162,14 @@ microservice
 microservices
 Miklus
 Miroslav
+mis
 mitigations
 mkr
 mmiklus
 namespace
 namespaces
 nativeness
+netsparker
 NFs
 NFV
 NFVi
@@ -185,6 +189,7 @@ ol
 onboarding
 OpenID
 OpenShift
+oreilly
 OSS
 overrepresented
 OVP
@@ -199,12 +204,15 @@ philipperobin
 PLj
 PNF
 png
+Podman
 Postconditions
 pre
 prem
+privs
 probot
 PRs
 pSMVZGQmNRemEwUk
+pss
 PV
 pwd
 PyMYvw
@@ -214,6 +222,7 @@ Rabi
 Ranny
 rannyh
 RBAC
+RCE
 reachability
 README
 RedHat
@@ -255,6 +264,7 @@ stateful
 Stricko
 svg
 Swisscom
+Synk
 Sysdig
 Tal
 tbd
