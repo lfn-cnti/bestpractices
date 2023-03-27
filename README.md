@@ -20,7 +20,7 @@ The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing
 
 ### Recurring meetings
 
-* Weekly on Mondays at 8:00am Pacific Daylight Time / 3:00pm GMT (15:00 UTC)
+* Weekly on Mondays at 8:00am Pacific Daylight Time / 4:00pm GMT (16:00 UTC)
   * Here's [a link](https://goo.gl/eyutah) to a public Google calendar that you can subscribe to
 * Join zoom meeting [here](https://zoom.us/j/97556246445?pwd=VTMrSjRWQ3pSMVZGQmNRemEwUk14QT09)
   * Passcode: :zero::four::zero::nine::six::three:
