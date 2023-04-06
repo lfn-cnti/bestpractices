@@ -9,7 +9,7 @@
     </td>
     <td valign="center" align="left" border=0 style="border-style: hidden;">
       <b>When?</b> Tuesday, April 18th, 2023 2-5pm (CEST)<br />
-      <b>Where?</b> Somewhere within the RAI or a close by location
+      <b>Where?</b>Taki Taki Co-working: Hogelandplein 1a, 1079 RZ Amsterdam, Netherlands
     </td>
   </tr>
   </table>
@@ -33,8 +33,12 @@ Tuesday, April 18th, 2023 at 2-5pm (Central European Summer Time)<br />
 
 ## Where is it?
 
-Location TBD
-- Somewhere within the RAI or a close by location
+Taki Taki Co-working: 
+Hogelandplein 1a, 1079 RZ Amsterdam, Netherlands
+
+
+<img alt="map showing walking directions from RAI to Taki Taki Co-Working" src="https://user-images.githubusercontent.com/26697/230246177-8262bac4-54bd-4feb-bdaf-6a918a013913.png" width="200" height="319"/>
+
 
 ## Who should attend?
 
