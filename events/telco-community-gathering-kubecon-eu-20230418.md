@@ -41,7 +41,6 @@ Hogelandplein 1a, 1079 RZ Amsterdam, Netherlands
 
 <img alt="map showing walking directions from RAI to Taki Taki Co-Working" src="https://user-images.githubusercontent.com/26697/230246177-8262bac4-54bd-4feb-bdaf-6a918a013913.png" width="200" height="319"/>
 
-
 ## Who should attend?
 
 Registered KubeCon attendees (up to 50 people)
@@ -53,4 +52,40 @@ CNF Working Group (WG)
 ## How do I sign up?
 
 RSVP at https://forms.gle/WqMmRNCBgHTcx6iM7
+
+----
+
+**What to do before the event**
+
+If you have 5 minutes (or less lighting talk), a topic idea for open discussion, or a working session tasks you would like to suggest (such as contributing a telecom term to the CNCF glossary) post a comment to this issue.  You can also start a discussion in the [Discussions forum in this thread](https://github.com/cncf/cnf-wg/discussions/257).
+
+**What to expect at the event**
+
+There will be an area designated for our community gathering.  You should be prepared to show your badge or some id related to your RSVP.  There is a max of 50 people for this event and those that RSVP have first access with any that were not RSVP allowed as long as there is still room.
+
+- Topics can be proposed upon arrival at the gathering as well including for the BoF lighting talks until we are full
+- There will be drinks (both alcoholic and non-alcoholic including drink tickets for those who RSVPd) and snacks available
+- There will be internet and ability to present on a screen
+
+---
+
+**Agenda**
+
+- Birds of Feather - (up to 5 minute talks)
+   - TBD (add your topic in the comments of this issue)
+- Topic open discussions.  Ideas suggested so far:
+   -  "telco validation/certification and the flexibility of CNI plugins"
+   - "Probing CNFs in containerised environments"
+   - Nephio
+   - Anuket
+   - Private 5G with a raspberry pie
+   - Telco validation/certification and the flexibility of CNI plugins - Cilium / eBPF for Telco workloads
+   - Open Discussion over CAMARA Exposure Gateway
+   - Consider CNF on-boarding best practices in WG
+   - Kubernetes LTS mechanism, the alignment in telco multi-vendor interoperability
+- Working session(s)
+   - Draft + Submit Best practice PRs
+   - Contribute to [CNCF glossary project](https://github.com/cncf/glossary)
+
+Note: The open discussion and working session time may overlap
 
