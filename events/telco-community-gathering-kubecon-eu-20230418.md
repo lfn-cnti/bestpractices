@@ -42,12 +42,13 @@ Hogelandplein 1a, 1079 RZ Amsterdam, Netherlands
 
 ## Who should attend?
 
-Registered KubeCon attendees
+Registered KubeCon attendees (up to 50 people)
 
 ## Who is hosting/facilitating this gathering?
 
 CNF Working Group (WG)
 
+## How do I sign up?
 
-
+RSVP at https://forms.gle/WqMmRNCBgHTcx6iM7
 
