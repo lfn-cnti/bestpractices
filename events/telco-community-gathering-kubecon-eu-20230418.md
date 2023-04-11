@@ -1,20 +1,22 @@
 # Telco Community Gathering - KubeCon EU 2023
 
-<center>
 <p>
 <table>
-  <tr>
-    <td>
-      <img alt="visual representation of the telco community gathering with tulips in Amsterdam with people sitting around together" src="https://user-images.githubusercontent.com/26697/225457326-9b63717c-023f-4dec-966d-a12793188df0.png" width="200" height="200"/>
-    </td>
-    <td valign="center" align="left" border=0 style="border-style: hidden;">
-      <b>When?</b> Tuesday, April 18th, 2023 2-5pm (CEST)<br />
-      <b>Where?</b>Taki Taki Co-working: Hogelandplein 1a, 1079 RZ Amsterdam, Netherlands
-    </td>
-  </tr>
-  </table>
+<tr>
+<td>
+<img alt="visual representation of the telco community gathering with tulips in Amsterdam with people sitting around together" src="https://user-images.githubusercontent.com/26697/225457326-9b63717c-023f-4dec-966d-a12793188df0.png" width="200" height="200"/>
+</td>
+<td valign="center" align="center" border=0 style="border-style: hidden;">
+<b>Telco Community Gathering - KubeCon EU 2023</b><br/>
+<b>Tuesday, April 18th, 2023</b><br/>
+<b>2:00-5:00 PM CEST</b><br/>
+  <b>Taki Taki Co-working:</b><br />Hogelandplein 1a, 1079 RZ<br /> Amsterdam, Netherlands
+
+</td>
+</tr>
+</table>
 </p>
-</center>
+
 
 
 ## A time (and place) during KubeCon where people can meet with the CNCF Telco community, including:
