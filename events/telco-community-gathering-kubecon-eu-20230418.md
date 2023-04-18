@@ -21,7 +21,6 @@
 </p>
 
 
-
 ## A time (and place) during KubeCon where people can meet with the CNCF Telco community, including:
 
 - [CNF Working Group](https://github.com/cncf/cnf-wg) - Documenting use cases, best practices, and collaborating with complimentary communities
@@ -83,6 +82,8 @@ There will be an area designated for our community gathering.  You should be pre
 ---
 
 **Agenda**
+
+See live notes here https://etherpad.wikimedia.org/p/Telco_Community_Gathering_-_KubeCon_EU_2023-04-18
 
 - Birds of Feather - (up to 5 minute talks)
    - TBD (add your topic in the comments of this issue)
