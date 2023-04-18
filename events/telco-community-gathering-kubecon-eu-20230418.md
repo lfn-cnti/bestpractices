@@ -11,8 +11,10 @@
 <b>Tuesday, April 18th, 2023</b><br/>
 <b>2:00-5:00 PM CEST</b><br/>
   <b>Taki Taki Co-working:</b><br />Hogelandplein 1a, 1079 RZ<br /> Amsterdam, Netherlands
-
 </td>
+  <td>
+    <img src="https://user-images.githubusercontent.com/26697/232731763-0c876c7f-e811-4eb0-9a9c-15b032e4b051.png" width=100 height=100 />
+  </td>
 </tr>
 </table>
 </p>
