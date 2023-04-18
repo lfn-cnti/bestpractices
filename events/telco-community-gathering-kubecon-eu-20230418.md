@@ -10,7 +10,8 @@
 <b>Telco Community Gathering - KubeCon EU 2023</b><br/>
 <b>Tuesday, April 18th, 2023</b><br/>
 <b>2:00-5:00 PM CEST</b><br/>
-  <b>Taki Taki Co-working:</b><br />Hogelandplein 1a, 1079 RZ<br /> Amsterdam, Netherlands
+  <b>Taki Taki Co-working:</b><br />
+  Address: <a href="https://goo.gl/maps/8USfbrArH7g6CjGw8">Coronalab.eu Amsterdam Zuid, <br />Hogelandplein 1a, 1079 RZ Amsterdam, Netherlands</a>
 </td>
   <td>
     <img src="https://user-images.githubusercontent.com/26697/232731763-0c876c7f-e811-4eb0-9a9c-15b032e4b051.png" width=100 height=100 />
@@ -38,8 +39,8 @@ Tuesday, April 18th, 2023 at 2-5pm (Central European Summer Time)<br />
 ## Where is it?
 
 Taki Taki Co-working: 
-Hogelandplein 1a, 1079 RZ Amsterdam, Netherlands
-
+<strike>Hogelandplein 1a, 1079 RZ Amsterdam, Netherlands</strike>
+Google maps shows incorrect location. Please use the following address: <a href="https://goo.gl/maps/8USfbrArH7g6CjGw8">Coronalab.eu Amsterdam Zuid, <br />Hogelandplein 1a, 1079 RZ Amsterdam, Netherlands</a>
 
 <img alt="map showing walking directions from RAI to Taki Taki Co-Working" src="https://user-images.githubusercontent.com/26697/230246177-8262bac4-54bd-4feb-bdaf-6a918a013913.png" width="200" height="319"/>
 
