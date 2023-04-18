@@ -42,8 +42,18 @@ Taki Taki Co-working:
 <strike>Hogelandplein 1a, 1079 RZ Amsterdam, Netherlands</strike>
 Google maps shows incorrect location. Please use the following address: <a href="https://goo.gl/maps/8USfbrArH7g6CjGw8">Coronalab.eu Amsterdam Zuid, <br />Hogelandplein 1a, 1079 RZ Amsterdam, Netherlands</a>
 
-<img alt="map showing walking directions from RAI to Taki Taki Co-Working" src="https://user-images.githubusercontent.com/26697/230246177-8262bac4-54bd-4feb-bdaf-6a918a013913.png" width="200" height="319"/>
 
+<table>
+  <tr>
+    <td>
+<img alt="From Amsterdam RAI Europaplein 24, 1078 GZ Amsterdam, Netherlands, Head east on Europaplein. Turn right toward Europaboulevard. Turn left onto . Sharp right toward Maaslandstraat. Turn left onto Maaslandstraat. Turn right onto Gelrestraat. Turn left onto Zuidelijke Wandelweg. Turn right onto Hogelandplein" src="https://user-images.githubusercontent.com/26697/232744901-05000d2b-ec78-4665-9392-f899f8af010e.png" width="400" height="300" />
+    </td>
+<td>
+<img alt="map showing walking directions from RAI to Taki Taki Co-Working" src="https://user-images.githubusercontent.com/26697/230246177-8262bac4-54bd-4feb-bdaf-6a918a013913.png" width="200" height="319"/>
+    </td>
+  </tr>
+  </table>
+  
 ## Who should attend?
 
 Registered KubeCon attendees (up to 50 people)
