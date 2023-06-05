@@ -84,18 +84,18 @@ All pod types should implement this best practice.
 
 #### Supply chain attack user stories
 
-[Supply chain attacks](../user-stories/supply-chain-attacks.md) are a risk at any point in the supply chain. ‘Defence in depth’ says that we should (a) defend against supply chain attacks but also (b) add mitigations in the case that supply chain attacks happen.
+[Supply chain attacks](../doc/user-stories/supply-chain-attacks.md) are a risk at any point in the supply chain. ‘Defence in depth’ says that we should (a) defend against supply chain attacks but also (b) add mitigations in the case that supply chain attacks happen.
 
 Examples include
 
-- [A CNF downloads compromised updates](../user-stories/supply-chain-attacks.md#a-cnf-downloads-compromised-updates)
-- [A CNF succumbs to code injection](../user-stories/supply-chain-attacks.md#a-cnf-succumbs-to-code-injection)
-- [A CNF succumbs to malicious instructions](../user-stories/supply-chain-attacks.md#a-cnf-succumbs-to-malicious-instructions)
-- [A CNF has a security-compromising bug](../user-stories/supply-chain-attacks.md#a-cnf-has-a-security-compromising-bug)
+- [A CNF downloads compromised updates](../doc/user-stories/supply-chain-attacks.md#a-cnf-downloads-compromised-updates)
+- [A CNF succumbs to code injection](../doc/user-stories/supply-chain-attacks.md#a-cnf-succumbs-to-code-injection)
+- [A CNF succumbs to malicious instructions](../doc/user-stories/supply-chain-attacks.md#a-cnf-succumbs-to-malicious-instructions)
+- [A CNF has a security-compromising bug](../doc/user-stories/supply-chain-attacks.md#a-cnf-has-a-security-compromising-bug)
 
 In all of these examples, the CNFs using a non-root user for their container processes, have limited the scope of damage a compromised process may cause.
 
-See main [defense in depth for supply chain attacks](../user-stories/supply-chain-attacks.md) document for more information.
+See main [defense in depth for supply chain attacks](../doc/user-stories/supply-chain-attacks.md) document for more information.
 
 ### **Notes/Constraints/Caveats (Optional)**
 

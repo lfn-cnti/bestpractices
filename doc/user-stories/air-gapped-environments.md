@@ -12,9 +12,9 @@ In this case, if the operator does not allow for a CNF to access a remote licens
 
 The goal for licensing best practices should be to find ways that allow operators to safely and securely deploy CNFs on-demand in air gapped environments. This means that CNF vendors and operators must find a way to operate CNFs in this environment - one that breaks a common assumption of cloud software, that it has reachability to internet services.
 
-## An operator employs [GitOps](https://github.com/cncf/cnf-wg/blob/main/use-case/0001-UC-lifecycle-of-infrastructure-where-CNF-is-running.md) methodologies with defense in depth
+## An operator employs [GitOps](https://github.com/cncf/cnf-wg/blob/main/doc/use-case/0001-UC-lifecycle-of-infrastructure-where-CNF-is-running.md) methodologies with defense in depth
 
-In an air gapped environment, unique supply chain considerations arise. As discussed in [user-story supply-chain-attacks](https://github.com/cncf/cnf-wg/blob/main/user-stories/supply-chain-attacks.md), securing one's supply chain is paramount to a defense in depth strategy. In an operator's air gapped environment, this supply chain almost always enforces a centralized choke point for pulling, distributing, and versioning artifacts.
+In an air gapped environment, unique supply chain considerations arise. As discussed in [user-story supply-chain-attacks](https://github.com/cncf/cnf-wg/blob/main/doc/user-stories/supply-chain-attacks.md), securing one's supply chain is paramount to a defense in depth strategy. In an operator's air gapped environment, this supply chain almost always enforces a centralized choke point for pulling, distributing, and versioning artifacts.
 
 In this case, the operator would seek to ensure that artifacts are signed and deemed "trusted" before being released to the rest of the internal actors. Trust could be established in multiple ways, such as internal pipelines that pull untrusted artifacts and run vulnerability scans and automated testing or via an established software supply chain with a trusted vendor. All declarations supporting an operator's GitOps style approach would strictly build from these privately hosted repositories in fully air gapped development, stage, and production environments. Testing would include validation that a CNF is fully deployable and maintainable with zero reach to the internet.
 

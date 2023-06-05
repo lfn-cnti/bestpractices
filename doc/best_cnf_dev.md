@@ -35,7 +35,7 @@ How to ensure that components are protected against security issues, including s
 **Description:**
 Containers have a list of their own users independent of the host system, one of which is UID 0, the root user. Containers should run processes as a user other than root which makes it easier to run the container images securely.
 
-**Reference:** [CBPP-0002](../cbpps/0002-no-root-in-containers.md)
+**Reference:** [CBPP-0002](../doc/cbpps/0002-no-root-in-containers.md)
 
 ### 6.0 Observability and Diagnostics
 
