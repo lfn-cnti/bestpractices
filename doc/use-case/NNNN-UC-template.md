@@ -55,7 +55,7 @@ Etc.
 
 ### Established practices to overcome challenges and limitations
 
-> If such practices exist please elaborate them here in sufficient technical details. Provide references and give your opinion weather or not these practices can be considered as candidates for CNF best practices in line with [CBPP description](../doc/cbpps/0001-cnf-best-practice-proposal-process.md).
+> If such practices exist please elaborate them here in sufficient technical details. Provide references and give your opinion weather or not these practices can be considered as candidates for CNF best practices in line with [CBPP description](../cbpps/0001-cnf-best-practice-proposal-process.md).
 
 ### What needs to be done differently in order to overcome challenges and limitations
 

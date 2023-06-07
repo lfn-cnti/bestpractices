@@ -74,4 +74,4 @@ Ideally a set of best practices will have their own tickets.
 
 ### Add to the list of CNF Best Practices
 
-Once the best practice PR has been accepted and merged, you can raise another PR to get the best practice added to the [CNF Best Practice List](../doc/best_cnf_dev.md).
+Once the best practice PR has been accepted and merged, you can raise another PR to get the best practice added to the [CNF Best Practice List](../best_cnf_dev.md).
