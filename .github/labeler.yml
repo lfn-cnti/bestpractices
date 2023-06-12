@@ -13,10 +13,10 @@ documentation:
   - "*.md"
 
 use-case:
-  - use-case/*
+  - doc/use-case/*
 
 best-practice:
-  - cbpps/*
+  - doc/cbpps/*
 
 tools:
   - .github/*

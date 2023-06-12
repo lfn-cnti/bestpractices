@@ -17,7 +17,7 @@ The goal of the Cloud Native Network Function Working Group (CNF WG) is to aid c
 
 It is important that the best practices that we produce work towards that goal.
 
-Please read the [CNF-WG Charter](../charter.md) and in particular the [Mission Statement](../charter.md#mission-statement).
+Please read the [CNF-WG Charter](../../charter.md) and in particular the [Mission Statement](../../charter.md#mission-statement).
 
 ## (Optional) Socialize the idea
 
@@ -34,7 +34,7 @@ The working group has the following communication channels:
 
 ### Read the Contributing Guide
 
-Once you're ready to contribute the best practice, it's a good idea to read the [contributing guide](../CONTRIBUTING.md#how-to-contribute).
+Once you're ready to contribute the best practice, it's a good idea to read the [contributing guide](../../CONTRIBUTING.md#how-to-contribute).
 
 ### Create a GitHub Issue for a specific best practice idea
 
@@ -74,4 +74,4 @@ Ideally a set of best practices will have their own tickets.
 
 ### Add to the list of CNF Best Practices
 
-Once the best practice PR has been accepted and merged, you can raise another PR to get the best practice added to the [CNF Best Practice List](../doc/best_cnf_dev.md).
+Once the best practice PR has been accepted and merged, you can raise another PR to get the best practice added to the [CNF Best Practice List](../best_cnf_dev.md).

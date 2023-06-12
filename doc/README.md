@@ -18,7 +18,7 @@ Cloud native is not a set point. The industry, technology, and best practices wi
 
 These best practices and recommendations shall serve as generic contract between CNFs and cloud native infrastructure / platforms. If both, a CNF and a platform follow these recommendations it should be assured that they will run nicely together out-of-box. In a sense fulfilling this contract represents implicit (pre) certification that the combination can be used in the production.
 
-Best practices are introduced, modified, and removed to keep up with industry trends and technological advances via a process defined in [here](../cbpps).
+Best practices are introduced, modified, and removed to keep up with industry trends and technological advances via a process defined in [here](cbpps).
 
 **Figure 1-1** below illustrate CNF WG relation to other communities and how best practices defined by CNF WG are consumed.
 

@@ -28,14 +28,14 @@ Contributors are encouraged to collaborate using the following resources:
 We welcome many different types of contributions including:
 
 - General improvements to documentation
-- [Use cases](use-case/) and user stories (these are used to provide context for and select best practices)
-  - [See the template for more details](use-case/NNNN-UC-template.md)
+- [Use cases](doc/use-case/) and user stories (these are used to provide context for and select best practices)
+  - [See the template for more details](doc/use-case/NNNN-UC-template.md)
 - Definitions
   - [Actors and Roles](https://github.com/cncf/cnf-wg/discussions/30)
   - [Glossary](doc/glossary.md)
 - [CNF Best Practices](doc/best_cnf_dev.md)
-  - [Process to publish a CNF Best Practice](cbpps/cnf_best_practice_process.md)
-  - [See the template for more details](cbpps/NNNN-cbpp-template.md)
+  - [Process to publish a CNF Best Practice](doc/cbpps/cnf_best_practice_process.md)
+  - [See the template for more details](doc/cbpps/NNNN-cbpp-template.md)
 - Gap Analysis
 
 ### Code Contributions
