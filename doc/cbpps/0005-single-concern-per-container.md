@@ -45,7 +45,7 @@ Challenges we think this best practice can help solve:
 
 - Life-cycle management
     - If you have more than one process type in a container, you will have to manage the lifecycle of the secondary concerns within the container, which effectively means creating an orchestrator within the parent process type, reducing the value of using the Kubernetes orchestration capabilities.
-    - Resource utilization is less efficient in multi-concerned containers, which require allocation for all components rather than individual microservices requirements.
+    - Resource utilization is likely to be less efficient in multi-concerned containers, as the container runtime will look to allocation infrastructure resources for all components rather than individual microservices requirements.
     - Response time of multi-concerned containers is increased as scaling is required for the combined services rather than the individual services needing scaling.
     - Upgrades causing interruption in many services and all their integration at once because none of the components in the system are independent 
 - Security
@@ -120,7 +120,7 @@ Separating service concerns also helps to support the automation goals of the 5G
 
 #### SMF with multiple services for communicating with the AMF, UPF, and PCF needing more responsive scaling and requiring more resources for its AMF and UPF communication
 
-An SMF with different services providing the communication between AMF, UPF, PCF and other services in an environment with many new sessions being initiated sessions and ending during peak times may require scaling of the service responsible for communication with the AMF and UPF faster than the service communicating with the PCF. If the services are split into their own containers they can be scaled independently.  
+An SMF with different services providing the communication between AMF, UPF, PCF and other services in an environment where many new sessions are initiated and end during peak times. This may require scaling of the service responsible for communication with the AMF and UPF faster than the service communicating with the PCF. If the services are split into their own containers they can be scaled independently.  
 
 
 
@@ -135,7 +135,7 @@ _Source: https://techcommunity.microsoft.com/t5/azure-for-operators-blog/what-is
 “That service may fork into multiple processes (for example, the Apache web server starts multiple worker processes). It’s ok to have multiple processes, but to get the most benefit out of Docker, avoid one container being responsible for multiple aspects of your overall application.”
 
 
-Ideally in a container the process 1 (init process) should be the single application running in the container. When multiple processes are started it is recommended to use a non-home-grown supervisor such as http://supervisord.org/.  See discussion here https://github.com/cncf/cnf-wg/discussions/264
+Ideally in a container the process 1 (init process) should be the single application running in the container, as the container runtime monitors the PID 1 application process and uses its signals to report events, knowing when a container has stopped. When multiple processes are started it is recommended to use a non-home-grown supervisor such as http://supervisord.org/.  See discussion here https://github.com/cncf/cnf-wg/discussions/264
 
 
 ### Definitions
