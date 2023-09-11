@@ -50,7 +50,7 @@ Challenges we think this best practice can help solve:
     - Upgrades causing interruption in many services and all their integration at once because none of the components in the system are independent 
 - Security
     - CNFs with multi-concerned containers have a larger surface area for security attacks and production bugs
-    - Security vulnerabilities in one process type effect all other processes in the same container
+    - Security vulnerabilities in one process type affect all other processes in the same container
 - Observability
     - Reduced visibility of communication and activity of services in the multi-concerned container
     - Log messages from the multi-concerned container are more complex because they are from many different sources instead of a single process type
