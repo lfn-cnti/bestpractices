@@ -35,7 +35,6 @@ The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing
 * [Telco Community Gathering - KubeCon EU 2023](https://github.com/cncf/cnf-wg/blob/main/events/telco-community-gathering-kubecon-eu-20230418.md)
   * Tuesday, April 18, 2023 at 2:00-5:00pm
 
-
 ### Past events
 
 * [Cloud Native Telco Day NA 2022](https://events.linuxfoundation.org/cloud-native-telco-day-north-america/program/schedule/)

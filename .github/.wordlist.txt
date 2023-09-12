@@ -124,7 +124,7 @@ Hirschberg
 Hogelandplein
 href
 hthFb
-https
+HTTPS
 Huawei
 hypervised
 iawells
@@ -227,7 +227,7 @@ pgoyal
 philipperobin
 PLj
 PNF
-png
+PNG
 Podman
 Postconditions
 pre
