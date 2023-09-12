@@ -52,12 +52,13 @@ Challenges we think this best practice can help solve:
     - CNFs with multi-concerned containers have a larger surface area for security attacks and production bugs
     - Security vulnerabilities in one process type affect all other processes in the same container
 - Observability
-    - Reduced visibility of communication and activity of services in the multi-concerned container
+    - Reduced visibility of communication and activity of services in the multi-concerned container, as the container runtime will only be monitoring the init process within the container for signals
     - Log messages from the multi-concerned container are more complex because they are from many different sources instead of a single process type
     - Difficulty in identifying which process a bug resides in increases as a result of multiple process types in a single container
 - Software Development Cycle
     - A CNF with multiple maintainers (which can be different groups in an organization) can block each other’s development process when a CNF is tightly coupled
     - A high degree of test coverage with a complex and tightly coupled CNF is difficult to achieve
+    - Enable "polyglot" software designs, where the decoupled entities are developed in entirely different frameworks and even computer languages
 
 
 ### **Goals**
@@ -137,6 +138,8 @@ _Source: https://techcommunity.microsoft.com/t5/azure-for-operators-blog/what-is
 
 Ideally in a container the process 1 (init process) should be the single application running in the container, as the container runtime monitors the PID 1 application process and uses its signals to report events, knowing when a container has stopped. When multiple processes are started it is recommended to use a non-home-grown supervisor such as http://supervisord.org/.  See discussion here https://github.com/cncf/cnf-wg/discussions/264
 
+Depending on the specifics of the implemented functionality, the resulting split may have requirements towards the locality of the resulting multiple containers. It may require certain functions to be deployed on the same worker node or allow for distributing them amongst different worker nodes. The cloud-native principles, and the need for a horizontal scaling does imply the latter, i.e. no locality restrictions. However, due to the specifics of the Telco workloads, such limitations might be necessary for the operation of the particular functionality.
+In some cases, the workload distribution can span multiple data-centers and geographic locations. The edge deployments are exemplifying such application designs.
 
 ### Definitions
  
