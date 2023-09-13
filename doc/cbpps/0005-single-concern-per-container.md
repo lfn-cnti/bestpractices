@@ -68,10 +68,18 @@ Challenges we think this best practice can help solve:
         - Make it easier to reason the best way to scale a CNF based on anticipated load by reducing the complexity of service concerns and allowing focus on each container's anticipated needs 
         - Support scaling individual processes of the same type for efficient resource utilization and faster response time for changes in service load (increasing/decreasing)
     - Simplify deployment, reduce risk in upgrades and support easier rollbacks by managing the process types (service concerns) independently and providing coarse-grained dependencies at the container level 
-- Security
-    - Reducing attack surface area in a CNF’s containers by limiting the number process types and their dependencies such as additional binaries/libraries 
-    - Protect containers from interfering with one another by leveraging the container namespace system
-    - Allow finer control of permissions
+- Security 
+    - Increase confidentiality by creating clearly defined boundaries between software components 
+        - Reduces the attack surface presented in a CNF’s containers 
+        - Limit the number of process types and their dependencies such as additional binaries/libraries  
+        - Prevent unnecessary access to data via shared filesystems 
+	    - Implement finer grained attribute-based controls between processes and systems 
+    - Increase integrity by restricting a processes ability to perform CRUD operations in a shared container environment 
+        - Protect containers from interfering with one another by leveraging the container namespace system and cgroup implementations 
+    - Increase availability by reducing the size of failure domain 
+	    - Allows for granular control of separation of concerns 
+        - Remove the risk of multiple critical processes terminating simultaneously 
+        - Define access methods via established interfaces 
 - Observability
     - Simplifying troubleshooting and readability of log output. It is easier to consume log messages and reason about their output when they come from one concern or process type as opposed to when they are interweaved with other concerns. This is even more true in a container that prints all log messages to standard out, such as described in the 12-factor cloud native app.
     - Improve ability to monitor CNF activity by exposing the inter-process communication
