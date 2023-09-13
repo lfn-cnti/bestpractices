@@ -65,7 +65,7 @@ Challenges we think this best practice can help solve:
     - Increase the use of Kubernetes orchestration capabilities instead of using additional container orchestration solutions 
     - Align with microservice architectural practices for operations and development
     - Make it easier to scale multiple containers of a CNF to produce an efficient resource utilization and faster response:
-        - Make it easier to reason the best way to scale a CNF based on anticipated load by reducing the complexity of service concerns and allowing focus on each container (or Pods) anticipated needs 
+        - Make it easier to reason the best way to scale a CNF based on anticipated load by reducing the complexity of service concerns and allowing focus on each container's anticipated needs 
         - Support scaling individual processes of the same type for efficient resource utilization and faster response time for changes in service load (increasing/decreasing)
     - Simplify deployment, reduce risk in upgrades and support easier rollbacks by managing the process types (service concerns) independently and providing coarse-grained dependencies at the container level 
 - Security
