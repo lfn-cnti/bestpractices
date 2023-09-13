@@ -52,7 +52,7 @@ This process is supported by a unit of work called a CNF Best Practice Proposal,
 
 ## **Motivation**
 
-__Note: Motivation is something that stems from the past, it's the culmination of experiences that drive you to wanting to achieve a specific goal.__
+**Note: Motivation is something that stems from the past, it's the culmination of experiences that drive you to wanting to achieve a specific goal.**
 
 In a blog post describing the [road to Go 2](https://blog.golang.org/toward-go2), Russ Cox explains:
 
@@ -66,7 +66,7 @@ An important goal of the CBPP process is ensuring that the process for submittin
 
 ### **Goals**
 
-__Note:  A goal is something directed at the future, it's something you wish to happen and you work on achieving that goal.__
+**Note:  A goal is something directed at the future, it's something you wish to happen and you work on achieving that goal.**
 
 Providing a standardized way for the community to propose and discuss Cloud Native Definitions
 
