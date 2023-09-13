@@ -62,7 +62,7 @@ Challenges we think this best practice can help solve:
 ### **Goals**
 
 - Life-cycle management
-    - Increase the use of Kubernetes orchestration capabilities instead of using additional container orchestration solutions 
+    - Simplify and consolidate the use of orchestration capabilities instead of adding additional container orchestration solutions 
     - Align with microservice architectural practices for operations and development
     - Make it easier to scale multiple containers of a CNF to produce an efficient resource utilization and faster response:
         - Make it easier to reason the best way to scale a CNF based on anticipated load by reducing the complexity of service concerns and allowing focus on each container's anticipated needs 
