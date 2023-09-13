@@ -28,9 +28,7 @@ Items marked with (R) are required for the proposed best practice to be included
 
 A CNF’s microservice(s) should follow the single concern principle. To help achieve this goal, a CNF’s microservice(s) should have only one process type (or set of parent/child processes) per container. The process(es) in the container should not spawn other process types (e.g. executables) as a way to contribute to the workload but rather should interact with other processes through a microservice API.
 
-_“It’s best practice to separate areas of concern by using one service per container. That service may fork into multiple processes (for example, the Apache web server starts multiple worker processes). It’s ok to have multiple processes, but to get the most benefit out of Docker, avoid one container being responsible for multiple aspects of your overall application.”_
-	&nbsp;&nbsp;&nbsp;ref: https://docs.docker.com/config/containers/multi-service_container/
-
+In Docker's Advanced concepts documentation regarding running multiple services in a container the Docker community says: _“It’s best practice to separate areas of concern by using one service per container. That service may fork into multiple processes (for example, the Apache web server starts multiple worker processes). It’s ok to have multiple processes, but to get the most benefit out of Docker, avoid one container being responsible for multiple aspects of your overall application.”_ [#3](#references)
 
 This will help the programmability and flexibility of CNFs and networks through:
 - Improvements in scalability and responsiveness to service needs
@@ -152,19 +150,19 @@ In some cases, the workload distribution can span multiple data-centers and geog
 
 ### **References**
 
-- https://www.infoq.com/articles/cloud-native-network-functions-concern/
-- https://www.ibm.com/cloud/architecture/architecture/practices/cloud-native-principles
+1. https://www.infoq.com/articles/cloud-native-network-functions-concern/
+1. https://www.ibm.com/cloud/architecture/architecture/practices/cloud-native-principles
     - _“SoC (separation of concerns) - Single concern principle”_
-- https://docs.docker.com/config/containers/multi-service_container/
-- https://en.wikipedia.org/wiki/Single-responsibility_principle
-- https://developers.redhat.com/articles/2022/01/11/5-design-principles-microservices
-- https://www.ericsson.com/en/future-technologies/architecture/network-capabilities
+1. https://docs.docker.com/config/containers/multi-service_container/
+1. https://en.wikipedia.org/wiki/Single-responsibility_principle
+1. https://developers.redhat.com/articles/2022/01/11/5-design-principles-microservices
+1. https://www.ericsson.com/en/future-technologies/architecture/network-capabilities
 _“As a step towards a fully autonomous network and achieving an intent-based management of a network, its architecture must be prepared by raising the level of abstraction in management with e.g., strong separation of concerns.”_
-- https://github.com/cncf/cnf-testsuite/blob/main/docs/LIST_OF_TESTS.md#single-process-type-in-one-container
+1. https://github.com/cncf/cnf-testsuite/blob/main/docs/LIST_OF_TESTS.md#single-process-type-in-one-container
     - RATIONALE - https://github.com/cncf/cnf-testsuite/blob/main/RATIONALE.md#to-check-if-the-cnf-has-multiple-process-types-within-one-container-single_process_type
-- https://www.tutorialworks.com/containers-single-or-multiple-processes/
-- https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/containers-and-cloud-native-functions-white-paper.pdf
-- https://techcommunity.microsoft.com/t5/azure-for-operators-blog/what-is-the-5g-session-management-function-smf/ba-p/3693852
+1. https://www.tutorialworks.com/containers-single-or-multiple-processes/
+1. https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/containers-and-cloud-native-functions-white-paper.pdf
+1. https://techcommunity.microsoft.com/t5/azure-for-operators-blog/what-is-the-5g-session-management-function-smf/ba-p/3693852
 
 
 ## **Testing Objectives**
