@@ -70,15 +70,15 @@ Challenges we think this best practice can help solve:
 - Security
   - Increase confidentiality by creating clearly defined boundaries between software components
     - Reduces the attack surface presented in a CNF’s containers
-    - Limit the number of process types and their dependencies such as additional binaries/libraries  
-    - Prevent unnecessary access to data via shared filesystems
-    - Implement finer grained attribute-based controls between processes and systems
+    - Limits the number of process types and their dependencies such as additional binaries/libraries  
+    - Prevents unnecessary access to data via shared filesystems
+    - Allows for finer grained attribute-based controls to be implemented between processes and systems
   - Increase integrity by restricting a processes ability to perform CRUD operations in a shared container environment
-    - Protect containers from interfering with one another by leveraging the container namespace system and cgroup implementations
+    - Protects containers from interfering with one another by leveraging the container namespace system and cgroup implementations
   - Increase availability by reducing the size of failure domain
     - Allows for granular control of separation of concerns
-    - Remove the risk of multiple critical processes terminating simultaneously
-    - Define access methods via established interfaces
+    - Removes the risk of multiple critical processes terminating simultaneously
+    - Defines access methods via established interfaces
 - Observability
   - Simplifying troubleshooting and readability of log output. It is easier to consume log messages and reason about their output when they come from one concern or process type as opposed to when they are interweaved with other concerns. This is even more true in a container that prints all log messages to standard out, such as described in the 12-factor cloud native app.
   - Improve ability to monitor CNF activity by exposing the inter-process communication
