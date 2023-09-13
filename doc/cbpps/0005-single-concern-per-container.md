@@ -104,7 +104,7 @@ Pod specs for the CNF should provide scaling and monitoring information for each
 
 ## **Workload Context**
 
-All pod types should implement this best practice.
+All Kubernetes Pod types should implement this best practice.  This best practice applies to control and user plane applications.
 
 ### **User Stories**
 
