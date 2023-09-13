@@ -163,6 +163,7 @@ _“As a step towards a fully autonomous network and achieving an intent-based m
 1. https://www.tutorialworks.com/containers-single-or-multiple-processes/
 1. https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/containers-and-cloud-native-functions-white-paper.pdf
 1. https://techcommunity.microsoft.com/t5/azure-for-operators-blog/what-is-the-5g-session-management-function-smf/ba-p/3693852
+1. https://www.mirantis.com/blog/multi-container-pods-and-container-communication-in-kubernetes/
 
 
 ## **Testing Objectives**
