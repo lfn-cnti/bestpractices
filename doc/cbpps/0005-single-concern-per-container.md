@@ -45,11 +45,11 @@ Challenges we think this best practice can help solve:
 
 - Life-cycle management
     - If you have more than one process type in a container, you will have to manage the lifecycle of the secondary concerns within the container, which effectively means creating an orchestrator within the parent process type, reducing the value of using the Kubernetes orchestration capabilities.
-    - Resource utilization is likely to be less efficient in multi-concerned containers, as the container runtime will look to allocation infrastructure resources for all components rather than individual microservices requirements.
+    - Resource utilization is likely to be less efficient in multi-concerned containers, as the container runtime will look to allocate infrastructure resources for all components rather than individual microservices requirements.
     - Response time of multi-concerned containers is increased as scaling is required for the combined services rather than the individual services needing scaling.
     - Upgrades causing interruption in many services and all their integration at once because none of the components in the system are independent 
 - Security
-    - CNFs with multi-concerned containers have a larger surface area for security attacks and production bugs
+    - CNFs with multi-concerned containers have a larger surface area for cyberattacks and production bugs
     - Security vulnerabilities in one process type affect all other processes in the same container
 - Observability
     - Reduced visibility of communication and activity of services in the multi-concerned container, as the container runtime will only be monitoring the init process within the container for signals
@@ -75,7 +75,7 @@ Challenges we think this best practice can help solve:
     - Protect containers from interfering with one another by leveraging the container namespace system
     - Allow finer control of permissions
 - Observability
-    - Simplifying troubleshooting and readability of log output. It is easier to reason about the log messages that come from one concern or process type than log messages that are interleaved with other concerns. This is even more true in a container that prints all log messages to standard out, such as in a 12-factor cloud native app.
+    - Simplifying troubleshooting and readability of log output. It is easier to consume log messages and reason about their output when they come from one concern or process type as opposed to when they are interweaved with other concerns. This is even more true in a container that prints all log messages to standard out, such as described in the 12-factor cloud native app.
     - Improve ability to monitor CNF activity by exposing the inter-process communication
 - Software Development Cycle
     - Enable better support for multiple development teams to maintain their own independent lifecycle(s)
