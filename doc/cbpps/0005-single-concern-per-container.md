@@ -1,4 +1,5 @@
-# **CBPP-0005: A CNF’s containers should have one process category**
+# **CBPP-0005: A CNF’s should have one concern and service (normally mapping to one process type) per container**
+A CNF with multiple concerns should split services (or process types) for each of its concerns into separate containers.
 
 - [Release Signoff Checklist](#release-signoff-checklist)
 - [Summary](#summary)
