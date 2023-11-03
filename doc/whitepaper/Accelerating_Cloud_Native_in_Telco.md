@@ -211,7 +211,7 @@ collaboration with existing communities, and included in existing well-establish
     1. Application resource requirements must be configured declaratively. The application must not be statically configured to
        utilize specific resources including devices, nodes, or machines
     1. When performance is a requirement, the application should utilize open standards for adapters where possible at all levels
-       they are available. For example support for multiple CNIs vs a single CNI. Support for SR-IOV and…
+       they are available. For example support for multiple CNIs vs a single CNI.
     1. To be able to deploy on any CNCF Certified Kubernetes distributions
     1. CNFs make use of standard APIs for infrastructure and platform capabilities.  For example Service Mesh Interface, Ingress,
        CNI, etc.
