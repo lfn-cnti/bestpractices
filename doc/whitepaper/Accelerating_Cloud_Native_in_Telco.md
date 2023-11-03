@@ -1,6 +1,7 @@
 # Accelerating Cloud Native in Telco
 **_Challenges of Cloud Native Telco Transformation today and how to overcome them - A CSP perspective_**
 
+v1.0 - November 3, 2023
 
 <!-----
 * Fri Nov 03 2023
@@ -359,9 +360,7 @@ Editing and facilitation acknowledgments:
 * Taylor Carpenter, Vulk Coop Partner & CNF WG Co-Chair
 * Lucina Stricko, Vulk Coop Partner & CNF Certification Maintainer
 
-
 ## **REFERENCES**
-
 
 1. [Cloud Native Networking principles whitepaper](https://networking.cloud-native-principles.org/cloud-native-networking-preamble) - https://networking.cloud-native-principles.org/cloud-native-networking-preamble 
 2. NGMN
