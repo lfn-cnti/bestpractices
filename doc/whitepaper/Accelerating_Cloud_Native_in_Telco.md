@@ -222,7 +222,7 @@ collaboration with existing communities, and included in existing well-establish
     1. CNF shall rely on mechanisms around PodDisruptionBudgets to secure the conditions for itself to run uninterrupted during
        lifecycle procedures.
     1. The application must function properly if it is rescheduled to other nodes without interruption of its services (e.g. move
-       user sessions without interruptions)
+       user sessions without interruptions).
     1. Upgrade procedures on CNF shall also follow rolling-upgrade principles and shall be done in-service
 
 1. **Tracing.** The CNFs shall be instrumented to emit the protocol tracing data directly from their microservices to the
@@ -243,7 +243,7 @@ collaboration with existing communities, and included in existing well-establish
        application remains responsive and available using "Horizontal Pod Autoscaling" (HPA).
     1. Each microservice should log information and expose metrics about its performance and usage, which can be used to identify
        and diagnose issues.
-    1. CNFs should expose their state (e.g. health) in a cloud native way
+    1. CNFs should expose their state (e.g. health) in a cloud native way.
     1.  CNFs can share databases, load balancers, business logic, and common services and become fully disaggregated.
     1. CNF has to tolerate automatic scaling at the node and container level by the Kubernetes orchestrator.
     1. CNF has to support self-healing.
@@ -253,27 +253,25 @@ collaboration with existing communities, and included in existing well-establish
     1. Any practice that poses the risk such as usage of hostPaths, privilege escalations, root containers, etc. needs either to
        be eliminated or replaced with an alternative cloud native approach.
     1. The application must adhere to cluster policies enforced by the cluster manager including overriding its default policies
-    1. _The application should follow the Principle of Least Privilege_
-    1. RBAC definitions must declare the minimal set of rights needed for the application to function The application should not
-       request open-ended / all rights in its RBAC definitions
-    1. Applications should not require privileges to run including privileged pods and cluster roles
-    1. Applications that require privileges must declare which components require privileges in both machine-readable and
-       human-readable open formats
-    1. The application must be isolated with Namespaces and not use the default namespace
+    1. The application should follow the Principle of Least Privilege.
+    1. RBAC definitions must declare the minimal set of rights needed for the application to function The application should not request open-ended / all rights in its RBAC definitions.
+    1. Applications should not require privileges to run including privileged pods and cluster roles.
+    1. Applications that require privileges must declare which components require privileges in both machine-readable and human-readable open formats.
+    1. The application must be isolated with Namespaces and not use the default namespace.
 
 1. **Resilience.**  High-quality CNFs should be resilient to underlying infrastructure issues including complete failure,
    meaning that instead of completely failing, they note that something is wrong, log the errors, etc, and then return to
    full working order upon restoration of the underlying infrastructure service/resource.
-    1. CNFs use cloud native principles (e.g. Kubernetes capabilities) when implementing resilience architecture without
-       fully focusing on 3GPP (e.g. CNFs do not rely solely on robust infrastructure)
+    1. CNFs use cloud native principles (e.g. Kubernetes capabilities) when implementing resilience architecture without.
+       fully focusing on 3GPP (e.g. CNFs do not rely solely on robust infrastructure).
     1. CNFs are resilient to network corruption / poor quality network connection (e.g. packet drops, high latency, etc.).
     1. CNFs are resilient to complete loss of network connection.
-    1. CNFs are resilient to poor-quality storage connection (e.g. high latency, read/write performance degradation, etc.)
+    1. CNFs are resilient to poor-quality storage connection (e.g. high latency, read/write performance degradation, etc.).
     1. CNFs are resilient to complete loss of storage connection.
-    1. CNFs are resilient to storage disks being full
-    1. CNFs are resilient to CPU stresses
-    1. CNFs are resilient to Memory stresses
-    1. CNFs are resilient to the complete loss of underlying infrastructure resources (e.g. a node failure)
+    1. CNFs are resilient to storage disks being full.
+    1. CNFs are resilient to CPU stresses.
+    1. CNFs are resilient to Memory stresses.
+    1. CNFs are resilient to the complete loss of underlying infrastructure resources (e.g. a node failure).
 
 
 ## ANNEX 1
