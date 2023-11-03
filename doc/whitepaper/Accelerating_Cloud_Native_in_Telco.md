@@ -223,7 +223,7 @@ collaboration with existing communities, and included in existing well-establish
        lifecycle procedures.
     1. The application must function properly if it is rescheduled to other nodes without interruption of its services (e.g. move
        user sessions without interruptions).
-    1. Upgrade procedures on CNF shall also follow rolling-upgrade principles and shall be done in-service
+    1. Upgrade procedures on CNF shall also follow rolling-upgrade principles and shall be done in-service.
 
 1. **Tracing.** The CNFs shall be instrumented to emit the protocol tracing data directly from their microservices to the
    configurable targets (e.g. application-level tracing [https://opentracing.io/](https://opentracing.io/))
