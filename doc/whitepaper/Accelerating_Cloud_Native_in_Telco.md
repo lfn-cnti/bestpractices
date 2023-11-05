@@ -334,9 +334,9 @@ Special acknowledgments go to the following Communication Service Providers, who
     * Roger Lupien, Sr. Mgr - Enterprise Architecture, Cloud Transformation
 * Charter Communications
     * Mohammad Zebetian, Head of Cloud, Network, Edge, and Infrastructure Architecture
-* Deutsche Telekom Technik
-    * Vuk Gojnic, Cloud Native Telco Platform Lead
-    * Nathan Rader, VP Service and Capability Exposure
+* Deutsche Telekom (DT)
+    * Vuk Gojnic, Cloud Native Telco Platform Lead, DT Technik
+    * Nathan Rader, VP Service and Capability Exposure, DTAG
 * DNA Oyj
     * Johanna Heinonen, Development Manager
 * Orange
