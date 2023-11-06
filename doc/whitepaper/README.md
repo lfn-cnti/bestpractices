@@ -1,5 +1,5 @@
 Whitepapers by the CNF WG
 ---
 
-- Best Practices - TBD
-- MCL - TBD
+- [Accelerating Cloud Native in Telco](Accelerating_Cloud_Native_in_Telco.md)
+- [Best Practices - TBD](../best_cnf_dev.md)
