@@ -12,7 +12,7 @@ v1.0 - November 3, 2023
 ## Preamble
 
 
-The document presented here is a product of the initial joint work of several Communication Service Providers (CSPs) who are active in Cloud Native Computing Foundation (CNCF)’s Cloud Native Network Function Working Group (CNF WG), NGMN Alliance, and projects like LF Europe’s Sylva and LFN Anuket. It is a draft that has been published with the goal of inviting feedback from other CSPs and motivating discussion and improvements in the broader telecommunication industry. We are hoping that through public discourse we can make the document more complete, relevant, and ready for final release. If you would like to contribute to the discussion and document please feel free to open an issue or create a pull request.
+The document presented here is a product of the initial joint work of several Communication Service Providers (CSPs) who are active in Cloud Native Computing Foundation (CNCF)’s Cloud Native Network Function Working Group (CNF WG), NGMN Alliance, and projects like Linux Foundation (LF) Europe’s Sylva and Linus Foundation Networking (LFN) Anuket. It is a draft that has been published with the goal of inviting feedback from other CSPs and motivating discussion and improvements in the broader telecommunication industry. We are hoping that through public discourse we can make the document more complete, relevant, and ready for final release. If you would like to contribute to the discussion and document please feel free to open an issue or create a pull request.
 
 ## Introduction 
 
