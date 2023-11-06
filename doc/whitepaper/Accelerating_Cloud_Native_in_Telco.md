@@ -162,7 +162,7 @@ collaboration with existing communities, and included in existing well-establish
 
 1. **Pre-validation.** The pre-validation of CNF needs to be performed against a reference that is common for all players,
    which is the upstream Kubernetes and components from the CNCF ecosystem.
-   1. Each CNF shall be validated, including the implementation of any adaptations that may be required, within 3 months of
+   1. Each CNF shall be validated, including the implementation of any adaptations that may be required, within 4 months of
    the Kubernetes release.
    1. Every CNF shall certify adherence to cloud native principles and best practices using CNF Test Suite ([https://github.com/cncf/cnf-testsuite](https://github.com/cncf/cnf-testsuite)) as a vendor-neutral validation tool.
    1. Pre-validating CNF against additional commercial distributions such as OpenShift, Tanzu, Rancher, and Hyperscaler solutions is a plus, but not mandatory.
