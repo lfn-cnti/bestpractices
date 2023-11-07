@@ -192,7 +192,7 @@ collaboration with existing communities, and included in existing well-establish
        encapsulated and abstracted away.
     1. Microservices should be loosely coupled with NO tight dependency on each other, to ensure scalability and ease of deployment,
        e.g. without the need to wait for NETCONF day-1 configuration till further microservices get deployed.
-    1. Artifacts are delivered via OCI-compliant repositories.
+    1. Artifacts are delivered via OCI(Open Container Initiative)-compliant repositories.
     1. The CNF LCM should be described declaratively and support continuous intent-based deployments for example IP address
        assignment during deployment. 
     1. New released software version (CNF/microservices) includes machine-readable code to run health checks.
