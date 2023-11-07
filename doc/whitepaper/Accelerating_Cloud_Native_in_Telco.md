@@ -176,7 +176,7 @@ collaboration with existing communities, and included in existing well-establish
     1. CNF vendors shall provide all artifacts (Helm charts, CRDs, Operators) passing strict linter in open documentation and
        provide APIs, instead of encapsulating them in proprietary tools.
  
-1. **Validation.** CNFs shall be delivered with a series of automated tests that can be used to validate the CNF on the spot in
+1. **Validation.** CNFs shall be delivered with a series of automated tests that can be used to validate the CNF operation on the spot in
    CSP’s context.
     1. This validation shall count as only relevant one, preceding any pre-validation or lack of it.
     1. The validation shall assure that all artifacts are passing strict linters to prove that portability is assured.
