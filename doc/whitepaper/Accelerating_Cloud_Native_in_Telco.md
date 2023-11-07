@@ -109,7 +109,7 @@ consequence of which is either service interruption or lifecycle operations bein
 using traditional mechanisms based on tapping points on the network fabric level. The reason for that is the dynamic nature of 
 cloud native workloads including CNFs. When several CNFs run within one large data center the pods could be distributed to any 
 of the servers in any of the racks. This means that particular communication can go via multiple network elements and as the 
-traditional tapping setup is not configurable or capable enough,it is practically impossible to create reasonable port mirroring 
+traditional tapping setup is not configurable or capable enough, it is practically impossible to create reasonable port mirroring 
 to capture the traces. In many cases, the CNFs or their microservices run on the same node and their communication does not go
 via data center network fabric at all. Furthermore, encryption and mTLS became a de-facto standard for CNFs, so even if tapped, 
 network traffic can not be really analyzed and so the purpose of tracing can not be fulfilled. Cloud native tracing mechanisms 
