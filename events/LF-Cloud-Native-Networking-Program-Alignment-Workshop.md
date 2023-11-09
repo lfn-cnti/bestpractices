@@ -15,7 +15,7 @@
 
 ## Brainstorming Output
 
-### Topic 1: High Level Scope & Priorities
+Topic 1: High Level Scope & Priorities
 
 Platform and Workloads
 - Creating CNF <-> platform tests may not be feasible.
@@ -56,7 +56,7 @@ Other feedback/questions
 - Clear linkage between end users (telco, CSPs) and the work output (especially testing programs)
 - Is the anticipated output best practice docs, test plans, and certification or testing program? Something else?
 
-### Topic 2: Positioning & Governance
+Topic 2: Positioning & Governance
 
 Merging Scope
 - Less is more
@@ -87,7 +87,7 @@ Output
 - Less focus on tooling, more on engagement with CSP end users
 - Getting disconnected from c-n mainstream
 
-### Topic 3: Assets
+Topic 3: Assets
 
 Assets
 - Need a thorough audit of assets
@@ -115,7 +115,7 @@ Use Case Output
 - All of the ideas mentioned in the slide are good but it will not be easy to realize them.  A substantial investment will be needed.
 - Industry wide plugfests?
   
-### Topic 4: CSP and Vendor Engagement/Demand
+Topic 4: CSP and Vendor Engagement/Demand
 
 Drive: Use Case, End Users, and Marketing
 - RFP/RFQ
@@ -153,4 +153,3 @@ Output, metrics, value
 - Software and cloud vendors engagement and support will be crucial for practical outcomes of any certification program
 - Community engagement is the key. With the community we should identify a small number of focal points
 - Leverage testing specifications in which telco industry has already invested in
-
