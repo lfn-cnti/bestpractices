@@ -1,7 +1,7 @@
 # LF Cloud Native Networking Program Alignment Workshop 2023
 - Tuesday, November 7th, 2023 a 2-4pm CST 
 - KubeCon North America 2023
-- Recording available at: (in progress)
+- Recording available at: https://wiki.lfnetworking.org/x/mIC-Bg
 
 ## Agenda
 
@@ -13,7 +13,7 @@
 - (20 min) - Topic 4: CSP & Vendor Engagement/Demand, Participants
 - Next Steps & Closing Remarks, Ranny
 
-### Brainstorming Output
+## Brainstorming Output
 
 Topic 1: High Level Scope & Priorities
 
