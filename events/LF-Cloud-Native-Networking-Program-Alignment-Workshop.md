@@ -16,9 +16,11 @@
 ## Brainstorming Output
 
 Topic 1: High Level Scope & Priorities
+
 ![image](2023-cloud-native-telco-day-chicago/images/Topic%201.png)
 
 Workshop feedback from online and in person participants:
+
 
 Platform and Workloads
 - Creating CNF <-> platform tests may not be feasible
@@ -66,6 +68,7 @@ Topic 2: Positioning & Governance
 
 Workshop feedback from online and in person participants:
 
+
 Merging Scope
 - Less is more
 - Challenge - covering LFN and CNCF topics in same meeting
@@ -94,6 +97,7 @@ Output
 - Provide similar solutions
 - Less focus on tooling, more on engagement with CSP end users
 - Getting disconnected from c-n mainstream
+
 
 [Post-it notes for Topic 2](2023-cloud-native-telco-day-chicago/images/Topic%202%20-%20Whiteboard.jpg)
 
@@ -131,9 +135,11 @@ Use Case Output
 [Post-it notes for Topic 3](2023-cloud-native-telco-day-chicago/images/Topic%203%20-%20Whiteboard.jpg)
   
 Topic 4: CSP and Vendor Engagement/Demand
+
 ![image](2023-cloud-native-telco-day-chicago/images/Topic%204.png)
 
 Workshop feedback from online and in person participants:
+
 
 Drive: Use Case, End Users, and Marketing
 - RFP/RFQ
