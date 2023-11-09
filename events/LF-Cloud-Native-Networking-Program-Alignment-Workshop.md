@@ -1,7 +1,7 @@
 # LF Cloud Native Networking Program Alignment Workshop 2023
 - Tuesday, November 7th, 2023 a 2-4pm CST 
 - KubeCon North America 2023
-- Recording available at: (in progress)
+- Recording available at: https://wiki.lfnetworking.org/x/mIC-Bg
 
 ## Agenda
 
@@ -13,7 +13,7 @@
 - (20 min) - Topic 4: CSP & Vendor Engagement/Demand, Participants
 - Next Steps & Closing Remarks, Ranny
 
-### Brainstorming Output
+## Brainstorming Output
 
 Topic 1: High Level Scope & Priorities
 ![image](2023-cloud-native-telco-day-chicago/images/Topic%201.png)
@@ -170,6 +170,5 @@ Output, metrics, value
 - Both CNF and platform vendors need to engage
 - Software and cloud vendors engagement and support will be crucial for practical outcomes of any certification program
 - Community engagement is the key. With the community we should identify a small number of focal points
-- Leverage testing specifications in which telco industry has already invested in
 
 [Post-it notes for Topic 4](2023-cloud-native-telco-day-chicago/images/Topic%204%20-%20Whiteboard.jpg)
