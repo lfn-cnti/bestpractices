@@ -153,3 +153,4 @@ Output, metrics, value
 - Software and cloud vendors engagement and support will be crucial for practical outcomes of any certification program
 - Community engagement is the key. With the community we should identify a small number of focal points
 - Leverage testing specifications in which telco industry has already invested in
+
