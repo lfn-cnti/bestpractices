@@ -4,6 +4,7 @@
     "terminology": {
       "exclude": [
         "Node(?:js)?",
+        "OK"
       ]
     }
   }
