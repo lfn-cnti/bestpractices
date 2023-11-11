@@ -1,4 +1,4 @@
-# **CBPP-0005: A CNF’s containers should handle a single concern and service (normally mapping to one process type) per container**
+# **CBPP-0005: A CNF's containers should handle a single concern and service (normally mapping to one process type) per container**
 
 A CNF with multiple concerns should split services (or process types) for each of its concerns into separate containers.
 
@@ -28,7 +28,7 @@ Items marked with (R) are required for the proposed best practice to be included
 
 ## **Summary**
 
-A CNF’s microservice(s) should follow the single concern principle. To help achieve this goal, a CNF’s microservice(s) should have only one process type (or set of parent/child processes) per container. The process(es) in the container should not spawn other process types (e.g. executables) as a way to contribute to the workload but rather should interact with other processes through a microservice API.
+A CNF's microservice(s) should follow the single concern principle. To help achieve this goal, a CNF's microservice(s) should have only one process type (or set of parent/child processes) per container. The process(es) in the container should not spawn other process types (e.g. executables) as a way to contribute to the workload but rather should interact with other processes through a microservice API.
 
 In Docker's Advanced concepts documentation regarding running multiple services in a container the Docker community says: _“It’s best practice to separate areas of concern by using one service per container. That service may fork into multiple processes (for example, the Apache web server starts multiple worker processes). It’s ok to have multiple processes, but to get the most benefit out of Docker, avoid one container being responsible for multiple aspects of your overall application.”_ [#3](#references)
 
@@ -71,7 +71,7 @@ Challenges we think this best practice can help solve:
   - Simplify deployment, reduce risk in upgrades and support easier rollbacks by managing the process types (service concerns) independently and providing coarse-grained dependencies at the container level
 - Security
   - Increase confidentiality by creating clearly defined boundaries between software components
-    - Reduces the attack surface presented in a CNF’s containers
+    - Reduces the attack surface presented in a CNF's containers
     - Limits the number of process types and their dependencies such as additional binaries/libraries  
     - Prevents unnecessary access to data via shared filesystems
     - Allows for finer grained attribute-based controls to be implemented between processes and systems

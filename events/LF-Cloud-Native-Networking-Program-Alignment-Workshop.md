@@ -92,7 +92,7 @@ Structure
 - More coherence and focus on c-n transformation would be beneficial instead of fit to all initiatives
 - It should not be a "resource" under LFN, but something what is a valid LFN construct like a project
 - Do we envision this governed as a project? It needs governance
-- TOC? to streamline NorthStar goals and enabling coordination of workgroup(s)
+- TOC? to streamline north star goals and enabling coordination of workgroup(s)
 - Seems vague and disconnected which leads to accountability problems
 - Should the effort report metrics or accountability up to LFN board
 
@@ -136,7 +136,7 @@ Use Case Output
 - Is there a plan for functional vs performance testing?
 - How is the integrity of results being maintained or preserved (i.e. tool output -> cert or badge)?
 - Testing specifications from other organizations, e.g. standards, can these be reused/leveraged?
-- Local standup (dev workplace)
+- Local stand-up (dev workplace)
 - All of the ideas mentioned in the slide are good but it will not be easy to realize them.  A substantial investment will be needed
 - Industry wide plugfests?
 
