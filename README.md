@@ -29,14 +29,14 @@ The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing
 
 ### Upcoming events
 
-* [Cloud Native Telco Day - KubeCon EU 2023](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/cloud-native-telco-day/)
-  * Tuesday, April 18, 2023 at 9:00am-12:30pm
-
-* [Telco Community Gathering - KubeCon EU 2023](https://github.com/cncf/cnf-wg/blob/main/events/telco-community-gathering-kubecon-eu-20230418.md)
-  * Tuesday, April 18, 2023 at 2:00-5:00pm
+* TBA
 
 ### Past events
-
+* [LFN Developer & Testing Forum's LFN/CNCF CNF initiatives merge](https://wiki.lfnetworking.org/pages/viewpage.action?pageId=113213504)
+* [LF Cloud Native Networking Program Alignment Workshop 2023](https://github.com/cncf/cnf-wg/blob/main/events/LF-Cloud-Native-Networking-Program-Alignment-Workshop.md#lf-cloud-native-networking-program-alignment-workshop-2023)
+* [Cloud Native Telco Day - KubeCon NA 2023](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/cloud-native-telco-day/)
+* [Cloud Native Telco Day - KubeCon EU 2023](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/cloud-native-telco-day/)
+* [Telco Community Gathering - KubeCon EU 2023](https://github.com/cncf/cnf-wg/blob/main/events/telco-community-gathering-kubecon-eu-20230418.md)
 * [Cloud Native Telco Day NA 2022](https://events.linuxfoundation.org/cloud-native-telco-day-north-america/program/schedule/)
 * [Intro & Deep Dive to the CNF WG](https://sched.co/lV9e) at KubeCon NA 2021
 * [CNF WG: K8s Best Practices for Telco Apps](https://sched.co/iE74) at KubeCon EU 2021
