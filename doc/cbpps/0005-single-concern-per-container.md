@@ -1,4 +1,5 @@
-# **CBPP-0005: A CNF’s containers should handle a single concern and service (normally mapping to one process type) per container**
+# **CBPP-0005: A CNF's containers should handle a single concern and service (normally mapping to one process type) per container**
+
 A CNF with multiple concerns should split services (or process types) for each of its concerns into separate containers.
 
 - [Release Signoff Checklist](#release-signoff-checklist)
@@ -9,7 +10,7 @@ A CNF with multiple concerns should split services (or process types) for each o
 - [Proposal](#proposal)
 - [Workload Context](#workload-context)
   - [User Stories (Optional)](#user-stories)
-  - [Notes/Constraints/Caveats (Optional)](#notesconstraintscaveats-optional)
+  - [Notes/Constraints/Caveats (Optional)](#notesconstraintscaveats)
   - [References](#references)
 - [Test Plan](#testing-objectives)
 - [Implementation History](#implementation-history)
@@ -27,7 +28,7 @@ Items marked with (R) are required for the proposed best practice to be included
 
 ## **Summary**
 
-A CNF’s microservice(s) should follow the single concern principle. To help achieve this goal, a CNF’s microservice(s) should have only one process type (or set of parent/child processes) per container. The process(es) in the container should not spawn other process types (e.g. executables) as a way to contribute to the workload but rather should interact with other processes through a microservice API.
+A CNF's microservice(s) should follow the single concern principle. To help achieve this goal, a CNF's microservice(s) should have only one process type (or set of parent/child processes) per container. The process(es) in the container should not spawn other process types (e.g. executables) as a way to contribute to the workload but rather should interact with other processes through a microservice API.
 
 In Docker's Advanced concepts documentation regarding running multiple services in a container the Docker community says: _“It’s best practice to separate areas of concern by using one service per container. That service may fork into multiple processes (for example, the Apache web server starts multiple worker processes). It’s ok to have multiple processes, but to get the most benefit out of Docker, avoid one container being responsible for multiple aspects of your overall application.”_ [#3](#references)
 
@@ -42,7 +43,7 @@ This will help the programmability and flexibility of CNFs and networks through:
 
 Challenges we think this best practice can help solve:
 
-- Life-cycle management
+- Lifecycle management
   - If you have more than one process type in a container, you will have to manage the lifecycle of the secondary concerns within the container, which effectively means creating an orchestrator within the parent process type, reducing the value of using the Kubernetes orchestration capabilities.
   - Resource utilization is likely to be less efficient in multi-concerned containers, as the container runtime will look to allocate infrastructure resources for all components rather than individual microservices requirements.
   - Response time of multi-concerned containers is increased as scaling is required for the combined services rather than the individual services needing scaling.
@@ -61,7 +62,7 @@ Challenges we think this best practice can help solve:
 
 ### **Goals**
 
-- Life-cycle management
+- Lifecycle management
   - Simplify and consolidate the use of orchestration capabilities instead of adding additional container orchestration solutions
   - Align with microservice architectural practices for operations and development
   - Make it easier to scale multiple containers of a CNF to produce an efficient resource utilization and faster response:
@@ -70,7 +71,7 @@ Challenges we think this best practice can help solve:
   - Simplify deployment, reduce risk in upgrades and support easier rollbacks by managing the process types (service concerns) independently and providing coarse-grained dependencies at the container level
 - Security
   - Increase confidentiality by creating clearly defined boundaries between software components
-    - Reduces the attack surface presented in a CNF’s containers
+    - Reduces the attack surface presented in a CNF's containers
     - Limits the number of process types and their dependencies such as additional binaries/libraries  
     - Prevents unnecessary access to data via shared filesystems
     - Allows for finer grained attribute-based controls to be implemented between processes and systems
@@ -102,7 +103,7 @@ Challenges we think this best practice can help solve:
 - Reduce risk issues from of home-grown process management systems
   - Security, Zombie processes, unknown failures
 - Specifying implementation details of each component
-- Specifying how a CNF should be split into individual micro services
+- Specifying how a CNF should be split into individual microservices
 
 ## **Proposal**
 

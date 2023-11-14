@@ -1,7 +1,8 @@
 # LF Cloud Native Networking Program Alignment Workshop 2023
-- Tuesday, November 7th, 2023 a 2-4pm CST 
+
+- Tuesday, November 7th, 2023 a 2-4pm CST
 - KubeCon North America 2023
-- Recording available at: https://wiki.lfnetworking.org/x/mIC-Bg
+- Recording available at: <https://wiki.lfnetworking.org/x/mIC-Bg>
 
 ## Agenda
 
@@ -21,8 +22,8 @@ Topic 1: High Level Scope & Priorities
 
 Workshop feedback from online and in person participants:
 
-
 Platform and Workloads
+
 - Creating CNF <-> platform tests may not be feasible
 - There is too much variance between platforms
 - Better to focus on the CNF level tests
@@ -33,11 +34,13 @@ Platform and Workloads
 - Creating common vendor neutral + upstream based reference for certification and conformance
 
 Types of tests/coverage
+
 - Distributed applications
 - Distributed workloads
 - Help needed with multi-cloud practices
 
 Community Collaboration and Output
+
 - Scope is hard to parse.  What is the output and how does it relate to other projects?
 - Anuket works with GSMA and this is important to maintain to keep up with the industry
 - Need to coordinate between initiatives for practices not just definitions
@@ -48,6 +51,7 @@ Community Collaboration and Output
 - CSPs can call a referendum and veto proposed principles
 
 Other feedback/questions
+
 - Live lab, CI/CD, e2e lab
 - Provide local CI runners
 - Roles – Need to help define who brings what
@@ -68,8 +72,8 @@ Topic 2: Positioning & Governance
 
 Workshop feedback from online and in person participants:
 
-
 Merging Scope
+
 - Less is more
 - Challenge - covering LFN and CNCF topics in same meeting
 - We should merge the overlapping activities, like CNF WG and RA2, CNF Test Suite and RC2 and testbed
@@ -77,6 +81,7 @@ Merging Scope
 - Managing many different projects and initiatives will be challenging - initiative is vague
 
 Structure
+
 - Contributions by "PowerPoint" people should be possible. Requirements should be in English
 - Something new is better than Anuket or CNCF (Pull from multiple sides and buy-in needed)
 - Working group sounds natural for continuity
@@ -87,17 +92,17 @@ Structure
 - More coherence and focus on c-n transformation would be beneficial instead of fit to all initiatives
 - It should not be a "resource" under LFN, but something what is a valid LFN construct like a project
 - Do we envision this governed as a project? It needs governance
-- TOC? to streamline NorthStar goals and enabling coordination of workgroup(s)
+- TOC? to streamline north star goals and enabling coordination of workgroup(s)
 - Seems vague and disconnected which leads to accountability problems
 - Should the effort report metrics or accountability up to LFN board
 
 Output
+
 - We should be able to produce the GSMA docs like RM, RA1 and RA2
 - Should be good enough that Sylva uses it
 - Provide similar solutions
 - Less focus on tooling, more on engagement with CSP end users
 - Getting disconnected from c-n mainstream
-
 
 [Post-it notes for Topic 2](2023-cloud-native-telco-day-chicago/images/Topic%202%20-%20Whiteboard.jpg)
 
@@ -107,6 +112,7 @@ Topic 3: Assets
 Workshop feedback from online and in person participants:
 
 Assets
+
 - Need a thorough audit of assets
 - The XGVela project is an asset to consider
 - Anuket assets are still mixed b/t CNTT and GH mirrors and using GH directly
@@ -115,6 +121,7 @@ Assets
 - De-duplication should be higher priority than non interruption
 
 Onboarding and Contribution
+
 - Tools should not have high barriers to contribution
 - Self service to the extent possible is important
 - Any tools we decide upon needs to be well supported by LFN and easy to use/collaborate
@@ -123,12 +130,13 @@ Onboarding and Contribution
 - Autonomy (Independent to start but build bridge)
 
 Use Case Output
+
 - Providing guidance on tool output (test output) might make it easier to onboard new or existing tools
 - Vertical focus - tooling should be unopinionated
 - Is there a plan for functional vs performance testing?
 - How is the integrity of results being maintained or preserved (i.e. tool output -> cert or badge)?
 - Testing specifications from other organizations, e.g. standards, can these be reused/leveraged?
-- Local standup (dev workplace)
+- Local stand-up (dev workplace)
 - All of the ideas mentioned in the slide are good but it will not be easy to realize them.  A substantial investment will be needed
 - Industry wide plugfests?
 
@@ -140,8 +148,8 @@ Topic 4: CSP and Vendor Engagement/Demand
 
 Workshop feedback from online and in person participants:
 
-
 Drive: Use Case, End Users, and Marketing
+
 - RFP/RFQ
 - We need cloud provider engagement as part of the ecosystem
 - Hyperscaler telco BU co-sell
@@ -161,11 +169,13 @@ Drive: Use Case, End Users, and Marketing
 - Alignment on criteria/expectations from conformance, requirements, best practices, patterns
 
 Tools, Testing, Ease of Use
+
 - CSPs will want performance testing which will drive interest and involvement on their side - security as well
 - Usage in DevOps by the CSP (i.e. the tools and tests are directly used in their operational pipelines)
 - Test suite as a service (SaaS)
 
 Output, metrics, value
+
 - Downstream consumption
 - For CSPs to embrace any certification it has to bring value
 - Reward participation with awards
