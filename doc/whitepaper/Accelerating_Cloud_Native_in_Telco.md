@@ -12,7 +12,7 @@ v1.0 - November 3, 2023
 ## Preamble
 
 
-The document presented here is a product of the initial joint work of several Communication Service Providers (CSPs) who are active in Cloud Native Computing Foundation (CNCF)’s Cloud Native Network Function Working Group (CNF WG), NGMN Alliance, and projects like Linux Foundation (LF) Europe’s Sylva and Linus Foundation Networking (LFN) Anuket. It is a draft that has been published with the goal of inviting feedback from other CSPs and motivating discussion and improvements in the broader telecommunication industry. We are hoping that through public discourse we can make the document more complete, relevant, and ready for final release. If you would like to contribute to the discussion and document please feel free to open an issue or create a pull request.
+This document is a product of the initial joint work of several Communication Service Providers (CSPs) who are active in the Cloud Native Computing Foundation (CNCF)’s Cloud Native Network Function Working Group (CNF WG), NGMN Alliance, and projects like Linux Foundation (LF) Europe’s Sylva and Linux Foundation Networking (LFN) Anuket project. It is a draft that has been published with the goal of inviting feedback from other CSPs and motivating discussion and improvements from the broader telecommunication industry. We hope that through public discourse we can make the document more complete, relevant, and ready for final release. If you would like to contribute to the discussion and document, please feel free to open an issue or create a pull request.
 
 ## Introduction 
 
@@ -114,7 +114,7 @@ to capture the traces. In many cases, the CNFs or their microservices run on the
 via data center network fabric at all. Furthermore, encryption and mTLS became a de-facto standard for CNFs, so even if tapped, 
 network traffic can not be really analyzed and so the purpose of tracing can not be fulfilled. Cloud native tracing mechanisms 
 (e.g. eBPF) are unfortunately not helping here as most of the telco-relevant traffic goes via secondary interfaces (Multus) 
-which are not covered by vanilla Kubernetes. 
+which are often directly assigned to the CNF, skipping the host kernel drivers. This is specifically true for user plane CNFs like a UPF, Firewall or Internet Gateway.
 
 **Architecture.** We are witnessing that there are still CNFs that are in their architecture exhibiting properties of Virtualized
 Network Functions (VNFs). For example, we see the “pinning” of Pods to particular NUMA nodes, or worse to specific cluster nodes. 
@@ -183,14 +183,15 @@ collaboration with existing communities, and included in existing well-establish
     1. It shall serve as a condition for support and SLA.
     1. The validation shall be a continuous process and shall be instantly done on any change be it on CNF or on the infrastructure
        side.
+    1. The validation tests  shall cover CNF basic functionality, lifecycle and disaster recovery
 
 1. **Automation.** CNF deployment and configuration shall be fully automated (“everything as a code”) and done exclusively with
    declarative cloud native mechanisms like GitOps.
     1. Mainstream open source deployment tools from CNCF ecosystems, like FluxCD or ArgoCD, shall be supported per default.
-    1. All configurations shall be done via Configmaps and/or similar cloud native constructs (eg. Kubernetes Resource Models) 
+    1. All configurations shall be done via Configmaps and/or similar cloud native constructs (e.g. Kubernetes Resource Models) 
     1. CNF is allowed to use traditional telco mechanisms internally as a transition step, however, that should be fully
        encapsulated and abstracted away.
-    1. Microservices should be loosely coupled with NO tight dependency on each other, to ensure scalability and ease of deployment,
+    1. Microservices should be loosely coupled (with NO tight dependency on each other) to ensure scalability and ease of deployment,
        e.g. without the need to wait for NETCONF day-1 configuration till further microservices get deployed.
     1. Artifacts are delivered via OCI(Open Container Initiative)-compliant repositories.
     1. The CNF LCM should be described declaratively and support continuous intent-based deployments for example IP address
@@ -244,7 +245,7 @@ collaboration with existing communities, and included in existing well-establish
     1. Each microservice should log information and expose metrics about its performance and usage, which can be used to identify
        and diagnose issues.
     1. CNFs should expose their state (e.g. health) in a cloud native way.
-    1.  CNFs can share databases, load balancers, business logic, and common services and become fully disaggregated.
+    1. CNFs can share databases, load balancers, business logic, and common services and become fully disaggregated.
     1. CNF has to tolerate automatic scaling at the node and container level by the Kubernetes orchestrator.
     1. CNF has to support self-healing.
 
