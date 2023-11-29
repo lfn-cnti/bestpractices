@@ -30,12 +30,10 @@ that to attain the envisioned outcome, the entire industry needs to work togethe
 principles. Besides building a sound understanding of what it would take for the transformation of CNFs to become cloud native, 
 it's also important to emphasize the ecosystem that would support that evolution.
 
-CNF suppliers have not been able to comply with the cloud native and openness requirements of CSPs and one reason for that closed 
-architecture and solution approach is revenue from professional service that allows them to create business models on CNFs deployment,
-automation, and operationalizing work. There is a need to evolve into cloud native architecture, largely based on 12-factors for 
+The industry is stil maturing and searching right formula for cloud native operating model. CNF vendors have not been able to comply with the cloud native and openness requirements of CSPs yet, among other reasons due to the fact that these requirements are not stable and stil emerging. However, the reasons can be found in hesitance to give up professional services business model and control over vertical integration. There is a need to evolve into cloud native architecture, largely based on 12-factors for 
 CNFs (see Annex 1 and Reference 5), that can be supported by changing existing commercial models that could greatly benefit CSPs and 
 vendors alike to create a new equilibrium in win-win. Vendors must provide open APIs, clear documentation, and cloud native 
-architectures and implementations that empower CSPs with self-service capabilities in the cloud ecosystem. This will help drive 
+architectures and implementations that empower CSPs with self-service capabilities in the cloud ecosystem. In order for new model to work the vendors and CSPs have to provide mutual SLAs: the CSP has to guarantee certain agreed platform level quality, while CNF vendor needs to guarantee that application on the platform with such SLA will meet defined KPIs. This will help drive 
 agility and innovation, and reduce Opex costs within CSP. CNF vendors can monetize the value of openness to evolve business models 
 that move away from closed solutions and professional services.
 
@@ -117,7 +115,7 @@ network traffic can not be really analyzed and so the purpose of tracing can not
 which are often directly assigned to the CNF, skipping the host kernel drivers. This is specifically true for user plane CNFs like a UPF, Firewall or Internet Gateway.
 
 **Architecture.** We are witnessing that there are still CNFs that are in their architecture exhibiting properties of Virtualized
-Network Functions (VNFs). For example, we see the “pinning” of Pods to particular NUMA nodes, or worse to specific cluster nodes. 
+Network Functions (VNFs). For example, we see the “pinning” of Pods to specific cluster nodes. 
 We also still see 1+1 redundancy models for Pods within the cluster instead of N+1. Although it is technically possible to run such
 Network Functions on cloud native infrastructure, this increases the burden of operating them and risks having a negative impact 
 on service quality, as small disruptions which are normal in cloud native infrastructures result in problems within the CNFs. 
@@ -204,7 +202,7 @@ collaboration with existing communities, and included in existing well-establish
     1. CNF configuration schemas have to follow the standards that shall be aligned among CSPs and vendors.
 
 1. **Dependencies.** The CNFs shall be completely independent from underlying infrastructure platforms.
-    1. Alternatively it shall equally support all the mainstream available hardware. 
+    1. Alternatively it shall equally support all the mainstream available x86/amd64 compute hardware with single socket servers as golden standard. 
     1. Local validation, not product policy, shall give an answer if CNF can run as expected on particular hardware or not. 
     1. In case of hard technical dependencies, the vendor of such CNF shall timely pre-validate its CNF against all new releases of
        hardware-related software (e.g. drivers, firmware) and proactively adapt the CNF to avoid the negative impact of dependency in
