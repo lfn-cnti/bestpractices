@@ -1,10 +1,10 @@
 # Accelerating Cloud Native in Telco
 **_Challenges of Cloud Native Telco Transformation today and how to overcome them - A CSP perspective_**
 
-v1.0 - November 3, 2023
+v1.0 - December 4, 2023
 
 <!-----
-* Fri Nov 03 2023
+* Mon Dec 04 2023
 * Source doc: DRAFT CSP Roundtable whitepaper: Accelerating Cloud Native in Telco  (was: Telco Cloud-native Transformation Manifesto and Checklist)
 ----->
 
@@ -320,12 +320,31 @@ CNFs need to adopt these principles as well. CNFs need to be:
   tracing. 
 * Loggable: Cloud native applications need to support uniform logging for consistency and access to network-wide logs.
 
+## ANNEX 2
+
+### GitOps for cloud native applications and infrastructure
+
+GitOps is not a single product, plugin, or platform. While the practices and patterns in GitOps existed before Cloud Native (and the term GitOps), they happen to be a great match for cloud native applications and infrastructure alike.
+
+Here are some principles for GitOps (as defined by the OpenGitOps community):
+
+- Declarative - A system managed by GitOps must have its desired state expressed declaratively.
+- Versioned and Immutable - The desired state is stored in a way that enforces immutability, versioning and retains a complete version history.
+- Pulled Automatically - Software agents automatically pull the desired state declarations from the source.
+- Continuously Reconciled - Software agents continuously observe actual system state and attempt to apply the desired state.
+
+GitOps generally has the following components:
+- A version control repository as the single source of truth for infrastructure and application definitions.
+- Merge requests (or pull requests (PRs)) as the change mechanism for all infrastructure updates.
+- A git (or version-controlled repository) workflow supporting automation of infrastructure and application updates when new code is merged with continuous integration and continuous delivery (CI/CD).
+
+References:
+- https://opengitops.dev/ - The GitOps Working Group under the CNCF App Delivery SIG.
+- https://www.gitops.tech/ - Collection of information on GitOps by [INNOQ](https://www.innoq.com/en/).
 
 ## ACKNOWLEDGEMENTS
 
-
 Special acknowledgments go to the following Communication Service Providers, who have contributed to this whitepaper: 
-
 
 * Bell Canada 
     * Daniel Bernier, Technical Director
