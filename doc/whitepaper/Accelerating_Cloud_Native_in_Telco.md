@@ -335,6 +335,11 @@ Here are some principles for GitOps (as defined by the Open GitOps community):
 - Pulled Automatically - Software agents automatically pull the desired state declarations from the source.
 - Continuously Reconciled - Software agents continuously observe actual system state and attempt to apply the desired state.
 
+GitOps generally has the following components:
+- A version control repository as the single source of truth for infrastructure and application definitions.
+- Merge requests (or pull requests (PRs)) as the change mechanism for all infrastructure updates.
+- A git (or version-controlled repository) workflow supporting automation of  infrastructure and application updates when new code is merged with continuous integration and continuous delivery (CI/CD)
+
 References:
 - https://opengitops.dev/ - The GitOps Working Group under the CNCF App Delivery SIG.
 - https://www.gitops.tech/ - Collection of information on GitOps by [INNOQ](https://www.innoq.com/en/)
