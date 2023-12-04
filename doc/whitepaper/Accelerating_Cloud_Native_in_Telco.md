@@ -38,7 +38,8 @@ agility and innovation, and reduce Opex costs within CSP. CNF vendors can moneti
 that move away from closed solutions and professional services.
 
  As such, we want to highlight major challenges facing cloud native telco transformations today and formulate principles and 
- requirements that will aid the industry in achieving alignment and overcoming obstacles. In this whitepaper, we are defining Kubernetes as the de-facto runtime environment for hosting the cloud native network functions (CNFs).
+ requirements that will aid the industry in achieving alignment and overcoming obstacles. In this whitepaper, we are defining Kubernetes as the de-facto runtime environment for hosting the Cloud Native Network Functions (CNFs). We also use the term cloud-native infrastructure in broader context for the infrastructure that abstracts Infrastructure-as-a-Service (IaaS) layer, that has Kubernetes in its core with useful API abstractions on top of it as as well as auxiliary systems all as a framework that makes managing applications easier and promotes doing so in a cloud native way. 
+This is important because you are free to use Kubernetes (and other "cloud native" technologies) in a very uncloud-native way. Our longer-term goal, underlying this whitepaper, is for all layers of the environment to encompass the cloud native principles from infrastructure allocation + management, through the application workloads. A more in-depth analysis of these terms can be found in the book "Cloud Native Infrastructure" by Justin Garrison and Chris Nova.
 
 ## Challenges in Cloud Native Telco Transformation Today
 
@@ -363,7 +364,8 @@ Editing and facilitation acknowledgments:
 2. NGMN
     * [NGMN publishes Cloud Native Manifesto](https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html) - [https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html](https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html)
     * [Cloud Native Manifesto "An Operator View" (PDF)](https://www.ngmn.org/wp-content/uploads/NGMN_Cloud_Native_Manifesto.pdf)
-3. [The Twelve-Factor App](https://12factor.net/) - [https://12factor.net/](https://12factor.net/)
-4. [X-Factor CNFs](https://x.cnf.dev/) - [https://x.cnf.dev/](https://x.cnf.dev/)
-5. [On the road to public cloud 5G networks – Nephio](https://nephio.org/on-the-road-to-public-cloud-5g-networks/)
-6. [Anuket RA2 - Kubernetes-based Reference Architecture](https://cntt.readthedocs.io/projects/ra2/en/latest/)
+3. Cloud Native Infrastructure by Justin Garrison, Kris Nova. Published by O'Reily Media Inc. 2017 (ISBN: 9781491984307)
+4. [The Twelve-Factor App](https://12factor.net/) - [https://12factor.net/](https://12factor.net/)
+5. [X-Factor CNFs](https://x.cnf.dev/) - [https://x.cnf.dev/](https://x.cnf.dev/)
+6. [On the road to public cloud 5G networks – Nephio](https://nephio.org/on-the-road-to-public-cloud-5g-networks/)
+7. [Anuket RA2 - Kubernetes-based Reference Architecture](https://cntt.readthedocs.io/projects/ra2/en/latest/)
