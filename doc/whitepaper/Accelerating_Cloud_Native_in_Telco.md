@@ -12,7 +12,8 @@ v1.0 - November 3, 2023
 ## Preamble
 
 
-The document presented here is a product of the initial joint work of several Communication Service Providers (CSPs) who are active in Cloud Native Computing Foundation (CNCF)’s Cloud Native Network Function Working Group (CNF WG), NGMN Alliance, and projects like Linux Foundation (LF) Europe’s Sylva and Linux Foundation Networking (LFN) Anuket. It is a draft that has been published with the goal of inviting feedback from other CSPs and motivating discussion and improvements in the broader telecommunication industry. We are hoping that through public discourse we can make the document more complete, relevant, and ready for final release. If you would like to contribute to the discussion and document please feel free to open an issue or create a pull request.
+This document is a product of the initial joint work of several Communication Service Providers (CSPs) who are active in the Cloud Native Computing Foundation (CNCF)’s Cloud Native Network Function Working Group (CNF WG), NGMN Alliance, and projects like Linux Foundation (LF) Europe’s Sylva and Linux Foundation Networking (LFN) Anuket project. It is a draft that has been published with the goal of inviting feedback from other CSPs and motivating discussion and improvements from the broader telecommunication industry. We hope that through public discourse we can make the document more complete, relevant, and ready for final release. If you would like to contribute to the discussion and document, please feel free to open an issue or create a pull request.
+
 
 ## Introduction 
 
@@ -30,12 +31,9 @@ that to attain the envisioned outcome, the entire industry needs to work togethe
 principles. Besides building a sound understanding of what it would take for the transformation of CNFs to become cloud native, 
 it's also important to emphasize the ecosystem that would support that evolution.
 
-CNF suppliers have not been able to comply with the cloud native and openness requirements of CSPs and one reason for that closed 
-architecture and solution approach is revenue from professional service that allows them to create business models on CNFs deployment,
-automation, and operationalizing work. There is a need to evolve into cloud native architecture, largely based on 12-factors for 
-CNFs (see Annex 1 and Reference 5), that can be supported by changing existing commercial models that could greatly benefit CSPs and 
-vendors alike to create a new equilibrium in win-win. Vendors must provide open APIs, clear documentation, and cloud native 
-architectures and implementations that empower CSPs with self-service capabilities in the cloud ecosystem. This will help drive 
+The industry is still maturing and searching for the right formula to reach a cloud native operating model. CNF vendors have not been able to comply with the cloud native and openness requirements of CSPs yet, due to the fact that these requirements are not yet stable and still emerging; however, the reasons for this hesitance can be found in an aversion to giving up a lucrative professional services business model and control over vertical integration. This hesitance cannot override a CSP's need to evolve towards a cloud native architecture, largely based on 12-factors for 
+CNFs (see Annex 1 and Reference 5), that can be supported by changing existing commercial models that could greatly benefit CSPs and vendors alike to create a new win-win equilibrium. Vendors must provide open APIs, clear documentation, and cloud native 
+architectures and implementations that empower CSPs with self-service capabilities in the cloud ecosystem. In order for the new model to work, vendors and CSPs must provide mutual SLAs: the CSP must guarantee a certain level of quality at the platform layer, while CNF vendors need to guarantee that the application will perform on the platform with SLAs that meet defined KPIs. This will help drive 
 agility and innovation, and reduce Opex costs within CSP. CNF vendors can monetize the value of openness to evolve business models 
 that move away from closed solutions and professional services.
 
@@ -109,15 +107,15 @@ consequence of which is either service interruption or lifecycle operations bein
 using traditional mechanisms based on tapping points on the network fabric level. The reason for that is the dynamic nature of 
 cloud native workloads including CNFs. When several CNFs run within one large data center the pods could be distributed to any 
 of the servers in any of the racks. This means that particular communication can go via multiple network elements and as the 
-traditional tapping setup is not configurable or capable enough,it is practically impossible to create reasonable port mirroring 
+traditional tapping setup is not configurable or capable enough, it is practically impossible to create reasonable port mirroring 
 to capture the traces. In many cases, the CNFs or their microservices run on the same node and their communication does not go
 via data center network fabric at all. Furthermore, encryption and mTLS became a de-facto standard for CNFs, so even if tapped, 
 network traffic can not be really analyzed and so the purpose of tracing can not be fulfilled. Cloud native tracing mechanisms 
 (e.g. eBPF) are unfortunately not helping here as most of the telco-relevant traffic goes via secondary interfaces (Multus) 
-which are not covered by vanilla Kubernetes. 
+which are often directly assigned to the CNF, skipping the host kernel drivers. This is specifically true for user plane CNFs like a UPF, Firewall or Internet Gateway.
 
 **Architecture.** We are witnessing that there are still CNFs that are in their architecture exhibiting properties of Virtualized
-Network Functions (VNFs). For example, we see the “pinning” of Pods to particular NUMA nodes, or worse to specific cluster nodes. 
+Network Functions (VNFs). For example, we see the “pinning” of Pods to specific cluster nodes. 
 We also still see 1+1 redundancy models for Pods within the cluster instead of N+1. Although it is technically possible to run such
 Network Functions on cloud native infrastructure, this increases the burden of operating them and risks having a negative impact 
 on service quality, as small disruptions which are normal in cloud native infrastructures result in problems within the CNFs. 
@@ -176,21 +174,22 @@ collaboration with existing communities, and included in existing well-establish
     1. CNF vendors shall provide all artifacts (Helm charts, CRDs, Operators) passing strict linter in open documentation and
        provide APIs, instead of encapsulating them in proprietary tools.
  
-1. **Validation.** CNFs shall be delivered with a series of automated tests that can be used to validate the CNF on the spot in
+1. **Validation.** CNFs shall be delivered with a series of automated tests that can be used to validate the CNF operation on the spot in
    CSP’s context.
     1. This validation shall count as only relevant one, preceding any pre-validation or lack of it.
     1. The validation shall assure that all artifacts are passing strict linters to prove that portability is assured.
     1. It shall serve as a condition for support and SLA.
     1. The validation shall be a continuous process and shall be instantly done on any change be it on CNF or on the infrastructure
        side.
+    1. The validation tests  shall cover CNF basic functionality, lifecycle and disaster recovery
 
 1. **Automation.** CNF deployment and configuration shall be fully automated (“everything as a code”) and done exclusively with
    declarative cloud native mechanisms like GitOps.
     1. Mainstream open source deployment tools from CNCF ecosystems, like FluxCD or ArgoCD, shall be supported per default.
-    1. All configurations shall be done via Configmaps and/or similar cloud native constructs (eg. Kubernetes Resource Models) 
+    1. All configurations shall be done via Configmaps and/or similar cloud native constructs (e.g. Kubernetes Resource Models) 
     1. CNF is allowed to use traditional telco mechanisms internally as a transition step, however, that should be fully
        encapsulated and abstracted away.
-    1. Microservices should be loosely coupled with NO tight dependency on each other, to ensure scalability and ease of deployment,
+    1. Microservices should be loosely coupled (with NO tight dependency on each other) to ensure scalability and ease of deployment,
        e.g. without the need to wait for NETCONF day-1 configuration till further microservices get deployed.
     1. Artifacts are delivered via OCI(Open Container Initiative)-compliant repositories.
     1. The CNF LCM should be described declaratively and support continuous intent-based deployments for example IP address
@@ -203,7 +202,7 @@ collaboration with existing communities, and included in existing well-establish
     1. CNF configuration schemas have to follow the standards that shall be aligned among CSPs and vendors.
 
 1. **Dependencies.** The CNFs shall be completely independent from underlying infrastructure platforms.
-    1. Alternatively it shall equally support all the mainstream available hardware. 
+    1. Alternatively it shall equally support all the mainstream available x86/amd64 compute hardware with single socket servers as golden standard. 
     1. Local validation, not product policy, shall give an answer if CNF can run as expected on particular hardware or not. 
     1. In case of hard technical dependencies, the vendor of such CNF shall timely pre-validate its CNF against all new releases of
        hardware-related software (e.g. drivers, firmware) and proactively adapt the CNF to avoid the negative impact of dependency in
@@ -244,7 +243,7 @@ collaboration with existing communities, and included in existing well-establish
     1. Each microservice should log information and expose metrics about its performance and usage, which can be used to identify
        and diagnose issues.
     1. CNFs should expose their state (e.g. health) in a cloud native way.
-    1.  CNFs can share databases, load balancers, business logic, and common services and become fully disaggregated.
+    1. CNFs can share databases, load balancers, business logic, and common services and become fully disaggregated.
     1. CNF has to tolerate automatic scaling at the node and container level by the Kubernetes orchestrator.
     1. CNF has to support self-healing.
 
