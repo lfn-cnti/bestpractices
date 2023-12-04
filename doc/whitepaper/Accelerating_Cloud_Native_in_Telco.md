@@ -166,7 +166,7 @@ collaboration with existing communities, and included in existing well-establish
    1. Every CNF shall certify adherence to cloud native principles and best practices using CNF Test Suite ([https://github.com/cncf/cnf-testsuite](https://github.com/cncf/cnf-testsuite)) as a vendor-neutral validation tool.
    1. Pre-validating CNF against additional commercial distributions such as OpenShift, Tanzu, Rancher, and Hyperscaler solutions is a plus, but not mandatory.
 
-1. **Adaptations.** It shall possible for CSP’s DevOps or vendor’s delivery team to adapt CNF artifacts (e.g. YAML manifests, Helm charts, NFVO descriptors) to align the deployments to the local specifics of CSP (e.g. Policy, RBAC, Compatibility) without special Change Request or complex processes involving R&D.
+1. **Adaptations.** It shall be possible for CSP’s DevOps or vendor’s delivery teams to adapt CNF artifacts (e.g. YAML manifests, Helm charts, NFVO descriptors) to align the deployments to the local specifics of CSP (e.g. Policy, RBAC, Compatibility) without special Change Requests or involving complex R&D processes.
     1. Validation of such adapted CNF deployment shall be performed on CSP premises.
     1. Given the successful validation vendor support for such deployment shall be granted.
     1. CNFs shall be modular, microservice-based, open applications and not big “black” boxes.
