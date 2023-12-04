@@ -38,7 +38,8 @@ agility and innovation, and reduce Opex costs within CSP. CNF vendors can moneti
 that move away from closed solutions and professional services.
 
  As such, we want to highlight major challenges facing cloud native telco transformations today and formulate principles and 
- requirements that will aid the industry in achieving alignment and overcoming obstacles. In this whitepaper, we are defining Kubernetes as the de-facto runtime environment for hosting the cloud native network functions (CNFs).
+ requirements that will aid the industry in achieving alignment and overcoming obstacles. In this whitepaper, we are defining Kubernetes as the de-facto runtime environment for hosting the Cloud Native Network Functions (CNFs). We also use the term cloud-native infrastructure in broader context for the infrastructure that abstracts Infrastructure-as-a-Service (IaaS) layer, that has Kubernetes in its core with useful API abstractions on top of it as as well as auxiliary systems all as a framework that makes managing applications easier and promotes doing so in a cloud native way. 
+This is important because you are free to use Kubernetes (and other "cloud native" technologies) in a very uncloud-native way. Our longer-term goal, underlying this whitepaper, is for all layers of the environment to encompass the cloud native principles from infrastructure allocation + management, through the application workloads. A more in-depth analysis of these terms can be found in the book "Cloud Native Infrastructure" by Justin Garrison and Chris Nova.
 
 ## Challenges in Cloud Native Telco Transformation Today
 
@@ -159,15 +160,13 @@ collaboration with existing communities, and included in existing well-establish
 
 
 1. **Pre-validation.** The pre-validation of CNF needs to be performed against a reference that is common for all players,
-   which is the upstream Kubernetes and components from the CNCF ecosystem.
+   which is upstream Kubernetes and further components from the CNCF ecosystem.
    1. Each CNF shall be validated, including the implementation of any adaptations that may be required, within 4 months of
-   the Kubernetes release.
+   a new Kubernetes release.
    1. Every CNF shall certify adherence to cloud native principles and best practices using CNF Test Suite ([https://github.com/cncf/cnf-testsuite](https://github.com/cncf/cnf-testsuite)) as a vendor-neutral validation tool.
    1. Pre-validating CNF against additional commercial distributions such as OpenShift, Tanzu, Rancher, and Hyperscaler solutions is a plus, but not mandatory.
 
-1. **Adaptations.** It shall possible for CSP’s DevOps or
-   vendor’s delivery team to adapt CNF artifacts (e.g. YAML manifests, Helm charts, NFVO descriptors) to align the deployments to the local specifics of CSP (e.g. Policy, RBAC, Compatibility)
-   without special Change Request or complex processes involving R&D.
+1. **Adaptations.** It shall possible for CSP’s DevOps or vendor’s delivery team to adapt CNF artifacts (e.g. YAML manifests, Helm charts, NFVO descriptors) to align the deployments to the local specifics of CSP (e.g. Policy, RBAC, Compatibility) without special Change Request or complex processes involving R&D.
     1. Validation of such adapted CNF deployment shall be performed on CSP premises.
     1. Given the successful validation vendor support for such deployment shall be granted.
     1. CNFs shall be modular, microservice-based, open applications and not big “black” boxes.
@@ -185,7 +184,7 @@ collaboration with existing communities, and included in existing well-establish
 
 1. **Automation.** CNF deployment and configuration shall be fully automated (“everything as a code”) and done exclusively with
    declarative cloud native mechanisms like GitOps.
-    1. Mainstream open source deployment tools from CNCF ecosystems, like FluxCD or ArgoCD, shall be supported per default.
+    1. Mainstream open source deployment tools from the CNCF ecosystem, like FluxCD or ArgoCD, shall be supported per default.
     1. All configurations shall be done via Configmaps and/or similar cloud native constructs (e.g. Kubernetes Resource Models) 
     1. CNF is allowed to use traditional telco mechanisms internally as a transition step, however, that should be fully
        encapsulated and abstracted away.
@@ -209,13 +208,13 @@ collaboration with existing communities, and included in existing well-establish
        production.
     1. Application resource requirements must be configured declaratively. The application must not be statically configured to
        utilize specific resources including devices, nodes, or machines
-    1. When performance is a requirement, the application should utilize open standards for adapters where possible at all levels
+    1. When performance is a requirement, the application should specify the resource `request` values and utilize open standards for adapters where possible at all levels
        they are available. For example support for multiple CNIs vs a single CNI.
     1. To be able to deploy on any CNCF Certified Kubernetes distributions
     1. CNFs make use of standard APIs for infrastructure and platform capabilities.  For example Service Mesh Interface, Ingress,
        CNI, etc.
 
-1. **Lifecycle.** CNFs have to be constructed in a way to fully tolerates graceful cluster rolling upgrade procedures without
+1. **Lifecycle.** CNFs have to be constructed in a way that fully tolerates graceful cluster rolling upgrade procedures without
    blocking them and without service interruptions.
     1. CNF shall implement N+1 redundancy mechanisms.
     1. CNF shall rely on mechanisms around PodDisruptionBudgets to secure the conditions for itself to run uninterrupted during
@@ -363,7 +362,8 @@ Editing and facilitation acknowledgments:
 2. NGMN
     * [NGMN publishes Cloud Native Manifesto](https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html) - [https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html](https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html)
     * [Cloud Native Manifesto "An Operator View" (PDF)](https://www.ngmn.org/wp-content/uploads/NGMN_Cloud_Native_Manifesto.pdf)
-3. [The Twelve-Factor App](https://12factor.net/) - [https://12factor.net/](https://12factor.net/)
-4. [X-Factor CNFs](https://x.cnf.dev/) - [https://x.cnf.dev/](https://x.cnf.dev/)
-5. [On the road to public cloud 5G networks – Nephio](https://nephio.org/on-the-road-to-public-cloud-5g-networks/)
-6. [Anuket RA2 - Kubernetes-based Reference Architecture](https://cntt.readthedocs.io/projects/ra2/en/latest/)
+3. Cloud Native Infrastructure by Justin Garrison, Kris Nova. Published by O'Reily Media Inc. 2017 (ISBN: 9781491984307)
+4. [The Twelve-Factor App](https://12factor.net/) - [https://12factor.net/](https://12factor.net/)
+5. [X-Factor CNFs](https://x.cnf.dev/) - [https://x.cnf.dev/](https://x.cnf.dev/)
+6. [On the road to public cloud 5G networks – Nephio](https://nephio.org/on-the-road-to-public-cloud-5g-networks/)
+7. [Anuket RA2 - Kubernetes-based Reference Architecture](https://cntt.readthedocs.io/projects/ra2/en/latest/)
