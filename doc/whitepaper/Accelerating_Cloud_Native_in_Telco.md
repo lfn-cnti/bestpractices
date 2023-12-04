@@ -160,14 +160,14 @@ collaboration with existing communities, and included in existing well-establish
 
 
 1. **Pre-validation.** The pre-validation of CNF needs to be performed against a reference that is common for all players,
-   which is the upstream Kubernetes and components from the CNCF ecosystem.
+   which is upstream Kubernetes and further components from the CNCF ecosystem.
    1. Each CNF shall be validated, including the implementation of any adaptations that may be required, within 4 months of
-   the Kubernetes release.
+   a new Kubernetes release.
    1. Every CNF shall certify adherence to cloud native principles and best practices using CNF Test Suite ([https://github.com/cncf/cnf-testsuite](https://github.com/cncf/cnf-testsuite)) as a vendor-neutral validation tool.
    1. Pre-validating CNF against additional commercial distributions such as OpenShift, Tanzu, Rancher, and Hyperscaler solutions is a plus, but not mandatory.
 
 1. **Adaptations.** CNF artifacts (e.g. YAML manifests, Helm charts, NFVO descriptors) shall become open for CSP’s DevOps or
-   vendor’s delivery team to adapt them to align the deployments to the local specifics of CSP (e.g. Policy, RBAC, Compatibility)
+   vendor’s delivery teams to adapt them to align the deployments to the local specifics of CSP (e.g. Policy, RBAC, Compatibility)
    without special Change Request or complex processes involving R&D.
     1. Validation of such adapted CNF deployment shall be performed on CSP premises.
     1. Given the successful validation vendor support for such deployment shall be granted.
@@ -186,7 +186,7 @@ collaboration with existing communities, and included in existing well-establish
 
 1. **Automation.** CNF deployment and configuration shall be fully automated (“everything as a code”) and done exclusively with
    declarative cloud native mechanisms like GitOps.
-    1. Mainstream open source deployment tools from CNCF ecosystems, like FluxCD or ArgoCD, shall be supported per default.
+    1. Mainstream open source deployment tools from the CNCF ecosystem, like FluxCD or ArgoCD, shall be supported per default.
     1. All configurations shall be done via Configmaps and/or similar cloud native constructs (e.g. Kubernetes Resource Models) 
     1. CNF is allowed to use traditional telco mechanisms internally as a transition step, however, that should be fully
        encapsulated and abstracted away.
@@ -210,13 +210,13 @@ collaboration with existing communities, and included in existing well-establish
        production.
     1. Application resource requirements must be configured declaratively. The application must not be statically configured to
        utilize specific resources including devices, nodes, or machines
-    1. When performance is a requirement, the application should utilize open standards for adapters where possible at all levels
+    1. When performance is a requirement, the application should specify the resource `request` values and utilize open standards for adapters where possible at all levels
        they are available. For example support for multiple CNIs vs a single CNI.
     1. To be able to deploy on any CNCF Certified Kubernetes distributions
     1. CNFs make use of standard APIs for infrastructure and platform capabilities.  For example Service Mesh Interface, Ingress,
        CNI, etc.
 
-1. **Lifecycle.** CNFs have to be constructed in a way to fully tolerates graceful cluster rolling upgrade procedures without
+1. **Lifecycle.** CNFs have to be constructed in a way that fully tolerates graceful cluster rolling upgrade procedures without
    blocking them and without service interruptions.
     1. CNF shall implement N+1 redundancy mechanisms.
     1. CNF shall rely on mechanisms around PodDisruptionBudgets to secure the conditions for itself to run uninterrupted during
