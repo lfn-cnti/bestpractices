@@ -14,6 +14,7 @@ v1.0 - November 3, 2023
 
 This document is a product of the initial joint work of several Communication Service Providers (CSPs) who are active in the Cloud Native Computing Foundation (CNCF)’s Cloud Native Network Function Working Group (CNF WG), NGMN Alliance, and projects like Linux Foundation (LF) Europe’s Sylva and Linux Foundation Networking (LFN) Anuket project. It is a draft that has been published with the goal of inviting feedback from other CSPs and motivating discussion and improvements from the broader telecommunication industry. We hope that through public discourse we can make the document more complete, relevant, and ready for final release. If you would like to contribute to the discussion and document, please feel free to open an issue or create a pull request.
 
+
 ## Introduction 
 
 The recently published [Cloud Native Manifesto](https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html) 
@@ -37,7 +38,7 @@ agility and innovation, and reduce Opex costs within CSP. CNF vendors can moneti
 that move away from closed solutions and professional services.
 
  As such, we want to highlight major challenges facing cloud native telco transformations today and formulate principles and 
- requirements that will aid the industry in achieving alignment and overcoming obstacles. 
+ requirements that will aid the industry in achieving alignment and overcoming obstacles. In this whitepaper, we are defining Kubernetes as the de-facto runtime environment for hosting the cloud native network functions (CNFs).
 
 ## Challenges in Cloud Native Telco Transformation Today
 
