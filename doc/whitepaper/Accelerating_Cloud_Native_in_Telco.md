@@ -38,7 +38,7 @@ agility and innovation, and reduce Opex costs within CSP. CNF vendors can moneti
 that move away from closed solutions and professional services.
 
  As such, we want to highlight major challenges facing cloud native telco transformations today and formulate principles and 
- requirements that will aid the industry in achieving alignment and overcoming obstacles. In this whitepaper, we are defining Kubernetes as the de-facto runtime environment for hosting the Cloud Native Network Functions (CNFs). We also use the term cloud-native infrastructure in broader context for the infrastructure that has Kubernetes in its core with useful abstractions on top of it as as well as auxilliary systems that make it possible to run cloud native applications. More detailed and generalized definition could be found in the the "Cloud Native Infrastructure" book by Justin Garrison and Chris Nova (ISBN: 9781491984307).
+ requirements that will aid the industry in achieving alignment and overcoming obstacles. In this whitepaper, we are defining Kubernetes as the de-facto runtime environment for hosting the Cloud Native Network Functions (CNFs). We also use the term cloud-native infrastructure in broader context for the infrastructure that has Kubernetes in its core with useful API abstractions on top of it as as well as auxilliary systems as a framework that makes managing applications easier and promotes doing so in a cloud native way. It is the the platform where cloud-native applications run. More detailed and generalized definition could be found in the the "Cloud Native Infrastructure" book by Justin Garrison and Chris Nova (ISBN: 9781491984307).
 
 ## Challenges in Cloud Native Telco Transformation Today
 
