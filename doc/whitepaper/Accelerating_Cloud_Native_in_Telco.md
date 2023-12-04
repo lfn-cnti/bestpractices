@@ -328,7 +328,7 @@ CNFs need to adopt these principles as well. CNFs need to be:
 
 GitOps is not a single product, plugin, or platform. While the practices and patterns in GitOps existed before Cloud Native (and the term GitOps), they happen to be a great match for cloud native applications and infrastructure alike.
 
-Here are some principles for GitOps (as defined by the Open GitOp):
+Here are some principles for GitOps (as defined by the Open GitOps community):
 
 - Declarative - A system managed by GitOps must have its desired state expressed declaratively.
 - Versioned and Immutable - The desired state is stored in a way that enforces immutability, versioning and retains a complete version history.
