@@ -1,7 +1,7 @@
 # Accelerating Cloud Native in Telco
 **_Challenges of Cloud Native Telco Transformation today and how to overcome them - A CSP perspective_**
 
-v1.0 - December 3, 2023
+v1.0 - December 4, 2023
 
 <!-----
 * Mon Dec 04 2023
@@ -328,7 +328,7 @@ CNFs need to adopt these principles as well. CNFs need to be:
 
 GitOps is not a single product, plugin, or platform. While the practices and patterns in GitOps existed before Cloud Native (and the term GitOps), they happen to be a great match for cloud native applications and infrastructure alike.
 
-Here are some principles for GitOps (as defined by the Open GitOps community):
+Here are some principles for GitOps (as defined by the OpenGitOps community):
 
 - Declarative - A system managed by GitOps must have its desired state expressed declaratively.
 - Versioned and Immutable - The desired state is stored in a way that enforces immutability, versioning and retains a complete version history.
