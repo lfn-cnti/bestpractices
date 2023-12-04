@@ -387,3 +387,4 @@ Editing and facilitation acknowledgments:
 6. [On the road to public cloud 5G networks – Nephio](https://nephio.org/on-the-road-to-public-cloud-5g-networks/)
 7. [Anuket RA2 - Kubernetes-based Reference Architecture](https://cntt.readthedocs.io/projects/ra2/en/latest/)
 
+
