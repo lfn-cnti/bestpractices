@@ -14,6 +14,7 @@ v1.0 - December 4, 2023
 
 This document is a product of the initial joint work of several Communication Service Providers (CSPs) who are active in the Cloud Native Computing Foundation (CNCF)’s Cloud Native Network Function Working Group (CNF WG), NGMN Alliance, and projects like Linux Foundation (LF) Europe’s Sylva and Linux Foundation Networking (LFN) Anuket project. It is a draft that has been published with the goal of inviting feedback from other CSPs and motivating discussion and improvements from the broader telecommunication industry. We hope that through public discourse we can make the document more complete, relevant, and ready for final release. If you would like to contribute to the discussion and document, please feel free to open an issue or create a pull request.
 
+
 ## Introduction 
 
 The recently published [Cloud Native Manifesto](https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html) 
@@ -39,7 +40,6 @@ that move away from closed solutions and professional services.
  As such, we want to highlight major challenges facing cloud native telco transformations today and formulate principles and 
  requirements that will aid the industry in achieving alignment and overcoming obstacles. In this whitepaper, we are defining Kubernetes as the de-facto runtime environment for hosting the Cloud Native Network Functions (CNFs). We also use the term cloud-native infrastructure in broader context for the infrastructure that abstracts Infrastructure-as-a-Service (IaaS) layer, that has Kubernetes in its core with useful API abstractions on top of it as as well as auxiliary systems all as a framework that makes managing applications easier and promotes doing so in a cloud native way. 
 This is important because you are free to use Kubernetes (and other "cloud native" technologies) in a very uncloud-native way. Our longer-term goal, underlying this whitepaper, is for all layers of the environment to encompass the cloud native principles from infrastructure allocation + management, through the application workloads. A more in-depth analysis of these terms can be found in the book ["Cloud Native Infrastructure"](https://www.oreilly.com/library/view/cloud-native-infrastructure/9781491984291/) by Justin Garrison and Kris Nova.
-
 
 ## Challenges in Cloud Native Telco Transformation Today
 
