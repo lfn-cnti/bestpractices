@@ -12,7 +12,7 @@ v1.0 - December 4, 2023
 ## Preamble
 
 
-This document is a product of the initial joint work of several Communication Service Providers (CSPs) who are active in the Cloud Native Computing Foundation (CNCF)’s Cloud Native Network Function Working Group (CNF WG), NGMN Alliance, and projects like Linux Foundation (LF) Europe’s Sylva and Linux Foundation Networking (LFN) Anuket project. It is a draft that has been published with the goal of inviting feedback from other CSPs and motivating discussion and improvements from the broader telecommunication industry. We hope that through public discourse we can make the document more complete, relevant, and ready for final release. If you would like to contribute to the discussion and document, please feel free to open an issue or create a pull request.
+This document is a product of the initial joint work of several Communication Service Providers (CSPs) who are active in the Cloud Native Computing Foundation (CNCF)’s Cloud Native Network Function Working Group (CNF WG), NGMN Alliance, and projects like Linux Foundation (LF) Europe’s Sylva and Linux Foundation Networking (LFN) Anuket project. It is a draft that has been published to invite feedback from other CSPs and motivate discussion and improvements from the broader telecommunication industry. We hope that through public discourse we can make the document more complete, relevant, and ready for final release. If you would like to contribute to the discussion and document, please feel free to open an issue or create a pull request.
 
 
 ## Introduction 
@@ -23,22 +23,22 @@ cloud native telecommunication networks. The transformation towards a cloud nati
 commenced in many Communication Service Providers (CSPs). Practical challenges and pain points on this journey, 
 which hinder progress towards the target expressed in the NGMN Cloud Native Manifesto, have been identified and 
 are being felt. These hindering aspects are especially prominent in the CSPs which are already taking practical 
-transformation steps and are trying to closely follow the vision described. 
+transformation steps and are trying to follow the vision described closely. 
 
 We, the group of CSPs gathered around Cloud Native Computing Foundation (CNCF)’s Cloud Native Network Function Working Group (CNF WG),
-live on the frontlines of this transformation and have gathered valuable experience in this regard. We firmly believe 
+live on the frontlines of this transformation and have gathered valuable experience. We firmly believe 
 that to attain the envisioned outcome, the entire industry needs to work together to align around key strategic and operational 
 principles. Besides building a sound understanding of what it would take for the transformation of CNFs to become cloud native, 
 it's also important to emphasize the ecosystem that would support that evolution.
 
-The industry is still maturing and searching for the right formula to reach a cloud native operating model. CNF vendors have not been able to comply with the cloud native and openness requirements of CSPs yet, due to the fact that these requirements are not yet stable and still emerging; however, the reasons for this hesitance can be found in an aversion to giving up a lucrative professional services business model and control over vertical integration. This hesitance cannot override a CSP's need to evolve towards a cloud native architecture, largely based on 12-factors for 
+The industry is still maturing and searching for the right formula to reach a cloud native operating model. CNF vendors have not been able to comply with the cloud native and openness requirements of CSPs yet, because these requirements are not yet stable and still emerging; however, the reasons for this hesitance can be found in an aversion to giving up a lucrative professional services business model and control over vertical integration. This hesitance cannot override a CSP's need to evolve toward a cloud native architecture, largely based on 12-factors for 
 CNFs (see Annex 1 and Reference 5), that can be supported by changing existing commercial models that could greatly benefit CSPs and vendors alike to create a new win-win equilibrium. Vendors must provide open APIs, clear documentation, and cloud native 
-architectures and implementations that empower CSPs with self-service capabilities in the cloud ecosystem. In order for the new model to work, vendors and CSPs must provide mutual SLAs: the CSP must guarantee a certain level of quality at the platform layer, while CNF vendors need to guarantee that the application will perform on the platform with SLAs that meet defined KPIs. This will help drive 
+architectures and implementations that empower CSPs with self-service capabilities in the cloud ecosystem. For the new model to work, vendors and CSPs must provide mutual SLAs: the CSP must guarantee a certain level of quality at the platform layer, while CNF vendors need to guarantee that the application will perform on the platform with SLAs that meet defined KPIs. This will help drive 
 agility and innovation, and reduce Opex costs within CSP. CNF vendors can monetize the value of openness to evolve business models 
 that move away from closed solutions and professional services.
 
  As such, we want to highlight major challenges facing cloud native telco transformations today and formulate principles and 
- requirements that will aid the industry in achieving alignment and overcoming obstacles. In this whitepaper, we are defining Kubernetes as the de-facto runtime environment for hosting the Cloud Native Network Functions (CNFs). We also use the term cloud-native infrastructure in broader context for the infrastructure that abstracts Infrastructure-as-a-Service (IaaS) layer, that has Kubernetes in its core with useful API abstractions on top of it as as well as auxiliary systems all as a framework that makes managing applications easier and promotes doing so in a cloud native way. 
+ requirements that will aid the industry in achieving alignment and overcoming obstacles. In this whitepaper, we are defining Kubernetes as the de-facto runtime environment for hosting the Cloud Native Network Functions (CNFs). We also use the term cloud-native infrastructure in a broader context for the infrastructure that abstracts the Infrastructure-as-a-Service (IaaS) layer, which has Kubernetes in its core with useful API abstractions on top of it as well as auxiliary systems all as a framework that makes managing applications easier and promotes doing so in a cloud native way. 
 This is important because you are free to use Kubernetes (and other "cloud native" technologies) in a very uncloud-native way. Our longer-term goal, underlying this whitepaper, is for all layers of the environment to encompass the cloud native principles from infrastructure allocation + management, through the application workloads. A more in-depth analysis of these terms can be found in the book "Cloud Native Infrastructure" by Justin Garrison and Chris Nova.
 
 ## Challenges in Cloud Native Telco Transformation Today
@@ -63,7 +63,7 @@ situations where CSPs are not allowed to perform such adaptations (under threat 
 artifacts are part of the release and could be adapted only in new release delivery or through the custom change request. As a result,
 this situation often leads to a frustrating cycle of discussions and significantly hampers the CNF onboarding process.
 
-**Validation.** This step did not really exist in the previous scenarios due to reliance on pre-validation and pre-integration. 
+**Validation.** This step did not exist in the previous scenarios due to reliance on pre-validation and pre-integration. 
 Due to the number of permutations found in cloud native ecosystems, pre-validation has limited value. Only validation of CNFs on 
 CSP premises with CSP’s flavor of cloud native infrastructure and its specific integrations has high relevance and value for 
 concluding if the CNF can be deployed and promoted to production. Today, we still see that many CNFs are not ready to be validated 
@@ -76,7 +76,6 @@ industry has devised numerous frameworks, models, and standards. Some have achie
 seen varying levels of adoption. However, the cloud native ecosystem, with a focus on GitOps practices, is propelling CNFs 
 toward more advanced and automated models.
 
-
 Many CNFs are still reliant on manual artifact deployment and are rooted in traditional telco methods, such as NETCONF and 
 YANG for configuration management. These practices pose significant challenges for CSPs aiming for a fully automated CNF lifecycle. 
 Moreover, the ETSI standard follows an imperative top-down approach, often characterized as "fire and forget”. This approach
@@ -86,7 +85,7 @@ which are not generalized nor easily customizable, as well as with divergent con
 complexities in the transition to the declarative and GitOps-driven automation models prevalent in the cloud native ecosystem.
 
 **Dependencies.** Cloud Native applications shall be completely separated from the underlying infrastructure, especially hardware. 
-Nevertheless, in practice today there are often very hard dependencies present, be it on specific technologies, or on specific vendor
+Nevertheless, in practice today there are often very hard dependencies present, be it on specific technologies or specific vendor
 products. The CNFs often require a specific hardware type or brand (e.g. CPU, NIC) and do not allow for flexibility supported by 
 local validation. CNFs are not able to run on any CNCF-certified Kubernetes distributions. Even if the dependency is fulfilled there 
 is a lack of attention to those dependencies. For example, a CNF can break because the firmware of the network card was updated, 
@@ -113,7 +112,7 @@ to capture the traces. In many cases, the CNFs or their microservices run on the
 via data center network fabric at all. Furthermore, encryption and mTLS became a de-facto standard for CNFs, so even if tapped, 
 network traffic can not be really analyzed and so the purpose of tracing can not be fulfilled. Cloud native tracing mechanisms 
 (e.g. eBPF) are unfortunately not helping here as most of the telco-relevant traffic goes via secondary interfaces (Multus) 
-which are often directly assigned to the CNF, skipping the host kernel drivers. This is specifically true for user plane CNFs like a UPF, Firewall or Internet Gateway.
+which are often directly assigned to the CNF, skipping the host kernel drivers. This is specifically true for user plane CNFs like a UPF, Firewall, or Internet Gateway.
 
 **Architecture.** We are witnessing that there are still CNFs that are in their architecture exhibiting properties of Virtualized
 Network Functions (VNFs). For example, we see the “pinning” of Pods to specific cluster nodes. 
@@ -142,7 +141,7 @@ However, it offers mechanisms to applications through which they can achieve a h
 Yet, repeatedly we experience the cases in which the imperfection of cloud infrastructure has a severe impact on the CNFs to 
 the point that complete re-deployment is the only viable solution. Instances of such impact include CNFs completely crashing 
 due to the ephemeral storage on the Kubernetes cluster reaching full capacity with logs of that CNF or because write operations 
-to persistent volumes could not be performed for a short period of time. This state is unsustainable as such events and situations 
+to persistent volumes could not be performed for a short period. This state is unsustainable as such events and situations 
 are going to happen in the cloud environment all the time. Therefore, applications including CNFs, which aim to run in the cloud, 
 have to account for such events in their design and utilize cloud native mechanisms to maintain robustness consistently or facilitate
 automated recovery.
@@ -176,11 +175,11 @@ collaboration with existing communities, and included in existing well-establish
 1. **Validation.** CNFs shall be delivered with a series of automated tests that can be used to validate the CNF operation on the spot in
    CSP’s context.
     1. This validation shall count as only relevant one, preceding any pre-validation or lack of it.
-    1. The validation shall assure that all artifacts are passing strict linters to prove that portability is assured.
+    1. The validation shall ensure that all artifacts are passing strict linters to prove that portability is assured.
     1. It shall serve as a condition for support and SLA.
     1. The validation shall be a continuous process and shall be instantly done on any change be it on CNF or on the infrastructure
        side.
-    1. The validation tests  shall cover CNF basic functionality, lifecycle and disaster recovery
+    1. The validation tests  shall cover CNF basic functionality, lifecycle, and disaster recovery
 
 1. **Automation.** CNF deployment and configuration shall be fully automated (“everything as a code”) and done exclusively with
    declarative cloud native mechanisms like GitOps.
@@ -193,16 +192,16 @@ collaboration with existing communities, and included in existing well-establish
     1. Artifacts are delivered via OCI(Open Container Initiative)-compliant repositories.
     1. The CNF LCM should be described declaratively and support continuous intent-based deployments for example IP address
        assignment during deployment. 
-    1. New released software version (CNF/microservices) includes machine-readable code to run health checks.
+    1. Newly released software version (CNF/microservices) includes machine-readable code to run health checks.
     1. Release notes and impact reports should be included as machine-readable code in every published release.
-    1. CSP-internal automation pipeline shall be allowed to hook into the vendor software delivery solution (e.g. to subscribe to
+    1. The CSP-internal automation pipeline shall be allowed to hook into the vendor software delivery solution (e.g. to subscribe to
        CNF releases).
     1. Artifacts delivered with CNFs (e.g. Helm charts) shall be customizable for efficient multi-purpose deployments.
     1. CNF configuration schemas have to follow the standards that shall be aligned among CSPs and vendors.
 
 1. **Dependencies.** The CNFs shall be completely independent from underlying infrastructure platforms.
     1. Alternatively it shall equally support all the mainstream available x86/amd64 compute hardware with single socket servers as golden standard. 
-    1. Local validation, not product policy, shall give an answer if CNF can run as expected on particular hardware or not. 
+    1. Local validation, not product policy, shall answer if CNF can run as expected on particular hardware or not. 
     1. In case of hard technical dependencies, the vendor of such CNF shall timely pre-validate its CNF against all new releases of
        hardware-related software (e.g. drivers, firmware) and proactively adapt the CNF to avoid the negative impact of dependency in
        production.
@@ -246,7 +245,7 @@ collaboration with existing communities, and included in existing well-establish
     1. CNF has to tolerate automatic scaling at the node and container level by the Kubernetes orchestrator.
     1. CNF has to support self-healing.
 
-1. **Security.** In order to run in a generic cloud native environment, CNFs have to strip down their expectations and require
+1. **Security.** To run in a generic cloud native environment, CNFs have to strip down their expectations and require
    exactly the minimum rights that are needed for functioning. 
     1. Any practice that poses the risk such as usage of hostPaths, privilege escalations, root containers, etc. needs either to
        be eliminated or replaced with an alternative cloud native approach.
@@ -271,15 +270,13 @@ collaboration with existing communities, and included in existing well-establish
     1. CNFs are resilient to Memory stresses.
     1. CNFs are resilient to the complete loss of underlying infrastructure resources (e.g. a node failure).
 
+<div style="page-break-after: always"></div>
 
 ## ANNEX 1
 
-
 ### 12 Factors for CNFs compliance to Cloud Native Principles
 
-
 CNFs need to adopt these principles as well. CNFs need to be:
-
 
 
 * Compatible: A cloud native approach allows applications and workloads to run anywhere. Ideally, CNFs should work with any
@@ -342,9 +339,25 @@ References:
 - https://opengitops.dev/ - The GitOps Working Group under the CNCF App Delivery SIG.
 - https://www.gitops.tech/ - Collection of information on GitOps by [INNOQ](https://www.innoq.com/en/).
 
+<div style="page-break-after: always"></div>
+
+## **REFERENCES**
+
+1. [Cloud Native Networking principles whitepaper](https://networking.cloud-native-principles.org/cloud-native-networking-preamble) - https://networking.cloud-native-principles.org/cloud-native-networking-preamble 
+2. NGMN
+    * [NGMN publishes Cloud Native Manifesto](https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html) - [https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html](https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html)
+    * [Cloud Native Manifesto "An Operator View" (PDF)](https://www.ngmn.org/wp-content/uploads/NGMN_Cloud_Native_Manifesto.pdf)
+3. Cloud Native Infrastructure by Justin Garrison, Kris Nova. Published by O'Reily Media Inc. 2017 (ISBN: 9781491984307)
+4. [The Twelve-Factor App](https://12factor.net/) - [https://12factor.net/](https://12factor.net/)
+5. [X-Factor CNFs](https://x.cnf.dev/) - [https://x.cnf.dev/](https://x.cnf.dev/)
+6. [On the road to public cloud 5G networks – Nephio](https://nephio.org/on-the-road-to-public-cloud-5g-networks/)
+7. [Anuket RA2 - Kubernetes-based Reference Architecture](https://cntt.readthedocs.io/projects/ra2/en/latest/)
+
+<div style="page-break-after: always"></div>
+
 ## ACKNOWLEDGEMENTS
 
-Special acknowledgments go to the following Communication Service Providers, who have contributed to this whitepaper: 
+Special acknowledgements go to the following Communication Service Providers, who have contributed to this whitepaper: 
 
 * Bell Canada 
     * Daniel Bernier, Technical Director
@@ -371,18 +384,16 @@ Special acknowledgments go to the following Communication Service Providers, who
 
 Editing and facilitation acknowledgments:
 
-
 * Taylor Carpenter, Vulk Coop Partner & CNF WG Co-Chair
 * Lucina Stricko, Vulk Coop Partner & CNF Certification Maintainer
 
-## **REFERENCES**
 
-1. [Cloud Native Networking principles whitepaper](https://networking.cloud-native-principles.org/cloud-native-networking-preamble) - https://networking.cloud-native-principles.org/cloud-native-networking-preamble 
-2. NGMN
-    * [NGMN publishes Cloud Native Manifesto](https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html) - [https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html](https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html)
-    * [Cloud Native Manifesto "An Operator View" (PDF)](https://www.ngmn.org/wp-content/uploads/NGMN_Cloud_Native_Manifesto.pdf)
-3. Cloud Native Infrastructure by Justin Garrison, Kris Nova. Published by O'Reily Media Inc. 2017 (ISBN: 9781491984307)
-4. [The Twelve-Factor App](https://12factor.net/) - [https://12factor.net/](https://12factor.net/)
-5. [X-Factor CNFs](https://x.cnf.dev/) - [https://x.cnf.dev/](https://x.cnf.dev/)
-6. [On the road to public cloud 5G networks – Nephio](https://nephio.org/on-the-road-to-public-cloud-5g-networks/)
-7. [Anuket RA2 - Kubernetes-based Reference Architecture](https://cntt.readthedocs.io/projects/ra2/en/latest/)
+-------
+
+
+<p style="text-align: center;">
+<b>Accelerating Cloud Native in Telco</b><br />
+<i>Challenges of Cloud Native Telco Transformation today<br>
+and how to overcome them - A CSP perspective</i><br />
+v1.0 - December 4, 2023
+</p>
