@@ -32,6 +32,7 @@ The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing
 * TBA
 
 ### Past events
+
 * [LFN Developer & Testing Forum's LFN/CNCF CNF initiatives merge](https://wiki.lfnetworking.org/pages/viewpage.action?pageId=113213504)
 * [LF Cloud Native Networking Program Alignment Workshop 2023](https://github.com/cncf/cnf-wg/blob/main/events/LF-Cloud-Native-Networking-Program-Alignment-Workshop.md#lf-cloud-native-networking-program-alignment-workshop-2023)
 * [Cloud Native Telco Day - KubeCon NA 2023](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/cloud-native-telco-day/)
