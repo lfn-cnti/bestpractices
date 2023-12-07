@@ -133,7 +133,7 @@ These are not strictly alternatives as they can be used with non-root, but can b
 
 Related items include
 
-- [Rootless](https://www.docker.com/blog/experimenting-with-rootless-docker/) containers as seen with [usernetes](https://github.com/rootless-containers/usernetes)
+- [Rootless](https://medium.com/@tonistiigi/experimenting-with-rootless-docker-416c9ad8c0d6) containers as seen with [usernetes](https://github.com/rootless-containers/usernetes)
 - Alternative runtimes like [Kata Containers](https://katacontainers.io/) for a different approach to security
 
 ## **Testing Objectives**
