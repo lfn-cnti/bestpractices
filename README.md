@@ -1,14 +1,19 @@
 # Cloud Native Network Function Working Group (CNF-WG)
 
-The Cloud Native Network Function WG (CNF WG) operates under the aegis of CNCF. The focus of the CNF WG is to define the process around evaluating the cloud nativeness of networking applications, aka CNFs. We collaborate with the [CNF Test Suite project](https://github.com/cncf/cnf-testsuite#cnf-conformance-test-suite) who work on the mechanics of the conformance tests.
+The CNTI Best Practices focus area operates under the aegis of LFN. The scope of this focus area is to define cloud native networking best practices. We collaborate with the [Test Catalog](https://wiki.lfnetworking.org/x/HgAxBw) and [Certification](https://wiki.lfnetworking.org/display/LN/3+-+Certification) focus areas who work on the implementation and mechanics of the test catalog and the definition of cloud native certifications. 
 
-The primary goal for this group is to provide a set of cloud native + Kubenative best practices for network applications which are listed in:
+- Key areas of focus
+  - Works with community members, projects, infra providers, CNF vendors, and end users to identify pressing cloud-native networking challenges.
+  - Develops vendor-neutral best practices for cloud-native infra, workloads, and other networking-related applications that want to leverage cloud-native principles.
+  - Proactively engages with LF Networking projects to identify challenges or pain points where best practices (community-agreed approaches) will add value.
+  - Publishes community-agreed best practices.
 
-* [Best Practices for CNF Developers](doc/best_cnf_dev.md)
 
-The [CNF WG Charter](charter.md) further outlines the scope of our group activities as well as intended deliverables.
+- Not in scope for this focus area
 
-The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing a set of these best practices to allow developers and network operators to evaluate how well a network application follows cloud native principles and best practices. Proposals which have been adopted by the CNF WG are listed in the [CNF Best Practice Proposal](doc/cbpps/) folder.
+  - Identifying or implementing tests for the testing catalog.
+  - Identifying or defining cloud-native certifications.
+
 
 ## Meetings
 
@@ -20,12 +25,25 @@ The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing
 
 ### Recurring meetings
 
-* Weekly on Mondays at 8:00am Pacific Standard Time / 16:00 UTC
+* **When**: Weekly on Mondays at 8:00am Pacific Standard Time / 16:00 UTC
   * Here's [a link](https://goo.gl/eyutah) to a public Google calendar that you can subscribe to
-* Join zoom meeting [here](https://zoom.us/j/97556246445?pwd=VTMrSjRWQ3pSMVZGQmNRemEwUk14QT09)
-  * Passcode: :zero::four::zero::nine::six::three:
+* Join zoom meeting [here](https://join.slack.com/t/lfntech/shared_invite/zt-2cfymedlz-358~927JZBYfVJRMA7P9jg)
+  * **Meeting ID**: 97973289576
+  * **Meeting Passcode**: :five::four::nine::one::one::zero:
+  * **International numbers**: https://zoom.us/u/alwnPIaVT
+  
 * Agenda and notes are [available](https://docs.google.com/document/d/1YFimQftjkTUsxNGTsKdakvP7cJtJgCTqViH2kwJOrsc/edit)
-* Recordings of previous meetings: [CNF WG Playlist on YouTube](https://youtube.com/playlist?list=PLj6h78yzYM2PyMYvw5wiH01hthFb0qrOn)
+* Recordings of previous meetings: 
+
+   * [CNF WG Playlist on YouTube](https://youtube.com/playlist?list=PLj6h78yzYM2PyMYvw5wiH01hthFb0qrOn)
+
+   * [Jan 29, 2024](https://zoom.us/rec/play/Ps4s9hR4Nktk33S6L-hMCcIuBUON2K_UxZKYDdErDZLtT_wuI77XBnKpmRI1soVgdUo_HArPfkGQHXK8.aHMYV-3lgaD_uMBk?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2F44Z7-aYAG5QCvH2w719qKv45L8x4ln9S6GsEs_WSh1U12tZEwAF_Ydab7R5VV_g-.TzWMrZCS_hEQ4Kk4)
+   
+   
+   - [Feb 5, 2024](https://zoom.us/rec/play/LF0uCZTgnbglWXPnrlw06-oWgmQ7qpXKh1PGRrpzOa3Te7OMUVGG8WI0jauLcz_OpM5M-Jzpi05qTbku.Exc5o4eQLFpdnPtv?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2FXIdbBRkBBz_X-qIry8AOM63DuhGgJ4BNR4_YTM5N5pV5ZIXheIdtqvBWf2SKeaF6.CNzv8_J5AyjxjWi2)
+   
+   - [Feb 12, 2024](https://zoom.us/rec/play/YOazZV2bq6qtgK0yP_cujGjfFzxMBlp2PUhVnnj1KhlzmhEJK2zvXTNtpiGtbA_eHaVFgNnV5HItnWMH.C2iLtHxkmiO7epad?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2F-4H-b8CthLkItEQ48ms-mREVHAD-PwtiloYPVjBHz262odsSrmafbtRp9UYZWYdH.EHyHF7owi_D7idrs)
+
 
 ### Upcoming events
 
@@ -45,5 +63,8 @@ The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing
 
 ## Community
 
-* Slack channel: [#cnf-wg](https://cloud-native.slack.com/archives/C01F1LVAQCC) in [CNCF workspace](https://slack.cncf.io/)
+* ### Slack
+
+  - [Join us on LFN Tech Slack](https://join.slack.com/t/lfntech/shared_invite/zt-2cfymedlz-358~927JZBYfVJRMA7P9jg)
+  - **Channel**: #cnti-bestpractices
 * Mailing list: <https://lists.cncf.io/g/cnf-wg>
