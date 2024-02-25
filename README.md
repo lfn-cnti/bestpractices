@@ -14,6 +14,11 @@ The CNTI Best Practices focus area operates under the aegis of LFN. The scope of
   - Identifying or implementing tests for the testing catalog.
   - Identifying or defining cloud-native certifications.
 
+* [Best Practices for CNF Developers](doc/best_cnf_dev.md)
+
+The [CNF WG Charter](charter.md) further outlines the scope of our group activities as well as intended deliverables.
+
+The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing a set of these best practices to allow developers and network operators to evaluate how well a network application follows cloud native principles and best practices. Proposals which have been adopted by the CNF WG are listed in the [CNF Best Practice Proposal](doc/cbpps/) folder.
 
 ## Meetings
 
