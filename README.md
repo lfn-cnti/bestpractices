@@ -1,4 +1,4 @@
-# Cloud Native Network Function Working Group (CNF-WG)
+# Cloud Native Telecom Initiative (CNTI) Best Practices
 
 The CNTI Best Practices focus area operates under the aegis of LFN. The scope of this focus area is to define cloud native networking best practices. We collaborate with the [Test Catalog](https://wiki.lfnetworking.org/x/HgAxBw) and [Certification](https://wiki.lfnetworking.org/display/LN/3+-+Certification) focus areas who work on the implementation and mechanics of the test catalog and the definition of cloud native certifications. 
 
