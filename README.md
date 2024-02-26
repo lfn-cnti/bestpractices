@@ -39,7 +39,7 @@ The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing
   
 * Agenda and notes are [available](https://docs.google.com/document/d/1YFimQftjkTUsxNGTsKdakvP7cJtJgCTqViH2kwJOrsc/edit)
 * Recordings of previous meetings: 
-
+[Meeting Recordings](https://wiki.lfnetworking.org/display/LN/Certification)
    * [CNF WG Playlist on YouTube](https://youtube.com/playlist?list=PLj6h78yzYM2PyMYvw5wiH01hthFb0qrOn)
 
    * [Jan 29, 2024](https://zoom.us/rec/play/Ps4s9hR4Nktk33S6L-hMCcIuBUON2K_UxZKYDdErDZLtT_wuI77XBnKpmRI1soVgdUo_HArPfkGQHXK8.aHMYV-3lgaD_uMBk?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2F44Z7-aYAG5QCvH2w719qKv45L8x4ln9S6GsEs_WSh1U12tZEwAF_Ydab7R5VV_g-.TzWMrZCS_hEQ4Kk4)
