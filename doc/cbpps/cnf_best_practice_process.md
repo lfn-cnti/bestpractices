@@ -26,7 +26,7 @@ Once you're sure the best practice aligns with the mission statement, it's somet
 The working group has the following communication channels:
 
 * [GitHub repository discussion board](https://github.com/cncf/cnf-wg/discussions)
-* Add an agenda item in the [weekly meeting agenda](https://docs.google.com/document/d/1YFimQftjkTUsxNGTsKdakvP7cJtJgCTqViH2kwJOrsc/edit#)
+* Add an agenda item in the [bi-weekly meeting agenda](https://docs.google.com/document/d/1YFimQftjkTUsxNGTsKdakvP7cJtJgCTqViH2kwJOrsc/edit#)
 * Start a conversation / thread in the [CNF-WG Slack Channel](https://cloud-native.slack.com/archives/C01F1LVAQCC)
 * Send a message to the [mailing list](https://lists.cncf.io/g/cnf-wg)
 
@@ -60,8 +60,8 @@ Ideally a set of best practices will have their own tickets.
 
 <!-- IDEA: Use welcome bot for first time contributors e.g. https://github.com/apps/the-welcome-bot -->
 
-* Add the PR to upcoming [weekly CNF WG meeting agenda](https://docs.google.com/document/d/1YFimQftjkTUsxNGTsKdakvP7cJtJgCTqViH2kwJOrsc/edit#) to discuss and attend the meeting.
-<!-- Idea: add checklist item “added PR to weekly agenda” to PR Template https://github.com/cncf/cnf-wg/blob/main/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md -->
+* Add the PR to upcoming [bi-weekly meeting agenda](https://docs.google.com/document/d/1YFimQftjkTUsxNGTsKdakvP7cJtJgCTqViH2kwJOrsc/edit#) to discuss and attend the meeting.
+<!-- Idea: add checklist item “added PR to bi-weekly agenda” to PR Template https://github.com/cncf/cnf-wg/blob/main/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md -->
 <!-- Idea: respond to 1st contributors with additional steps / details -->
 * Respond to comments in the PR, and merge suggestions when agreed.
   * It is important to keep the PR active.
