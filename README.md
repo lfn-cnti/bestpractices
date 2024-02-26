@@ -72,4 +72,4 @@ The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing
 
   - [Join us on LFN Tech Slack](https://join.slack.com/t/lfntech/shared_invite/zt-2cfymedlz-358~927JZBYfVJRMA7P9jg)
   - **Channel**: #cnti-bestpractices
-* Mailing list: <https://lists.cncf.io/g/cnf-wg>
+* Mailing list: <https://lists.lfnetworking.org/g/lfn-cnti>
