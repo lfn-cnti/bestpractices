@@ -18,19 +18,19 @@ The CNTI Best Practices focus area operates under the aegis of LFN. The scope of
 
 The [CNF WG Charter](charter.md) further outlines the scope of our group activities as well as intended deliverables.
 
-The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing a set of these best practices to allow developers and network operators to evaluate how well a network application follows cloud native principles and best practices. Proposals which have been adopted by the CNF WG are listed in the [CNF Best Practice Proposal](doc/cbpps/) folder.
+The [CNTI Test Catalog]([https://github.com/cncf/cnf-testsuite](https://github.com/cnti-testcatalog/testsuite)) will support testing a set of these best practices to allow developers and network operators to evaluate how well a network application follows cloud native principles and best practices. Proposals which have been adopted by the CNTI Best Practices focus area are listed in the [Best Practice Proposal](doc/cbpps/) folder.
 
 ## Meetings
 
 ### Current Co-Chairs
 
-* Service Provider Co-Chair: Tom Kivlin, [@tomkivlin](https://github.com/tomkivlin)
-* CNF Developer Co-Chair: Victor Morales, [@electrocucaracha](https://github.com/electrocucaracha)
+* Service Provider Co-Chair: Open - nominations accepted
+* CNF Developer Co-Chair: Olivier Smith, [@Smitholi67](https://github.com/Smitholi67)
 * Kubernetes Co-Chair: Taylor Carpenter, [@taylor](https://github.com/taylor)
 
 ### Recurring meetings
 
-* **When**: Weekly on Mondays at 8:00am Pacific Standard Time / 16:00 UTC
+* **When**: Bi-weekly on Mondays at 8:00am Pacific Time
   * Here's [a link](https://zoom-lfx.platform.linuxfoundation.org/meeting/97973289576?password=167cfd8c-c026-4bac-8b4b-031be869659d) to register for future meetings
 * Join zoom meeting [here](https://join.slack.com/t/lfntech/shared_invite/zt-2cfymedlz-358~927JZBYfVJRMA7P9jg)
   * **Meeting ID**: 97973289576
@@ -51,12 +51,10 @@ The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing
 
 
 ### Upcoming events
-Wednesday, May 1 • 2:00pm - 2:30pm
+* Wednesday, May 1 • 2:00pm - 2:30pm
 [Evolving Together: Cloud Native Telecom's Journey Forward - Olivier Smith, MATRIXX (CNTI)](https://sched.co/1YUsR)
-* TBA
 
 ### Past events
-
 * [LFN Developer & Testing Forum's LFN/CNCF CNF initiatives merge](https://wiki.lfnetworking.org/pages/viewpage.action?pageId=113213504)
 * [LF Cloud Native Networking Program Alignment Workshop 2023](https://github.com/cncf/cnf-wg/blob/main/events/LF-Cloud-Native-Networking-Program-Alignment-Workshop.md#lf-cloud-native-networking-program-alignment-workshop-2023)
 * [Cloud Native Telco Day - KubeCon NA 2023](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/cloud-native-telco-day/)
@@ -70,7 +68,7 @@ Wednesday, May 1 • 2:00pm - 2:30pm
 ## Community
 
 * ### Slack
-
   - [Join us on LFN Tech Slack](https://join.slack.com/t/lfntech/shared_invite/zt-2cfymedlz-358~927JZBYfVJRMA7P9jg)
   - **Channel**: #cnti-bestpractices
-* Mailing list: <https://lists.lfnetworking.org/g/lfn-cnti>
+* ### Mailing list:
+  - <https://lists.lfnetworking.org/g/lfn-cnti>
