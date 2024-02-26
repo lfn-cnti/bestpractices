@@ -10,7 +10,7 @@ Except as otherwise noted, the content of this repository is licensed under the 
 
 Contributors are encouraged to collaborate using the following resources:
 
-- [Weekly public community meetings](https://github.com/cncf/cnf-wg#meetings)
+- [Bi-weekly public community meetings](README.md#recurring-meetings)
   - Review [past meetings on YouTube](https://www.youtube.com/watch?v=3JPUOulYfxA&list=PLj6h78yzYM2PyMYvw5wiH01hthFb0qrOn)
 - CNCF Slack ([get an invite here](https://slack.cncf.io/))
   - [#cnf-wg](https://cloud-native.slack.com/archives/C01F1LVAQCC)
