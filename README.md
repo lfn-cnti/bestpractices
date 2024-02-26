@@ -31,7 +31,7 @@ The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing
 ### Recurring meetings
 
 * **When**: Weekly on Mondays at 8:00am Pacific Standard Time / 16:00 UTC
-  * Here's [a link](https://goo.gl/eyutah) to a public Google calendar that you can subscribe to
+  * Here's [a link](https://zoom-lfx.platform.linuxfoundation.org/meeting/97973289576?password=167cfd8c-c026-4bac-8b4b-031be869659d) to register for future meetings
 * Join zoom meeting [here](https://join.slack.com/t/lfntech/shared_invite/zt-2cfymedlz-358~927JZBYfVJRMA7P9jg)
   * **Meeting ID**: 97973289576
   * **Meeting Passcode**: :five::four::nine::one::one::zero:
