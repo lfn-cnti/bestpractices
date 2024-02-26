@@ -51,7 +51,8 @@ The [CNF Test Suite](https://github.com/cncf/cnf-testsuite) will support testing
 
 
 ### Upcoming events
-
+Wednesday, May 1 • 2:00pm - 2:30pm
+[Evolving Together: Cloud Native Telecom's Journey Forward - Olivier Smith, MATRIXX (CNTI)](https://sched.co/1YUsR)
 * TBA
 
 ### Past events
