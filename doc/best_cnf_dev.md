@@ -37,6 +37,13 @@ Containers have a list of their own users independent of the host system, one of
 
 **Reference:** [CBPP-0002](cbpps/0002-no-root-in-containers.md)
 
+#### CBPP-0004: Do not run containers with the privilege flag
+
+**Description:**
+Privileged containers can potentially get unrestricted access to host's resources. Therefore, if the privileged container is compromised, an attacker would have full access to the server. Containers should be run with the privilege flag set to false to securely restrict the access to the host resources.
+
+**Reference:** [CBPP-0004](cbpps/0004-do-not-run-containers-with-privilege-flag.md)
+
 ### 6.0 Observability and Diagnostics
 
 How to get critical data about when things are going wrong and how to determine what must be done to put them right. The detection and correction may be through the actions of an operator or via an automated system. Using logs and metrics from all components in the system to narrow down the area where a problem exists, and to drill down into that area to determine a root cause and a fix.
