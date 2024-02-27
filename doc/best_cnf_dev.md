@@ -40,6 +40,7 @@ Containers have a list of their own users independent of the host system, one of
 #### CBPP-0004: Do not run containers with the privilege flag
 
 **Description:**
+
 Privileged containers can potentially get unrestricted access to host's resources. Therefore, if the privileged container is compromised, an attacker would have full access to the server. Containers should be run with the privilege flag set to false to securely restrict the access to the host resources.
 
 **Reference:** [CBPP-0004](cbpps/0004-do-not-run-containers-with-privilege-flag.md)
