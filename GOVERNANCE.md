@@ -1,10 +1,10 @@
 # Governance
 
-## CNF WG Member Roles
+## CNTI Member Roles
 
 ### Chairs
 
-The CNF WG will be co-chaired by 3 people - one co-chair from the Kubernetes (K8s) Community, one from the Service Provider (SP) Community and one from the CNF Developer (Dev) Community - in order to maintain equal representation.
+The CNTI will be co-chaired by 3 people - one co-chair from the Kubernetes (K8s) Community, one from the Service Provider (SP) Community and one from the CNF Developer (Dev) Community - in order to maintain equal representation.
 
 - *Primary role of Chairs is governance of the group.*
 - The Chairs are responsible for ensuring that group meetings are facilitated effectively, while also engaging group members in leadership roles. Effective facilitation includes the following activities:
@@ -19,22 +19,22 @@ A maximum of one person from any one entity may hold a chair role at any given m
 
 #### **Current Co-Chairs**
 
-- Service Provider Co-Chair: Tom Kivlin, @tomkivlin
-- CNF Developer Co-Chair: Victor Morales, @electrocucaracha
+- Service Provider Co-Chair: Vacant
+- CNF Developer Co-Chair: Olivier Smith, @Smitholi67
 - Kubernetes Co-Chair: Taylor Carpenter, @taylor
 
-Term runs 2022-07-01 to 2023-06-30
+Term runs 2024-01-01 to 2024-05-30 (Temporary period for the launch of CNTI)
 
 ### Everyone else (eg. other members)
 
 Membership is self-declared.
 
-There are no membership requirements to be a part of the CNF WG. This is an open public working group welcoming anyone who would like to help.
+There are no membership requirements to be a part of the CNTI. This is an open public working group welcoming anyone who would like to help.
 
 All members
 
 - May either have no explicit roles or responsibilities, or formally assigned roles (see above).
-- May not create the impression that they have any authority or formal responsibilities in the CNF WG other than assigned roles.
+- May not create the impression that they have any authority or formal responsibilities in the CNTI other than assigned roles.
 
 <!--
 See [CONTRIBUTING](CONTRIBUTING.md) documentation for more information how to get involved.
@@ -48,7 +48,7 @@ Co-chairs will be elected for one year terms and may run for reelection.
 
 ### Eligibility to Vote
 
-The CNF WG employs "organization voting" to ensure no single organization can dominate the project.
+The CNTI employs "organization voting" to ensure no single organization can dominate the project.
 
 Individuals not associated with or employed by a company or organization are allowed one vote. Each company/organization, or related group of companies (regardless of the number of maintainers associated with or employed by that company/organization), will have a maximum of one-third representation in votes.  If the results of an election result in greater than 1/3 representation, the lowest vote getters from any particular company will be removed until representation on the committee is less than one-third.
 
@@ -64,7 +64,7 @@ The chair for each community will be elected using [Ranked Choice Voting](https:
 
 ## Independence
 
-The CNF WG strives to maintain its editorial independence from the companies and organisations that provide its members.  To this end, this charter sets limits on the involvement any given entity might have in its operation, in order to maintain the integrity of its output as a consensus view of industry technical experts.
+The CNTI strives to maintain its editorial independence from the companies and organisations that provide its members.  To this end, this charter sets limits on the involvement any given entity might have in its operation, in order to maintain the integrity of its output as a consensus view of industry technical experts.
 
 To this end, representation from a single entity for a given role is limited, to avoid undue influence.  This section determines how companies, organisations and individual interested parties are determined to be independent of each other, and the way in which this affects elections.
 
@@ -101,11 +101,11 @@ After any election, the results may indicate that a particular entity is overrep
 
 ## Content Approval Process
 
-To encourage contributions, the CNF WG has a more relaxed stance on changes and delegates the acceptance for most items to the community as outlined in [CONTRIBUTING.md](CONTRIBUTING.md). The small list of exceptions are listed below which require a more thorough decision making process to achieve our desired outcome of fair representation and technical excellence.
+To encourage contributions, the CNTI has a more relaxed stance on changes and delegates the acceptance for most items to the community as outlined in [CONTRIBUTING.md](CONTRIBUTING.md). The small list of exceptions are listed below which require a more thorough decision making process to achieve our desired outcome of fair representation and technical excellence.
 
 ### Delegation of default changes to community
 
-The process for accepting changes to content in the CNF WG repository (including adding new content) for any item not in the [Additional Approval Items list](#additional-approval-items) below will follow the acceptance and approval process outlined in the [CONTRIBUTING guide](CONTRIBUTING.md).
+The process for accepting changes to content in the CNTI repository (including adding new content) for any item not in the [Additional Approval Items list](#additional-approval-items) below will follow the acceptance and approval process outlined in the [CONTRIBUTING guide](CONTRIBUTING.md).
 
 ### Changes requiring additional approval
 
@@ -117,7 +117,7 @@ Items in the Additional Approval Items list require further discussion and appro
 1. [Charter](charter.md)
 1. [Governance](GOVERNANCE.md)
 1. [Code of Conduct](code-of-conduct.md)
-1. CNF WG "Approved" Best Practices
+1. CNTI "Approved" Best Practices
     - This would be Best Practices which the CNF WG promotes in an approved list. Eg. Baseline Best Practices
     - Proposing a best practice is encouraged with the default process. Marking it as accepted and listing it as a CNF WG approved Best Practice requires additional review and approval.
     - Potentially the [Best Practices for CNF Developers](doc/best_cnf_dev.md) will list only approved best practices or at least have a designation for which are approved vs another status.
