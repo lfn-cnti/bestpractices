@@ -1,4 +1,4 @@
-# CNF Working Group
+# Cloud Native Telecom Initiative (CNTI) Best Practices
 
 ## Table of Contents
 
@@ -8,9 +8,9 @@
 
 ## Introduction
 
-The goal of this group is to define a set of practices to evaluate the extent to which a CNF is [cloud native](https://github.com/cloud-native-principles/cloud-native-principles). CNFs can be evaluated against those best practices through test cases that are developed by other open source projects like the [CNF Test Suite](https://github.com/cncf/cnf-testsuite#cnf-conformance-test-suite).
+The goal of the Cloud Native Telecom Initiative (CNTI) Best Practices focus area is to define a set of practices to evaluate the extent to which a CNF is [cloud native](https://github.com/cloud-native-principles/cloud-native-principles). CNFs can be evaluated against those best practices through test cases that are developed by other open source projects like the [CNTI Test Catalog](https://github.com/cnti-testcatalog/testsuite).
 
-CNF WG will rely on other industry initiatives (such as CNCF TUG) to come up with a definition of "cloud native" in relation to the telecom industry.
+The CNTI Best Practices focus area will rely on other industry initiatives (such as [NGMN](https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html) to come up with a definition of "cloud native" in relation to the telecom industry.
 
 As the telco industry transitions to cloud native ways of thinking, working, and operating, these best practices will serve as the industry gold standard of what cloud native means in practice. They can be used for a variety of purposes including guiding CNF design and development, in RFPs, to guide daily operations, and to do internal testing.
 
@@ -20,7 +20,7 @@ These best practices and recommendations shall serve as generic contract between
 
 Best practices are introduced, modified, and removed to keep up with industry trends and technological advances via a process defined in [here](cbpps).
 
-**Figure 1-1** below illustrate CNF WG relation to other communities and how best practices defined by CNF WG are consumed.
+**TO BE REPLACED: Figure 1-1** below illustrate CNF WG relation to other communities and how best practices defined by CNF WG are consumed.
 
 ![CNF WG Relation with other industry communities](./figures/cnf-wg-relation.png)
 
@@ -36,7 +36,7 @@ As demonstrated by **Figure 1-2** below, When it comes to Cloud Native Network F
 
 ![Current Scope of CNF WG](./figures/cnf-wg-scope.png)
 
-The current focus of CNF WG is to define the best practices for the development and deployment of CNFs. Other areas are left for future focus.
+The current goal of CNTI Best Practices Focus Area is to define the best practices for the development and deployment of CNFs. Other areas are left for future focus.
 
 ## Best Practices for CNF Developers
 

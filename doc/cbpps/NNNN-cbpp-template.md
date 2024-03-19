@@ -29,7 +29,7 @@ Items marked with (R) are required for the proposed best practice to be included
 
 - [ ] (R) CBPP approvers have approved the CBPP status as `implementable`
 - [ ] (R) CBPP summary, motivation and best practice details are appropriately documented
-- [ ] (R) Test plan is in place, giving consideration to CNF Test Suite input
+- [ ] (R) Test plan is in place, giving consideration to CNTI Test Catalog input
 - [ ] (R) Scoring has been determined
 - [ ]   "Implementation History" section is up-to-date
 - [ ]    Supporting documentation—e.g., additional design documents, links to mailing list discussions/SIG meetings, relevant PRs/issues, release notes
