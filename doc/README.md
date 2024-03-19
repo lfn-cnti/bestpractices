@@ -10,7 +10,7 @@
 
 The goal of the Cloud Native Telecom Initiative (CNTI) Best Practices focus area is to define a set of practices to evaluate the extent to which a CNF is [cloud native](https://github.com/cloud-native-principles/cloud-native-principles). CNFs can be evaluated against those best practices through test cases that are developed by other open source projects like the [CNTI Test Catalog](https://github.com/cnti-testcatalog/testsuite).
 
-The CNTI Best Practices focus group will rely on other industry initiatives (such as [NGMN](https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html) to come up with a definition of "cloud native" in relation to the telecom industry.
+The CNTI Best Practices focus area will rely on other industry initiatives (such as [NGMN](https://www.ngmn.org/highlight/ngmn-publishes-cloud-native-manifesto.html) to come up with a definition of "cloud native" in relation to the telecom industry.
 
 As the telco industry transitions to cloud native ways of thinking, working, and operating, these best practices will serve as the industry gold standard of what cloud native means in practice. They can be used for a variety of purposes including guiding CNF design and development, in RFPs, to guide daily operations, and to do internal testing.
 
