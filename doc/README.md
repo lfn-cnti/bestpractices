@@ -36,7 +36,7 @@ As demonstrated by **Figure 1-2** below, When it comes to Cloud Native Network F
 
 ![Current Scope of CNF WG](./figures/cnf-wg-scope.png)
 
-The current focus of CNTI Best Practices Focus Area is to define the best practices for the development and deployment of CNFs. Other areas are left for future focus.
+The current goal of CNTI Best Practices Focus Area is to define the best practices for the development and deployment of CNFs. Other areas are left for future focus.
 
 ## Best Practices for CNF Developers
 
