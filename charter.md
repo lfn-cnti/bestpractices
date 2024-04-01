@@ -1,4 +1,4 @@
-# Cloud Native Telecom Intiative Charter
+# Cloud Native Telecom Initiative Charter
 
 ## Introduction
 
@@ -8,7 +8,7 @@ The CNTI operates under the aegis of LF Networking. There are three (3) focus ar
 
 **Best Practices** - defining cloud native and Kubernetes native best practices for telecom networking.
 
-**Test Suite** - developing a vendor neutral and open source testing catalog that can be used to validate a CNF's adherence to community defined best pratices. 
+**Test Suite** - developing a vendor neutral and open source testing catalog that can be used to validate a CNF's adherence to community defined best practices. 
 
 **Certification** -  developing an open source and vendor neutral cloud native networking certification program where open and closed source networking applications can be certified. 
 
@@ -16,7 +16,7 @@ The goals for the CNTI are:
 
 - Identify cloud native and Kubernetes native best practices for networking 
 - Determine which practices will allow networking applications to most effectively utilize Kubernetes capabilities and services
-- Develop a vendor neutral testing catalog that enables CNF Developers, Service Providers, and downstream projects to verify how well a CNF adheres to cloud native best practies
+- Develop a vendor neutral testing catalog that enables CNF Developers, Service Providers, and downstream projects to verify how well a CNF adheres to cloud native best practices
 - Provide an open source and vendor neutral cloud native networking certification program
 
 ## Values
@@ -42,7 +42,7 @@ We are here as a community first, with the common goal of bringing the benefits 
 
 ## Mission Statement
 
-CNTI’s mission is to simplify the creation and consumption of CNFs by publicising best practices for their development and operation. It is committed to the following (aspirational) design ideals:
+CNTI’s mission is to simplify the creation and consumption of CNFs by publicizing best practices for their development and operation. It is committed to the following (aspirational) design ideals:
 
 - Portable - Cloud native workloads run everywhere -- public cloud, private cloud, bare metal, laptop -- with consistent functional behavior so that they are portable throughout the ecosystem as well as between development and production environments.
 - Meet users partway - Many applications today are not cloud native, but have been working in production for decades. The WG doesn’t just cater to purely greenfield cloud-native applications, nor does it meet all users where they are. It focuses on cloud-native applications, but provides some mechanisms to facilitate migration of monolithic and legacy applications.
