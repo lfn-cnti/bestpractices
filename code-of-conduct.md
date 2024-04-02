@@ -1,4 +1,4 @@
 # Code of Conduct
 
-The CNF WG community follows the
-[CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md).
+The CNTI community follows the
+[LF Code of Conduct](https://lfprojects.org/policies/code-of-conduct/).
