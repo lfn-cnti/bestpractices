@@ -15,6 +15,7 @@ matrix:
         - .github/.wordlist.txt
     pipeline:
       - pyspelling.filters.markdown:
+      - pyspelling.filters.url:
     sources:
       - '**/*.md'
     aspell:
