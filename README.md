@@ -28,14 +28,9 @@ The [CNTI Test Catalog](https://github.com/cnti-testcatalog/testsuite) will supp
 * CNF Developer Co-Chair: Olivier Smith, [@Smitholi67](https://github.com/Smitholi67)
 * Kubernetes Co-Chair: Taylor Carpenter, [@taylor](https://github.com/taylor)
 
-### Recurring meetings
+### Recurring meetings - on pause
 
-* **When**: Bi-weekly on Mondays at 8:00am Pacific Time
-  * Here's [a link](https://zoom-lfx.platform.linuxfoundation.org/meeting/97973289576?password=167cfd8c-c026-4bac-8b4b-031be869659d) to register for future meetings
-* Join zoom meeting [here](https://join.slack.com/t/lfntech/shared_invite/zt-2cfymedlz-358~927JZBYfVJRMA7P9jg)
-  * **Meeting ID**: 97973289576
-  * **Meeting Passcode**: :five::four::nine::one::one::zero:
-  * **International numbers**: https://zoom.us/u/alwnPIaVT
+* **When**: TBD
   
 * Agenda and notes are [available](https://docs.google.com/document/d/1YFimQftjkTUsxNGTsKdakvP7cJtJgCTqViH2kwJOrsc/edit)
 * Recordings of previous meetings: 
