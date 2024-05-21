@@ -54,18 +54,18 @@ CSPs. This creates problems in the adoption of those CNFs as CSPs generally pref
 layer, which they are free to choose and often it can differ from the opinionated infrastructure already validated by the CNF vendors. 
 
 **Adaptations.** CNFs are typically delivered as a collection of artifacts such as YAML, Helm charts, and container images. 
-These artifacts are intended for deployment in CSP’s cloud native environment. However, every CSP has somewhat different rules, 
+These artifacts are intended for deployment in CSP's cloud native environment. However, every CSP has somewhat different rules, 
 policies, security standards, API versions, and approaches to lifecycle operations (e.g. use of NFVO capabilities, GitOps pipelines, 
 etc.). Due to that, it is often not possible to deploy the CNF directly in any environment in a consistently replicable way, but it 
 requires some adaptations. That shall normally not pose a problem, as most of these adaptations can be performed in deployment 
-configuration often in YAML files, by either CSP’s DevOps team or the vendor’s delivery personnel. Nonetheless, we often encounter 
+configuration often in YAML files, by either CSP's DevOps team or the vendor’s delivery personnel. Nonetheless, we often encounter 
 situations where CSPs are not allowed to perform such adaptations (under threat of losing support if doing otherwise) since these 
 artifacts are part of the release and could be adapted only in new release delivery or through the custom change request. As a result,
 this situation often leads to a frustrating cycle of discussions and significantly hampers the CNF onboarding process.
 
 **Validation.** This step did not exist in the previous scenarios due to reliance on pre-validation and pre-integration. 
 Due to the number of permutations found in cloud native ecosystems, pre-validation has limited value. Only validation of CNFs on 
-CSP premises with CSP’s flavor of cloud native infrastructure and its specific integrations has high relevance and value for 
+CSP premises with CSP's flavor of cloud native infrastructure and its specific integrations has high relevance and value for 
 concluding if the CNF can be deployed and promoted to production. Today, we still see that many CNFs are not ready to be validated 
 in the local CSP environment and rather insist on conformance with the pre-validation stack. This practice is unsustainable and 
 requires a fresh and flexible local validation approach. Automation (Continuous Testing) is especially important when validating 
@@ -165,7 +165,7 @@ collaboration with existing communities, and included in existing well-establish
    1. Every CNF shall certify adherence to cloud native principles and best practices using CNF Test Suite ([https://github.com/cncf/cnf-testsuite](https://github.com/cncf/cnf-testsuite)) as a vendor-neutral validation tool.
    1. Pre-validating CNF against additional commercial distributions such as OpenShift, Tanzu, Rancher, and Hyperscaler solutions is a plus, but not mandatory.
 
-1. **Adaptations.** It shall be possible for CSP’s DevOps or vendor’s delivery teams to adapt CNF artifacts (e.g. YAML manifests, Helm charts, NFVO descriptors) to align the deployments to the local specifics of CSP (e.g. Policy, RBAC, Compatibility) without special Change Requests or involving complex R&D processes.
+1. **Adaptations.** It shall be possible for CSP's DevOps or vendor’s delivery teams to adapt CNF artifacts (e.g. YAML manifests, Helm charts, NFVO descriptors) to align the deployments to the local specifics of CSP (e.g. Policy, RBAC, Compatibility) without special Change Requests or involving complex R&D processes.
     1. Validation of such adapted CNF deployment shall be performed on CSP premises.
     1. Given the successful validation vendor support for such deployment shall be granted.
     1. CNFs shall be modular, microservice-based, open applications and not big “black” boxes.
@@ -173,7 +173,7 @@ collaboration with existing communities, and included in existing well-establish
        provide APIs, instead of encapsulating them in proprietary tools.
  
 1. **Validation.** CNFs shall be delivered with a series of automated tests that can be used to validate the CNF operation on the spot in
-   CSP’s context.
+   CSP's context.
     1. This validation shall count as only relevant one, preceding any pre-validation or lack of it.
     1. The validation shall ensure that all artifacts are passing strict linters to prove that portability is assured.
     1. It shall serve as a condition for support and SLA.
