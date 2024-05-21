@@ -22,6 +22,15 @@ Working with running CNFs: common patterns for setting and changing the behaviou
 
 The best way to use microservice-based design patterns to deliver CNF functionality.
 
+#### CBPP-0005: A CNF's containers should handle a single concern and service (normally mapping to one process type) per container
+
+**Description:**
+A CNF with multiple concerns should split services (or process types) for each of its concerns into separate containers. Service dependencies should be handled between containers through well-defined interfaces.
+
+Pod specs for the CNF should provide scaling and monitoring information for each service running in different containers.
+
+**Reference:** [CBPP-0005](cbpps/0005-single-concern-per-container.md)
+
 ### 4.0 State
 
 Management of short-lived and long lived state, including state associated with network flows, configuration data, subscriber activity data and other data according to the varying requirements of resiliency, rate of change, access rate and persistence.
