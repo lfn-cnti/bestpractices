@@ -19,23 +19,10 @@ The [CNTi Test Catalog](https://github.com/cnti-testcatalog/testsuite) will supp
 
 The [CNTi Charter](https://github.com/lfn-cnti/cnti/blob/c93c0172376ac5ccb1e50f3f82132d1478ee2ef2/CNTi%20Technical%20Charter%205-31-2024.pdf) further outlines the scope of our group activities as well as intended deliverables.
 
-
 ## Get Involved
 
 Learn more on how to get involved by visiting the [CNTi Best Practices Wiki](https://wiki.lfnetworking.org/x/HAAxBw)
 
-### Upcoming events
+## CNTi and Industry Events
 
-
-### Past events
-* Wednesday, May 1 • 2:00pm - 2:30pm
-[Evolving Together: Cloud Native Telecom's Journey Forward - Olivier Smith, MATRIXX (CNTi)](https://sched.co/1YUsR)
-* [LFN Developer & Testing Forum's LFN/CNCF CNF initiatives merge](https://wiki.lfnetworking.org/pages/viewpage.action?pageId=113213504)
-* [LF Cloud Native Networking Program Alignment Workshop 2023](https://github.com/cncf/cnf-wg/blob/main/events/LF-Cloud-Native-Networking-Program-Alignment-Workshop.md#lf-cloud-native-networking-program-alignment-workshop-2023)
-* [Cloud Native Telco Day - KubeCon NA 2023](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/cloud-native-telco-day/)
-* [Cloud Native Telco Day - KubeCon EU 2023](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/cloud-native-telco-day/)
-* [Telco Community Gathering - KubeCon EU 2023](https://github.com/cncf/cnf-wg/blob/main/events/telco-community-gathering-kubecon-eu-20230418.md)
-* [Cloud Native Telco Day NA 2022](https://events.linuxfoundation.org/cloud-native-telco-day-north-america/program/schedule/)
-* [Intro & Deep Dive to the CNF WG](https://sched.co/lV9e) at KubeCon NA 2021
-* [CNF WG: K8s Best Practices for Telco Apps](https://sched.co/iE74) at KubeCon EU 2021
-* [Cloud Native Network Functions (CNF) Working Group Kick-off](https://sched.co/fRkx) at KubeCon NA 2020
+Learn more about [events relevant for the CNTi Community](https://wiki.lfnetworking.org/x/gwDZBw)
