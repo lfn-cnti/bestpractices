@@ -1,6 +1,6 @@
 # Cloud Native Telecom Initiative (CNTi) Best Practices
 
-The CNTi Best Practices focus area operates under the aegis of LFN. The scope of this focus area is to define cloud native networking best practices. We collaborate with the CNTi [Test Catalog](https://wiki.lfnetworking.org/x/HgAxBw) and CNTi [Certification](https://wiki.lfnetworking.org/display/LN/3+-+Certification) focus areas who work on the implementation and mechanics of the test catalog and the definition of cloud native certifications. 
+The CNTi Best Practices focus area operates under the aegis of LFN. The scope of this focus area is to define cloud native networking best practices. We collaborate with the CNTi [Test Catalog](https://wiki.lfnetworking.org/x/HgAxBw) and CNTi [Certification](https://github.com/lfn-cnti/certification) focus areas who work on the implementation and mechanics of the test catalog and the definition of cloud native certifications. 
 
 The [CNTi Test Catalog](https://github.com/cnti-testcatalog/testsuite) will support testing a set of these best practices to allow developers and network operators to evaluate how well a network application follows cloud native principles and best practices. Proposals which have been adopted by the CNTi Best Practices focus area are listed in the [Best Practice Proposal](doc/cbpps/) folder.
 
