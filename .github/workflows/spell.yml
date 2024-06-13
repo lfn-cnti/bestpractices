@@ -16,13 +16,13 @@ jobs:
   check-reviewdog:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.1.6
+      - uses: actions/checkout@v4.1.7
       - uses: reviewdog/action-misspell@v1.19.0
         with:
           github_token: ${{ secrets.github_token }}
   check-spellcheck:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.1.6
+      - uses: actions/checkout@v4.1.7
       - uses: igsekor/pyspelling-any@v1.0.4
         name: Spellcheck
