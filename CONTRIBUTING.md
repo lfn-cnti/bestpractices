@@ -23,7 +23,7 @@ We welcome many different types of contributions including:
 
 The CNTi Best Practices Focus Area doesn't develop any code, but its work feeds into many groups that do develop code both upstream and downstream. If you want to take the work of the CNTi Best Practices and put it into code, check out:
 
-- [CNTi Test Catalog](https://github.com/cnti-testcatalog/testsuite) is the place for test cases used in best practices
+- [CNTi Test Catalog](https://github.com/lfn-cnti/testsuite) is the place for test cases used in best practices
 - [Kubernetes Network Plumbing](https://github.com/k8snetworkplumbingwg) implements a common standard addressing how one may attach multiple networks to pods in Kubernetes
 - [Kubernetes SIG Network](https://github.com/kubernetes/community/tree/master/sig-network) is responsible for the components, interfaces, and APIs which expose networking capabilities to Kubernetes users and workloads
 
