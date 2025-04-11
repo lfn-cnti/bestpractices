@@ -2,7 +2,7 @@
 
 The CNTi Best Practices focus area operates under the aegis of LFN. The scope of this focus area is to define cloud native networking best practices. We collaborate with the CNTi [Test Suite](https://lf-networking.atlassian.net/wiki/x/bgDGBw) and CNTi [Certification](https://lf-networking.atlassian.net/wiki/x/yQDGBw) focus areas who work on the implementation and mechanics of the test catalog and the definition of cloud native certifications. 
 
-The [CNTi Test Suite](https://github.com/cnti-testcatalog/testsuite) will support testing a set of these best practices to allow developers and network operators to evaluate how well a network application follows cloud native principles and best practices. Proposals which have been adopted by the CNTi Best Practices focus area are listed in the [Best Practice Proposal](doc/cbpps/) folder.
+The [CNTi Test Suite](https://github.com/lfn-cnti/testsuite) will support testing a set of these best practices to allow developers and network operators to evaluate how well a network application follows cloud native principles and best practices. Proposals which have been adopted by the CNTi Best Practices focus area are listed in the [Best Practice Proposal](doc/cbpps/) folder.
 
 - Key areas of focus
   - Works with community members, projects, infra providers, CNF vendors, and end users to identify pressing cloud-native networking challenges.
